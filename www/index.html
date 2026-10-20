@@ -154,6 +154,7 @@ button{cursor:pointer}
 .rec .where{font-size:14px;color:var(--muted)}
 .badges{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
 .badge{font-size:12px;font-weight:600;border-radius:4px;padding:2px 8px;background:var(--sunk)}
+.badge.lang{background:var(--sunk);color:var(--s-interview);border:1px solid var(--s-interview)}
 .badge.gov{background:var(--accent-soft);color:var(--accent)}
 .badge.new{background:var(--s-offer);color:var(--surface)}
 .badge.soon{background:transparent;color:var(--s-rejected);border:1px solid var(--s-rejected)}
@@ -614,7 +615,7 @@ function renderFeed(){
           <span class="co" style="background:${logoColor(j.org)}">${esc(initials(j.org))}</span>
           <div style="min-width:0">
             <h3>${esc(j.title||posts.join(", "))}</h3>
-            <div class="company">${esc(j.org)}</div>
+            <div class="company">${esc(j.org)}</div>${j.originalTitle?`<div class="where" lang="${esc(j.langCode||"")}">${esc(j.originalTitle)}</div>`:""}
             ${where?`<div class="where">${esc(where)}</div>`:""}
           </div>
         </div>
@@ -622,6 +623,7 @@ function renderFeed(){
         <div class="badges">
           ${isNew?'<span class="badge new">New</span>':""}
           ${j.sector?`<span class="badge ${j.sector==="Government"?"gov":""}">${esc(j.sector)}</span>`:""}
+          ${j.language&&!/^english$/i.test(j.language)?`<span class="badge lang">Notice in ${esc(j.language)}</span>`:""}
           <span class="badge">${kind==="Scientist"?"Scientist / research":"Faculty"}</span>
           ${posts.map(p=>`<span class="badge">${esc(p)}</span>`).join("")}
           ${left!==null&&left<=5?`<span class="badge soon">${left<=0?"Closes today":"Closes in "+left+" day"+(left>1?"s":"")}</span>`:""}
