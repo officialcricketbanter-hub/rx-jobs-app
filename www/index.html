@@ -307,6 +307,19 @@ details.more[open] summary::after{content:" ▴"}
     <div class="card card-pad">
       <h2>Other jobs for your CV</h2>
       <p class="sub">Non-teaching roles across India that suit your profile and need more than a graduate degree — Drug Inspector and other government posts, regulatory affairs, formulation R&amp;D and QbD, pharmacovigilance, AI/ML in pharma, patents and more.</p>
+      <div class="myq">
+        <div class="myq-head"><b>What to show</b><button class="linkbtn" id="otEdit" type="button">Change</button></div>
+        <div class="xnote" id="otSummary" style="margin-top:4px"></div>
+        <div class="pform" id="otForm" hidden>
+          <div class="field"><label>Government / private</label>
+            <div class="xstates" style="max-height:none"><label><input type="checkbox" id="otGov"> Government</label><label><input type="checkbox" id="otPvt"> Private</label><label><input type="checkbox" id="otUnk"> Not stated</label></div></div>
+          <div class="field"><label>States</label>
+            <div class="row2" style="padding:0 0 6px"><button class="ghost" type="button" id="otAll" style="padding:4px 12px">Select all</button><button class="ghost" type="button" id="otNone" style="padding:4px 12px">Clear</button><button class="ghost" type="button" id="otMine" style="padding:4px 12px">My 7 states</button></div>
+            <div class="xstates" id="otStates"></div>
+            <label style="display:flex;gap:6px;align-items:center;font-size:13px;margin-top:6px;text-transform:none;letter-spacing:0;font-weight:400;color:var(--ink)"><input type="checkbox" id="otNoState"> Include all-India / location not stated</label></div>
+          <button class="post-btn" id="otSave" type="button">Save</button>
+        </div>
+      </div>
     </div>
     <div class="feed" id="recOther"></div>
   </section>
@@ -838,8 +851,29 @@ function renderCv(){
   list.sort((a,b)=>b._cv.score-a._cv.score);
   renderList($("recCv"),list,"No matching jobs in your preferred states right now. The daily search adds new ones every morning.");
 }
+function renderOtherSummary(){
+  const P=profile,ost=P.otherStates||null,sec=P.otherSectors||["Government","Private",""];
+  const stTxt=!ost||ost.length===STATES.length?"All states":ost.length?ost.join(", "):"No states selected";
+  const secTxt=sec.includes("Government")&&sec.includes("Private")?"Govt + private":sec.includes("Government")?"Government only":sec.includes("Private")?"Private only":"No sector selected";
+  $("otSummary").textContent=`${stTxt} · ${secTxt}${P.otherNoState===false?" · located jobs only":""}`;
+}
+$("otEdit").onclick=()=>{const f=$("otForm");f.hidden=!f.hidden;if(f.hidden)return;
+  const P=profile,ost=P.otherStates||STATES,sec=P.otherSectors||["Government","Private",""];
+  $("otStates").innerHTML=STATES.map((x,i)=>`<label><input type="checkbox" id="ots${i}" value="${esc(x)}" ${ost.includes(x)?"checked":""}> ${esc(x)}</label>`).join("");
+  $("otGov").checked=sec.includes("Government");$("otPvt").checked=sec.includes("Private");$("otUnk").checked=sec.includes("");$("otNoState").checked=P.otherNoState!==false;};
+const setOt=v=>document.querySelectorAll("#otStates input").forEach(i=>i.checked=v(i.value));
+$("otAll").onclick=()=>setOt(()=>true);$("otNone").onclick=()=>setOt(()=>false);$("otMine").onclick=()=>setOt(x=>PREF_STATES.includes(x));
+$("otSave").onclick=async()=>{
+  const st=[...document.querySelectorAll("#otStates input:checked")].map(i=>i.value);
+  profile=Object.assign({},profile,{otherStates:st.length===STATES.length?null:st,
+    otherSectors:[["otGov","Government"],["otPvt","Private"],["otUnk",""]].filter(([id])=>$(id).checked).map(([,v])=>v),
+    otherNoState:$("otNoState").checked});
+  $("otForm").hidden=true;renderOther();await persistProfile("Saved");
+};
 function renderOther(){
-  const list=openJobs().filter(j=>j.category==="other");
+  const P=profile,ost=P.otherStates||null,osec=P.otherSectors||["Government","Private",""],onone=P.otherNoState!==false;
+  renderOtherSummary();
+  const list=openJobs().filter(j=>j.category==="other"&&osec.includes(j.sector||"")&&(j.state?(!ost||ost.includes(j.state)):onone));
   list.forEach(j=>{j._cv=cvFit(j);j._m=matchJob(j)});
   list.sort((a,b)=>b._cv.score-a._cv.score);
   renderList($("recOther"),list,"Non-teaching jobs for your CV are being searched now. They appear here after the next search run.");
