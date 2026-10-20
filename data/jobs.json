@@ -1,19 +1,28 @@
 {
  "meta": {
-  "lastRun": "2026-10-20T04:24:54Z",
-  "total": 27
+  "lastRun": "2026-10-20T05:16:44Z",
+  "total": 58
  },
  "jobs": [
   {
    "applyMode": "Email, post or in person",
    "applyUrl": "https://www.facultyplus.com/wp-content/uploads/2026/09/Faculty-plus.pdf",
+   "category": "academic",
    "city": "Kathgarh, Kangra",
+   "cvFit": {
+    "reason": "Open pharmacy posts from Assistant to Professor with a Ph.D. route — your M.Pharm Pharmaceutics, Ph.D. and current Associate Professor role fit Associate Professor; subject isn't specified.",
+    "score": 82
+   },
    "documents": [
     "Updated resume",
     "Educational certificates",
     "Experience certificates (if any)",
     "Passport-size photo"
    ],
+   "fit": {
+    "level": "Good",
+    "reason": "Pharmacy faculty posts with subject not specified — your M.Pharm (Pharmaceutics) and Ph.D. meet the Ph.D. route; Associate/Professor need teaching experience per UGC/PCI."
+   },
    "found": "2026-10-20",
    "notes": "No fixed last date ('as early as possible'). No walk-in.",
    "org": "Arni University",
@@ -39,15 +48,59 @@
    "id": "arni-university-kangra"
   },
   {
+   "applyMode": "Email CV to tamil_s@aurigene.com",
+   "category": "academic",
+   "city": "Electronic City, Bengaluru",
+   "cvFit": {
+    "reason": "Asks for 7-15 years of industry R&D, chemistry-leaning — your 6.9 years are mostly academic and formulation-focused.",
+    "score": 35
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "Needs 7-15 years of industry R&D experience in a chemistry-oriented role — more than your profile shows, and not a Pharmaceutics-specific post."
+   },
+   "found": "2026-10-20",
+   "lastDate": "2026-10-30",
+   "notes": "Full-time industry role; department/specialisation not given in the posting.",
+   "org": "Aurigene Oncology",
+   "posted": "2026-10-09",
+   "posts": [
+    "Scientist",
+    "Senior Scientist"
+   ],
+   "qualification": "M.Pharm or M.Sc. (Chemistry). The posting lists 12-15 years' experience for Scientist and 7-8 years for Senior Scientist; department not stated.",
+   "sector": "Private",
+   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/aurigene-oncology-hiring-scientist-senior-scientist",
+   "state": "Karnataka",
+   "steps": [
+    "Update your CV highlighting R&D years, techniques and publications",
+    "Write a short cover email naming the post (Scientist or Sr. Scientist)",
+    "Email CV to tamil_s@aurigene.com before 30 Oct 2026",
+    "Wait for HR shortlisting call"
+   ],
+   "title": "Scientist / Senior Scientist",
+   "type": "Scientist",
+   "id": "aurigene-oncology-scientist-sr-scientist"
+  },
+  {
    "applyMode": "Email or submit in person",
    "applyUrl": "https://www.facultyplus.com/wp-content/uploads/2026/10/New-Doc-10-08-2026-13.38.pdf",
+   "category": "academic",
    "city": "Hyderabad",
+   "cvFit": {
+    "reason": "Controller of Examinations needs a Ph.D. with 4 years in an autonomous institution — you qualify on paper, but it's an administrative post outside your Pharmaceutics research.",
+    "score": 40
+   },
    "documents": [
     "Bio-data",
     "Educational and experience certificates",
     "Passport-size photo",
     "Aadhaar and PAN copies"
    ],
+   "fit": {
+    "level": "Low",
+    "reason": "Only pharmacy-related role is Controller of Examinations needing 4 years in an autonomous institution — not a Pharmaceutics teaching post."
+   },
    "found": "2026-10-20",
    "notes": "The pharmacy-specific opening in this notice is Controller of Examinations; check the PDF for any faculty posts.",
    "org": "Avanthi Group of Colleges",
@@ -72,7 +125,16 @@
   {
    "applyMode": "Email resume",
    "applyUrl": "https://bbdu.ac.in/",
+   "category": "academic",
    "city": "Lucknow",
+   "cvFit": {
+    "reason": "Pharmacy faculty posts per PCI/UGC norms — your Ph.D., M.Pharm Pharmaceutics and 3.8 years' teaching suit Assistant/Associate Professor; subjects not specified.",
+    "score": 80
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "Only Medicinal Chemistry, Pharmacognosy and Pharmacology are open — differs from your Pharmaceutics specialisation."
+   },
    "found": "2026-10-20",
    "notes": "School of Pharmacy openings in Medicinal Chemistry, Pharmacognosy and Pharmacology.",
    "org": "Babu Banarasi Das University",
@@ -96,7 +158,51 @@
    "id": "bbd-university-lucknow-faculty"
   },
   {
+   "applyMode": "Online",
+   "applyUrl": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/BMS/job/Hyderabad---TS---IN/Scientific-Writer-II_R1606692",
+   "category": "other",
+   "city": "Hyderabad",
+   "cvFit": {
+    "reason": "Accepts a Ph.D. with 2-4 years of regulatory documentation — your publication record is strong, but you'd need to show regulatory-style writing.",
+    "score": 68
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "Ph.D.-level scientific writing role; your 23 papers and 13 book chapters show strong writing, though regulatory-document experience is asked."
+   },
+   "found": "2026-10-20",
+   "notes": "No closing date; open until filled.",
+   "org": "Bristol Myers Squibb",
+   "posted": "2026-10-15",
+   "posts": [
+    "Scientific Writer II"
+   ],
+   "qualification": "PharmD or Ph.D. in a relevant science, or a Master's/Bachelor's degree, with about 2-4 years of regulatory documentation experience.",
+   "role": "Medical/Scientific Writing",
+   "sector": "Private",
+   "sourceUrl": "https://www.biotecnika.org/2026/10/scientific-writer-job-bristol-myers-squibb-hyderabad/",
+   "state": "Telangana",
+   "steps": [
+    "Open the BMS Workday posting R1606692",
+    "Create an account and upload your CV",
+    "Attach a writing sample list (papers, book chapters)",
+    "Submit; the role is open until filled"
+   ],
+   "title": "Scientific Writer II",
+   "id": "bms-scientific-writer-ii-hyderabad"
+  },
+  {
    "applyMode": "Email CV to bgibsr@gmail.com",
+   "category": "academic",
+   "city": "Bulandshahr",
+   "cvFit": {
+    "reason": "Assistant Professor needs M.Pharm with 2 years — you exceed it with a Ph.D. and 6.9 years; Principal/Director would usually need longer senior experience.",
+    "score": 70
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "Assistant Professor post with subject not specified needs M.Pharm plus 2 years' experience; Principal needs a Ph.D. — closes today."
+   },
    "found": "2026-10-20",
    "lastDate": "2026-10-20",
    "notes": "Also 3 Lecturer (D.Pharm) posts.",
@@ -109,6 +215,7 @@
    "qualification": "Principal/Director: Ph.D. in relevant discipline. Assistant Professor (B.Pharm): M.Pharm with 2 years' experience.",
    "sector": "Private",
    "sourceUrl": "https://www.pharmatutor.org/content/september-2026/recruitment-of-principal-director-assistant-professor-post-at-brahmanand-group-of-institutions",
+   "state": "Uttar Pradesh",
    "steps": [
     "Prepare an updated CV naming the post (Principal/Director or Assistant Professor)",
     "Email it to bgibsr@gmail.com",
@@ -119,9 +226,169 @@
    "id": "brahmanand-principal-asst-prof"
   },
   {
+   "applyMode": "Email",
+   "applyUrl": "https://www.ccamp.res.in/careers",
+   "category": "other",
+   "city": "Bengaluru",
+   "cvFit": {
+    "reason": "Your ML-in-pharma papers are relevant, but the role needs a cheminformatics/medicinal chemistry Ph.D. with RDKit and docking experience.",
+    "score": 40
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "Computational chemistry/cheminformatics role; your AI/ML-in-pharma work overlaps, but your Ph.D. is formulation-focused."
+   },
+   "found": "2026-10-20",
+   "lastDate": "2026-10-31",
+   "org": "Centre for Cellular and Molecular Platforms (C-CAMP)",
+   "posted": "2026-10-18",
+   "posts": [
+    "Computational / Cheminformatics Scientist"
+   ],
+   "qualification": "Ph.D. in computational chemistry, cheminformatics, medicinal chemistry or a related field (or equivalent experience), with hands-on RDKit, docking/molecular modelling, Python and hit-to-lead/lead-optimisation work.",
+   "role": "AI/ML",
+   "sector": "Government",
+   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/open-positions-for-computational-cheminformatics-scientist-at-c-camp",
+   "state": "Karnataka",
+   "steps": [
+    "Check the role on the C-CAMP careers page",
+    "Prepare a CV highlighting AI/ML, Python and any modelling work",
+    "Email it to rails.bio@ccamp.res.in with subject 'Computational / Cheminformatics Scientist'",
+    "Send before 31 Oct 2026"
+   ],
+   "title": "Computational / Cheminformatics Scientist",
+   "id": "c-camp-computational-cheminformatics-scientist"
+  },
+  {
+   "applyMode": "Offline (deputation, through proper channel)",
+   "applyUrl": "https://cdsco.gov.in/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTQ2NTM=",
+   "category": "other",
+   "city": "Guwahati",
+   "cvFit": {
+    "reason": "You have the M.Pharm, Ph.D. and HPLC skills, but it needs 6 years in drug testing and a government/autonomous-body post for deputation.",
+    "score": 30
+   },
+   "documents": [
+    "Application in Annexure II",
+    "Attested APARs for last five years",
+    "Integrity certificate",
+    "Vigilance clearance",
+    "Statement of major/minor penalties",
+    "Cadre clearance certificate"
+   ],
+   "fit": {
+    "level": "Low",
+    "reason": "Drug-testing lab role open only to serving officers on deputation."
+   },
+   "found": "2026-10-20",
+   "notes": "Deadline is 60 days from Employment News publication (article dated 25 Aug 2026); deputation only — private-university faculty may not qualify.",
+   "org": "Central Drugs Standard Control Organization (CDSCO)",
+   "posts": [
+    "Senior Scientific Officer"
+   ],
+   "qualification": "Master's in Pharmacy, Chemistry, Pharmacology and related subjects (doctorate desirable) with 6 years in drug testing, standardisation and research; open only to officers of government, autonomous bodies, PSUs, universities or recognised research institutions on deputation.",
+   "role": "Senior Scientific Officer",
+   "salary": "Rs 67,700 – 2,08,700 per month",
+   "sector": "Government",
+   "sourceUrl": "https://www.biotecnika.org/2026/08/cdsco-senior-scientific-officer-vacancy/",
+   "state": "Assam",
+   "steps": [
+    "Download the official CDSCO notice and Annexure II format",
+    "Apply through your employer with APARs, vigilance and integrity certificates",
+    "Send to Deputy Director (Admn.), CDSCO, FDA Bhawan, Kotla Road, New Delhi 110002",
+    "Submit within 60 days of the Employment News advertisement"
+   ],
+   "title": "Senior Scientific Officer (deputation), Regional Drugs Testing Laboratory",
+   "id": "cdsco-rdtl-guwahati-senior-scientific-officer"
+  },
+  {
+   "applyMode": "Online",
+   "applyUrl": "https://clarivate.wd3.myworkdayjobs.com/Clarivate_Careers/job/R271--Noida/Patent-Search-Senior-Analyst_JREQ136232-1",
+   "category": "other",
+   "city": "Noida",
+   "cvFit": {
+    "reason": "Prefers a Pharma Ph.D. with 2 years in IP services — you have the Ph.D. and 2 patents but no paid patent-search work.",
+    "score": 60
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "Pharma Ph.D. is preferred and your patents give IP exposure, though professional IP-search experience is asked."
+   },
+   "found": "2026-10-20",
+   "org": "Clarivate",
+   "posted": "2026-10-08",
+   "posts": [
+    "Patent Search Senior Analyst"
+   ],
+   "qualification": "Bachelor's in a scientific/technical field; M.Sc/M.Tech/Ph.D. in Chemistry or Pharma preferred, with at least 2 years of IP service experience.",
+   "role": "Patent / IPR",
+   "sector": "Private",
+   "sourceUrl": "https://pharmabharat.org/clarivate-hiring-for-patent-search-senior-analyst/",
+   "state": "Uttar Pradesh",
+   "steps": [
+    "Open the Clarivate Workday posting JREQ136232",
+    "Create an account and upload your CV",
+    "Mention your two published design patents and prior-art searching",
+    "Submit; hybrid role in Noida"
+   ],
+   "title": "Patent Search Senior Analyst (JREQ136232)",
+   "id": "clarivate-patent-search-senior-analyst-noida"
+  },
+  {
+   "applyMode": "Walk-in interview on 26 Oct 2026 (9:30 AM)",
+   "applyUrl": "https://www.ihbt.res.in/components/com_chronoforms5/chronoforms/uploads/Recruitment/20261007154027_Final_Advt._no._17_by_2026_with_Application_Form.pdf",
+   "category": "academic",
+   "city": "Palampur",
+   "cvFit": {
+    "reason": "Wants natural-product chemistry or synthesis experience — your herbal/spice authentication work overlaps slightly, but the role is chemistry-led and below your level.",
+    "score": 40
+   },
+   "documents": [
+    "Filled application form with photo",
+    "Original certificates",
+    "Self-attested copies of age, education and experience proofs"
+   ],
+   "fit": {
+    "level": "Low",
+    "reason": "Project is natural-product/aroma chemistry needing 2-3 years' R&D experience — differs from your Pharmaceutics specialisation."
+   },
+   "found": "2026-10-20",
+   "lastDate": "2026-10-26",
+   "notes": "CSIR Aroma 4.0 project, tenure up to 31.03.2029. No online interviews, no TA.",
+   "org": "CSIR-Institute of Himalayan Bioresource Technology (IHBT)",
+   "posted": "2026-10-08",
+   "posts": [
+    "Senior Project Associate"
+   ],
+   "qualification": "M.Sc. Chemistry or M.Pharm with 3 years' R&D experience, or Ph.D. in Chemical Sciences with 2 years' R&D experience. Natural product chemistry, organic synthesis or catalysis experience desirable. Age limit 40 (relaxable).",
+   "salary": "Rs 42,000 + HRA per month",
+   "sector": "Government",
+   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/opportunities-for-pharma-chemistry-biotechnology-biochemistry-life-sciences-candidates-at-ihbt",
+   "state": "Himachal Pradesh",
+   "steps": [
+    "Download the advertisement and application form from the IHBT link",
+    "Fill the form for post code 17023 and paste a recent colour photo",
+    "Carry originals plus self-attested copies of age, education and experience certificates",
+    "Report at CSIR-IHBT Palampur by 9:30 AM on 26 Oct 2026 (no entry after 10 AM)",
+    "Appear for possible MCQ test and interview the same day"
+   ],
+   "title": "Senior Project Associate (Post 17023, Advt. 17/2026)",
+   "type": "Academic Associate",
+   "id": "csir-ihbt-senior-project-associate-17023"
+  },
+  {
    "applyMode": "Walk-in interview on 28 Oct 2026",
    "applyUrl": "https://iiim.res.in/wp-content/uploads/2026/10/advt-no-38-2026.pdf",
+   "category": "academic",
    "city": "Jammu",
+   "cvFit": {
+    "reason": "Needs a Pharmacology/Biotechnology doctorate with 7 years' R&D — your Ph.D. is in Pharmaceutics-side pharmaceutical sciences.",
+    "score": 25
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "Asks for a Ph.D. in Pharmacology/Biotechnology with 7 years' R&D — differs from your Pharmaceutics specialisation."
+   },
    "found": "2026-10-20",
    "lastDate": "2026-10-28",
    "notes": "Project-based, temporary post. Selection by interview.",
@@ -134,7 +401,7 @@
    "salary": "Rs 78,000 + HRA per month",
    "sector": "Government",
    "sourceUrl": "https://www.pharmatutor.org/content/october-2026/iiim-interview-for-pharma-chemistry-biochemistry-biotechnology-microbiology-candidates",
-   "state": "Jammu and Kashmir",
+   "state": "Jammu & Kashmir",
    "steps": [
     "Read Advt. No. 38/2026 and download the application form from the IIIM notice",
     "Fill the form for post code 07 (Project Scientist-III)",
@@ -149,7 +416,16 @@
   {
    "applyMode": "Online form",
    "applyUrl": "https://jobs.ncl.res.in",
+   "category": "academic",
    "city": "Pune",
+   "cvFit": {
+    "reason": "Polymer synthesis focus with an age limit of 28 — mismatched with your profile and level.",
+    "score": 30
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "Polymer-fibre project with age limit 28 and 2-3 years' R&D experience — not a Pharmaceutics post."
+   },
    "found": "2026-10-20",
    "lastDate": "2026-10-21",
    "notes": "2 posts, aramid/carbon fibre project (Polymer Science & Engg). Low age limit (28 + relaxation) – check eligibility before applying.",
@@ -174,8 +450,47 @@
    "id": "csir-ncl-senior-project-associate-polymer"
   },
   {
-   "applyMode": "Walk-in interview on 24 Oct 2026",
+   "applyMode": "Email CV to ashish.makwana@globalluxrx.com or apply via LinkedIn",
+   "applyUrl": "https://www.linkedin.com/posts/we-are-hiring-senior-scientist-formulation-share-7513935051995344901-tJu8/",
+   "category": "academic",
+   "city": "Navi Mumbai (Rabale)",
+   "cvFit": {
+    "reason": "Wants 5-10 years of hands-on generic formulation development — your QbD and formulation research match the subject, but most of your experience is academic.",
+    "score": 72
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "Formulation development matches your Pharmaceutics background, but it asks for 5–10 years of industry formulation experience."
+   },
+   "found": "2026-10-20",
+   "lastDate": "2026-11-13",
+   "org": "Globallux",
+   "posted": "2026-10-14",
+   "posts": [
+    "Senior Scientist"
+   ],
+   "qualification": "5–10 years of hands-on formulation development (oral solid dosage; injectables/oral liquids a plus) for generic, value-added generic and 505(b)(2) programmes for US/EU markets. Degree not specified.",
+   "sector": "Private",
+   "sourceUrl": "https://jobs.biopatrika.com/job/senior-scientist-formulation-development/",
+   "state": "Maharashtra",
+   "steps": [
+    "Update your CV to highlight formulation development, scale-up and regulatory-market work",
+    "Email it to ashish.makwana@globalluxrx.com (or apply through the LinkedIn post)",
+    "Mention 'Senior Scientist – Formulation Development' in the subject",
+    "Apply before 13 Nov 2026"
+   ],
+   "title": "Senior Scientist – Formulation Development",
+   "type": "Scientist",
+   "id": "globallux-senior-scientist-formulation"
+  },
+  {
+   "applyMode": "Walk-in interview on 24 Oct 2026 (10 AM-3 PM), ALEAP Industrial Area, Gajularamaram, Hyderabad; or email CV to Rebecca.Shirley@granulesindia.com",
+   "category": "academic",
    "city": "Hyderabad",
+   "cvFit": {
+    "reason": "Formulation R&D needs M.Pharm with 2-4 years — you exceed it, though these executive-level roles are below your seniority.",
+    "score": 60
+   },
    "documents": [
     "Resume",
     "Increment letter and last 3 months' payslips",
@@ -183,6 +498,10 @@
     "Educational certificates",
     "Aadhaar and PAN"
    ],
+   "fit": {
+    "level": "Strong",
+    "reason": "Formulation R&D wing asks for M.Pharm with 2-4 years' experience — matches your M.Pharm (Pharmaceutics), if you have the industry experience."
+   },
    "found": "2026-10-20",
    "lastDate": "2026-10-24",
    "org": "Granules India",
@@ -209,7 +528,16 @@
   {
    "applyMode": "Email resume",
    "applyUrl": "https://www.facultyplus.com/assistant-professor-recruitment-2026-guru-nanak-institutions-technical-campus-hyderabad/",
+   "category": "academic",
    "city": "Hyderabad",
+   "cvFit": {
+    "reason": "Wants Pharmaceutical Analysis/Chemistry — your specialisation is Pharmaceutics, though your HPLC/HPTLC work helps a little.",
+    "score": 30
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "Only Pharmaceutical Analysis and Pharmaceutical Chemistry are open — differs from your Pharmaceutics specialisation."
+   },
    "found": "2026-10-20",
    "notes": "Rolling; no fixed last date. Salary as per norms. Website: www.gniindia.org",
    "org": "Guru Nanak Institutions Technical Campus",
@@ -231,9 +559,50 @@
    "id": "guru-nanak-institutions-asst-prof"
   },
   {
+   "applyMode": "Online only via HPPSC portal (One Time Registration), fee Rs 600",
+   "applyUrl": "https://hppsc.hp.gov.in/",
+   "category": "other",
+   "city": "Shimla",
+   "cvFit": {
+    "reason": "Asks for M.Pharm with 3 years' research/analytical experience and age up to 45 — you meet all of it, but it is a trainee-level post at Rs 28,000, well below your current level.",
+    "score": 66
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "M.Pharm is accepted and your Ph.D. plus JRF/analytical (HPLC/HPTLC) experience meets the 3-year research requirement."
+   },
+   "found": "2026-10-20",
+   "lastDate": "2026-11-03",
+   "notes": "Advertisement No. 65/10-2026. Experience certificate must be signed by the research supervisor or head of organisation.",
+   "org": "HPPSC (Directorate of Forensic Services, HP)",
+   "posted": "2026-10-07",
+   "posts": [
+    "Scientific Officer (Group-B, Job Trainee) — 3 posts (UR)"
+   ],
+   "qualification": "Second-class M.Sc. Forensic Science (chemical sciences), or M.Sc. Chemistry/Biochemistry/Pharmacy, or M.S.(Pharm)/M.Pharm, with at least 3 years of research/training/analytical experience (Ph.D. research counts). Ph.D. desirable. Age 18–45 as on 01-01-2026.",
+   "role": "Scientific Officer",
+   "salary": "Rs 28,000 per month (job trainee emoluments)",
+   "sector": "Government",
+   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/pharmacy-chemistry-biochemistry-recruitment-in-the-directorate-of-forensic-services",
+   "state": "Himachal Pradesh",
+   "steps": [
+    "Register on the HPPSC One Time Registration portal",
+    "Apply online for Advt. No. 65/10-2026 and upload photo and signature",
+    "Pay the Rs 600 fee online by 3 Nov 2026, 11:59 PM",
+    "Prepare for the screening test, descriptive Subject Aptitude Test (120 marks) and Personality Test (30 marks) in Shimla"
+   ],
+   "title": "Scientific Officer, Group-B (Job Trainee), Directorate of Forensic Services",
+   "id": "hppsc-scientific-officer-forensic-services-65-2026"
+  },
+  {
    "applyMode": "Email form + CV to amr.icmrhqrs@gmail.com",
    "applyUrl": "https://www.icmr.gov.in/icmrobject/uploads/Recruitment/1792255228_advertisementforconsultantpositions.pdf",
+   "category": "academic",
    "city": "New Delhi",
+   "cvFit": {
+    "reason": "Needs 12 years in AMR/public health — you have 6.9 years in pharmaceutics teaching and research.",
+    "score": 25
+   },
    "documents": [
     "Application form with photo",
     "CV",
@@ -242,6 +611,10 @@
     "Photo ID",
     "Caste/PwD certificate if applicable"
    ],
+   "fit": {
+    "level": "Low",
+    "reason": "Needs 12 years' AMR/public-health experience (Ph.D. counts as 4) — likely more experience than you have."
+   },
    "found": "2026-10-20",
    "lastDate": "2026-10-31",
    "notes": "1-year project contract; written exam + discussion for shortlisted.",
@@ -266,9 +639,56 @@
    "id": "icmr-hq-pharmacy-professionals"
   },
   {
+   "applyMode": "Online form",
+   "applyUrl": "https://recruitment.icmr.org.in",
+   "category": "academic",
+   "city": "Chennai",
+   "cvFit": {
+    "reason": "Non-medical posts name biomedical subjects or Pharm.D, not M.Pharm, and focus on epidemiology/disease modelling.",
+    "score": 30
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "Non-medical posts target biomedical science/Pharm.D and disease modelling — not a Pharmaceutics role, and M.Pharm eligibility is unclear."
+   },
+   "found": "2026-10-20",
+   "lastDate": "2026-11-26",
+   "notes": "All-India transfer liability. Only 8 posts in total, mostly medical.",
+   "org": "ICMR-National Institute of Epidemiology (NIE)",
+   "posted": "2026-10-08",
+   "posts": [
+    "Scientist-D (Non-Medical)",
+    "Scientist-B (Non-Medical, Disease Modeling)"
+   ],
+   "qualification": "Non-medical posts need a Master's in a biomedical-science subject or a UGC/PCI-recognised Pharm.D; M.Pharm is not named explicitly. Other posts are for MBBS/veterinary graduates.",
+   "salary": "Scientist-B Level 10 (Rs 56,100–1,77,500); Scientist-D Level 12 (Rs 78,800–2,09,200)",
+   "sector": "Government",
+   "sourceUrl": "https://www.icmr.gov.in/icmrobject/uploads/Recruitment/1791381044_icmr-ninadvertisementscientist-bcd.pdf",
+   "state": "Tamil Nadu",
+   "steps": [
+    "Read the official notification to confirm whether M.Pharm counts as a biomedical-science Master's",
+    "Register on recruitment.icmr.org.in and log in with the emailed credentials",
+    "Fill the form, upload documents, photo and signature",
+    "Pay the fee (Rs 1,500 general; exempt for SC/ST/women/PwD/EWS) and submit by 26 Nov 2026, 5:30 pm",
+    "Print the submitted application"
+   ],
+   "title": "Scientist B / C / D (Medical & Non-Medical) – Adv. ICMR/NIE/01/2026",
+   "type": "Scientist",
+   "id": "icmr-nie-scientist-b-d-non-medical"
+  },
+  {
    "applyMode": "Online form (rolling advertisement)",
    "applyUrl": "https://facultyrecruitment.iitbhu.ac.in",
+   "category": "academic",
    "city": "Varanasi",
+   "cvFit": {
+    "reason": "Asks for a Ph.D. with a first-class preceding degree and strong research — you have both, 23 papers, 13 chapters and patents; Grade-I also needs 3 years post-Ph.D.",
+    "score": 90
+   },
+   "fit": {
+    "level": "Strong",
+    "reason": "Pharmaceutics is one of the listed areas and a Ph.D. is required — matches your M.Pharm (Pharmaceutics) and Ph.D.; Grade-I needs 3 years' post-Ph.D. experience."
+   },
    "found": "2026-10-20",
    "notes": "Areas: Pharmacognosy, Pharmacology, Pharmaceutical Analysis, Pharmaceutics, Regulatory Affairs. Rolling call – cutoff dates set by the institute.",
    "org": "IIT (BHU) Varanasi",
@@ -293,8 +713,136 @@
    "id": "iit-bhu-asst-prof-pharm-eng-tech"
   },
   {
+   "applyMode": "Email or registered/speed post: application on plain paper with bio-data and self-attested certificates to gnarayan@bhu.ac.in",
+   "applyUrl": "https://iitbhu.ac.in/contents/institute/2026/project/project_prs_phe_novel.pdf",
+   "category": "academic",
+   "city": "Varanasi",
+   "cvFit": {
+    "reason": "Asks for M.Pharm Pharmacology (or Ph.D. in Pharmacology) and age up to 35 — your M.Pharm is Pharmaceutics, so the subject may not be accepted.",
+    "score": 45
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "Asks for M.Pharm/Ph.D. in Pharmacology, while your M.Pharm and Ph.D. are in Pharmaceutics."
+   },
+   "found": "2026-10-20",
+   "notes": "ICMR project on brain-targeted pharmacotherapy for alcohol use disorder (PI Prof. Sairam Krishnamurthy, Dept. of Pharmaceutical Engineering & Technology). Up to 3 years, temporary. Deadline is 21 days from advertisement; no calendar date given. No TA/DA.",
+   "org": "IIT (BHU) Varanasi",
+   "posted": "2026-10-06",
+   "posts": [
+    "Project Research Scientist-I (Non-Medical)"
+   ],
+   "qualification": "First-class M.Pharm/M.S.(Pharm)/M.Tech(Pharm) in Pharmacology, or second-class in the same with Ph.D. in Pharmacology. Desirable: GATE/GPAT/NET, animal handling, molecular studies, in vitro screening, publications. Age up to 35.",
+   "salary": "Rs 56,000 per month + 20% HRA",
+   "sector": "Government",
+   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/call-for-research-scientist-at-indian-institute-of-technology-bhu-mpharm-ms-pharm-mtech-pharm-apply",
+   "state": "Uttar Pradesh",
+   "steps": [
+    "Download the advertisement from the IIT (BHU) link",
+    "Prepare a plain-paper application with full bio-data and self-attested certificates/marksheets from high school onward",
+    "Email it to gnarayan@bhu.ac.in or post to Prof. Gopeshwar Narayan, Dept. of Molecular & Human Genetics, Institute of Science, BHU, Varanasi 221005",
+    "Send within 21 days of the 6 Oct 2026 advertisement",
+    "Shortlisted candidates are informed by email for interview"
+   ],
+   "title": "Project Research Scientist-I (Non-Medical), ICMR project",
+   "type": "Scientist",
+   "id": "iit-bhu-project-research-scientist-i-pharmacology-icmr"
+  },
+  {
+   "applyMode": "Email application form and CV to atharva@iitrpr.ac.in",
+   "applyUrl": "https://www.iitrpr.ac.in/api/v2/files/download/223",
+   "category": "academic",
+   "city": "Rupnagar",
+   "cvFit": {
+    "reason": "Pharmacy Master's/Ph.D. accepted — you qualify easily, but a Project Research Scientist I post is below your Associate Professor level.",
+    "score": 60
+   },
+   "documents": [
+    "Filled application form",
+    "CV"
+   ],
+   "fit": {
+    "level": "Good",
+    "reason": "Broad research post open to pharmacy Master's/Ph.D. holders — your Ph.D. in Pharmaceutical Sciences qualifies; subject is materials/biomedical rather than formulation specifically."
+   },
+   "found": "2026-10-20",
+   "lastDate": "2026-10-30",
+   "org": "IIT Ropar",
+   "posted": "2026-10-18",
+   "posts": [
+    "Project Research Scientist I"
+   ],
+   "qualification": "Master's or Ph.D. in materials science, biochemistry, biophysics, life sciences, biotechnology, biomedical engineering, pharmacy or a related medical/life science field. GATE/NET not required.",
+   "salary": "Rs 56,000 + 10% HRA (Rs 61,600 per month)",
+   "sector": "Government",
+   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/iit-ropar-research-recruitment-for-pharmacy-biochemistry-life-sciences-biotechnology-candidates",
+   "state": "Punjab",
+   "steps": [
+    "Download the advertisement and attached application form",
+    "Fill in the form and prepare an updated CV",
+    "Email both to Dr. Atharva Poundarik at atharva@iitrpr.ac.in before 30 Oct 2026",
+    "Shortlisted candidates are interviewed in person or online (no TA/DA)"
+   ],
+   "title": "Project Research Scientist I (ICMR project with PGIMER)",
+   "type": "Scientist",
+   "id": "iit-ropar-project-research-scientist-i-icmr"
+  },
+  {
+   "applyMode": "Walk-in interview cum written test",
+   "applyUrl": "https://www.ipc.gov.in/images/Vacancy/Editorial-Assistant-RR.pdf",
+   "category": "other",
+   "city": "Ghaziabad",
+   "cvFit": {
+    "reason": "You meet the M.Pharm and writing experience (23 papers, 13 chapters), but the pay and level are well below your profile and the age cap is 35.",
+    "score": 40
+   },
+   "documents": [
+    "Educational certificates",
+    "Experience certificates",
+    "Updated resume",
+    "Two passport-size photographs",
+    "Aadhaar card",
+    "Photocopy set of all originals",
+    "Date of birth certificate"
+   ],
+   "fit": {
+    "level": "Low",
+    "reason": "Pharmacy Master's is accepted and your writing record is strong, but this is a junior editorial post unrelated to Pharmaceutics R&D."
+   },
+   "found": "2026-10-20",
+   "lastDate": "2026-10-28",
+   "notes": "One-year contract through a manpower agency; no TA/DA. Age limit 35.",
+   "org": "Indian Pharmacopoeia Commission (IPC)",
+   "posts": [
+    "Editorial Assistant (1 post, outsourced contract)"
+   ],
+   "qualification": "Master's in Pharmacy, Chemistry, Biochemistry, Biotechnology, Microbiology or Life Science with at least 2 years in editorial work, manuscript editing, documentation and publication workflows. Age up to 35.",
+   "role": "Scientific Writing",
+   "salary": "Rs 35,000 per month",
+   "sector": "Government",
+   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/ipc-announces-hiring-for-pg-in-pharmacy-chemistry-biochemistry-biotechnology-microbiology-life-sciences",
+   "state": "Uttar Pradesh",
+   "steps": [
+    "Read the official notice on the IPC website",
+    "Report to IPC, Ghaziabad on 28 Oct 2026 between 09:00 and 10:00 AM",
+    "Take the written test (English, scientific writing/editing, pharma basics, documentation, computers)",
+    "Attend the interview with originals and self-attested copies"
+   ],
+   "title": "Editorial Assistant (walk-in)",
+   "id": "ipc-editorial-assistant-walkin"
+  },
+  {
    "applyMode": "Email CV to principalipt@gmail.com",
+   "category": "academic",
    "city": "Salipur",
+   "cvFit": {
+    "reason": "Pharmacy faculty per PCI norms — your Ph.D., M.Pharm Pharmaceutics and 3.8 years' teaching suit Assistant/Associate Professor.",
+    "score": 78
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "Faculty posts open in all pharmacy disciplines per PCI norms — your M.Pharm (Pharmaceutics) and Ph.D. qualify; Associate/Professor need experience."
+   },
    "found": "2026-10-20",
    "lastDate": "2026-10-24",
    "notes": "6 Lecturer/Assistant Professor and 2 Associate Professor/Professor posts, all disciplines.",
@@ -319,9 +867,52 @@
    "id": "ipt-salipur-pharma-faculty"
   },
   {
+   "applyMode": "Online",
+   "applyUrl": "https://jobs.iqvia.com/en/jobs/R1572647-0",
+   "category": "other",
+   "city": "Hyderabad",
+   "cvFit": {
+    "reason": "Wants 8 years of regulatory affairs experience — your 6.9 years are in teaching and research, not dossier filing.",
+    "score": 40
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "Regulatory management role; your industrial-documentation teaching is related but you lack hands-on regulatory filing experience."
+   },
+   "found": "2026-10-20",
+   "lastDate": "2026-11-15",
+   "org": "IQVIA",
+   "posted": "2026-10-15",
+   "posts": [
+    "Regulatory Affairs Manager"
+   ],
+   "qualification": "Bachelor's or Master's in life sciences or a related discipline with 8 years of relevant regulatory experience.",
+   "role": "Regulatory Affairs",
+   "sector": "Private",
+   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/apply-online-for-regulatory-affairs-manager-at-iqvia",
+   "state": "Telangana",
+   "steps": [
+    "Open the IQVIA posting (R1572647)",
+    "Create a candidate profile",
+    "Upload a CV stressing industrial documentation and regulatory exposure",
+    "Submit before 15 Nov 2026"
+   ],
+   "title": "Regulatory Affairs Manager",
+   "id": "iqvia-regulatory-affairs-manager-hyderabad"
+  },
+  {
    "applyMode": "Email application",
    "applyUrl": "https://www.facultyplus.com/wp-content/uploads/2026/10/FACULTY-PLUS-PHARMACY-03-10-2026.pdf",
+   "category": "academic",
    "city": "Bandlaguda, Hyderabad",
+   "cvFit": {
+    "reason": "Requires M.Pharm Pharmacology and Telangana registration — your specialisation is Pharmaceutics.",
+    "score": 25
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "Only Pharmacology is open (2-4 years' experience) — differs from your Pharmaceutics specialisation."
+   },
    "found": "2026-10-20",
    "org": "ISL Pharmacy College",
    "posted": "2026-10-05",
@@ -344,12 +935,21 @@
   {
    "applyMode": "Email application to htarcjipmer@gmail.com",
    "applyUrl": "https://jipmer.edu.in/sites/default/files/2.Application_Form_Oct_2026.pdf",
+   "category": "academic",
    "city": "Puducherry",
+   "cvFit": {
+    "reason": "Ph.D. plus 2 years' post-Ph.D. R&D accepted, but the work is health technology assessment, outside your formulation focus.",
+    "score": 45
+   },
    "documents": [
     "Prescribed application form",
     "CV",
     "Educational and experience certificates"
    ],
+   "fit": {
+    "level": "Low",
+    "reason": "Health-technology-assessment project needing 2 years' post-Ph.D. experience — not a Pharmaceutics post."
+   },
    "found": "2026-10-20",
    "lastDate": "2026-10-24",
    "notes": "2 posts under DHR-funded Health Technology Assessment project (PI Dr. Sitanshu Sekhar Kar). Health economics/HTA experience desirable.",
@@ -374,15 +974,58 @@
    "id": "jipmer-project-scientist-iii-hta"
   },
   {
+   "applyMode": "Online",
+   "applyUrl": "https://www.careers.jnj.com/en/jobs/r-096820/manager-analytical-development-analytics/",
+   "category": "other",
+   "city": "Mumbai",
+   "cvFit": {
+    "reason": "Your HPLC/HPTLC method development helps, but the role wants 12-15+ years in industry analytical development with team leadership.",
+    "score": 35
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "Analytical development leadership role; your HPLC/HPTLC method work is relevant but your core is Pharmaceutics formulation."
+   },
+   "found": "2026-10-20",
+   "lastDate": "2026-11-20",
+   "notes": "Experience requirement is stated inconsistently (5 years vs 12-15+ years); confirm with the employer.",
+   "org": "Johnson & Johnson",
+   "posts": [
+    "Manager, Analytical Development"
+   ],
+   "qualification": "Bachelor's/Master's (Ph.D. listed in candidate profile) in Analytical Chemistry, Pharmaceutical Sciences, Pharmacy or related field; profile asks for 12-15+ years in pharma analytical development including 5 years leading teams (another section says minimum 5 years).",
+   "role": "Analytical R&D",
+   "sector": "Private",
+   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/apply-online-for-analytical-development-manager-at-johnson-and-johnson",
+   "state": "Maharashtra",
+   "steps": [
+    "Open the J&J careers posting (R-096820)",
+    "Create or sign in to a J&J careers account",
+    "Upload a CV emphasising HPLC/HPTLC method development and team leadership",
+    "Submit before 20 Nov 2026"
+   ],
+   "title": "Manager, Analytical Development (DPDS Synthetics)",
+   "id": "jnj-manager-analytical-development-mumbai"
+  },
+  {
    "applyMode": "Email application",
    "applyUrl": "https://www.facultyplus.com/wp-content/uploads/2026/10/PHARAMCY.pdf",
+   "category": "academic",
    "city": "Ulundurpet, Kallakurichi",
+   "cvFit": {
+    "reason": "M.Pharm/Ph.D. per PCI norms for Assistant/Associate Professor — you meet both with a Pharmaceutics M.Pharm, Ph.D. and 6.9 years.",
+    "score": 82
+   },
    "documents": [
     "Detailed CV",
     "Educational and experience certificates",
     "Pharmacy registration certificate",
     "Passport-size photo"
    ],
+   "fit": {
+    "level": "Strong",
+    "reason": "Pharmaceutics is among the listed departments — matches your M.Pharm (Pharmaceutics) and Ph.D.; check the 15-year teaching experience mentioned for senior posts."
+   },
    "found": "2026-10-20",
    "notes": "Departments: Pharm. Chemistry, Analysis, Pharmaceutics, Pharmacology, Pharmacognosy, Pharmacy Practice. Listing mentions 15 years' teaching experience (likely for senior posts).",
    "org": "JSA Pharmacy College of Medical Sciences",
@@ -405,9 +1048,89 @@
    "id": "jsa-pharmacy-college-kallakurichi"
   },
   {
+   "applyMode": "Walk-in interview on 31 Oct 2026 (10 AM-4 PM) or online Google Form",
+   "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeJlWmaiv44fb465IwNgVYHDo7oq1AaDDORefsG9TbNAud5EQ/viewform",
+   "category": "academic",
+   "city": "Mecheri, Salem",
+   "cvFit": {
+    "reason": "Walk-in for 0-10 years' experience across faculty levels — your Ph.D. and 6.9 years fit Associate Professor; subjects not stated.",
+    "score": 78
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "Pharmacy faculty posts with subject not specified — your M.Pharm (Pharmaceutics) and Ph.D. should qualify; Associate Professor/Professor need teaching experience."
+   },
+   "found": "2026-10-20",
+   "lastDate": "2026-10-31",
+   "notes": "Notice is an image; walk-in date shown as both 30 and 31 Oct 2026.",
+   "org": "The Kavery Pharmacy College (Kavery Educational Institutions)",
+   "posted": "2026-10-15",
+   "posts": [
+    "Assistant Professor",
+    "Associate Professor",
+    "Professor"
+   ],
+   "qualification": "Qualifications as per norms; 0-10 years' experience, freshers with strong academics welcome. Pharmacy subjects are not specified in the notice.",
+   "sector": "Private",
+   "sourceUrl": "https://www.facultyplus.com/faculty-recruitment-at-the-kavery-educational-institutions-salem-walk-in-on-30-10-2026/",
+   "state": "Tamil Nadu",
+   "steps": [
+    "Fill the Kavery Pharmacy College Google Form with your details",
+    "Prepare CV, certificates and publication list",
+    "Confirm the walk-in date by phone (81228 55153) — title says 30 Oct, notice body says 31 Oct",
+    "Attend the walk-in at Kavery Educational Institutions, Mecheri, 10 AM-4 PM"
+   ],
+   "title": "Pharmacy Faculty walk-in (Asst./Assoc. Professor, Professor)",
+   "type": "Faculty",
+   "id": "kavery-pharmacy-college-mecheri-walkin"
+  },
+  {
+   "applyMode": "Email CV to kcpkota@gmail.com",
+   "applyUrl": "https://www.pharmatutor.org/content/september-2026/kota-college-of-pharmacy-announces-associate-and-assistant-professor-recruitment",
+   "category": "academic",
+   "city": "Kota",
+   "cvFit": {
+    "reason": "Wants Pharmaceutical Chemistry/Analysis/QA — your M.Pharm is in Pharmaceutics.",
+    "score": 30
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "Only Pharmaceutical Chemistry/Analysis/QA is open — differs from your Pharmaceutics specialisation."
+   },
+   "found": "2026-10-20",
+   "notes": "No last date stated; posted on 10 Sep 2026, so the vacancy may already be filled.",
+   "org": "Kota College of Pharmacy",
+   "posted": "2026-09-10",
+   "posts": [
+    "Associate Professor",
+    "Assistant Professor"
+   ],
+   "qualification": "M.Pharm in Pharmaceutical Chemistry, Pharmaceutical Analysis or Quality Assurance with a strong academic record; 0–5 years' experience.",
+   "sector": "Private",
+   "sourceUrl": "https://www.pharmatutor.org/content/september-2026/kota-college-of-pharmacy-announces-associate-and-assistant-professor-recruitment",
+   "state": "Rajasthan",
+   "steps": [
+    "Prepare an updated CV with certificates",
+    "Email it to kcpkota@gmail.com naming the post",
+    "Follow up by phone/email as no last date is given"
+   ],
+   "title": "Associate Professor & Assistant Professor (Pharmaceutical Chemistry)",
+   "type": "Faculty",
+   "id": "kota-college-of-pharmacy-assoc-asst-prof"
+  },
+  {
    "applyMode": "Email CV to saurabhkharya@lambda-cro.com",
    "applyUrl": "https://www.pharmatutor.org/content/october-2026/lambda-therapeutic-hiring-research-associate",
+   "category": "academic",
    "city": "Ahmedabad",
+   "cvFit": {
+    "reason": "Bioanalytical Research Associate with 1-5 years — your HPLC skills help, but the post is junior and off your formulation specialisation.",
+    "score": 40
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "Bioanalytical CRO role needing 1-5 years' bioanalytical experience — differs from your Pharmaceutics focus."
+   },
    "found": "2026-10-20",
    "lastDate": "2026-10-30",
    "notes": "CRO role; location not stated (HQ Ahmedabad).",
@@ -431,9 +1154,123 @@
    "id": "lambda-therapeutic-research-associate-bioanalytical"
   },
   {
+   "applyMode": "Online via MAHE careers portal",
+   "applyUrl": "https://www.manipal.edu/career/faculty-positions-collection/project-research-scientist-i-non-medical",
+   "category": "academic",
+   "city": "Manipal",
+   "cvFit": {
+    "reason": "Wants Pharmacology/Medical Devices or Pharm.D with point-of-care device experience — not your Pharmaceutics/QbD area.",
+    "score": 35
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "Asks for Pharmacology/Medical Devices with point-of-care device experience — differs from your Pharmaceutics specialisation, though a Ph.D. route is listed."
+   },
+   "found": "2026-10-20",
+   "lastDate": "2026-10-31",
+   "notes": "Project post in the Dept. of Pharmacy Practice (polymyxin B therapeutic drug monitoring); one year, extendable.",
+   "org": "Manipal Academy of Higher Education (MAHE) – Manipal College of Pharmaceutical Sciences",
+   "posted": "2026-10-18",
+   "posts": [
+    "Project Research Scientist I"
+   ],
+   "qualification": "First-class PG degree (Pharm.D, or M.Pharm in Pharmacology or Medical Devices), integrated PG with 3 years' experience, or Ph.D. Prior research experience designing and clinically validating point-of-care devices and good scientific writing required.",
+   "salary": "Rs 56,000 per month + 10% HRA",
+   "sector": "Private",
+   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/mahe-inviting-applications-from-pharmd-mpharm-candidates",
+   "state": "Karnataka",
+   "steps": [
+    "Open the MAHE careers page for this post",
+    "Check eligibility (Pharmacology/Medical Devices PG or Ph.D. with point-of-care device research experience)",
+    "Prepare CV and qualification certificates",
+    "Submit the online application before 31 Oct 2026"
+   ],
+   "title": "Project Research Scientist I (Non-Medical) – TDM precision dosing project",
+   "type": "Scientist",
+   "id": "mahe-mcops-project-research-scientist-i"
+  },
+  {
+   "applyMode": "Online / Email",
+   "applyUrl": "https://career.marwadiuniversity.ac.in",
+   "category": "academic",
+   "city": "Rajkot",
+   "cvFit": {
+    "reason": "Pharmaceutics is named and M.Pharm/Ph.D. asked — you have both plus 6.9 years and a current Associate Professor role.",
+    "score": 86
+   },
+   "fit": {
+    "level": "Strong",
+    "reason": "Pharmaceutics is a named specialisation and your M.Pharm Pharmaceutics with Ph.D. matches directly."
+   },
+   "found": "2026-10-20",
+   "notes": "Rolling listing from May 2026 with no last date; check the portal to confirm it is still open.",
+   "org": "Marwadi University",
+   "posted": "2026-05-04",
+   "posts": [
+    "Professor",
+    "Associate Professor",
+    "Assistant Professor"
+   ],
+   "qualification": "M.Pharm or Ph.D. in Pharmacy in Pharmaceutics, Pharmacology or Pharmaceutical Chemistry; experienced candidates get priority.",
+   "sector": "Private",
+   "sourceUrl": "https://careerpathway.co.in/marwadi-university-recruitment-2026-pharmacy-faculty-openings-in-rajkot/",
+   "state": "Gujarat",
+   "steps": [
+    "Open the Marwadi University career portal and find the Faculty of Pharmacy openings",
+    "Apply online for the Pharmaceutics Associate Professor post",
+    "Also email your CV to fop@marwadieducation.edu.in mentioning post and specialisation",
+    "Await shortlisting for interview"
+   ],
+   "title": "Pharmacy Faculty (Pharmaceutics, Pharmacology, Pharmaceutical Chemistry)",
+   "type": "Faculty",
+   "id": "marwadi-university-pharmacy-faculty"
+  },
+  {
+   "applyMode": "Apply online on Merck careers portal",
+   "applyUrl": "https://careers.merckgroup.com/global/en/job/304492/Specialist-Regulatory-Affairs-Manager",
+   "category": "other",
+   "city": "Bengaluru",
+   "cvFit": {
+    "reason": "Asks for 5 years in pharma/academia/R&D including 1 year in regulatory affairs — you have 6.9 years in academia/R&D but no dedicated regulatory affairs role.",
+    "score": 58
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "Academia/R&D experience counts toward the 5 years, and your industrial documentation and QbD work are relevant, but direct regulatory affairs experience is required."
+   },
+   "found": "2026-10-20",
+   "lastDate": "2026-11-10",
+   "org": "Merck Limited",
+   "posted": "2026-10-08",
+   "posts": [
+    "Specialist – Regulatory Affairs Manager"
+   ],
+   "qualification": "Degree in Life Science or related discipline (M.Sc. preferred); minimum 5 years in pharma, competent authority or academia/R&D, including at least 1 year in regulatory affairs.",
+   "role": "Regulatory Affairs",
+   "sector": "Private",
+   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/merck-limited-hiring-regulatory-affairs-manager",
+   "state": "Karnataka",
+   "steps": [
+    "Open the Merck careers link",
+    "Create a profile and upload a CV highlighting regulatory/industrial documentation work",
+    "Submit the application before 10 Nov 2026"
+   ],
+   "title": "Specialist – Regulatory Affairs Manager",
+   "id": "merck-specialist-regulatory-affairs-manager-bangalore"
+  },
+  {
    "applyMode": "Email, post or by hand",
    "applyUrl": "https://www.facultyplus.com/shriram-dnyan-shikshan-prasarak-mandal-nandkumar-shinde-college-of-pharmacy-vaijapur-teaching-and-non-teaching-faculty/",
+   "category": "academic",
    "city": "Vaijapur",
+   "cvFit": {
+    "reason": "Faculty posts from Assistant Professor to Principal per PCI norms — your Ph.D., Pharmaceutics M.Pharm and current Associate Professor role match well.",
+    "score": 82
+   },
+   "fit": {
+    "level": "Strong",
+    "reason": "Pharmaceutics is a listed subject — matches your M.Pharm (Pharmaceutics) and Ph.D., but the 7-day application window has probably closed."
+   },
    "found": "2026-10-20",
    "notes": "Advertisement dated 7 Oct 2026 asks for applications within 7 days of publication – may have closed; contact the college.",
    "org": "Nandkumar Shinde College of Pharmacy",
@@ -458,14 +1295,94 @@
    "id": "nandkumar-shinde-cop-vaijapur"
   },
   {
+   "applyMode": "Application through proper channel (Cadre Controlling Authority) by post",
+   "applyUrl": "https://ndtlindia.com/wp-content/uploads/2026/10/Advertisement-for-Scientist-E.pdf",
+   "category": "academic",
+   "city": "New Delhi",
+   "cvFit": {
+    "reason": "Deputation-only post needing 10 years' post-doctoral R&D in drug analysis — you are not eligible.",
+    "score": 15
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "Deputation-only post needing a serving government officer with 10 years' post-Ph.D. drug-analysis experience — your Ph.D. fits but the service/experience conditions likely do not."
+   },
+   "found": "2026-10-20",
+   "notes": "Deadline is 60 days from Employment News publication; exact date not stated.",
+   "org": "National Dope Testing Laboratory (NDTL)",
+   "posted": "2026-10-04",
+   "posts": [
+    "Scientist E"
+   ],
+   "qualification": "Ph.D. in Chemical, Biological or Pharmaceutical Sciences with 10 years' post-doctoral R&D in drug analysis (2 in research management). Open only to Government/PSU/autonomous-body officers on deputation or promotion; age up to 56.",
+   "salary": "Pay Level 13 (Rs 1,23,100-2,15,900)",
+   "sector": "Government",
+   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/national-dope-testing-laboratory-invites-applications-from-pharmaceutical-sciences-candidates",
+   "state": "Delhi",
+   "steps": [
+    "Check you hold an analogous post or 5 years at Pay Level 12 in Govt/PSU/autonomous body",
+    "Fill Proforma Parts A, B and C from the advertisement",
+    "Get it forwarded by your Cadre Controlling Authority with APARs and vigilance/integrity certificates",
+    "Post to Director, NDTL, JLN Stadium Complex, Lodhi Road, New Delhi 110003 within 60 days of Employment News publication"
+   ],
+   "title": "Scientist 'E' (deputation)",
+   "type": "Scientist",
+   "id": "ndtl-scientist-e-deputation"
+  },
+  {
+   "applyMode": "Online",
+   "applyUrl": "https://jobs.nifindia.org/candidate/login",
+   "category": "academic",
+   "city": "Gandhinagar",
+   "cvFit": {
+    "reason": "Scientist C asks for a Pharmaceutical Sciences Ph.D., 3 years' R&D and 3 papers — you have the Ph.D., 3+ years as JRF plus teaching, and 23 papers; only the closing date is uncertain.",
+    "score": 88
+   },
+   "fit": {
+    "level": "Strong",
+    "reason": "Pharmaceutical Sciences Ph.D. is named for Scientist C and your herbal/product-development research suits NIF's grassroots-innovation work."
+   },
+   "found": "2026-10-20",
+   "notes": "Closes 30 days after publication in Employment News (date not stated by NIF); one aggregator lists 29 Sep 2026, so it may already be closed — check the portal. Only one post may be applied for.",
+   "org": "National Innovation Foundation – India (NIF), DST",
+   "posted": "2026-08-29",
+   "posts": [
+    "Scientist C (PC-04, Biological or Pharmaceutical Sciences)",
+    "Scientist D (PC-01)"
+   ],
+   "qualification": "Scientist C (PC-04): Ph.D. in Biological or Pharmaceutical Sciences with 3 years' R&D and at least 3 publications. Scientist D (PC-01): Ph.D. (incl. Pharmaceutical Sciences) with 5 years' R&D and at least 5 publications.",
+   "salary": "Scientist C: Level-11 (Rs 67,700 – 2,08,700); Scientist D: Level-12 (Rs 78,800 – 2,09,200)",
+   "sector": "Government",
+   "sourceUrl": "https://nif.org.in/career/advt-02-2026",
+   "state": "Gujarat",
+   "steps": [
+    "Open the NIF advertisement page and confirm the portal is still accepting applications",
+    "Register on the NIF recruitment portal with a valid email and mobile number",
+    "Choose one post only (Scientist C PC-04 suits a Pharmaceutical Sciences Ph.D.)",
+    "Fill in details, upload documents and submit online (no hard copy needed)"
+   ],
+   "title": "Scientist C / Scientist D (Advt. 02/2026) – Pharmaceutical Sciences eligible",
+   "type": "Scientist",
+   "id": "nif-gandhinagar-scientist-c-pharmaceutical-sciences"
+  },
+  {
    "applyMode": "Email application in prescribed format",
    "applyUrl": "https://www.nii.res.in/sites/default/files/announcement/events/BIRAC%20RA-I%20October%202026.pdf",
+   "category": "academic",
    "city": "New Delhi",
+   "cvFit": {
+    "reason": "Needs human immunology, flow cytometry and genomics expertise — outside your Pharmaceutics profile.",
+    "score": 30
+   },
    "documents": [
     "Application in prescribed format",
     "CV with publications and three referees",
     "Fee payment or exemption proof"
    ],
+   "fit": {
+    "level": "Low",
+    "reason": "Needs human immunology, flow cytometry and genomics expertise — differs from your Pharmaceutics specialisation, though your Ph.D. meets the degree rule."
+   },
    "found": "2026-10-20",
    "lastDate": "2026-10-28",
    "notes": "1 post, 1-year/project-duration contract.",
@@ -492,7 +1409,12 @@
   {
    "applyMode": "Post hard copy (Speed Post / courier)",
    "applyUrl": "https://niperguwahati.ac.in/DOC/RECRUITMENT/CONTRACTUAL-POSITIONS/Advt._Research%20Manager_05(C).2026-Bilingual.pdf",
+   "category": "academic",
    "city": "Guwahati",
+   "cvFit": {
+    "reason": "M.Pharm with 10 years' experience and age up to 40 — you have 6.9 years, short of the requirement.",
+    "score": 45
+   },
    "documents": [
     "Signed application form",
     "Age proof",
@@ -500,6 +1422,10 @@
     "Experience certificates",
     "Resume"
    ],
+   "fit": {
+    "level": "Low",
+    "reason": "Needs 10 years' research/teaching/industry experience with age limit 40 — likely more experience than you have."
+   },
    "found": "2026-10-20",
    "lastDate": "2026-10-30",
    "notes": "1 post, contractual. Age limit 40. Ph.D. holders with long research/industry experience fit well.",
@@ -524,14 +1450,56 @@
    "id": "niper-guwahati-research-manager-scientific"
   },
   {
+   "applyMode": "Online",
+   "applyUrl": "https://careers.novonordisk.com/job/Bangalore-Associate-Pharmacovigilance-Manager-Karn/1447996733/",
+   "category": "other",
+   "city": "Bengaluru",
+   "cvFit": {
+    "reason": "Asks for 7+ years in pharmacovigilance — your pharmacy degrees qualify but you have no drug-safety experience.",
+    "score": 25
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "Needs 7+ years of pharmacovigilance; your experience is in pharmaceutics teaching and research."
+   },
+   "found": "2026-10-20",
+   "lastDate": "2026-10-30",
+   "org": "Novo Nordisk India",
+   "posts": [
+    "Associate Pharmacovigilance Manager"
+   ],
+   "qualification": "Bachelor's or Master's in Pharmacy or Pharm.D with 7-10 years' experience, at least 7 in pharmacovigilance/drug safety.",
+   "role": "Pharmacovigilance",
+   "sector": "Private",
+   "sourceUrl": "https://pharmabharat.com/hiring-for-2-experienced-pharmacovigilance-roles-at-novo-nordisk-and-teva/",
+   "state": "Karnataka",
+   "steps": [
+    "Open the Novo Nordisk careers posting",
+    "Register and upload your CV",
+    "Submit before 30 Oct 2026"
+   ],
+   "title": "Associate Pharmacovigilance Manager",
+   "id": "novo-nordisk-associate-pv-manager-bangalore"
+  },
+  {
    "applyMode": "Online Google Form",
+   "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfAHtp_B9mxjQecwrQOsLLMMvPBJd-kEYMQLA9GgsKBAsQgPQ/viewform",
+   "category": "academic",
    "city": "Kolkata",
+   "cvFit": {
+    "reason": "M.Pharm with 3 years plus an SCI paper qualifies you, but the haematology project and age cap of 35 make it a weak match.",
+    "score": 35
+   },
    "documents": [
     "Educational certificates",
     "Address and age proof",
     "Photo ID",
     "Experience certificates"
    ],
+   "fit": {
+    "level": "Low",
+    "reason": "Haematology/molecular biology project — differs from your Pharmaceutics specialisation."
+   },
    "found": "2026-10-20",
    "lastDate": "2026-10-28",
    "notes": "Lady Tata Memorial Trust project; contractual, co-terminus with project. Molecular biology, flow cytometry, FISH or sequencing experience desirable.",
@@ -556,9 +1524,117 @@
    "id": "nrs-medical-college-project-research-scientist-i"
   },
   {
+   "applyMode": "Online",
+   "applyUrl": "https://wd1.myworkdaysite.com/en-US/recruiting/parexel/Parexel_External_Careers/job/India-Bengaluru-Remote/Senior-Medical-Writer_R0000046124",
+   "category": "other",
+   "city": "Bengaluru (Remote)",
+   "cvFit": {
+    "reason": "Your B.Pharm/M.Pharm qualify and you write prolifically, but the role wants extensive clinical trial disclosure experience you don't have.",
+    "score": 45
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "Senior clinical-disclosure writing role; your writing is strong but clinical trial disclosure experience is expected."
+   },
+   "found": "2026-10-20",
+   "org": "Parexel",
+   "posted": "2026-10-06",
+   "posts": [
+    "Senior Medical Writer"
+   ],
+   "qualification": "Degree in life/health sciences (B.Pharm/M.Pharm and others listed) with substantial medical-writing experience in clinical trial disclosure, protocol registration and results reporting.",
+   "role": "Medical/Scientific Writing",
+   "sector": "Private",
+   "sourceUrl": "https://pharmabharat.org/parexel-hiring-for-senior-medical-writer/",
+   "state": "Karnataka",
+   "steps": [
+    "Open the Parexel posting R0000046124",
+    "Create a Workday account",
+    "Upload a CV highlighting scientific writing output",
+    "Submit; no closing date is stated"
+   ],
+   "title": "Senior Medical Writer (Clinical Trial Disclosure)",
+   "id": "parexel-senior-medical-writer-bengaluru"
+  },
+  {
+   "applyMode": "Email",
+   "category": "other",
+   "city": "New Delhi",
+   "cvFit": {
+    "reason": "Your M.Pharm/Ph.D. and 2 patents fit the technical side, but the role expects years of patent drafting/prosecution and ideally patent-agent registration.",
+    "score": 58
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "Pharma patent practice values formulation Ph.D.s; your patents help, though patent-agent registration is preferred."
+   },
+   "found": "2026-10-20",
+   "notes": "Application email is shown only on the source page; no last date stated.",
+   "org": "Patentwire IP Attorneys",
+   "posted": "2026-10-01",
+   "posts": [
+    "Senior Associate Band 1",
+    "Senior Associate Band 2"
+   ],
+   "qualification": "B.Pharm/M.Pharm/Pharm.D/M.Sc/Ph.D. in a pharmaceutical or chemical discipline; Band 1 needs 3-6 years and Band 2 6+ years; registered patent agent and/or LL.B. preferred.",
+   "role": "Patent / IPR",
+   "sector": "Private",
+   "sourceUrl": "https://katcheri.in/legal-job-opportunity-pharmaceutical-patent-professionals-patentwire-delhi/",
+   "state": "Delhi",
+   "steps": [
+    "Open the source listing to get the application email",
+    "Email your resume with subject 'Application: Senior Associate – Pharma – Formulations'",
+    "Highlight your design patents and formulation expertise"
+   ],
+   "title": "Senior Associate – Pharmaceutical Patent Practice (Band 1/2)",
+   "id": "patentwire-pharma-patent-senior-associate-delhi"
+  },
+  {
+   "applyMode": "Email application in prescribed format with certificates and signed biodata to hr@jmjenterprisessolutions.com",
+   "category": "other",
+   "city": "Ghaziabad",
+   "cvFit": {
+    "reason": "Project Consultant wants M.Pharm in Pharmaceutical Analysis/Chemistry with Ph.D. and ASU&H HPTLC analysis — you have the Ph.D. and HPTLC/herbal experience, but your M.Pharm is Pharmaceutics.",
+    "score": 62
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "Herbal (ASU&H) drug analysis by HPTLC matches your pharmacognosy/HPTLC work, though the M.Pharm subjects listed are analysis/chemistry, not Pharmaceutics."
+   },
+   "found": "2026-10-20",
+   "lastDate": "2026-10-25",
+   "notes": "Outsourced contractual posts, initially 1 year. Age limit 64 for Project Consultant. Qualification/age may be relaxed for meritorious candidates.",
+   "org": "PCIM&H, Ministry of AYUSH (via JMJ Enterprises Solutions)",
+   "posted": "2026-10-12",
+   "posts": [
+    "Project Consultant (Chemistry)",
+    "Pharmacopoeial Associate (Chemistry)",
+    "Pharmacopoeial Associate (Microbiology)"
+   ],
+   "qualification": "Project Consultant: M.Sc. Chemistry or M.Pharm (Pharmaceutical Analysis / QC&A / Pharmaceutical Chemistry) with Ph.D. in the subject, NABL/ISO knowledge; 5 years desirable, preference for ASU&H drug analysis and HPTLC/GC/ICP-OES. Pharmacopoeial Associate (Chemistry): same Master's with 2 years in a research institute; age up to 35.",
+   "role": "Drug Testing / Pharmacopoeia",
+   "salary": "Project Consultant Rs 50,000/month; Pharmacopoeial Associate Rs 32,000/month",
+   "sector": "Government",
+   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/recruitment-of-pharma-microbiology-chemistry-under-ministry-of-ayush-pcimh",
+   "state": "Uttar Pradesh",
+   "steps": [
+    "Download the prescribed application format from the notice",
+    "Attach self-attested certificates, experience certificates and signed biodata",
+    "Email to hr@jmjenterprisessolutions.com by 25 Oct 2026",
+    "Wait for a confirmation email for the interview (no TA/DA)"
+   ],
+   "title": "Project Consultant (Chemistry) and Pharmacopoeial Associate",
+   "id": "pcimh-project-consultant-chemistry-ghaziabad"
+  },
+  {
    "applyMode": "Email single PDF to sharma.gaurav@pgimer.edu.in or post hard copy",
    "applyUrl": "https://pgimer.edu.in/PGIMER_PORTAL/PGIMERPORTAL/Vacancies/JSP/ViewAll.jsp?record=15843",
+   "category": "academic",
    "city": "Chandigarh",
+   "cvFit": {
+    "reason": "Restricted to life-science PG/Ph.D. subjects — pharmacy isn't listed.",
+    "score": 25
+   },
    "documents": [
     "CV with photo and publication list",
     "Educational certificates",
@@ -566,6 +1642,10 @@
     "NOC if applicable",
     "Photo ID"
    ],
+   "fit": {
+    "level": "Low",
+    "reason": "Asks for life-science subjects (genetics/NGS) — pharmacy is not listed and differs from your Pharmaceutics specialisation."
+   },
    "found": "2026-10-20",
    "lastDate": "2026-10-29",
    "notes": "ICMR project; pharmacy not explicitly listed – NGS/exome data experience desirable.",
@@ -592,7 +1672,16 @@
   {
    "applyMode": "Walk-in interview on 16 Oct 2026",
    "applyUrl": "https://rcb.res.in/files/application-form/application_form_prs-i.pdf",
+   "category": "academic",
    "city": "Faridabad",
+   "cvFit": {
+    "reason": "Accepts a Ph.D. in Pharmaceutical Sciences — you qualify, though a Project Research Scientist-I post is junior to your current role.",
+    "score": 70
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "Ph.D. in Pharmaceutical Sciences is accepted — matches your Ph.D., though the walk-in on 16 Oct has passed."
+   },
    "found": "2026-10-20",
    "lastDate": "2026-10-16",
    "notes": "Walk-in was 16 Oct 2026 (PI Dr. Avinash Bajaj, bajaj@rcb.res.in).",
@@ -616,15 +1705,57 @@
    "id": "rcb-research-pharma-chemistry"
   },
   {
+   "applyMode": "Online",
+   "applyUrl": "https://careers.roche.com/global/en/job/ROCHGLOBAL202607119687EXTERNALENGLOBAL/Data-Scientist-RDT-Pharma-R-D",
+   "category": "other",
+   "city": "Hyderabad",
+   "cvFit": {
+    "reason": "Wants a quantitative Master's/Ph.D. and 8-12 years in data science — your ML work is research-level within pharmaceutics.",
+    "score": 25
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "Senior data-science role needing a quantitative degree; your AI/ML pharma research is relevant but secondary."
+   },
+   "found": "2026-10-20",
+   "org": "Roche",
+   "posted": "2026-10-09",
+   "posts": [
+    "Lead IT Data Scientist"
+   ],
+   "qualification": "Master's or Ph.D. in Data Science, Computer Science, Statistics, AI, Bioinformatics, Mathematics or a related quantitative field with 8-12 years in data science/ML; pharma or healthcare experience preferred.",
+   "role": "AI/ML",
+   "sector": "Private",
+   "sourceUrl": "https://www.biotecnika.org/2026/10/roche-data-scientist-job-hyderabad/",
+   "state": "Telangana",
+   "steps": [
+    "Open the Roche careers posting 202607-119687",
+    "Create a profile and upload your CV",
+    "Highlight your AI/ML-in-pharma papers and Design Expert/ML tool use",
+    "Submit; open until filled"
+   ],
+   "title": "Lead IT Data Scientist – Pharma R&D",
+   "id": "roche-lead-it-data-scientist-pharma-rd"
+  },
+  {
    "applyMode": "Online form",
    "applyUrl": "https://rvu.edu.in/careers",
+   "category": "academic",
    "city": "Bengaluru / Mysuru",
+   "cvFit": {
+    "reason": "Professor/Associate Professor posts per norms — your Ph.D., 6.9 years and 23 papers suit Associate Professor if a pharmacy post is listed.",
+    "score": 70
+   },
    "documents": [
     "Updated CV",
     "Educational certificates and mark sheets",
     "Experience certificates",
     "Passport-size photo"
    ],
+   "fit": {
+    "level": "Good",
+    "reason": "Pharmacy faculty at Mysuru with subject not specified — your Ph.D. fits; Professor/Associate posts need teaching experience."
+   },
    "found": "2026-10-20",
    "lastDate": "2026-11-15",
    "notes": "Pharmacy faculty opening at Mysuru campus; designation in detailed notification.",
@@ -651,7 +1782,16 @@
   {
    "applyMode": "Email resume to hr@sabarmatiuniversity.edu.in",
    "applyUrl": "https://www.facultyplus.com/sabarmati-university-ahmedabad-teaching-and-non-teaching-faculty-recruitment/",
+   "category": "academic",
    "city": "Ahmedabad",
+   "cvFit": {
+    "reason": "Pharmacy faculty per PCI/UGC norms with a research record — your Ph.D., Pharmaceutics M.Pharm, 23 papers and Associate Professor role match well.",
+    "score": 85
+   },
+   "fit": {
+    "level": "Strong",
+    "reason": "All 17 pharmacy posts are in Pharmaceutics — matches your M.Pharm (Pharmaceutics) and Ph.D.; Associate/Professor need UGC-norm experience."
+   },
    "found": "2026-10-20",
    "notes": "School of Pharmacy (Pharmaceutics): 3 Professor, 4 Associate Professor, 10 Assistant Professor posts.",
    "org": "Sabarmati University",
@@ -676,9 +1816,53 @@
    "id": "sabarmati-university-faculty"
   },
   {
+   "applyMode": "Online",
+   "applyUrl": "https://www.sandoz.com/careers/career-search/job-details/REQ-10032268/regulatory-affairs-specialist-submission-info-management/",
+   "category": "other",
+   "city": "Hyderabad",
+   "cvFit": {
+    "reason": "Asks for pharma industry regulatory experience — you have strong technical knowledge but no regulatory-submission work.",
+    "score": 45
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "Regulatory submission management; your pharmaceutics and documentation background is relevant but not industry RA."
+   },
+   "found": "2026-10-20",
+   "lastDate": "2026-11-15",
+   "notes": "Experience requirement is stated inconsistently (2 vs 5+ years).",
+   "org": "Sandoz",
+   "posted": "2026-10-14",
+   "posts": [
+    "Regulatory Affairs Specialist"
+   ],
+   "qualification": "Graduate with pharmaceutical industry experience; listing says minimum 2 years while the profile mentions 5+ years of relevant experience.",
+   "role": "Regulatory Affairs",
+   "sector": "Private",
+   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/sandoz-require-regulatory-affairs-specialist",
+   "state": "Telangana",
+   "steps": [
+    "Open the Sandoz careers posting REQ-10032268",
+    "Register and upload your CV",
+    "Highlight documentation, QbD and formulation knowledge",
+    "Submit before 15 Nov 2026"
+   ],
+   "title": "Regulatory Affairs Specialist – Submission Info Management",
+   "id": "sandoz-regulatory-affairs-specialist-submission"
+  },
+  {
    "applyMode": "Email application with scanned certificates",
    "applyUrl": "https://www.facultyplus.com/wp-content/uploads/2026/10/Faculty-plus-adv-16.10.2026.pdf",
+   "category": "academic",
    "city": "Tiruchengode, Namakkal",
+   "cvFit": {
+    "reason": "Pharmacy college posts per regulatory norms — your Ph.D. and 6.9 years fit Assistant/Associate Professor.",
+    "score": 78
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "Pharmacy/pharmaceutical technology faculty with subject unspecified — your Pharmaceutics Ph.D. fits; closes 24 Oct."
+   },
    "found": "2026-10-20",
    "lastDate": "2026-10-24",
    "notes": "Sengunthar College of Pharmacy and Pharmaceutical Technology dept. (Sengunthar Engineering College) listed.",
@@ -703,9 +1887,53 @@
    "id": "sengunthar-institutions-academic"
   },
   {
+   "applyMode": "Email CV to hr@shooliniuniversity.com",
+   "applyUrl": "https://shooliniuniversity.com/faculty-positions",
+   "category": "academic",
+   "city": "Solan",
+   "cvFit": {
+    "reason": "Asks for a Ph.D. in Pharmaceutics with Scopus papers — you have the Ph.D., 23 papers and 3.8 years of teaching; NET is only a preference.",
+    "score": 88
+   },
+   "fit": {
+    "level": "Strong",
+    "reason": "Pharmaceutics is a listed subject and a Ph.D. in the stream is required — matches your M.Pharm Pharmaceutics + Ph.D."
+   },
+   "found": "2026-10-20",
+   "notes": "Rolling openings listed on the university's faculty-positions page; publication date and exact closing date are not shown.",
+   "org": "Shoolini University",
+   "posts": [
+    "Assistant Professor (Pharmaceutics)",
+    "Assistant Professor (Pharmacology)",
+    "Assistant Professor (Pharmaceutical Chemistry)",
+    "Assistant Professor (Pharmacognosy)"
+   ],
+   "qualification": "Ph.D. in the concerned stream. Preference for NET-qualified candidates with foreign exposure and SCOPUS publications.",
+   "sector": "Private",
+   "sourceUrl": "https://shooliniuniversity.com/faculty-positions",
+   "state": "Himachal Pradesh",
+   "steps": [
+    "Prepare an updated CV with your Scopus publication list",
+    "Email it to hr@shooliniuniversity.com, naming the post and subject (Pharmaceutics)",
+    "Send early — the page asks for CVs within 7 days of the advertisement's publication"
+   ],
+   "title": "Assistant Professor — Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmacognosy",
+   "type": "Faculty",
+   "id": "shoolini-university-assistant-professor-pharmacy"
+  },
+  {
    "applyMode": "Email resume",
    "applyUrl": "https://www.facultyplus.com/faculty-recruitment-at-sri-sai-ranganathan-pharmacy-college-coimbatore/",
+   "category": "academic",
    "city": "Coimbatore",
+   "cvFit": {
+    "reason": "Associate Professor needs M.Pharm with 5+ years — you have M.Pharm Pharmaceutics, a Ph.D. and 6.9 years.",
+    "score": 84
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "Subject not specified, M.Pharm required — your M.Pharm (Pharmaceutics) qualifies; Associate Professor needs 5 years' experience."
+   },
    "found": "2026-10-20",
    "org": "Sri Sai Ranganathan Pharmacy College",
    "posted": "2026-09-26",
@@ -729,7 +1957,16 @@
   {
    "applyMode": "Email application",
    "applyUrl": "https://www.facultyplus.com/faculty-recruitment-2026-at-sri-shanmugha-college-of-pharmacy-salem-2/",
+   "category": "academic",
    "city": "Salem",
+   "cvFit": {
+    "reason": "Associate Professor needs 5 years — you have 6.9 years and a Ph.D.; Professor's 10 years is beyond you for now.",
+    "score": 80
+   },
+   "fit": {
+    "level": "Strong",
+    "reason": "Pharmaceutics is a listed subject — matches your M.Pharm (Pharmaceutics); needs 5 years (Associate) or 10 years (Professor) experience, and the window may have closed."
+   },
    "found": "2026-10-20",
    "notes": "Notice says apply within 10 days of 26 Sep 2026 (may have closed). Depts: Pharmacology, Pharmaceutics, Pharm. Analysis/Chemistry, Pharmacy Practice.",
    "org": "Sri Shanmugha College of Pharmacy",
@@ -752,9 +1989,118 @@
    "id": "sri-shanmugha-college-pharmacy"
   },
   {
+   "applyMode": "Online",
+   "applyUrl": "https://www.careers.teva/careers/job/563602813635027",
+   "category": "other",
+   "city": "Navi Mumbai / Bengaluru (hybrid)",
+   "cvFit": {
+    "reason": "Needs 7 years in biopharma/CRO pharmacovigilance — your experience is academic pharmaceutics.",
+    "score": 20
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "Senior global PV conventions role needing 7 years of industry/CRO experience."
+   },
+   "found": "2026-10-20",
+   "org": "Teva Pharmaceuticals",
+   "posts": [
+    "Lead GPV Professional"
+   ],
+   "qualification": "Minimum 7 years in the biopharmaceutical or CRO industry, including a large international organisation; degree not specified for this role.",
+   "role": "Pharmacovigilance",
+   "sector": "Private",
+   "sourceUrl": "https://pharmabharat.com/hiring-for-2-experienced-pharmacovigilance-roles-at-novo-nordisk-and-teva/",
+   "state": "Maharashtra",
+   "steps": [
+    "Open the Teva careers posting",
+    "Create an account and upload your CV",
+    "Submit; no last date stated"
+   ],
+   "title": "Lead GPV Professional, ICSR Conventions",
+   "id": "teva-lead-gpv-professional-icsr"
+  },
+  {
+   "applyMode": "Email",
+   "applyUrl": "mailto:rndhr@torrentpharma.com",
+   "category": "other",
+   "city": "Gandhinagar",
+   "cvFit": {
+    "reason": "Your formulation, QbD and tablet-punching background fits the subject, but the post demands hands-on industry OSD project management, which you lack.",
+    "score": 62
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "Pharmaceutics/OSD product development matches your M.Pharm and QbD Ph.D., but industry project-management experience is mandatory."
+   },
+   "found": "2026-10-20",
+   "lastDate": "2026-10-30",
+   "org": "Torrent Pharmaceuticals",
+   "posted": "2026-10-19",
+   "posts": [
+    "Assistant Manager (PDG)"
+   ],
+   "qualification": "B.Pharm, M.Pharm or MBA with 3-8 years' experience; pharma OSD (tablet/capsule) project management experience is mandatory.",
+   "role": "Formulation R&D",
+   "sector": "Private",
+   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/torrent-pharma-hiring-assistant-manager",
+   "state": "Gujarat",
+   "steps": [
+    "Update your CV to highlight oral solid dosage development, QbD and any project management work",
+    "Email the CV to rndhr@torrentpharma.com mentioning 'Assistant Manager – PDG' in the subject",
+    "Send before 30 Oct 2026"
+   ],
+   "title": "Assistant Manager – Product Development Group (OSD Project Management)",
+   "id": "torrent-pharma-assistant-manager-pdg"
+  },
+  {
+   "applyMode": "Online",
+   "applyUrl": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
+   "category": "other",
+   "city": "Prayagraj",
+   "cvFit": {
+    "reason": "Needs a pharmacy degree and age up to 40 — your B.Pharm, M.Pharm and Ph.D. qualify, though the role is regulatory rather than research.",
+    "score": 78
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "Pharmacy degree is the core eligibility; your B.Pharm, M.Pharm Pharmaceutics and Ph.D. comfortably exceed it."
+   },
+   "found": "2026-10-20",
+   "lastDate": "2026-10-21",
+   "notes": "Applications reopened by corrigendum dated 19 Sep 2026; proposed screening exam 16 Dec 2026. Confirm dates on the official notice.",
+   "org": "Uttar Pradesh Public Service Commission (UPPSC)",
+   "posts": [
+    "Inspector of Drugs (26 posts)"
+   ],
+   "qualification": "Degree in Pharmacy or Pharmaceutical Sciences, or a Medicine degree with Clinical Pharmacology or Microbiology, from a university established by law in India. Age 21-40 with relaxation for reserved categories as per UP rules.",
+   "role": "Drug Inspector",
+   "salary": "Pay Matrix Level-8 (Rs 47,600 – 1,51,100)",
+   "sector": "Government",
+   "sourceUrl": "https://centralstatejobs.in/jobs/uppsc-inspector-of-drugs-recruitment-2026",
+   "state": "Uttar Pradesh",
+   "steps": [
+    "Open the UPPSC notifications page and select the Inspector of Drugs advertisement (D-6/E-1/2025, corrigendum of 19 Sep 2026)",
+    "Complete One Time Registration if not already done",
+    "Fill the online form and upload photo and signature",
+    "Pay the fee and submit by 21 Oct 2026; corrections are allowed until 28 Oct 2026",
+    "Prepare for the proposed screening exam on 16 Dec 2026"
+   ],
+   "title": "Inspector of Drugs (Advt. D-6/E-1/2025, reopened)",
+   "id": "uppsc-inspector-of-drugs-d6-2025"
+  },
+  {
    "applyMode": "Email letter of interest + resume",
    "applyUrl": "https://www.facultyplus.com/wp-content/uploads/2026/10/Revised-Advertisement-Research-Developement.pdf",
+   "category": "academic",
    "city": "Ranchi",
+   "cvFit": {
+    "reason": "R&D-cell faculty posts want a strong research record — your 23 papers, 13 chapters and 2 patents fit Associate Professor; grant experience helps.",
+    "score": 78
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "Research-focused faculty posts open broadly — your Ph.D. and publications fit; closes today."
+   },
    "found": "2026-10-20",
    "lastDate": "2026-10-20",
    "notes": "Research-focused posts in the R&D cell; a Ph.D. with publications fits well.",
