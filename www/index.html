@@ -162,6 +162,7 @@ button{cursor:pointer}
 .badges{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
 .badge{font-size:12px;font-weight:600;border-radius:4px;padding:2px 8px;background:var(--sunk)}
 .badge.lang{background:var(--sunk);color:var(--s-interview);border:1px solid var(--s-interview)}
+.badge.li{background:#0A66C2;color:#fff}
 .badge.gov{background:var(--accent-soft);color:var(--accent)}
 .badge.new{background:var(--s-offer);color:var(--surface)}
 .badge.soon{background:transparent;color:var(--s-rejected);border:1px solid var(--s-rejected)}
@@ -359,6 +360,11 @@ details.more[open] summary::after{content:" ▴"}
       <div class="links" id="portalLinks"></div>
     </div>
     <div class="card card-pad">
+      <h2>LinkedIn hiring posts</h2>
+      <p class="sub" style="margin-bottom:6px">Many universities announce openings only as LinkedIn posts. These open LinkedIn (sign in there to see every post), using the role and location above.</p>
+      <div class="links" id="liLinks"></div>
+    </div>
+    <div class="card card-pad">
       <h2>Government pharmacist posts</h2>
       <p class="sub" style="margin-bottom:6px">Central and state recruitment for Pharmacist, Drug Inspector and hospital posts.</p>
       <div class="links" id="govLinks"></div>
@@ -548,6 +554,15 @@ function renderLinks(){
     ["Apna","apna.co",`https://apna.co/jobs?search=true&text=${e(role)}`],
     ["Google Jobs","google.com",`https://www.google.com/search?q=${e(role+" jobs in "+loc)}&ibp=htl;jobs`]
   ].map(linkRow).join("");
+  const liLoc=where?where+", India":"India",kw=q=>`https://www.linkedin.com/search/results/content/?keywords=${e(q)}&sortBy=%22date_posted%22`;
+  $("liLinks").innerHTML=[
+    ["Hiring posts: "+role,"Latest LinkedIn posts",kw(`hiring "${role}" pharmacy ${where}`.trim())],
+    ["Faculty hiring posts","Assistant / Associate Professor, pharmacy",kw(`"we are hiring" "assistant professor" OR "associate professor" pharmacy ${where}`.trim())],
+    ["Pharmaceutics openings","Pharmaceutics / formulation posts",kw(`hiring pharmaceutics "assistant professor" OR scientist ${where}`.trim())],
+    ["Scientist posts","Formulation R&D and research",kw(`hiring "scientist" formulation pharmaceutical ${where}`.trim())],
+    ["LinkedIn Jobs: "+role,liLoc+" · past week",`https://www.linkedin.com/jobs/search/?keywords=${e(role)}&location=${e(liLoc)}&f_TPR=r604800`],
+    ["LinkedIn Jobs: Pharmacy faculty",liLoc+" · past week",`https://www.linkedin.com/jobs/search/?keywords=${e("Assistant Professor Pharmacy")}&location=${e(liLoc)}&f_TPR=r604800`]
+  ].map(linkRow).join("");
   $("govLinks").innerHTML=[
     ["Employment News","employmentnews.gov.in","https://www.employmentnews.gov.in/"],
     ["National Career Service","ncs.gov.in","https://www.ncs.gov.in/"],
@@ -557,7 +572,7 @@ function renderLinks(){
     ["Railways (RRB)","Paramedical pharmacist posts",`https://www.google.com/search?q=${e(`RRB paramedical pharmacist recruitment ${yr}`)}`]
   ].map(linkRow).join("");
 }
-$("sRole").onchange=renderLinks;$("sLoc").onchange=renderLinks;renderLinks();
+$("sRole").value="Assistant Professor (Pharmacy)";$("sRole").onchange=renderLinks;$("sLoc").onchange=renderLinks;renderLinks();
 
 /* sheet */
 const F={company:"fCompany",role:"fRole",sector:"fSectorIn",city:"fCity",state:"fStateIn",status:"fStatus",qual:"fQual",applied:"fApplied",followUp:"fFollow",salary:"fSalary",source:"fSource",link:"fLink",notes:"fNotes"};
@@ -704,6 +719,7 @@ function jobCard(j,mode){
         <div class="badges">
           ${isNew?'<span class="badge new">New</span>':""}
           ${j.sector?`<span class="badge ${j.sector==="Government"?"gov":""}">${esc(j.sector)}</span>`:""}
+          ${/linkedin/i.test((j.source||"")+" "+(j.sourceUrl||"")+" "+(j.applyUrl||""))?'<span class="badge li">via LinkedIn</span>':""}
           ${j.language&&!/^english$/i.test(j.language)?`<span class="badge lang">Notice in ${esc(j.language)}</span>`:""}
           <span class="badge">${j.category==="other"?esc(j.role||"Non-teaching"):kind==="Scientist"?"Scientist / research":"Faculty"}</span>
           ${posts.map(p=>`<span class="badge">${esc(p)}</span>`).join("")}
