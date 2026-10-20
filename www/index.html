@@ -138,6 +138,9 @@ button{cursor:pointer}
 .myq .prof-tags{margin-top:6px}
 .linkbtn{background:none;border:0;color:var(--accent);font-weight:600;padding:2px 4px}
 .pform{margin-top:10px}
+.xstates{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:4px 10px;max-height:220px;overflow-y:auto;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:8px 10px}
+.xstates label{display:flex;gap:6px;align-items:center;font-size:13px;font-weight:400;color:var(--ink);text-transform:none;letter-spacing:0}
+.xnote{font-size:13px;color:var(--muted);margin-top:6px}
 .match{margin-top:8px;font-size:13px;padding:7px 10px;border-radius:6px;border-left:3px solid currentColor;background:var(--sunk)}
 .match b{font-weight:700}
 .match span{color:var(--ink)}
@@ -227,7 +230,8 @@ details.more[open] summary::after{content:" ▴"}
               <div class="field"><label for="pExp">Teaching / research experience (years)</label><input id="pExp" inputmode="numeric" placeholder="e.g. 4"></div>
               <div class="field"><label for="pPci">Pharmacy Council registration</label><select id="pPci"><option value="yes">Yes</option><option value="no">No</option></select></div>
             </div>
-            <button class="post-btn" id="saveProfile" type="button">Save qualifications</button>
+            <div class="field"><label>Hide jobs from these states</label><div class="xstates" id="pExclude"></div></div>
+            <button class="post-btn" id="saveProfile" type="button">Save</button>
           </div>
         </div>
         <div class="upd"><span id="feedUpdated">Checking for jobs…</span> <button class="linkbtn" id="refreshJobs" type="button">Refresh</button></div>
@@ -521,7 +525,7 @@ async function addSamples(){
 /* jobs for you */
 let jobs=[],feedMeta=null,feedReady=false,fui={type:"all",sector:"all",state:"",sort:"match"};
 const SPECS=["Pharmaceutics","Pharmacology","Pharmaceutical Chemistry","Pharmaceutical Analysis","Pharmacognosy","Pharmacy Practice","Quality Assurance","Industrial Pharmacy","Pharmaceutical Biotechnology","Regulatory Affairs"];
-const DEFAULT_PROFILE={bpharm:true,mpharmSpec:"Pharmaceutics",phd:"Pharmaceutical Sciences",exp:"",pci:"yes"};
+const DEFAULT_PROFILE={bpharm:true,mpharmSpec:"Pharmaceutics",phd:"Pharmaceutical Sciences",exp:"",pci:"yes",excludeStates:[]};
 let profile=Object.assign({},DEFAULT_PROFILE),profileDoc=null;
 const SUBJ={
   "Pharmaceutics":/pharmaceutics|formulation|drug delivery|pharmaceutical technology|industrial pharmacy|pharmaceutical engineering|biopharmaceutic|dosage form|nano/,
@@ -552,7 +556,7 @@ function matchJob(j){
 const LEVEL_RANK={Strong:0,Good:1,Low:2};
 function renderProfile(){
   const p=profile;
-  $("profTags").innerHTML=[p.bpharm?"B.Pharm":"",`M.Pharm (${p.mpharmSpec})`,`Ph.D. (${p.phd})`,p.exp?`${p.exp} yrs experience`:"",p.pci==="yes"?"PCI registered":""].filter(Boolean).map(t=>`<span class="ptag">${esc(t)}</span>`).join("");
+  $("profTags").innerHTML=[p.bpharm?"B.Pharm":"",`M.Pharm (${p.mpharmSpec})`,`Ph.D. (${p.phd})`,p.exp?`${p.exp} yrs experience`:"",p.pci==="yes"?"PCI registered":""].filter(Boolean).map(t=>`<span class="ptag">${esc(t)}</span>`).join("")+((p.excludeStates||[]).length?`<div class="xnote" style="flex-basis:100%">Hiding jobs from: ${esc(p.excludeStates.join(", "))}</div>`:"");
 }
 opts($("pSpec"),SPECS);
 const NORMS={
@@ -582,7 +586,8 @@ function renderFeed(){
   if(feedMeta&&feedMeta.lastRun){$("feedUpdated").textContent=`Last updated ${new Date(feedMeta.lastRun).toLocaleString("en-IN",{day:"numeric",month:"short",hour:"numeric",minute:"2-digit"})} · updates every morning`}
   else if(feedReady)$("feedUpdated").textContent="Updates every morning";
   const t=today();
-  let list=jobs.filter(j=>!j.lastDate||j.lastDate>=t)
+  const ex=profile.excludeStates||[];
+  let list=jobs.filter(j=>!j.lastDate||j.lastDate>=t).filter(j=>!ex.includes(j.state))
     .filter(j=>fui.type==="all"||jobKind(j)===fui.type)
     .filter(j=>fui.sector==="all"||j.sector===fui.sector)
     .filter(j=>!fui.state||j.state===fui.state);
@@ -661,9 +666,10 @@ $("refreshJobs").onclick=()=>loadJobs(true);
 $("editProfile").onclick=()=>{
   const f=$("pform");f.hidden=!f.hidden;
   $("pSpec").value=profile.mpharmSpec;$("pPhd").value=profile.phd;$("pExp").value=profile.exp||"";$("pPci").value=profile.pci||"yes";
+  const ex=profile.excludeStates||[];$("pExclude").innerHTML=STATES.map((st,i)=>`<label><input type="checkbox" id="px${i}" value="${esc(st)}" ${ex.includes(st)?"checked":""}> ${esc(st)}</label>`).join("");
 };
 $("saveProfile").onclick=async()=>{
-  profile=Object.assign({},profile,{mpharmSpec:$("pSpec").value,phd:$("pPhd").value.trim()||"Pharmaceutical Sciences",exp:$("pExp").value.trim(),pci:$("pPci").value});
+  profile=Object.assign({},profile,{mpharmSpec:$("pSpec").value,phd:$("pPhd").value.trim()||"Pharmaceutical Sciences",exp:$("pExp").value.trim(),pci:$("pPci").value,excludeStates:[...document.querySelectorAll("#pExclude input:checked")].map(i=>i.value)});
   $("pform").hidden=true;renderProfile();renderFeed();
   try{localStorage.setItem(PROFILE_KEY,JSON.stringify(profile))}catch(e){}toast("Qualifications saved");
 };
