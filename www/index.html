@@ -145,6 +145,13 @@ button{cursor:pointer}
 .match b{font-weight:700}
 .match span{color:var(--ink)}
 .m-strong{color:var(--s-offer)}.m-good{color:var(--accent)}.m-low{color:var(--s-interview)}
+.cvfit{display:flex;gap:10px;align-items:center;margin-top:8px;padding:8px 10px;border-radius:8px;background:var(--sunk)}
+.cvfit .score{flex:none;width:44px;height:44px;border-radius:50%;display:grid;place-items:center;font-family:var(--mono);font-weight:500;font-size:16px;color:var(--surface)}
+.cvfit b{display:block;font-size:14px}
+.cvfit span.r{font-size:13px;color:var(--ink)}
+.f-exc .score{background:var(--s-offer)}.f-exc b{color:var(--s-offer)}
+.f-good .score{background:var(--accent)}.f-good b{color:var(--accent)}
+.f-pos .score{background:var(--s-interview)}.f-pos b{color:var(--s-interview)}
 .rec{padding:12px 16px 0}
 .rec .co{width:44px;height:44px;font-size:17px}
 .rec-actions .apply,.rec-actions .ghost{padding:7px 14px}
@@ -247,6 +254,25 @@ details.more[open] summary::after{content:" ▴"}
     <div class="feed" id="recList"></div>
   </section>
 
+  <!-- BEST FOR CV -->
+  <section id="view-cv" class="feed" hidden>
+    <div class="card card-pad">
+      <h2>Best for your CV</h2>
+      <p class="sub">Teaching, scientist and research jobs, government and private, in Punjab, Himachal Pradesh, Haryana, Uttar Pradesh, Bihar, Gujarat and Madhya Pradesh — ranked by how closely they fit your CV.</p>
+      <div class="prof-tags" style="margin-top:10px"><span class="ptag">B.Pharm</span><span class="ptag">M.Pharm Pharmaceutics</span><span class="ptag">Ph.D.</span><span class="ptag">6.9 yrs experience</span><span class="ptag">23 papers</span><span class="ptag">13 book chapters</span><span class="ptag">2 patents</span><span class="ptag">QbD · Herbal · AI/ML</span></div>
+    </div>
+    <div class="feed" id="recCv"></div>
+  </section>
+
+  <!-- OTHER JOBS -->
+  <section id="view-other" class="feed" hidden>
+    <div class="card card-pad">
+      <h2>Other jobs for your CV</h2>
+      <p class="sub">Non-teaching roles across India that suit your profile and need more than a graduate degree — Drug Inspector and other government posts, regulatory affairs, formulation R&amp;D and QbD, pharmacovigilance, AI/ML in pharma, patents and more.</p>
+    </div>
+    <div class="feed" id="recOther"></div>
+  </section>
+
   <!-- TRACKER -->
   <section id="view-track" class="feed" hidden>
     <div class="card">
@@ -300,9 +326,10 @@ details.more[open] summary::after{content:" ▴"}
 
 <nav class="tabs" role="tablist">
   <button role="tab" aria-selected="true" data-tab="foryou"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.3 6.9.7-5.2 4.6 1.5 6.8L12 17l-6.1 3.4 1.5-6.8L2.2 9l6.9-.7z"/></svg>For you</button>
-  <button role="tab" aria-selected="false" data-tab="track"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 6V5a3 3 0 00-3-3h-4a3 3 0 00-3 3v1H2v4a3 3 0 003 3h14a3 3 0 003-3V6zM9 5a1 1 0 011-1h4a1 1 0 011 1v1H9zm10 9a4 4 0 003-1.38V17a3 3 0 01-3 3H5a3 3 0 01-3-3v-4.38A4 4 0 005 14z"/></svg>My jobs</button>
+  <button role="tab" aria-selected="false" data-tab="cv"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8zm-1 7V3.5L18.5 9zM8 13h8v2H8zm0 4h5v2H8z"/></svg>Best for CV</button>
+  <button role="tab" aria-selected="false" data-tab="other"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm1 15h-2v-6h2zm0-8h-2V7h2z"/></svg>Other jobs</button>
   <button role="tab" aria-selected="false" data-tab="find"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4-4"/></svg>Find jobs</button>
-  <button role="tab" aria-selected="false" data-tab="stats"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 20h4V10H3zm7 0h4V4h-4zm7 0h4v-7h-4z"/></svg>Stats</button>
+  
 </nav>
 
 <div class="scrim" id="scrim" hidden>
@@ -588,7 +615,7 @@ function renderFeed(){
   else if(feedReady)$("feedUpdated").textContent="Updates every morning";
   const t=today();
   const ex=profile.excludeStates||[];
-  let list=jobs.filter(j=>!j.lastDate||j.lastDate>=t).filter(j=>!ex.includes(j.state))
+  let list=jobs.filter(j=>j.category!=="other").filter(j=>!j.lastDate||j.lastDate>=t).filter(j=>!ex.includes(j.state))
     .filter(j=>fui.type==="all"||jobKind(j)===fui.type)
     .filter(j=>fui.sector==="all"||j.sector===fui.sector)
     .filter(j=>!fui.state||j.state===fui.state);
@@ -597,17 +624,20 @@ function renderFeed(){
   list.sort(fui.sort==="deadline"
     ?(a,b)=>(a.lastDate||"9999").localeCompare(b.lastDate||"9999")
     :fui.sort==="match"?(a,b)=>(LEVEL_RANK[a._m.level]??1)-(LEVEL_RANK[b._m.level]??1)||byNew(a,b):byNew);
+  renderCv();renderOther();
   if(!feedReady){$("recList").innerHTML=`<div class="card empty"><p>Loading jobs…</p></div>`;return}
   if(!jobs.length){$("recList").innerHTML=`<div class="card empty"><div class="logo">℞</div><h2>Your first jobs are on the way</h2><p>The daily search adds matching openings here. Check back in a little while.</p></div>`;return}
   if(!list.length){$("recList").innerHTML=`<div class="card empty"><p>No open jobs match these filters.</p></div>`;return}
-  $("recList").innerHTML=`<p class="sub" style="padding:2px 4px;margin:0"><b style="color:var(--ink)">${list.length} open job${list.length>1?"s":""}</b> · scroll down to see all</p>`+list.map(j=>{
+  $("recList").innerHTML=`<p class="sub" style="padding:2px 4px;margin:0"><b style="color:var(--ink)">${list.length} open job${list.length>1?"s":""}</b> · scroll down to see all</p>`+list.map(j=>jobCard(j,"match")).join("");
+  renderCv();renderOther();
+}
+function jobCard(j,mode){
     const kind=jobKind(j),where=[j.city,j.state].filter(Boolean).join(", ");
     const left=daysTo(j.lastDate),isNew=j.found&&daysTo(j.found)>=-2;
-    const tracked=apps.some(a=>a.jobId===j.id);
-    const posts=(j.posts||[]).length?(j.posts||[]):[kind==="Scientist"?"Scientist":"Assistant Professor"];
-    const qual=j.qualification||posts.map(p=>NORMS[Object.keys(NORMS).find(k=>p.toLowerCase().includes(k.toLowerCase()))||""]).filter(Boolean).filter((v,i,a)=>a.indexOf(v)===i).join(" ");
+        const posts=(j.posts||[]).length?(j.posts||[]):(j.category==="other"?[]:[kind==="Scientist"?"Scientist":"Assistant Professor"]);
+    const qual=j.qualification||(j.category==="other"?"See the notice for eligibility.":"")||posts.map(p=>NORMS[Object.keys(NORMS).find(k=>p.toLowerCase().includes(k.toLowerCase()))||""]).filter(Boolean).filter((v,i,a)=>a.indexOf(v)===i).join(" ");
     const steps=(j.steps&&j.steps.length)?j.steps:genericSteps(j);
-    const docs=(j.documents&&j.documents.length)?j.documents:(kind==="Scientist"?DOCS_SCI:DOCS_FAC);
+    const docs=(j.documents&&j.documents.length)?j.documents:(j.category==="other"?DOCS_OTHER:kind==="Scientist"?DOCS_SCI:DOCS_FAC);
     const link=j.applyUrl||j.sourceUrl;
     return `<article class="card">
       <div class="rec">
@@ -619,12 +649,12 @@ function renderFeed(){
             ${where?`<div class="where">${esc(where)}</div>`:""}
           </div>
         </div>
-        <div class="match m-${(j._m.level||"Good").toLowerCase()}"><b>${j._m.level==="Strong"?"★ Strong match":j._m.level==="Low"?"Weak match":"Good match"}</b> · <span>${esc(j._m.reason)}</span></div>
+        ${mode==="cv"?cvFitHtml(j):`<div class="match m-${(j._m.level||"Good").toLowerCase()}"><b>${j._m.level==="Strong"?"★ Strong match":j._m.level==="Low"?"Weak match":"Good match"}</b> · <span>${esc(j._m.reason)}</span></div>`}
         <div class="badges">
           ${isNew?'<span class="badge new">New</span>':""}
           ${j.sector?`<span class="badge ${j.sector==="Government"?"gov":""}">${esc(j.sector)}</span>`:""}
           ${j.language&&!/^english$/i.test(j.language)?`<span class="badge lang">Notice in ${esc(j.language)}</span>`:""}
-          <span class="badge">${kind==="Scientist"?"Scientist / research":"Faculty"}</span>
+          <span class="badge">${j.category==="other"?esc(j.role||"Non-teaching"):kind==="Scientist"?"Scientist / research":"Faculty"}</span>
           ${posts.map(p=>`<span class="badge">${esc(p)}</span>`).join("")}
           ${left!==null&&left<=5?`<span class="badge soon">${left<=0?"Closes today":"Closes in "+left+" day"+(left>1?"s":"")}</span>`:""}
         </div>
@@ -644,9 +674,58 @@ function renderFeed(){
       </div>
       <div class="rec-actions">
         ${link?`<a class="apply" href="${esc(link)}" target="_blank" rel="noopener">Open notice & apply ↗</a>`:""}
-        ${tracked?'<span class="done">✓ Tracking</span>':`<button class="ghost" data-track="${esc(j.id)}">Track</button>`}
       </div>
-    </article>`}).join("");
+    </article>`;
+}
+const PREF_STATES=["Punjab","Himachal Pradesh","Haryana","Uttar Pradesh","Bihar","Gujarat","Madhya Pradesh"];
+const DOCS_OTHER=["Updated CV","B.Pharm, M.Pharm & Ph.D. certificates","Pharmacy Council registration","Experience letters","Publications list","Passport photo","ID proof"];
+const CV={years:6.9};
+function cvFit(j){
+  if(j.cvFit&&typeof j.cvFit.score==="number")return {score:j.cvFit.score,reason:j.cvFit.reason||""};
+  const text=[j.title,j.role,(j.posts||[]).join(" "),j.qualification,j.notes].join(" ").toLowerCase();
+  const posts=(j.posts||[]).map(p=>String(p).toLowerCase());
+  let s=55;const why=[];
+  const ceu=/pharmaceutics|formulation|drug delivery|qbd|quality by design|product development|industrial pharmacy|pharmaceutical technology|pharmaceutical engineering|dosage/.test(text);
+  const herb=/pharmacognosy|herbal|natural product|phyto|ayush|spice/.test(text);
+  const ai=/artificial intelligence|machine learning|\bai\b|\bml\b|data scien|computational|bioinformatic/.test(text);
+  const ana=/analytical|hplc|quality control|method development/.test(text);
+  const otherSub=/pharmacolog|pharmaceutical chemistry|medicinal chem|pharmacy practice|clinical pharmacy|pharm\.? ?d\b/.test(text);
+  if(ceu){s+=20;why.push("Pharmaceutics / QbD formulation matches your M.Pharm and research")}
+  if(herb){s+=12;why.push("your pharmacognosy and herbal research fits")}
+  if(ai){s+=12;why.push("your AI/ML publications are a strong plus")}
+  if(ana){s+=5;why.push("you have HPLC and analytical experience")}
+  if(otherSub&&!ceu&&!herb&&!ai){s-=20;why.push("asks for a different specialisation than Pharmaceutics")}
+  const exactProf=posts.some(p=>/^professor$/.test(p.trim()));
+  if(posts.some(p=>p.includes("assistant professor"))){s+=8;why.push("you exceed Assistant Professor norms (Ph.D., 23 papers)")}
+  if(posts.some(p=>p.includes("associate professor"))){s+=5;why.push("you already hold an Associate Professor post")}
+  if(exactProf&&!posts.some(p=>p.includes("assistant")||p.includes("associate"))){s-=15;why.push("Professor usually needs about 10 years; you have 6.9")}
+  if(/scien|research|r&d|project/.test(text)&&j.category!=="other"){s+=8;why.push("Ph.D. plus 3 years of DST-SERB research suits this")}
+  const m=text.match(/(\d+)\s*(?:\+\s*)?years?/);if(m&&+m[1]>7&&+m[1]<30){s-=10;why.push(`asks for ${m[1]} years of experience`)}
+  s=Math.max(30,Math.min(97,s));
+  return {score:s,reason:(why.length?why.slice(0,3).join("; "):"general fit with your pharmacy degrees and experience")+"."};
+}
+function cvFitHtml(j){
+  const f=j._cv||cvFit(j),cls=f.score>=80?"f-exc":f.score>=65?"f-good":"f-pos",lab=f.score>=80?"Excellent fit for your CV":f.score>=65?"Good fit for your CV":"Possible fit";
+  const r=f.reason?f.reason.charAt(0).toUpperCase()+f.reason.slice(1):"";
+  return `<div class="cvfit ${cls}"><span class="score">${f.score}</span><div><b>${lab}</b><span class="r">${esc(r)}</span></div></div>`;
+}
+function openJobs(){const t=today(),ex=profile.excludeStates||[];return jobs.filter(j=>(!j.lastDate||j.lastDate>=t)&&!ex.includes(j.state))}
+function renderList(el,list,emptyMsg){
+  if(!feedReady){el.innerHTML=`<div class="card empty"><p>Loading jobs…</p></div>`;return}
+  if(!list.length){el.innerHTML=`<div class="card empty"><p>${emptyMsg}</p></div>`;return}
+  el.innerHTML=`<p class="sub" style="padding:2px 4px;margin:0"><b style="color:var(--ink)">${list.length} job${list.length>1?"s":""}</b> · best fit first</p>`+list.map(j=>jobCard(j,"cv")).join("");
+}
+function renderCv(){
+  const list=openJobs().filter(j=>j.category!=="other"&&PREF_STATES.includes(j.state));
+  list.forEach(j=>{j._cv=cvFit(j);j._m=matchJob(j)});
+  list.sort((a,b)=>b._cv.score-a._cv.score);
+  renderList($("recCv"),list,"No matching jobs in your preferred states right now. The daily search adds new ones every morning.");
+}
+function renderOther(){
+  const list=openJobs().filter(j=>j.category==="other");
+  list.forEach(j=>{j._cv=cvFit(j);j._m=matchJob(j)});
+  list.sort((a,b)=>b._cv.score-a._cv.score);
+  renderList($("recOther"),list,"Non-teaching jobs for your CV are being searched now. They appear here after the next search run.");
 }
 async function trackJob(id){
   const j=jobs.find(x=>x.id===id);if(!j||!store)return;
@@ -699,7 +778,7 @@ $("fState").onchange=e=>{ui.state=e.target.value;render()};
 $("fSector").onchange=e=>{ui.sector=e.target.value;render()};
 function showTab(t){
   document.querySelectorAll(".tabs button").forEach(x=>x.setAttribute("aria-selected",x.dataset.tab===t));
-  ["foryou","track","find","stats"].forEach(v=>$("view-"+v).hidden=v!==t);
+  ["foryou","cv","other","track","find","stats"].forEach(v=>$("view-"+v).hidden=v!==t);
 }
 document.querySelectorAll(".tabs button").forEach(b=>b.addEventListener("click",()=>{showTab(b.dataset.tab);window.scrollTo(0,0)}));
 
