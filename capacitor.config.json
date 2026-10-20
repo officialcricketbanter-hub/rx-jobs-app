@@ -1,0 +1,6 @@
+{
+  "appId": "in.rxjobs.tracker",
+  "appName": "Rx Jobs",
+  "webDir": "www",
+  "android": { "allowMixedContent": false }
+}

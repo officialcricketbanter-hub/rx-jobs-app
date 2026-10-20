@@ -1,0 +1,63 @@
+name: Build Android app
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "www/**"
+      - "icons/**"
+      - "package.json"
+      - "capacitor.config.json"
+      - ".github/workflows/build-apk.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - name: Install Capacitor
+        run: npm install
+
+      - name: Create Android project
+        run: |
+          npx cap add android
+          for d in mdpi hdpi xhdpi xxhdpi xxxhdpi; do
+            cp icons/ic_launcher-$d.png android/app/src/main/res/mipmap-$d/ic_launcher.png
+            cp icons/ic_launcher_round-$d.png android/app/src/main/res/mipmap-$d/ic_launcher_round.png
+            rm -f android/app/src/main/res/mipmap-$d/ic_launcher_foreground.png
+          done
+          rm -rf android/app/src/main/res/mipmap-anydpi-v26
+          npx cap sync android
+
+      - name: Use the app's fixed signing key
+        run: |
+          mkdir -p ~/.android
+          cp signing/debug.keystore ~/.android/debug.keystore
+
+      - name: Build APK
+        working-directory: android
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleDebug --no-daemon -PversionCode=${{ github.run_number }}
+          cp app/build/outputs/apk/debug/app-debug.apk ../RxJobs.apk
+
+      - name: Publish download
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view latest >/dev/null 2>&1 || gh release create latest --title "Rx Jobs app" --notes "Download RxJobs.apk below and open it on your Android phone to install."
+          gh release upload latest RxJobs.apk --clobber

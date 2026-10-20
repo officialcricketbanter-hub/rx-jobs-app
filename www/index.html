@@ -1,0 +1,711 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0B63CE">
+<title>Rx Job Tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: professional-network feed — sticky white top bar with search, profile card, filter card, feed of job cards, bottom nav; add/edit as bottom sheet */
+:root{
+  --bg:#F4F2EE; --surface:#FFFFFF; --sunk:#EEF3F8; --line:#E0DFDC;
+  --ink:#1D2226; --muted:#666666; --accent:#0B63CE; --accent-hover:#084C9E; --accent-ink:#FFFFFF; --accent-soft:#E8F1FB;
+  --cover1:#A0C4EB; --cover2:#D7E6F5;
+  --s-saved:#5E6B78; --s-applied:#0B63CE; --s-interview:#B25E00; --s-offer:#1B7A3A; --s-rejected:#C0372F; --s-withdrawn:#8A8F94;
+  --body:"Source Sans 3",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  --r:10px; --shadow:0 0 0 1px var(--line);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#000000; --surface:#1B1F23; --sunk:#232A31; --line:#363B40;
+  --ink:#E9E9E9; --muted:#A8A8A8; --accent:#71B7FB; --accent-hover:#9ACCFC; --accent-ink:#0B1A2A; --accent-soft:#1C2E42;
+  --cover1:#24476B; --cover2:#1A3049;
+  --s-saved:#A3AEB9; --s-applied:#71B7FB; --s-interview:#F0A64A; --s-offer:#5FC77E; --s-rejected:#F07B73; --s-withdrawn:#8B9196;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#000000; --surface:#1B1F23; --sunk:#232A31; --line:#363B40;
+  --ink:#E9E9E9; --muted:#A8A8A8; --accent:#71B7FB; --accent-hover:#9ACCFC; --accent-ink:#0B1A2A; --accent-soft:#1C2E42;
+  --cover1:#24476B; --cover2:#1A3049;
+  --s-saved:#A3AEB9; --s-applied:#71B7FB; --s-interview:#F0A64A; --s-offer:#5FC77E; --s-rejected:#F07B73; --s-withdrawn:#8B9196;
+  color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.4}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--surface)}
+h1,h2,h3{margin:0;text-wrap:balance}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+
+/* top bar */
+.topbar{position:sticky;top:env(safe-area-inset-top,0px);z-index:8;background:var(--surface);border-bottom:1px solid var(--line)}
+.topbar-in{max-width:680px;margin:0 auto;display:flex;align-items:center;gap:10px;padding-block:8px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.logo{flex:none;width:36px;height:36px;border-radius:6px;background:var(--accent);color:var(--accent-ink);display:grid;place-items:center;font-size:22px;font-weight:700;line-height:1}
+.searchbox{flex:1;min-width:0;display:flex;align-items:center;gap:8px;background:var(--sunk);border-radius:6px;padding:0 10px}
+.searchbox svg{flex:none;width:16px;height:16px;color:var(--muted)}
+.searchbox input{flex:1;min-width:0;border:0;background:transparent;padding:9px 0;outline:none}
+.post-btn{flex:none;background:var(--accent);color:var(--accent-ink);border:0;border-radius:999px;padding:8px 16px;font-weight:600;font-size:15px}
+.post-btn:hover{background:var(--accent-hover)}
+
+.wrap{max-width:680px;margin:0 auto;padding-left:max(12px,env(safe-area-inset-left,0px));padding-right:max(12px,env(safe-area-inset-right,0px));padding-block:12px calc(84px + env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;gap:10px}
+@media (min-width:420px){.wrap{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}}
+.card{background:var(--surface);border-radius:var(--r);box-shadow:var(--shadow);overflow:hidden}
+.card-pad{padding:14px 16px}
+.card h2{font-size:18px;font-weight:600}
+.sub{margin:2px 0 0;font-size:14px;color:var(--muted)}
+.note{font-size:14px;color:var(--muted);padding:10px 16px}
+
+/* profile card */
+.cover{height:64px;background:linear-gradient(120deg,var(--cover1),var(--cover2))}
+.profile{padding:0 16px 14px}
+.avatar{width:72px;height:72px;border-radius:50%;border:3px solid var(--surface);background:var(--accent);color:var(--accent-ink);display:grid;place-items:center;font-size:36px;margin-top:-36px}
+.profile h1{font-size:21px;font-weight:700;margin-top:6px}
+.profile .tag{font-size:15px}
+.profile .loc{font-size:13px;color:var(--muted);margin-top:2px}
+.metrics{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line)}
+.metrics button{background:none;border:0;padding:10px 8px;text-align:center;font-size:13px;color:var(--muted)}
+.metrics button+button{border-left:1px solid var(--line)}
+.metrics b{display:block;font-family:var(--mono);font-size:20px;font-weight:500;color:var(--accent)}
+.metrics button:hover{background:var(--sunk)}
+.due{display:flex;gap:10px;align-items:flex-start;padding:12px 16px;border-left:4px solid var(--s-interview)}
+.due svg{flex:none;width:20px;height:20px;color:var(--s-interview);margin-top:1px}
+.due p{margin:0;font-size:14px}
+
+/* filters */
+.chips{display:flex;gap:8px;overflow-x:auto;padding:12px 16px 4px;scrollbar-width:none}
+.chip{border:1px solid var(--muted);background:var(--surface);border-radius:999px;padding:5px 14px;font-size:14px;font-weight:600;white-space:nowrap;color:var(--muted)}
+.chip[aria-pressed="true"]{background:var(--s-offer);border-color:var(--s-offer);color:var(--surface)}
+.row2{display:flex;gap:8px;padding:8px 16px 12px}
+.row2 select{flex:1;min-width:0;padding:7px 10px;border-radius:6px;border:1px solid var(--line);background:var(--surface);font-size:14px}
+
+/* job cards */
+.feed{display:flex;flex-direction:column;gap:8px}
+.job{display:flex;gap:12px;padding:14px 16px 10px;text-align:left;width:100%;background:none;border:0}
+.co{flex:none;width:52px;height:52px;border-radius:6px;display:grid;place-items:center;font-weight:700;font-size:20px;color:#fff}
+.job-body{flex:1;min-width:0}
+.job h3{font-size:17px;font-weight:600;color:var(--accent);overflow-wrap:anywhere}
+.job .company{font-size:15px;margin-top:1px;overflow-wrap:anywhere}
+.job .where{font-size:14px;color:var(--muted);margin-top:1px}
+.job .facts{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.fact{font-size:12px;background:var(--sunk);border-radius:4px;padding:2px 8px;color:var(--ink)}
+.job-foot{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:8px 16px 12px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
+.status{display:inline-flex;align-items:center;gap:6px;font-weight:600}
+.status i{width:8px;height:8px;border-radius:50%;background:currentColor}
+.rxno{font-family:var(--mono);font-size:12px}
+.sample{font-size:11px;font-weight:600;background:var(--accent-soft);color:var(--accent);border-radius:4px;padding:1px 6px;margin-left:6px}
+.view{color:var(--muted);font-weight:600;text-decoration:none;font-size:14px}
+.view:hover{color:var(--accent)}
+
+.empty{text-align:center;padding:28px 20px}
+.empty .logo{width:56px;height:56px;font-size:32px;margin:0 auto 10px;border-radius:12px}
+.empty h2{margin-bottom:6px}
+.empty p{color:var(--muted);margin:0 auto;max-width:36ch}
+.empty .actions{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:16px}
+.ghost{background:transparent;border:1px solid var(--accent);color:var(--accent);border-radius:999px;padding:7px 16px;font-weight:600}
+.ghost:hover{background:var(--accent-soft)}
+
+/* find jobs */
+.field{display:flex;flex-direction:column;gap:4px;margin-bottom:10px;min-width:0}
+.field label{font-size:13px;font-weight:600;color:var(--muted)}
+.field input,.field select,.field textarea{padding:9px 12px;border-radius:6px;border:1px solid var(--muted);background:var(--surface);width:100%}
+.links{display:flex;flex-direction:column}
+.links a{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink);padding:10px 0;border-top:1px solid var(--line)}
+.links a:first-child{border-top:0}
+.links .co{width:40px;height:40px;font-size:15px}
+.links b{display:block;font-weight:600}
+.links small{display:block;color:var(--muted);font-size:13px}
+.links .arrow{margin-left:auto;color:var(--muted)}
+.links a:hover b{color:var(--accent);text-decoration:underline}
+
+/* stats */
+.bars{display:flex;flex-direction:column;gap:9px;margin-top:10px}
+.bar{display:grid;grid-template-columns:minmax(0,120px) 1fr 32px;align-items:center;gap:10px;font-size:14px}
+.bar>span:first-child{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bar .track{height:8px;background:var(--sunk);border-radius:4px;overflow:hidden}
+.bar .fill{display:block;height:100%;border-radius:4px}
+.bar .n{font-family:var(--mono);text-align:right}
+.big{font-family:var(--mono);font-size:36px;color:var(--accent);margin-top:6px}
+
+/* jobs for you */
+.feedhead{padding:14px 16px}
+.feedhead .upd{font-size:13px;color:var(--muted);margin-top:4px}
+.prof-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.ptag{font-size:13px;font-weight:600;color:var(--s-offer);border:1px solid var(--s-offer);border-radius:999px;padding:2px 10px}
+.myq{margin-top:12px;background:var(--sunk);border-radius:8px;padding:10px 12px}
+.myq-head{display:flex;justify-content:space-between;align-items:center;font-size:14px}
+.myq .prof-tags{margin-top:6px}
+.linkbtn{background:none;border:0;color:var(--accent);font-weight:600;padding:2px 4px}
+.pform{margin-top:10px}
+.match{margin-top:8px;font-size:13px;padding:7px 10px;border-radius:6px;border-left:3px solid currentColor;background:var(--sunk)}
+.match b{font-weight:700}
+.match span{color:var(--ink)}
+.m-strong{color:var(--s-offer)}.m-good{color:var(--accent)}.m-low{color:var(--s-interview)}
+.rec{padding:12px 16px 0}
+.rec .co{width:44px;height:44px;font-size:17px}
+.rec-actions .apply,.rec-actions .ghost{padding:7px 14px}
+.rec-top{display:flex;gap:12px}
+.rec h3{font-size:17px;font-weight:600;color:var(--accent);overflow-wrap:anywhere}
+.rec .company{font-size:15px;overflow-wrap:anywhere}
+.rec .where{font-size:14px;color:var(--muted)}
+.badges{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.badge{font-size:12px;font-weight:600;border-radius:4px;padding:2px 8px;background:var(--sunk)}
+.badge.gov{background:var(--accent-soft);color:var(--accent)}
+.badge.new{background:var(--s-offer);color:var(--surface)}
+.badge.soon{background:transparent;color:var(--s-rejected);border:1px solid var(--s-rejected)}
+.dates{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px}
+.dates div{background:var(--sunk);border-radius:6px;padding:6px 10px;font-size:12px;color:var(--muted)}
+.dates b{display:block;font-size:14px;color:var(--ink);font-weight:600}
+details.more{margin-top:10px;border-top:1px solid var(--line)}
+details.more summary{cursor:pointer;padding:10px 0;font-weight:600;font-size:14px;color:var(--muted);list-style:none}
+details.more summary::-webkit-details-marker{display:none}
+details.more summary::after{content:" ▾"}
+details.more[open] summary::after{content:" ▴"}
+.sec{margin-bottom:12px}
+.sec h4{margin:0 0 4px;font-size:13px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+.sec p{margin:0;font-size:14px}
+.sec .hint{font-size:12px;color:var(--muted);margin-top:4px}
+.steps{margin:0;padding-left:20px;font-size:14px;display:flex;flex-direction:column;gap:4px}
+.docs{display:flex;flex-wrap:wrap;gap:6px}
+.rec-actions{display:flex;gap:8px;padding:10px 16px 12px;border-top:1px solid var(--line);flex-wrap:wrap}
+.apply{flex:1;text-align:center;text-decoration:none;background:var(--accent);color:var(--accent-ink);border-radius:999px;padding:9px 16px;font-weight:600;min-width:140px}
+.apply:hover{background:var(--accent-hover)}
+.done{color:var(--s-offer);font-weight:600;font-size:14px;align-self:center}
+.fchips{display:flex;gap:8px;overflow-x:auto;padding:0 16px 12px;scrollbar-width:none}
+
+/* bottom nav */
+.tabs{position:fixed;left:0;right:0;bottom:0;background:var(--surface);border-top:1px solid var(--line);display:flex;justify-content:center;padding-bottom:env(safe-area-inset-bottom,0px);padding-left:env(safe-area-inset-left,0px);padding-right:env(safe-area-inset-right,0px);z-index:5}
+.tabs button{flex:1;max-width:160px;background:none;border:0;padding:8px 4px 10px;font-size:12px;color:var(--muted);display:flex;flex-direction:column;align-items:center;gap:2px;border-top:2px solid transparent}
+.tabs button[aria-selected="true"]{color:var(--ink);border-top-color:var(--ink)}
+.tabs svg{width:24px;height:24px}
+
+/* sheet */
+.scrim{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:20;display:flex;align-items:flex-end;justify-content:center}
+.sheet{background:var(--surface);width:100%;max-width:680px;max-height:92%;overflow-y:auto;border-radius:14px 14px 0 0;padding:0 0 calc(16px + env(safe-area-inset-bottom,0px))}
+.sheet-head{position:sticky;top:0;background:var(--surface);display:flex;justify-content:space-between;align-items:center;padding:14px max(16px,env(safe-area-inset-right,0px)) 12px max(16px,env(safe-area-inset-left,0px));border-bottom:1px solid var(--line);z-index:1}
+.sheet-head h2{font-size:19px;font-weight:600}
+.sheet-body{padding:14px max(16px,env(safe-area-inset-right,0px)) 0 max(16px,env(safe-area-inset-left,0px))}
+.x{background:none;border:0;border-radius:999px;width:36px;height:36px;font-size:24px;color:var(--muted)}
+.x:hover{background:var(--sunk)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:0 12px}
+@media (max-width:420px){.grid2{grid-template-columns:1fr}}
+.sheet-actions{display:flex;gap:8px;justify-content:space-between;margin-top:6px;flex-wrap:wrap}
+.danger{background:transparent;border:0;color:var(--s-rejected);border-radius:999px;padding:8px 12px;font-weight:600}
+.danger.solid{border:1px solid var(--s-rejected)}
+.confirm{background:var(--sunk);border-radius:8px;padding:10px 12px;margin-top:10px;font-size:14px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(72px + env(safe-area-inset-bottom,0px));background:var(--ink);color:var(--surface);padding:10px 18px;border-radius:8px;font-size:14px;z-index:30;box-shadow:0 4px 14px rgba(0,0,0,.2)}
+@media (prefers-reduced-motion:no-preference){.sheet{animation:up .22s ease-out}@keyframes up{from{transform:translateY(30px);opacity:.6}}}
+</style>
+<style>:root{padding-top:env(safe-area-inset-top,0px)}body{margin:0}[hidden]{display:none!important}img{max-width:100%}</style>
+</head>
+<body>
+
+
+<header class="topbar"><div class="topbar-in">
+  <div class="logo" aria-hidden="true">℞</div>
+  <label class="searchbox"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4-4"/></svg><input id="q" type="search" placeholder="Search applications" aria-label="Search applications"></label>
+  <button class="post-btn" id="addBtn">+ Add</button>
+</div></header>
+
+<div class="wrap">
+  <div class="card note" id="storeNote">Loading your applications…</div>
+
+  <!-- JOBS FOR YOU -->
+  <section id="view-foryou" class="feed">
+    <div class="card">
+      <div class="feedhead">
+        <h2>Jobs for you</h2>
+        <p class="sub">Openings across India picked for a Ph.D. in Pharmaceutical Sciences. Found automatically every morning, newest first.</p>
+        <div class="myq">
+          <div class="myq-head"><b>Your qualifications</b><button class="linkbtn" id="editProfile" type="button">Edit</button></div>
+          <div class="prof-tags" id="profTags"></div>
+          <div class="pform" id="pform" hidden>
+            <div class="grid2">
+              <div class="field"><label for="pSpec">M.Pharm specialisation</label><select id="pSpec"></select></div>
+              <div class="field"><label for="pPhd">Ph.D. subject</label><input id="pPhd"></div>
+              <div class="field"><label for="pExp">Teaching / research experience (years)</label><input id="pExp" inputmode="numeric" placeholder="e.g. 4"></div>
+              <div class="field"><label for="pPci">Pharmacy Council registration</label><select id="pPci"><option value="yes">Yes</option><option value="no">No</option></select></div>
+            </div>
+            <button class="post-btn" id="saveProfile" type="button">Save qualifications</button>
+          </div>
+        </div>
+        <div class="upd"><span id="feedUpdated">Checking for jobs…</span> <button class="linkbtn" id="refreshJobs" type="button">Refresh</button></div>
+      </div>
+      <div class="fchips" id="feedType" role="group" aria-label="Job type"></div>
+      <div class="fchips" id="feedSector" role="group" aria-label="Government or private"></div>
+      <div class="row2" style="padding-top:0">
+        <select id="feedState" aria-label="Filter jobs by state"></select>
+        <select id="feedSort" aria-label="Sort jobs"><option value="match">Best match first</option><option value="posted">Newest first</option><option value="deadline">Closing soon first</option></select>
+      </div>
+    </div>
+    <div class="feed" id="recList"></div>
+  </section>
+
+  <!-- TRACKER -->
+  <section id="view-track" class="feed" hidden>
+    <div class="card">
+      <div class="cover"></div>
+      <div class="profile">
+        <div class="avatar" aria-hidden="true">℞</div>
+        <h1>My pharmacy job search</h1>
+        <div class="tag">Pharmacist · Open to work across India</div>
+        <div class="loc" id="profileLoc">Track every application, interview and offer in one place</div>
+      </div>
+      <div class="metrics" id="summary"></div>
+    </div>
+    <div id="due"></div>
+    <div class="card">
+      <div class="chips" id="chips" role="group" aria-label="Filter by status"></div>
+      <div class="row2">
+        <select id="fState" aria-label="Filter by state"></select>
+        <select id="fSector" aria-label="Filter by sector"></select>
+      </div>
+    </div>
+    <div class="feed" id="list"></div>
+  </section>
+
+  <!-- FIND JOBS -->
+  <section id="view-find" class="feed" hidden>
+    <div class="card card-pad">
+      <h2>Search pharmacy jobs</h2>
+      <p class="sub" style="margin-bottom:12px">Pick a role and location, then open a job site. Found one you like? Tap “+ Add” to track it.</p>
+      <div class="grid2">
+        <div class="field"><label for="sRole">Role</label><select id="sRole"></select></div>
+        <div class="field"><label for="sLoc">Location</label><select id="sLoc"></select></div>
+      </div>
+      <div class="links" id="portalLinks"></div>
+    </div>
+    <div class="card card-pad">
+      <h2>Government pharmacist posts</h2>
+      <p class="sub" style="margin-bottom:6px">Central and state recruitment for Pharmacist, Drug Inspector and hospital posts.</p>
+      <div class="links" id="govLinks"></div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section id="view-stats" class="feed" hidden>
+    <div class="card card-pad"><h2>Response rate</h2><p class="sub">Share of submitted applications that reached interview or offer.</p><div class="big" id="rate">—</div></div>
+    <div class="card card-pad"><h2>By status</h2><div class="bars" id="barStatus"></div></div>
+    <div class="card card-pad"><h2>By state</h2><div class="bars" id="barState"></div></div>
+    <div class="card card-pad"><h2>By sector</h2><div class="bars" id="barSector"></div></div>
+    <div class="card card-pad" id="exportPanel" hidden><h2>Backup</h2><p class="sub" style="margin-bottom:12px">Save all your applications as a CSV file for Excel or Google Sheets.</p><button class="ghost" id="exportBtn">Download CSV</button></div>
+  </section>
+</div>
+
+<nav class="tabs" role="tablist">
+  <button role="tab" aria-selected="true" data-tab="foryou"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.3 6.9.7-5.2 4.6 1.5 6.8L12 17l-6.1 3.4 1.5-6.8L2.2 9l6.9-.7z"/></svg>For you</button>
+  <button role="tab" aria-selected="false" data-tab="track"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 6V5a3 3 0 00-3-3h-4a3 3 0 00-3 3v1H2v4a3 3 0 003 3h14a3 3 0 003-3V6zM9 5a1 1 0 011-1h4a1 1 0 011 1v1H9zm10 9a4 4 0 003-1.38V17a3 3 0 01-3 3H5a3 3 0 01-3-3v-4.38A4 4 0 005 14z"/></svg>My jobs</button>
+  <button role="tab" aria-selected="false" data-tab="find"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4-4"/></svg>Find jobs</button>
+  <button role="tab" aria-selected="false" data-tab="stats"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 20h4V10H3zm7 0h4V4h-4zm7 0h4v-7h-4z"/></svg>Stats</button>
+</nav>
+
+<div class="scrim" id="scrim" hidden>
+  <form class="sheet" id="form" role="dialog" aria-modal="true" aria-labelledby="sheetTitle">
+    <div class="sheet-head"><h2 id="sheetTitle">Add application</h2><button type="button" class="x" id="closeBtn" aria-label="Close">×</button></div>
+    <div class="sheet-body">
+    <div class="field"><label for="fCompany">Company / hospital *</label><input id="fCompany" required placeholder="e.g. Apollo Pharmacy"></div>
+    <div class="grid2">
+      <div class="field"><label for="fRole">Job title *</label><input id="fRole" list="roleList" required placeholder="e.g. Hospital Pharmacist"></div>
+      <div class="field"><label for="fSectorIn">Sector</label><select id="fSectorIn"></select></div>
+      <div class="field"><label for="fCity">City</label><input id="fCity" placeholder="e.g. Ludhiana"></div>
+      <div class="field"><label for="fStateIn">State / UT</label><select id="fStateIn"></select></div>
+      <div class="field"><label for="fStatus">Status</label><select id="fStatus"></select></div>
+      <div class="field"><label for="fQual">Qualification asked</label><select id="fQual"></select></div>
+      <div class="field"><label for="fApplied">Applied on</label><input id="fApplied" type="date"></div>
+      <div class="field"><label for="fFollow">Follow up on</label><input id="fFollow" type="date"></div>
+      <div class="field"><label for="fSalary">Salary (₹ LPA)</label><input id="fSalary" inputmode="decimal" placeholder="e.g. 3.6"></div>
+      <div class="field"><label for="fSource">Found on</label><input id="fSource" list="sourceList" placeholder="e.g. Naukri"></div>
+    </div>
+    <div class="field"><label for="fLink">Job link</label><input id="fLink" type="url" placeholder="https://"></div>
+    <div class="field"><label for="fNotes">Notes</label><textarea id="fNotes" rows="3" placeholder="Interview date, contact person, documents asked…"></textarea></div>
+    <div class="sheet-actions">
+      <button type="button" class="danger" id="delBtn" hidden>Delete</button>
+      <button type="submit" class="post-btn" style="margin-left:auto">Save</button>
+    </div>
+    <div class="confirm" id="confirmDel" hidden>Delete this application? <button type="button" class="danger solid" id="delYes">Yes, delete</button><button type="button" class="ghost" id="delNo">Keep it</button></div>
+    </div>
+  </form>
+</div>
+<datalist id="roleList"></datalist>
+<datalist id="sourceList"></datalist>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+(function(){
+const STATUSES=[["saved","Saved"],["applied","Applied"],["interview","Interview"],["offer","Offer"],["rejected","Rejected"],["withdrawn","Withdrawn"]];
+const SECTORS=["Retail pharmacy","Hospital","Pharma industry","Government","Clinical research","Pharmacovigilance","Medical sales","Regulatory affairs","Teaching","Other"];
+const QUALS=["Any","D.Pharm","B.Pharm","M.Pharm","Pharm.D","PhD"];
+const ROLES=["Pharmacist","Hospital Pharmacist","Clinical Pharmacist","Retail Pharmacist","Store Pharmacist","Drug Safety Associate","QA Officer","QC Analyst","Production Officer","Medical Representative","Regulatory Affairs Associate","Clinical Research Coordinator","Medical Coder","Drug Inspector","Assistant Professor (Pharmacy)"];
+const SOURCES=["Naukri","LinkedIn","Indeed","Foundit","Apna","Company website","Govt notification","Referral","Walk-in"];
+const STATES=["Andaman & Nicobar","Andhra Pradesh","Arunachal Pradesh","Assam","Bihar","Chandigarh","Chhattisgarh","Dadra & Nagar Haveli and Daman & Diu","Delhi","Goa","Gujarat","Haryana","Himachal Pradesh","Jammu & Kashmir","Jharkhand","Karnataka","Kerala","Ladakh","Lakshadweep","Madhya Pradesh","Maharashtra","Manipur","Meghalaya","Mizoram","Nagaland","Odisha","Puducherry","Punjab","Rajasthan","Sikkim","Tamil Nadu","Telangana","Tripura","Uttar Pradesh","Uttarakhand","West Bengal","Remote / Pan-India"];
+const LOGO_COLORS=["#0B63CE","#1B7A3A","#7A3EB1","#B25E00","#C0372F","#0F7C8C","#5B5FC7","#8C5A2B"];
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const statusLabel=s=>(STATUSES.find(x=>x[0]===s)||STATUSES[0])[1];
+const today=()=>{const d=new Date();d.setMinutes(d.getMinutes()-d.getTimezoneOffset());return d.toISOString().slice(0,10)};
+const fmtDate=s=>{if(!s)return"";const d=new Date(s+"T00:00");return d.toLocaleDateString("en-IN",{day:"numeric",month:"short"})};
+const ago=s=>{if(!s)return"";const days=Math.round((new Date(today()+"T00:00")-new Date(s+"T00:00"))/864e5);return days<=0?"today":days===1?"1 day ago":days<7?days+" days ago":days<14?"1 week ago":days<60?Math.floor(days/7)+" weeks ago":fmtDate(s)};
+const initials=n=>String(n||"?").trim().split(/\s+/).slice(0,2).map(w=>w[0]).join("").toUpperCase();
+const logoColor=n=>{let h=0;for(const c of String(n||""))h=(h*31+c.charCodeAt(0))>>>0;return LOGO_COLORS[h%LOGO_COLORS.length]};
+
+let apps=[],editingId=null,ui={status:"all",q:"",state:"",sector:""};
+let store=null;
+const LS="rxtracker.apps.v1";
+
+function opts(el,list,first){el.innerHTML=(first?`<option value="">${esc(first)}</option>`:"")+list.map(v=>Array.isArray(v)?`<option value="${v[0]}">${esc(v[1])}</option>`:`<option>${esc(v)}</option>`).join("")}
+opts($("fState"),STATES,"All states");opts($("fSector"),SECTORS,"All sectors");
+opts($("fSectorIn"),SECTORS);opts($("fStateIn"),STATES,"—");opts($("fStatus"),STATUSES);opts($("fQual"),QUALS);
+$("roleList").innerHTML=ROLES.map(r=>`<option value="${esc(r)}">`).join("");
+$("sourceList").innerHTML=SOURCES.map(r=>`<option value="${esc(r)}">`).join("");
+opts($("sRole"),ROLES);opts($("sLoc"),["India"].concat(STATES.filter(s=>s!=="Remote / Pan-India")));
+
+/* storage */
+function localLoad(){try{return JSON.parse(localStorage.getItem(LS)||"[]")}catch(e){return[]}}
+function localSaveAll(){try{localStorage.setItem(LS,JSON.stringify(apps))}catch(e){}}
+function useLocal(msg){
+  apps=localLoad();
+  store={
+    save:async a=>{const i=apps.findIndex(x=>x.id===a.id);if(i>=0)apps[i]=a;else apps.push(a);localSaveAll();render()},
+    remove:async id=>{apps=apps.filter(x=>x.id!==id);localSaveAll();render()}
+  };
+  $("storeNote").textContent=msg;$("storeNote").hidden=false;render();
+}
+const JOBS_URL="https://raw.githubusercontent.com/officialcricketbanter-hub/rx-jobs-app/main/data/jobs.json";
+const JOBS_CACHE="rxtracker.jobs.v1",PROFILE_KEY="rxtracker.profile.v1";
+async function loadJobs(manual){
+  try{const c=JSON.parse(localStorage.getItem(JOBS_CACHE)||"null");if(c&&!jobs.length){jobs=c.jobs||[];feedMeta=c.meta||null;feedReady=true;renderFeed()}}catch(e){}
+  try{
+    const r=await fetch(JOBS_URL+"?t="+Date.now(),{cache:"no-store"});
+    if(!r.ok)throw new Error(r.status);
+    const d=await r.json();
+    jobs=(d.jobs||[]).map(j=>{const o=Object.assign({},j);const st=String(o.state||"").replace(/ and /g," & ");if(STATES.includes(st))o.state=st;return o});feedMeta=d.meta||null;feedReady=true;
+    try{localStorage.setItem(JOBS_CACHE,JSON.stringify({jobs,meta:feedMeta}))}catch(e){}
+    renderFeed();if(manual)toast("Jobs refreshed");
+  }catch(e){
+    feedReady=true;renderFeed();
+    $("feedUpdated").textContent=jobs.length?"Offline — showing the jobs saved on this phone.":"Couldn’t load jobs. Check your internet and tap Refresh.";
+  }
+}
+async function init(){
+  try{const p=JSON.parse(localStorage.getItem(PROFILE_KEY)||"null");if(p)profile=Object.assign({},DEFAULT_PROFILE,p)}catch(e){}
+  renderProfile();
+  useLocal("");$("storeNote").hidden=true;
+  loadJobs(false);
+}
+/* render */
+function filtered(){
+  const q=ui.q.trim().toLowerCase();
+  return apps.filter(a=>(ui.status==="all"||a.status===ui.status)&&(!ui.state||a.state===ui.state)&&(!ui.sector||a.sector===ui.sector)
+    &&(!q||[a.company,a.role,a.city,a.state,a.notes,a.source].join(" ").toLowerCase().includes(q)))
+  .sort((a,b)=>(b.applied||(b.created||"").slice(0,10)).localeCompare(a.applied||(a.created||"").slice(0,10))||(b.no||0)-(a.no||0));
+}
+function count(s){return apps.filter(a=>a.status===s).length}
+function render(){
+  $("summary").innerHTML=[["all","Total",apps.length],["applied","Applied",count("applied")],["interview","Interviews",count("interview")]]
+    .map(([k,l,n])=>`<button data-s="${k}"><b>${n}</b>${l}</button>`).join("");
+  const nStates=new Set(apps.map(a=>a.state).filter(Boolean)).size;
+  $("profileLoc").textContent=apps.length?`${apps.length} application${apps.length>1?"s":""} across ${nStates||0} state${nStates===1?"":"s"}`:"Track every application, interview and offer in one place";
+  const t=today();
+  const due=apps.filter(a=>a.followUp&&a.followUp<=t&&["applied","interview"].includes(a.status));
+  $("due").innerHTML=due.length?`<div class="card due"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a7 7 0 00-7 7v4l-2 3v1h18v-1l-2-3V9a7 7 0 00-7-7zm0 20a3 3 0 003-3H9a3 3 0 003 3z"/></svg><p><b>Follow up today:</b> ${due.map(a=>esc(a.company)).join(", ")}</p></div>`:"";
+  $("chips").innerHTML=[["all","All"]].concat(STATUSES)
+    .map(([k,l])=>`<button class="chip" data-s="${k}" aria-pressed="${ui.status===k}">${esc(l)} ${k==="all"?apps.length:count(k)}</button>`).join("");
+  const list=filtered();
+  if(!store){$("list").innerHTML=`<div class="card empty"><p>Loading…</p></div>`}
+  else if(!apps.length){
+    $("list").innerHTML=`<div class="card empty"><div class="logo">℞</div><h2>No applications yet</h2><p>Each job you apply for shows up here with its status, location and follow-up date.</p><div class="actions"><button class="post-btn" data-act="add">Add your first application</button><button class="ghost" data-act="samples">Try 3 samples</button></div></div>`;
+  } else if(!list.length){$("list").innerHTML=`<div class="card empty"><p>No applications match these filters.</p></div>`}
+  else $("list").innerHTML=list.map(a=>{
+    const where=[a.city,a.state].filter(Boolean).join(", ");
+    const facts=[a.sector,a.qual&&a.qual!=="Any"?a.qual:"",a.salary?`₹${a.salary} LPA`:"",a.source?`via ${a.source}`:""].filter(Boolean);
+    const fu=a.followUp&&["applied","interview"].includes(a.status)?` · Follow up ${fmtDate(a.followUp)}`:"";
+    return `<article class="card">
+      <button class="job" data-id="${esc(a.id)}">
+        <span class="co" style="background:${logoColor(a.company)}">${esc(initials(a.company))}</span>
+        <span class="job-body">
+          <h3>${esc(a.role)}${a.sample?'<span class="sample">Sample</span>':""}</h3>
+          <div class="company">${esc(a.company)}</div>
+          ${where?`<div class="where">${esc(where)}</div>`:""}
+          ${facts.length?`<div class="facts">${facts.map(f=>`<span class="fact">${esc(f)}</span>`).join("")}</div>`:""}
+        </span>
+      </button>
+      <div class="job-foot">
+        <span><span class="status" style="color:var(--s-${a.status||"saved"})"><i></i>${statusLabel(a.status)}</span>${a.applied?` · ${ago(a.applied)}`:""}${fu}</span>
+        ${a.link?`<a class="view" href="${esc(a.link)}" target="_blank" rel="noopener">View job ↗</a>`:`<span class="rxno">Rx-${String(a.no||0).padStart(3,"0")}</span>`}
+      </div>
+    </article>`}).join("");
+  renderStats();
+  if(typeof renderFeed==="function"&&feedReady)renderFeed();
+}
+function bars(el,pairs,colorFn){
+  const max=Math.max(1,...pairs.map(p=>p[1]));
+  el.innerHTML=apps.length?pairs.map(([l,n],i)=>`<div class="bar"><span title="${esc(l)}">${esc(l)}</span><span class="track"><span class="fill" style="width:${n/max*100}%;background:${colorFn(i)}"></span></span><span class="n">${n}</span></div>`).join(""):`<p class="sub">Add applications to see this.</p>`;
+}
+function tally(key){const m={};apps.forEach(a=>{const k=a[key]||"Not set";m[k]=(m[k]||0)+1});return Object.entries(m).sort((a,b)=>b[1]-a[1])}
+function renderStats(){
+  const sub=apps.filter(a=>a.status!=="saved").length,pos=count("interview")+count("offer");
+  $("rate").textContent=sub?Math.round(pos/sub*100)+"%":"—";
+  bars($("barStatus"),STATUSES.map(([k,l])=>[l,count(k)]),i=>`var(--s-${STATUSES[i][0]})`);
+  bars($("barState"),tally("state"),()=>"var(--accent)");
+  bars($("barSector"),tally("sector"),()=>"var(--accent)");
+}
+
+/* find jobs */
+function linkRow([n,d,u]){return `<a href="${esc(u)}" target="_blank" rel="noopener"><span class="co" style="background:${logoColor(n)}">${esc(initials(n))}</span><span><b>${esc(n)}</b><small>${esc(d)}</small></span><span class="arrow">↗</span></a>`}
+function renderLinks(){
+  const role=$("sRole").value,loc=$("sLoc").value,e=encodeURIComponent,yr=new Date().getFullYear();
+  const slug=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
+  const where=loc==="India"?"":loc;
+  $("portalLinks").innerHTML=[
+    ["Naukri","naukri.com",`https://www.naukri.com/${slug(role)}-jobs${where?"-in-"+slug(where):""}`],
+    ["LinkedIn Jobs","linkedin.com",`https://www.linkedin.com/jobs/search/?keywords=${e(role)}&location=${e(where?where+", India":"India")}`],
+    ["Indeed India","in.indeed.com",`https://in.indeed.com/jobs?q=${e(role)}&l=${e(where)}`],
+    ["Foundit","foundit.in",`https://www.foundit.in/srp/results?query=${e(role)}&locations=${e(loc)}`],
+    ["Apna","apna.co",`https://apna.co/jobs?search=true&text=${e(role)}`],
+    ["Google Jobs","google.com",`https://www.google.com/search?q=${e(role+" jobs in "+loc)}&ibp=htl;jobs`]
+  ].map(linkRow).join("");
+  $("govLinks").innerHTML=[
+    ["Employment News","employmentnews.gov.in","https://www.employmentnews.gov.in/"],
+    ["National Career Service","ncs.gov.in","https://www.ncs.gov.in/"],
+    ["Pharmacist recruitment",where?where+" notifications":"All-India notifications",`https://www.google.com/search?q=${e(`pharmacist recruitment ${yr} ${where} notification`)}`],
+    ["Drug Inspector posts","State PSC notifications",`https://www.google.com/search?q=${e(`drug inspector recruitment ${yr} ${where}`)}`],
+    ["AIIMS / ESIC","Hospital pharmacist posts",`https://www.google.com/search?q=${e(`AIIMS ESIC pharmacist recruitment ${yr}`)}`],
+    ["Railways (RRB)","Paramedical pharmacist posts",`https://www.google.com/search?q=${e(`RRB paramedical pharmacist recruitment ${yr}`)}`]
+  ].map(linkRow).join("");
+}
+$("sRole").onchange=renderLinks;$("sLoc").onchange=renderLinks;renderLinks();
+
+/* sheet */
+const F={company:"fCompany",role:"fRole",sector:"fSectorIn",city:"fCity",state:"fStateIn",status:"fStatus",qual:"fQual",applied:"fApplied",followUp:"fFollow",salary:"fSalary",source:"fSource",link:"fLink",notes:"fNotes"};
+function openSheet(a){
+  if(!store)return;
+  editingId=a?a.id:null;
+  $("sheetTitle").textContent=a?"Edit application":"Add application";
+  for(const k in F)$(F[k]).value=a?(a[k]??""):"";
+  if(!a){$("fStatus").value="applied";$("fApplied").value=today();$("fSectorIn").value=SECTORS[0];$("fQual").value="B.Pharm"}
+  $("delBtn").hidden=!a;$("confirmDel").hidden=true;
+  $("scrim").hidden=false;setTimeout(()=>$("fCompany").focus(),50);
+}
+function closeSheet(){$("scrim").hidden=true;editingId=null}
+function toast(m){const t=$("toast");t.textContent=m;t.hidden=false;clearTimeout(toast.t);toast.t=setTimeout(()=>t.hidden=true,2200)}
+function nextNo(){return apps.reduce((m,a)=>Math.max(m,a.no||0),0)+1}
+function newId(){return"a"+Date.now().toString(36)+Math.random().toString(36).slice(2,6)}
+$("form").addEventListener("submit",async ev=>{
+  ev.preventDefault();
+  const old=apps.find(x=>x.id===editingId);
+  const a=Object.assign({},old||{id:newId(),no:nextNo(),created:new Date().toISOString()});
+  for(const k in F)a[k]=$(F[k]).value.trim();
+  try{await store.save(a);closeSheet();toast(old?"Saved":"Application added")}catch(e){toast(e&&e.code==="quota_exceeded"?"Storage is full. Delete old entries.":"Couldn’t save. Try again.")}
+});
+$("delBtn").onclick=()=>$("confirmDel").hidden=false;
+$("delNo").onclick=()=>$("confirmDel").hidden=true;
+$("delYes").onclick=async()=>{try{await store.remove(editingId);closeSheet();toast("Deleted")}catch(e){toast("Couldn’t delete. Try again.")}};
+$("closeBtn").onclick=closeSheet;
+$("scrim").addEventListener("click",e=>{if(e.target===$("scrim"))closeSheet()});
+document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!$("scrim").hidden)closeSheet()});
+$("addBtn").onclick=()=>openSheet(null);
+
+async function addSamples(){
+  const d=n=>{const x=new Date();x.setDate(x.getDate()+n);x.setMinutes(x.getMinutes()-x.getTimezoneOffset());return x.toISOString().slice(0,10)};
+  const S=[
+    {company:"Apollo Pharmacy",role:"Retail Pharmacist",sector:"Retail pharmacy",city:"Chandigarh",state:"Chandigarh",status:"applied",qual:"D.Pharm",applied:d(-6),followUp:d(0),salary:"2.4",source:"Naukri",notes:"Need State Pharmacy Council registration copy."},
+    {company:"Fortis Hospital",role:"Hospital Pharmacist",sector:"Hospital",city:"Mohali",state:"Punjab",status:"interview",qual:"B.Pharm",applied:d(-12),followUp:d(2),salary:"3.2",source:"LinkedIn",notes:"Walk-in interview, carry original certificates."},
+    {company:"Sun Pharma",role:"QA Officer",sector:"Pharma industry",city:"Halol",state:"Gujarat",status:"saved",qual:"M.Pharm",applied:"",followUp:"",salary:"4.5",source:"Company website",notes:"Last date to apply in two weeks."}
+  ];
+  let n=nextNo();
+  for(const s of S){try{await store.save(Object.assign({id:newId(),no:n++,created:new Date().toISOString(),sample:true,link:""},s))}catch(e){}}
+  toast("Samples added. Delete them anytime.");
+}
+
+/* jobs for you */
+let jobs=[],feedMeta=null,feedReady=false,fui={type:"all",sector:"all",state:"",sort:"match"};
+const SPECS=["Pharmaceutics","Pharmacology","Pharmaceutical Chemistry","Pharmaceutical Analysis","Pharmacognosy","Pharmacy Practice","Quality Assurance","Industrial Pharmacy","Pharmaceutical Biotechnology","Regulatory Affairs"];
+const DEFAULT_PROFILE={bpharm:true,mpharmSpec:"Pharmaceutics",phd:"Pharmaceutical Sciences",exp:"",pci:"yes"};
+let profile=Object.assign({},DEFAULT_PROFILE),profileDoc=null;
+const SUBJ={
+  "Pharmaceutics":/pharmaceutics|formulation|drug delivery|pharmaceutical technology|industrial pharmacy|pharmaceutical engineering|biopharmaceutic|dosage form|nano/,
+  "Pharmacology":/pharmacolog|toxicolog/,
+  "Pharmaceutical Chemistry":/pharmaceutical chemistry|medicinal chemistry|pharm\.? ?chem|synthetic chem/,
+  "Pharmaceutical Analysis":/pharmaceutical analysis|analytical|quality control/,
+  "Pharmacognosy":/pharmacognosy|phytochem|natural product|herbal/,
+  "Pharmacy Practice":/pharmacy practice|clinical pharmacy|pharm\.?d/,
+  "Quality Assurance":/quality assurance/,
+  "Industrial Pharmacy":/industrial pharmacy|formulation/,
+  "Pharmaceutical Biotechnology":/biotechnolog|biologic/,
+  "Regulatory Affairs":/regulatory/
+};
+function matchJob(j){
+  if(j.fit&&j.fit.level&&j.fit.reason)return {level:j.fit.level,reason:j.fit.reason};
+  const text=[j.title,(j.posts||[]).join(" "),j.qualification,j.notes].join(" ").toLowerCase();
+  const mine=profile.mpharmSpec||"Pharmaceutics",myRe=SUBJ[mine]||new RegExp(mine.toLowerCase());
+  const others=Object.keys(SUBJ).filter(s=>s!==mine&&!(mine==="Pharmaceutics"&&s==="Industrial Pharmacy")&&SUBJ[s].test(text));
+  const senior=(j.posts||[]).some(p=>/^(associate |research )?professor$/i.test(String(p).trim()))||/associate professor/.test(text);
+  const exp=parseFloat(profile.exp);
+  const expNote=senior
+    ?(isNaN(exp)?" Senior posts usually also ask for 8–10 years of experience.":exp>=8?` Your ${exp} years of experience fit senior posts.`:` Senior posts usually ask for 8–10 years; you have ${exp}, so aim for the Assistant Professor post here.`):"";
+  if(myRe.test(text))return {level:"Strong",reason:`Asks for ${mine} / formulation — same as your M.Pharm (${mine}). Your Ph.D. adds weight.${expNote}`};
+  if(others.length)return {level:"Low",reason:`Asks for ${others.slice(0,2).join(" / ")}, not ${mine}. Apply only if the notice also allows other specialisations.`};
+  if(/scien|research|r&d|project/.test(text))return {level:"Good",reason:`Research post in pharmaceutical sciences — your Ph.D. (${profile.phd}) and M.Pharm (${mine}) fit. Subject not specified in the listing.`};
+  return {level:"Good",reason:`Subject not specified — your B.Pharm + M.Pharm (${mine}) + Ph.D. meet the usual eligibility. Check that ${mine} is listed in the notice.${expNote}`};
+}
+const LEVEL_RANK={Strong:0,Good:1,Low:2};
+function renderProfile(){
+  const p=profile;
+  $("profTags").innerHTML=[p.bpharm?"B.Pharm":"",`M.Pharm (${p.mpharmSpec})`,`Ph.D. (${p.phd})`,p.exp?`${p.exp} yrs experience`:"",p.pci==="yes"?"PCI registered":""].filter(Boolean).map(t=>`<span class="ptag">${esc(t)}</span>`).join("");
+}
+opts($("pSpec"),SPECS);
+const NORMS={
+  "Assistant Professor":"Usually M.Pharm with first class in the subject; Ph.D. is preferred and adds weight. Registration with the Pharmacy Council is often asked.",
+  "Associate Professor":"Usually Ph.D. with first-class M.Pharm and about 8 years of teaching, research or industry experience, with publications.",
+  "Professor":"Usually Ph.D. with first-class M.Pharm and about 10 years of experience, with research guidance and publications.",
+  "Scientist":"Usually Ph.D. or M.Pharm in Pharmaceutical Sciences; some posts need NET/GATE/GPAT or research experience and publications.",
+  "Academic Associate":"Usually Ph.D. or M.Pharm in Pharmaceutical Sciences; a contract academic post supporting teaching and research."
+};
+const DOCS_FAC=["Updated CV","Ph.D. & M.Pharm certificates","Mark sheets","Pharmacy Council registration","Publications list","Experience letters","Passport photo","ID proof"];
+const DOCS_SCI=["Updated CV","Ph.D. & M.Pharm certificates","Mark sheets","GATE/NET/GPAT scorecard (if any)","Publications list","Research statement","Experience letters","Passport photo"];
+function jobKind(j){return /scien|research|project|fellow/i.test((j.type||"")+" "+(j.posts||[]).join(" "))?"Scientist":"Faculty"}
+function genericSteps(j){
+  const how=j.applyMode||"as the notice says";
+  return ["Open the official notice and confirm the subject (e.g. Pharmaceutics, Pharmacology, Pharm. Chemistry) and number of posts.",
+    "Check eligibility and the last date in the notice.",
+    "Keep the documents below ready as PDFs.",
+    `Apply: ${how}. Note the application number or keep a copy of the email.`,
+    "Tap “Track” so it moves to My jobs and you can follow up."];
+}
+function daysTo(d){if(!d)return null;return Math.round((new Date(d+"T00:00")-new Date(today()+"T00:00"))/864e5)}
+function renderFeed(){
+  $("feedType").innerHTML=[["all","All jobs"],["Faculty","Professor posts"],["Scientist","Scientist & research"]]
+    .map(([k,l])=>`<button class="chip" data-k="${k}" aria-pressed="${fui.type===k}">${l}</button>`).join("");
+  $("feedSector").innerHTML=[["all","Govt + private"],["Government","Government"],["Private","Private"]]
+    .map(([k,l])=>`<button class="chip" data-k="${k}" aria-pressed="${fui.sector===k}">${l}</button>`).join("");
+  if(feedMeta&&feedMeta.lastRun){$("feedUpdated").textContent=`Last updated ${new Date(feedMeta.lastRun).toLocaleString("en-IN",{day:"numeric",month:"short",hour:"numeric",minute:"2-digit"})} · updates every morning`}
+  else if(feedReady)$("feedUpdated").textContent="Updates every morning";
+  const t=today();
+  let list=jobs.filter(j=>!j.lastDate||j.lastDate>=t)
+    .filter(j=>fui.type==="all"||jobKind(j)===fui.type)
+    .filter(j=>fui.sector==="all"||j.sector===fui.sector)
+    .filter(j=>!fui.state||j.state===fui.state);
+  const byNew=(a,b)=>(b.posted||b.found||"").localeCompare(a.posted||a.found||"");
+  list.forEach(j=>j._m=matchJob(j));
+  list.sort(fui.sort==="deadline"
+    ?(a,b)=>(a.lastDate||"9999").localeCompare(b.lastDate||"9999")
+    :fui.sort==="match"?(a,b)=>(LEVEL_RANK[a._m.level]??1)-(LEVEL_RANK[b._m.level]??1)||byNew(a,b):byNew);
+  if(!feedReady){$("recList").innerHTML=`<div class="card empty"><p>Loading jobs…</p></div>`;return}
+  if(!jobs.length){$("recList").innerHTML=`<div class="card empty"><div class="logo">℞</div><h2>Your first jobs are on the way</h2><p>The daily search adds matching openings here. Check back in a little while.</p></div>`;return}
+  if(!list.length){$("recList").innerHTML=`<div class="card empty"><p>No open jobs match these filters.</p></div>`;return}
+  $("recList").innerHTML=`<p class="sub" style="padding:2px 4px;margin:0"><b style="color:var(--ink)">${list.length} open job${list.length>1?"s":""}</b> · scroll down to see all</p>`+list.map(j=>{
+    const kind=jobKind(j),where=[j.city,j.state].filter(Boolean).join(", ");
+    const left=daysTo(j.lastDate),isNew=j.found&&daysTo(j.found)>=-2;
+    const tracked=apps.some(a=>a.jobId===j.id);
+    const posts=(j.posts||[]).length?(j.posts||[]):[kind==="Scientist"?"Scientist":"Assistant Professor"];
+    const qual=j.qualification||posts.map(p=>NORMS[Object.keys(NORMS).find(k=>p.toLowerCase().includes(k.toLowerCase()))||""]).filter(Boolean).filter((v,i,a)=>a.indexOf(v)===i).join(" ");
+    const steps=(j.steps&&j.steps.length)?j.steps:genericSteps(j);
+    const docs=(j.documents&&j.documents.length)?j.documents:(kind==="Scientist"?DOCS_SCI:DOCS_FAC);
+    const link=j.applyUrl||j.sourceUrl;
+    return `<article class="card">
+      <div class="rec">
+        <div class="rec-top">
+          <span class="co" style="background:${logoColor(j.org)}">${esc(initials(j.org))}</span>
+          <div style="min-width:0">
+            <h3>${esc(j.title||posts.join(", "))}</h3>
+            <div class="company">${esc(j.org)}</div>
+            ${where?`<div class="where">${esc(where)}</div>`:""}
+          </div>
+        </div>
+        <div class="match m-${(j._m.level||"Good").toLowerCase()}"><b>${j._m.level==="Strong"?"★ Strong match":j._m.level==="Low"?"Weak match":"Good match"}</b> · <span>${esc(j._m.reason)}</span></div>
+        <div class="badges">
+          ${isNew?'<span class="badge new">New</span>':""}
+          ${j.sector?`<span class="badge ${j.sector==="Government"?"gov":""}">${esc(j.sector)}</span>`:""}
+          <span class="badge">${kind==="Scientist"?"Scientist / research":"Faculty"}</span>
+          ${posts.map(p=>`<span class="badge">${esc(p)}</span>`).join("")}
+          ${left!==null&&left<=5?`<span class="badge soon">${left<=0?"Closes today":"Closes in "+left+" day"+(left>1?"s":"")}</span>`:""}
+        </div>
+        <div class="dates">
+          <div>Last date<b>${j.lastDate?esc(fmtDate(j.lastDate)+" "+j.lastDate.slice(0,4)):"See notice"}</b></div>
+          <div>How to apply<b>${esc(j.applyMode||"See notice")}</b></div>
+        </div>
+        <details class="more"><summary>Qualification & how to apply</summary>
+          ${j.salary?`<div class="sec"><h4>Pay</h4><p>${esc(j.salary)}</p></div>`:""}
+          <div class="sec"><h4>Qualification</h4><p>${esc(qual)}</p>${j.qualification?"":'<p class="hint">General norm for this post. The exact eligibility is in the notice.</p>'}</div>
+          <div class="sec"><h4>Steps</h4></div>
+          <div class="sec"><ol class="steps">${steps.map(s=>`<li>${esc(s)}</li>`).join("")}</ol></div>
+          <div class="sec"><h4>Keep ready</h4><div class="docs">${docs.map(d=>`<span class="fact">${esc(d)}</span>`).join("")}</div></div>
+          ${j.notes?`<div class="sec"><h4>Note</h4><p>${esc(j.notes)}</p></div>`:""}
+          ${j.posted?`<p class="hint" style="font-size:12px;color:var(--muted);margin:0 0 10px">Posted ${esc(fmtDate(j.posted))}${j.sourceUrl&&j.applyUrl&&j.sourceUrl!==j.applyUrl?` · <a href="${esc(j.sourceUrl)}" target="_blank" rel="noopener" style="color:var(--muted)">source</a>`:""}</p>`:""}
+        </details>
+      </div>
+      <div class="rec-actions">
+        ${link?`<a class="apply" href="${esc(link)}" target="_blank" rel="noopener">Open notice & apply ↗</a>`:""}
+        ${tracked?'<span class="done">✓ Tracking</span>':`<button class="ghost" data-track="${esc(j.id)}">Track</button>`}
+      </div>
+    </article>`}).join("");
+}
+async function trackJob(id){
+  const j=jobs.find(x=>x.id===id);if(!j||!store)return;
+  const posts=(j.posts||[]).join(", ");
+  const a={id:newId(),no:nextNo(),created:new Date().toISOString(),jobId:j.id,
+    company:j.org||"",role:j.title||posts||"Faculty post",sector:jobKind(j)==="Faculty"?"Teaching":(j.sector==="Government"?"Government":"Pharma industry"),
+    city:j.city||"",state:STATES.includes(j.state)?j.state:"",status:"saved",qual:"PhD",applied:"",
+    followUp:j.lastDate?j.lastDate:"",salary:"",source:"Jobs for you",link:j.applyUrl||j.sourceUrl||"",
+    notes:(j.lastDate?"Last date "+j.lastDate+". ":"")+(j.applyMode?"Apply: "+j.applyMode+".":"")};
+  try{await store.save(a);toast("Added to My jobs");renderFeed()}catch(e){toast("Couldn’t save. Try again.")}
+}
+opts($("feedState"),STATES,"All states");
+$("feedType").addEventListener("click",e=>{const c=e.target.closest(".chip");if(c){fui.type=c.dataset.k;renderFeed()}});
+$("feedSector").addEventListener("click",e=>{const c=e.target.closest(".chip");if(c){fui.sector=c.dataset.k;renderFeed()}});
+$("feedState").onchange=e=>{fui.state=e.target.value;renderFeed()};
+$("feedSort").onchange=e=>{fui.sort=e.target.value;renderFeed()};
+$("recList").addEventListener("click",e=>{const b=e.target.closest("[data-track]");if(b)trackJob(b.dataset.track)});
+$("refreshJobs").onclick=()=>loadJobs(true);
+$("editProfile").onclick=()=>{
+  const f=$("pform");f.hidden=!f.hidden;
+  $("pSpec").value=profile.mpharmSpec;$("pPhd").value=profile.phd;$("pExp").value=profile.exp||"";$("pPci").value=profile.pci||"yes";
+};
+$("saveProfile").onclick=async()=>{
+  profile=Object.assign({},profile,{mpharmSpec:$("pSpec").value,phd:$("pPhd").value.trim()||"Pharmaceutical Sciences",exp:$("pExp").value.trim(),pci:$("pPci").value});
+  $("pform").hidden=true;renderProfile();renderFeed();
+  try{localStorage.setItem(PROFILE_KEY,JSON.stringify(profile))}catch(e){}toast("Qualifications saved");
+};
+renderProfile();
+function startFeed(db){
+  profileDoc=db.doc("meta/profile");
+  profileDoc.onSnapshot(s=>{if(s.exists){profile=Object.assign({},DEFAULT_PROFILE,s.data());renderProfile();renderFeed()}},()=>{});
+  db.collection("jobs").onSnapshot(snap=>{jobs=snap.docs.map(d=>Object.assign({id:d.id},d.data()));feedReady=true;renderFeed()},
+    ()=>{feedReady=true;$("feedUpdated").textContent="Couldn’t load jobs. Reload the page to try again.";renderFeed()});
+  db.doc("meta/feed").onSnapshot(s=>{feedMeta=s.exists?s.data():null;renderFeed()},()=>{});
+}
+
+/* events */
+$("list").addEventListener("click",e=>{
+  if(e.target.closest("a"))return;
+  const b=e.target.closest("[data-act]");
+  if(b){if(b.dataset.act==="add")openSheet(null);else addSamples();return}
+  const s=e.target.closest(".job");if(s)openSheet(apps.find(a=>a.id===s.dataset.id));
+});
+function setStatus(s){ui.status=s==="applied"?"applied":s;render()}
+$("chips").addEventListener("click",e=>{const c=e.target.closest(".chip");if(c)setStatus(c.dataset.s)});
+$("summary").addEventListener("click",e=>{const c=e.target.closest("button");if(c)setStatus(c.dataset.s)});
+$("q").addEventListener("input",e=>{ui.q=e.target.value;showTab("track");render()});
+$("fState").onchange=e=>{ui.state=e.target.value;render()};
+$("fSector").onchange=e=>{ui.sector=e.target.value;render()};
+function showTab(t){
+  document.querySelectorAll(".tabs button").forEach(x=>x.setAttribute("aria-selected",x.dataset.tab===t));
+  ["foryou","track","find","stats"].forEach(v=>$("view-"+v).hidden=v!==t);
+}
+document.querySelectorAll(".tabs button").forEach(b=>b.addEventListener("click",()=>{showTab(b.dataset.tab);window.scrollTo(0,0)}));
+
+async function exportCsv(dl){
+  const cols=["no","company","role","sector","city","state","status","qual","applied","followUp","salary","source","link","notes"];
+  const q=v=>'"'+String(v??"").replace(/"/g,'""')+'"';
+  const csv=[cols.join(",")].concat(apps.map(a=>cols.map(c=>q(c==="status"?statusLabel(a[c]):a[c])).join(","))).join("\n");
+  try{await dl.save({filename:"pharmacy-applications-"+today()+".csv",data:csv})}catch(e){}
+}
+
+document.addEventListener("click",e=>{const a=e.target.closest('a[target="_blank"]');if(a&&/^https?:/.test(a.href)){e.preventDefault();window.location.href=a.href}});
+init();
+})();
+</script>
+
+</body>
+</html>

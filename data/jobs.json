@@ -1,0 +1,783 @@
+{
+ "meta": {
+  "lastRun": "2026-10-20T04:24:54Z",
+  "total": 27
+ },
+ "jobs": [
+  {
+   "applyMode": "Email, post or in person",
+   "applyUrl": "https://www.facultyplus.com/wp-content/uploads/2026/09/Faculty-plus.pdf",
+   "city": "Kathgarh, Kangra",
+   "documents": [
+    "Updated resume",
+    "Educational certificates",
+    "Experience certificates (if any)",
+    "Passport-size photo"
+   ],
+   "found": "2026-10-20",
+   "notes": "No fixed last date ('as early as possible'). No walk-in.",
+   "org": "Arni University",
+   "posted": "2026-09-20",
+   "posts": [
+    "Professor",
+    "Associate Professor",
+    "Assistant Professor",
+    "Senior Assistant Professor"
+   ],
+   "qualification": "As per university and PCI norms; NET/SET/Ph.D. wherever applicable. Freshers may apply.",
+   "sector": "Private",
+   "sourceUrl": "https://www.facultyplus.com/faculty-recruitment-at-arni-university-kangra/",
+   "state": "Himachal Pradesh",
+   "steps": [
+    "Open the notification PDF for the application email address",
+    "Prepare updated resume, copies of educational and experience certificates, and a passport photo",
+    "Email, post or hand-deliver to Arni University, Kathgarh, Tehsil Indora, District Kangra, Himachal Pradesh 176401",
+    "Apply as early as possible; shortlisted candidates are informed by email"
+   ],
+   "title": "Faculty posts",
+   "type": "Faculty",
+   "id": "arni-university-kangra"
+  },
+  {
+   "applyMode": "Email or submit in person",
+   "applyUrl": "https://www.facultyplus.com/wp-content/uploads/2026/10/New-Doc-10-08-2026-13.38.pdf",
+   "city": "Hyderabad",
+   "documents": [
+    "Bio-data",
+    "Educational and experience certificates",
+    "Passport-size photo",
+    "Aadhaar and PAN copies"
+   ],
+   "found": "2026-10-20",
+   "notes": "The pharmacy-specific opening in this notice is Controller of Examinations; check the PDF for any faculty posts.",
+   "org": "Avanthi Group of Colleges",
+   "posted": "2026-10-09",
+   "posts": [
+    "Controller of Examinations (Pharmacy College)"
+   ],
+   "qualification": "Ph.D. with at least 4 years' experience in an autonomous institution.",
+   "sector": "Private",
+   "sourceUrl": "https://www.facultyplus.com/principal-faculty-non-teaching-jobs-at-avanthi-group-of-colleges-rangareddy/",
+   "state": "Telangana",
+   "steps": [
+    "Get the email address from the notification PDF",
+    "Prepare bio-data, copies of educational and experience certificates, photo, Aadhaar and PAN",
+    "Email them or submit in person at Gunthapally (V), Abdullapurmet (M), Hyderabad 501512",
+    "Apply immediately (no fixed last date)"
+   ],
+   "title": "Principal and Faculty posts",
+   "type": "Faculty",
+   "id": "avanthi-group-rangareddy"
+  },
+  {
+   "applyMode": "Email resume",
+   "applyUrl": "https://bbdu.ac.in/",
+   "city": "Lucknow",
+   "found": "2026-10-20",
+   "notes": "School of Pharmacy openings in Medicinal Chemistry, Pharmacognosy and Pharmacology.",
+   "org": "Babu Banarasi Das University",
+   "posted": "2026-10-08",
+   "posts": [
+    "Professor",
+    "Associate Professor",
+    "Assistant Professor"
+   ],
+   "qualification": "As per PCI/UGC norms; UG/PG in the relevant discipline with a good academic and research record.",
+   "sector": "Private",
+   "sourceUrl": "https://www.facultyplus.com/babu-banarasi-das-university-lucknow-teaching-and-non-teaching-faculty-recruitment/",
+   "state": "Uttar Pradesh",
+   "steps": [
+    "Open the FacultyPlus listing's 'How to Apply' section for the email address",
+    "Email your resume with post and department in the subject line",
+    "Apply as early as possible (no fixed last date)"
+   ],
+   "title": "Professor, Associate Professor, Assistant Professor",
+   "type": "Faculty",
+   "id": "bbd-university-lucknow-faculty"
+  },
+  {
+   "applyMode": "Email CV to bgibsr@gmail.com",
+   "found": "2026-10-20",
+   "lastDate": "2026-10-20",
+   "notes": "Also 3 Lecturer (D.Pharm) posts.",
+   "org": "Brahmanand Group of Institutions",
+   "posted": "2026-09-22",
+   "posts": [
+    "Assistant Professor",
+    "Professor"
+   ],
+   "qualification": "Principal/Director: Ph.D. in relevant discipline. Assistant Professor (B.Pharm): M.Pharm with 2 years' experience.",
+   "sector": "Private",
+   "sourceUrl": "https://www.pharmatutor.org/content/september-2026/recruitment-of-principal-director-assistant-professor-post-at-brahmanand-group-of-institutions",
+   "steps": [
+    "Prepare an updated CV naming the post (Principal/Director or Assistant Professor)",
+    "Email it to bgibsr@gmail.com",
+    "Send by 20 Oct 2026"
+   ],
+   "title": "Principal / Director and Assistant Professor (Pharmacy)",
+   "type": "Faculty",
+   "id": "brahmanand-principal-asst-prof"
+  },
+  {
+   "applyMode": "Walk-in interview on 28 Oct 2026",
+   "applyUrl": "https://iiim.res.in/wp-content/uploads/2026/10/advt-no-38-2026.pdf",
+   "city": "Jammu",
+   "found": "2026-10-20",
+   "lastDate": "2026-10-28",
+   "notes": "Project-based, temporary post. Selection by interview.",
+   "org": "CSIR-Indian Institute of Integrative Medicine (IIIM)",
+   "posted": "2026-10-16",
+   "posts": [
+    "Project Scientist-III"
+   ],
+   "qualification": "Doctoral degree in Pharmacology or Biotechnology with at least 7 years of R&D experience. Upper age limit 45.",
+   "salary": "Rs 78,000 + HRA per month",
+   "sector": "Government",
+   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/iiim-interview-for-pharma-chemistry-biochemistry-biotechnology-microbiology-candidates",
+   "state": "Jammu and Kashmir",
+   "steps": [
+    "Read Advt. No. 38/2026 and download the application form from the IIIM notice",
+    "Fill the form for post code 07 (Project Scientist-III)",
+    "Carry the form, originals and self-attested copies of certificates and experience proof",
+    "Attend the walk-in on Wed 28 Oct 2026 at CSIR-IIIM, Canal Road, Jammu",
+    "Queries: rmbd@iiim.ac.in (no TA/DA)"
+   ],
+   "title": "Project Scientist-III (Advt. 38/2026)",
+   "type": "Scientist",
+   "id": "csir-iiim-project-scientist-iii-pharmacology"
+  },
+  {
+   "applyMode": "Online form",
+   "applyUrl": "https://jobs.ncl.res.in",
+   "city": "Pune",
+   "found": "2026-10-20",
+   "lastDate": "2026-10-21",
+   "notes": "2 posts, aramid/carbon fibre project (Polymer Science & Engg). Low age limit (28 + relaxation) – check eligibility before applying.",
+   "org": "CSIR-National Chemical Laboratory",
+   "posted": "2026-10-16",
+   "posts": [
+    "Senior Project Associate"
+   ],
+   "qualification": "Master's in Pharmaceutical/Natural Sciences with 3 years' R&D experience, or a Doctoral degree in Science/Pharma with 2 years' R&D experience. Polymer synthesis/characterisation experience preferred. Age limit 28 (relaxable).",
+   "salary": "Rs 42,000 + HRA per month",
+   "sector": "Government",
+   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/job-for-phd-mpharm-msc-candidates-as-project-associate-at-national-chemical-laboratory",
+   "state": "Maharashtra",
+   "steps": [
+    "Register on jobs.ncl.res.in with a valid email",
+    "Upload photo (<50 KB JPG) and signature (<25 KB JPG)",
+    "Upload scanned mark sheets (SSC to PhD) and one PDF of testimonials",
+    "Submit by 21 Oct 2026; shortlist on 23 Oct, online interview 27 Oct"
+   ],
+   "title": "Senior Project Associate (Advt. 898)",
+   "type": "Academic Associate",
+   "id": "csir-ncl-senior-project-associate-polymer"
+  },
+  {
+   "applyMode": "Walk-in interview on 24 Oct 2026",
+   "city": "Hyderabad",
+   "documents": [
+    "Resume",
+    "Increment letter and last 3 months' payslips",
+    "Relieving/service certificates",
+    "Educational certificates",
+    "Aadhaar and PAN"
+   ],
+   "found": "2026-10-20",
+   "lastDate": "2026-10-24",
+   "org": "Granules India",
+   "posted": "2026-10-19",
+   "posts": [
+    "Senior Executive",
+    "Executive",
+    "Formulation R&D Scientist"
+   ],
+   "qualification": "M.Sc./M.Pharm with 2-4 years' experience (Formulation R&D needs M.Pharm).",
+   "sector": "Private",
+   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/interview-for-research-and-development-at-granules-india",
+   "state": "Telangana",
+   "steps": [
+    "Attend walk-in on Sat 24 Oct 2026, 10 AM-3 PM",
+    "Venue: Pragathi Nagar Road, ALEAP Industrial Area, Gajularamaram, Hyderabad 500090",
+    "Bring resume, latest increment letter, last 3 payslips, relieving letters, certificates, Aadhaar and PAN",
+    "Queries: Rebecca.Shirley@granulesindia.com"
+   ],
+   "title": "R&D walk-in (FARD, AR&D, Process R&D, Formulation R&D)",
+   "type": "Scientist",
+   "id": "granules-india-rnd-interview"
+  },
+  {
+   "applyMode": "Email resume",
+   "applyUrl": "https://www.facultyplus.com/assistant-professor-recruitment-2026-guru-nanak-institutions-technical-campus-hyderabad/",
+   "city": "Hyderabad",
+   "found": "2026-10-20",
+   "notes": "Rolling; no fixed last date. Salary as per norms. Website: www.gniindia.org",
+   "org": "Guru Nanak Institutions Technical Campus",
+   "posted": "2026-09-09",
+   "posts": [
+    "Assistant Professor"
+   ],
+   "qualification": "PG and UG in the relevant discipline as per PCI norms, with a good academic record.",
+   "sector": "Private",
+   "sourceUrl": "https://www.facultyplus.com/assistant-professor-recruitment-2026-guru-nanak-institutions-technical-campus-hyderabad/",
+   "state": "Telangana",
+   "steps": [
+    "Get the email address from the apply section of the FacultyPlus listing",
+    "Email your resume stating Pharmaceutical Analysis or Pharmaceutical Chemistry",
+    "Apply early; applications reviewed on a rolling basis"
+   ],
+   "title": "Assistant Professor (Pharmaceutical Analysis, Pharmaceutical Chemistry)",
+   "type": "Faculty",
+   "id": "guru-nanak-institutions-asst-prof"
+  },
+  {
+   "applyMode": "Email form + CV to amr.icmrhqrs@gmail.com",
+   "applyUrl": "https://www.icmr.gov.in/icmrobject/uploads/Recruitment/1792255228_advertisementforconsultantpositions.pdf",
+   "city": "New Delhi",
+   "documents": [
+    "Application form with photo",
+    "CV",
+    "Certificates from 10th onwards",
+    "Experience and age proof",
+    "Photo ID",
+    "Caste/PwD certificate if applicable"
+   ],
+   "found": "2026-10-20",
+   "lastDate": "2026-10-31",
+   "notes": "1-year project contract; written exam + discussion for shortlisted.",
+   "org": "Indian Council of Medical Research (ICMR)",
+   "posted": "2026-10-19",
+   "posts": [
+    "Senior Consultant (Scientific Non-Medical)"
+   ],
+   "qualification": "Minimum M.Sc/B.Pharm/MPH or equivalent with at least 12 years' post-qualification experience in AMR/public health (Ph.D. counts as 4 years). Age 40-70.",
+   "salary": "Up to Rs 1,50,000 per month consolidated",
+   "sector": "Government",
+   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/opportunity-for-pharmacy-professionals-to-join-icmr-headquarters",
+   "state": "Delhi",
+   "steps": [
+    "Download the advertisement and application form",
+    "Fill the form; attach CV and self-attested certificates, experience and age proof",
+    "Email to amr.icmrhqrs@gmail.com",
+    "Submit by 31 Oct 2026, 5:00 PM"
+   ],
+   "title": "Senior Consultant (Scientific Non-Medical), AMR Coordination Unit",
+   "type": "Scientist",
+   "id": "icmr-hq-pharmacy-professionals"
+  },
+  {
+   "applyMode": "Online form (rolling advertisement)",
+   "applyUrl": "https://facultyrecruitment.iitbhu.ac.in",
+   "city": "Varanasi",
+   "found": "2026-10-20",
+   "notes": "Areas: Pharmacognosy, Pharmacology, Pharmaceutical Analysis, Pharmaceutics, Regulatory Affairs. Rolling call – cutoff dates set by the institute.",
+   "org": "IIT (BHU) Varanasi",
+   "posted": "2026-10-16",
+   "posts": [
+    "Assistant Professor"
+   ],
+   "qualification": "Ph.D. with first class in the preceding degree and a strong research record. Grade-I also needs 3 years' post-Ph.D. experience; Grade-II may be on contract.",
+   "salary": "Grade-I: Level 12 (min Rs 1,01,500); Grade-II: Level 10 (min Rs 70,900)",
+   "sector": "Government",
+   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/recruitment-for-assistant-professor-in-pharmaceutical-engineering-and-technology-at-iit-bhu",
+   "state": "Uttar Pradesh",
+   "steps": [
+    "Read the rolling advertisement 1/2026 on iitbhu.ac.in",
+    "Register and fill the online form on facultyrecruitment.iitbhu.ac.in for Pharmaceutical Engineering & Technology",
+    "Upload enclosures and signed pages, category certificate if applicable",
+    "Upload NOC if employed in government/institution",
+    "Submit; no hard copy needed"
+   ],
+   "title": "Assistant Professor, Pharmaceutical Engineering & Technology",
+   "type": "Faculty",
+   "id": "iit-bhu-asst-prof-pharm-eng-tech"
+  },
+  {
+   "applyMode": "Email CV to principalipt@gmail.com",
+   "city": "Salipur",
+   "found": "2026-10-20",
+   "lastDate": "2026-10-24",
+   "notes": "6 Lecturer/Assistant Professor and 2 Associate Professor/Professor posts, all disciplines.",
+   "org": "Institute of Pharmacy and Technology",
+   "posted": "2026-10-16",
+   "posts": [
+    "Assistant Professor",
+    "Associate Professor",
+    "Professor"
+   ],
+   "qualification": "As per PCI norms.",
+   "sector": "Private",
+   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/advertisement-for-pharma-faculty-and-laboratory-technician-at-institute-of-pharmacy-and-technology-salipur",
+   "state": "Odisha",
+   "steps": [
+    "Prepare updated CV with a recent photograph",
+    "Email it to principalipt@gmail.com (email only)",
+    "Send by 24 Oct 2026"
+   ],
+   "title": "Pharmacy Faculty",
+   "type": "Faculty",
+   "id": "ipt-salipur-pharma-faculty"
+  },
+  {
+   "applyMode": "Email application",
+   "applyUrl": "https://www.facultyplus.com/wp-content/uploads/2026/10/FACULTY-PLUS-PHARMACY-03-10-2026.pdf",
+   "city": "Bandlaguda, Hyderabad",
+   "found": "2026-10-20",
+   "org": "ISL Pharmacy College",
+   "posted": "2026-10-05",
+   "posts": [
+    "Assistant Professor"
+   ],
+   "qualification": "B.Pharm and M.Pharm (Pharmacology) with first class throughout, Telangana pharmacist registration, 2-4 years' experience.",
+   "sector": "Private",
+   "sourceUrl": "https://www.facultyplus.com/assistant-professor-recruitment-at-isl-pharmacy-college-hyderabad/",
+   "state": "Telangana",
+   "steps": [
+    "Get the email address from the notification PDF",
+    "Email application, scanned certificates and a passport photo",
+    "Apply immediately; queries 040-29880083 / 29880084"
+   ],
+   "title": "Assistant Professor (Pharmacology)",
+   "type": "Faculty",
+   "id": "isl-pharmacy-college-asst-prof"
+  },
+  {
+   "applyMode": "Email application to htarcjipmer@gmail.com",
+   "applyUrl": "https://jipmer.edu.in/sites/default/files/2.Application_Form_Oct_2026.pdf",
+   "city": "Puducherry",
+   "documents": [
+    "Prescribed application form",
+    "CV",
+    "Educational and experience certificates"
+   ],
+   "found": "2026-10-20",
+   "lastDate": "2026-10-24",
+   "notes": "2 posts under DHR-funded Health Technology Assessment project (PI Dr. Sitanshu Sekhar Kar). Health economics/HTA experience desirable.",
+   "org": "JIPMER",
+   "posted": "2026-10-13",
+   "posts": [
+    "Project Scientist-III"
+   ],
+   "qualification": "Non-medical route: Ph.D. in a relevant subject with 2 years' post-Ph.D. R&D/teaching experience, or a Master's (including Pharmacy) / PharmD / MPH with 5 years' post-Master's R&D/teaching experience. Age limit 45.",
+   "salary": "Rs 78,000 + HRA per month",
+   "sector": "Government",
+   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/jipmer-recruitment-for-pharma-microbiology-biochemistry-biotechnology-life-sciences-candidates",
+   "state": "Puducherry",
+   "steps": [
+    "Download the prescribed application form from jipmer.edu.in",
+    "Fill it and merge form, CV and supporting documents into one PDF named 'Candidate name_Post-name_year application'",
+    "Email to htarcjipmer@gmail.com with the post name in the subject line",
+    "Submit before 24 Oct 2026, 1:00 PM"
+   ],
+   "title": "Project Scientist-III (Medical/Non-Medical), HTA Centre of Excellence",
+   "type": "Scientist",
+   "id": "jipmer-project-scientist-iii-hta"
+  },
+  {
+   "applyMode": "Email application",
+   "applyUrl": "https://www.facultyplus.com/wp-content/uploads/2026/10/PHARAMCY.pdf",
+   "city": "Ulundurpet, Kallakurichi",
+   "documents": [
+    "Detailed CV",
+    "Educational and experience certificates",
+    "Pharmacy registration certificate",
+    "Passport-size photo"
+   ],
+   "found": "2026-10-20",
+   "notes": "Departments: Pharm. Chemistry, Analysis, Pharmaceutics, Pharmacology, Pharmacognosy, Pharmacy Practice. Listing mentions 15 years' teaching experience (likely for senior posts).",
+   "org": "JSA Pharmacy College of Medical Sciences",
+   "posted": "2026-10-16",
+   "posts": [
+    "Associate Professor",
+    "Assistant Professor"
+   ],
+   "qualification": "M.Pharm/Pharm.D/Ph.D. as per PCI and Tamil Nadu Dr. M.G.R. Medical University norms.",
+   "sector": "Private",
+   "sourceUrl": "https://www.facultyplus.com/faculty-hiring-at-jsa-pharmacy-college-of-medical-sciences-kallakurichi/",
+   "state": "Tamil Nadu",
+   "steps": [
+    "Get the email address from the notification PDF",
+    "Email CV, educational and experience certificates, registration certificate and photo",
+    "Apply immediately; phone +91 9092690231 for queries"
+   ],
+   "title": "Associate Professor, Assistant Professor",
+   "type": "Faculty",
+   "id": "jsa-pharmacy-college-kallakurichi"
+  },
+  {
+   "applyMode": "Email CV to saurabhkharya@lambda-cro.com",
+   "applyUrl": "https://www.pharmatutor.org/content/october-2026/lambda-therapeutic-hiring-research-associate",
+   "city": "Ahmedabad",
+   "found": "2026-10-20",
+   "lastDate": "2026-10-30",
+   "notes": "CRO role; location not stated (HQ Ahmedabad).",
+   "org": "Lambda Therapeutic Research Ltd",
+   "posted": "2026-10-17",
+   "posts": [
+    "Research Associate"
+   ],
+   "qualification": "M.Sc., M.Pharm or B.Pharm with 1-5 years of relevant bioanalytical experience.",
+   "sector": "Private",
+   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/lambda-therapeutic-hiring-research-associate",
+   "state": "Gujarat",
+   "steps": [
+    "Update CV highlighting LC-MS/MS bioanalytical work",
+    "Email it to saurabhkharya@lambda-cro.com",
+    "Use subject 'Research Associate - Bioanalytical'",
+    "Send before 30 Oct 2026"
+   ],
+   "title": "Research Associate – Bioanalytical Operations",
+   "type": "Academic Associate",
+   "id": "lambda-therapeutic-research-associate-bioanalytical"
+  },
+  {
+   "applyMode": "Email, post or by hand",
+   "applyUrl": "https://www.facultyplus.com/shriram-dnyan-shikshan-prasarak-mandal-nandkumar-shinde-college-of-pharmacy-vaijapur-teaching-and-non-teaching-faculty/",
+   "city": "Vaijapur",
+   "found": "2026-10-20",
+   "notes": "Advertisement dated 7 Oct 2026 asks for applications within 7 days of publication – may have closed; contact the college.",
+   "org": "Nandkumar Shinde College of Pharmacy",
+   "posted": "2026-10-08",
+   "posts": [
+    "Principal",
+    "Professor",
+    "Associate Professor",
+    "Assistant Professor"
+   ],
+   "qualification": "As per PCI, UGC and MSBTE norms.",
+   "sector": "Private",
+   "sourceUrl": "https://www.facultyplus.com/shriram-dnyan-shikshan-prasarak-mandal-nandkumar-shinde-college-of-pharmacy-vaijapur-teaching-and-non-teaching-faculty/",
+   "state": "Maharashtra",
+   "steps": [
+    "Prepare application with full particulars and attested document copies",
+    "Send by email (address on the listing), post or hand to Nandkumar Shinde College of Pharmacy, Jai Bhavani Nagar Aghoor, Vaijapur, Chhatrapati Sambhajinagar, Maharashtra 423701",
+    "Call the college first to confirm it is still accepting applications"
+   ],
+   "title": "Teaching Faculty (Pharmacy)",
+   "type": "Faculty",
+   "id": "nandkumar-shinde-cop-vaijapur"
+  },
+  {
+   "applyMode": "Email application in prescribed format",
+   "applyUrl": "https://www.nii.res.in/sites/default/files/announcement/events/BIRAC%20RA-I%20October%202026.pdf",
+   "city": "New Delhi",
+   "documents": [
+    "Application in prescribed format",
+    "CV with publications and three referees",
+    "Fee payment or exemption proof"
+   ],
+   "found": "2026-10-20",
+   "lastDate": "2026-10-28",
+   "notes": "1 post, 1-year/project-duration contract.",
+   "org": "National Institute of Immunology (NII)",
+   "posted": "2026-10-14",
+   "posts": [
+    "Research Associate I"
+   ],
+   "qualification": "Ph.D./MD/MS/MDS or equivalent, or 3 years' research experience after M.Pharm/MVSc/ME/M.Tech with at least one SCI paper. Human immunology, flow cytometry and genomics expertise required.",
+   "salary": "Rs 58,000 + 27% HRA per month",
+   "sector": "Government",
+   "sourceUrl": "https://www.freejobalert.com/articles/nii-research-associate-i-recruitment-2026-apply-online-3073398",
+   "state": "Delhi",
+   "steps": [
+    "Download the notice and prescribed application format from nii.res.in",
+    "Pay the Rs 100 fee (women, SC/ST/PH exempt) and keep proof",
+    "Email the form, CV (expertise, publications, 3 referees) and fee proof to the project investigator named in the notice, mentioning the project name",
+    "Send by 28 Oct 2026; shortlisted candidates are called for interview"
+   ],
+   "title": "Research Associate I (BIRAC project on TB-induced cachexia)",
+   "type": "Academic Associate",
+   "id": "nii-research-associate-i-birac-tb"
+  },
+  {
+   "applyMode": "Post hard copy (Speed Post / courier)",
+   "applyUrl": "https://niperguwahati.ac.in/DOC/RECRUITMENT/CONTRACTUAL-POSITIONS/Advt._Research%20Manager_05(C).2026-Bilingual.pdf",
+   "city": "Guwahati",
+   "documents": [
+    "Signed application form",
+    "Age proof",
+    "Degree mark sheets and certificates",
+    "Experience certificates",
+    "Resume"
+   ],
+   "found": "2026-10-20",
+   "lastDate": "2026-10-30",
+   "notes": "1 post, contractual. Age limit 40. Ph.D. holders with long research/industry experience fit well.",
+   "org": "NIPER Guwahati",
+   "posted": "2026-10-15",
+   "posts": [
+    "Research Manager (Scientific)"
+   ],
+   "qualification": "M.Sc. or M.Pharm from a recognised university with at least 10 years of research, teaching or industry experience. Maximum age 40.",
+   "salary": "Rs 1,25,000 per month consolidated (11-month contract, extendable)",
+   "sector": "Government",
+   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/career-for-pharma-and-science-candidates-as-research-manager-at-niper",
+   "state": "Assam",
+   "steps": [
+    "Download the prescribed application form from the official advertisement (Advt. 05(C)/2026)",
+    "Fill and ink-sign the form; attach self-attested copies of age proof, degree mark sheets, certificates, experience certificates and resume",
+    "Send by Speed Post/courier to The Registrar i/c, NIPER Guwahati, Sila Katamur (Halugurisuk), P.O. Changsari, Kamrup, Assam 781101",
+    "Ensure it reaches by 30 Oct 2026, 5:00 PM (no application fee)"
+   ],
+   "title": "Research Manager (Scientific)",
+   "type": "Scientist",
+   "id": "niper-guwahati-research-manager-scientific"
+  },
+  {
+   "applyMode": "Online Google Form",
+   "city": "Kolkata",
+   "documents": [
+    "Educational certificates",
+    "Address and age proof",
+    "Photo ID",
+    "Experience certificates"
+   ],
+   "found": "2026-10-20",
+   "lastDate": "2026-10-28",
+   "notes": "Lady Tata Memorial Trust project; contractual, co-terminus with project. Molecular biology, flow cytometry, FISH or sequencing experience desirable.",
+   "org": "Nil Ratan Sircar Medical College & Hospital",
+   "posted": "2026-10-16",
+   "posts": [
+    "Project Research Scientist I"
+   ],
+   "qualification": "Ph.D., or M.Sc/M.Tech/M.Pharm with 3 years of research/teaching experience, plus at least one SCI-indexed paper. Upper age 35.",
+   "salary": "Rs 56,000 + HRA per month",
+   "sector": "Government",
+   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/research-recruitment-for-pharma-candidates-under-lady-tata-memorial-trust",
+   "state": "West Bengal",
+   "steps": [
+    "Open the 'Research Scientist Apply Online' Google Form linked on the source page",
+    "Upload certificates, address and age proof, photo ID and experience certificates",
+    "Submit by 28 Oct 2026",
+    "Watch the NRS college website for shortlist and interview dates"
+   ],
+   "title": "Project Research Scientist I (LTMT project, Haematology)",
+   "type": "Scientist",
+   "id": "nrs-medical-college-project-research-scientist-i"
+  },
+  {
+   "applyMode": "Email single PDF to sharma.gaurav@pgimer.edu.in or post hard copy",
+   "applyUrl": "https://pgimer.edu.in/PGIMER_PORTAL/PGIMERPORTAL/Vacancies/JSP/ViewAll.jsp?record=15843",
+   "city": "Chandigarh",
+   "documents": [
+    "CV with photo and publication list",
+    "Educational certificates",
+    "Experience letters",
+    "NOC if applicable",
+    "Photo ID"
+   ],
+   "found": "2026-10-20",
+   "lastDate": "2026-10-29",
+   "notes": "ICMR project; pharmacy not explicitly listed – NGS/exome data experience desirable.",
+   "org": "PGIMER",
+   "posted": "2026-10-19",
+   "posts": [
+    "Project Research Scientist-II"
+   ],
+   "qualification": "First-class PG in life science subjects (Biochemistry, Biotechnology, Genetics etc.) with 3 years' research experience, or Ph.D. in these subjects. Age up to 40.",
+   "salary": "Rs 80,400 per month (67,000 + 20% HRA)",
+   "sector": "Government",
+   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/call-for-research-scientist-at-pgimer",
+   "state": "Chandigarh",
+   "steps": [
+    "Prepare one PDF: CV with photo and publications, certificates, experience letters, NOC, photo ID",
+    "Email to sharma.gaurav@pgimer.edu.in (or post to Dept. of Translational & Regenerative Medicine, Research Block-B, PGIMER Chandigarh)",
+    "Send by 29 Oct 2026",
+    "Shortlisted candidates interviewed ~31 Oct 2026, 11 AM"
+   ],
+   "title": "Project Research Scientist-II (Non-Medical)",
+   "type": "Scientist",
+   "id": "pgimer-research-scientist"
+  },
+  {
+   "applyMode": "Walk-in interview on 16 Oct 2026",
+   "applyUrl": "https://rcb.res.in/files/application-form/application_form_prs-i.pdf",
+   "city": "Faridabad",
+   "found": "2026-10-20",
+   "lastDate": "2026-10-16",
+   "notes": "Walk-in was 16 Oct 2026 (PI Dr. Avinash Bajaj, bajaj@rcb.res.in).",
+   "org": "Regional Centre for Biotechnology (RCB)",
+   "posted": "2026-10-11",
+   "posts": [
+    "Project Research Scientist-I"
+   ],
+   "qualification": "Ph.D. in Chemistry, Biological Sciences or Pharmaceutical Sciences.",
+   "salary": "Rs 56,000 + 30% HRA per month",
+   "sector": "Government",
+   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/research-recruitment-for-pharmaceutical-sciences-and-chemistry-candidates-at-rcb",
+   "state": "Haryana",
+   "steps": [
+    "Download the PRS-I application form from rcb.res.in",
+    "Bring certificates and experience proof to the walk-in (held 16 Oct 2026)",
+    "Contact bajaj@rcb.res.in if you missed it"
+   ],
+   "title": "Project Research Scientist-I",
+   "type": "Scientist",
+   "id": "rcb-research-pharma-chemistry"
+  },
+  {
+   "applyMode": "Online form",
+   "applyUrl": "https://rvu.edu.in/careers",
+   "city": "Bengaluru / Mysuru",
+   "documents": [
+    "Updated CV",
+    "Educational certificates and mark sheets",
+    "Experience certificates",
+    "Passport-size photo"
+   ],
+   "found": "2026-10-20",
+   "lastDate": "2026-11-15",
+   "notes": "Pharmacy faculty opening at Mysuru campus; designation in detailed notification.",
+   "org": "RV University",
+   "posted": "2026-10-15",
+   "posts": [
+    "Professor",
+    "Associate Professor"
+   ],
+   "qualification": "Given per post in the detailed notification on the careers page.",
+   "sector": "Private",
+   "sourceUrl": "https://www.facultyplus.com/academic-and-administrative-jobs-2026-at-rv-university-bengaluru-and-mysuru/",
+   "state": "Karnataka",
+   "steps": [
+    "Go to rvu.edu.in/careers and read the detailed notification",
+    "Choose the Pharmacy post at the Mysuru campus",
+    "Fill the online form and upload CV, certificates, experience proof and photo",
+    "Submit by 15 Nov 2026"
+   ],
+   "title": "Professor, Associate Professor and other academic posts",
+   "type": "Faculty",
+   "id": "rv-university-academic-2026"
+  },
+  {
+   "applyMode": "Email resume to hr@sabarmatiuniversity.edu.in",
+   "applyUrl": "https://www.facultyplus.com/sabarmati-university-ahmedabad-teaching-and-non-teaching-faculty-recruitment/",
+   "city": "Ahmedabad",
+   "found": "2026-10-20",
+   "notes": "School of Pharmacy (Pharmaceutics): 3 Professor, 4 Associate Professor, 10 Assistant Professor posts.",
+   "org": "Sabarmati University",
+   "posted": "2026-10-07",
+   "posts": [
+    "Assistant Professor",
+    "Associate Professor",
+    "Professor"
+   ],
+   "qualification": "As per UGC/State Govt./university and council (PCI) norms, with a good academic and research record.",
+   "sector": "Private",
+   "sourceUrl": "https://www.facultyplus.com/sabarmati-university-ahmedabad-teaching-and-non-teaching-faculty-recruitment/",
+   "state": "Gujarat",
+   "steps": [
+    "Prepare a detailed resume",
+    "Email it to hr@sabarmatiuniversity.edu.in",
+    "Put the post and department (Pharmaceutics) in the subject line",
+    "Apply as early as possible"
+   ],
+   "title": "Teaching Faculty",
+   "type": "Faculty",
+   "id": "sabarmati-university-faculty"
+  },
+  {
+   "applyMode": "Email application with scanned certificates",
+   "applyUrl": "https://www.facultyplus.com/wp-content/uploads/2026/10/Faculty-plus-adv-16.10.2026.pdf",
+   "city": "Tiruchengode, Namakkal",
+   "found": "2026-10-20",
+   "lastDate": "2026-10-24",
+   "notes": "Sengunthar College of Pharmacy and Pharmaceutical Technology dept. (Sengunthar Engineering College) listed.",
+   "org": "Sengunthar Institutions",
+   "posted": "2026-10-17",
+   "posts": [
+    "Assistant Professor",
+    "Associate Professor",
+    "Professor"
+   ],
+   "qualification": "As per regulatory norms for the discipline.",
+   "sector": "Private",
+   "sourceUrl": "https://www.facultyplus.com/academic-jobs-at-sengunthar-institutions-namakkal/",
+   "state": "Tamil Nadu",
+   "steps": [
+    "Get the institutional email address from the notification PDF",
+    "Email application with scanned certificates and passport photo",
+    "Send by 24 Oct 2026; shortlisted candidates contacted by email (phone 04288-255716)"
+   ],
+   "title": "Academic posts (Pharmacy college)",
+   "type": "Faculty",
+   "id": "sengunthar-institutions-academic"
+  },
+  {
+   "applyMode": "Email resume",
+   "applyUrl": "https://www.facultyplus.com/faculty-recruitment-at-sri-sai-ranganathan-pharmacy-college-coimbatore/",
+   "city": "Coimbatore",
+   "found": "2026-10-20",
+   "org": "Sri Sai Ranganathan Pharmacy College",
+   "posted": "2026-09-26",
+   "posts": [
+    "Associate Professor",
+    "Assistant Professor"
+   ],
+   "qualification": "M.Pharm. Associate Professor needs 5+ years' experience; Assistant Professor 1+ year (freshers considered).",
+   "sector": "Private",
+   "sourceUrl": "https://www.facultyplus.com/faculty-recruitment-at-sri-sai-ranganathan-pharmacy-college-coimbatore/",
+   "state": "Tamil Nadu",
+   "steps": [
+    "Get the email address from the notification PDF or www.ssrpccbe.com",
+    "Email resume, certificates, experience proof and photo",
+    "Apply immediately"
+   ],
+   "title": "Pharmacy Faculty",
+   "type": "Faculty",
+   "id": "sri-sai-ranganathan-pharmacy"
+  },
+  {
+   "applyMode": "Email application",
+   "applyUrl": "https://www.facultyplus.com/faculty-recruitment-2026-at-sri-shanmugha-college-of-pharmacy-salem-2/",
+   "city": "Salem",
+   "found": "2026-10-20",
+   "notes": "Notice says apply within 10 days of 26 Sep 2026 (may have closed). Depts: Pharmacology, Pharmaceutics, Pharm. Analysis/Chemistry, Pharmacy Practice.",
+   "org": "Sri Shanmugha College of Pharmacy",
+   "posted": "2026-09-26",
+   "posts": [
+    "Professor",
+    "Associate Professor"
+   ],
+   "qualification": "Master's in the relevant discipline; Professor needs 10 years' and Associate Professor 5 years' experience.",
+   "sector": "Private",
+   "sourceUrl": "https://www.facultyplus.com/faculty-recruitment-2026-at-sri-shanmugha-college-of-pharmacy-salem-2/",
+   "state": "Tamil Nadu",
+   "steps": [
+    "Get the email address from the official notice (www.shanmughaedu.in)",
+    "Email a brief resume, scanned certificates and a passport photo",
+    "Confirm the deadline with the college"
+   ],
+   "title": "Pharmacy Faculty",
+   "type": "Faculty",
+   "id": "sri-shanmugha-college-pharmacy"
+  },
+  {
+   "applyMode": "Email letter of interest + resume",
+   "applyUrl": "https://www.facultyplus.com/wp-content/uploads/2026/10/Revised-Advertisement-Research-Developement.pdf",
+   "city": "Ranchi",
+   "found": "2026-10-20",
+   "lastDate": "2026-10-20",
+   "notes": "Research-focused posts in the R&D cell; a Ph.D. with publications fits well.",
+   "org": "Usha Martin University",
+   "posted": "2026-10-02",
+   "posts": [
+    "Professor",
+    "Associate Professor",
+    "Assistant Professor"
+   ],
+   "qualification": "UGC-norm qualifications with strong research record (publications, projects); sponsored-project or grant experience preferred.",
+   "sector": "Private",
+   "sourceUrl": "https://www.facultyplus.com/job-vacancies-at-usha-martin-university-ranchi-for-research-and-development-cell/",
+   "state": "Jharkhand",
+   "steps": [
+    "Get the email address from the advertisement PDF",
+    "Email a letter of interest and detailed resume",
+    "Use subject 'Application for the Post of Research Professor/Faculty'",
+    "Send by 20 Oct 2026"
+   ],
+   "title": "Research Professor, Associate Professor, Assistant Professor (R&D Cell)",
+   "type": "Faculty",
+   "id": "usha-martin-university-rnd"
+  }
+ ]
+}
