@@ -259,7 +259,28 @@ details.more[open] summary::after{content:" ▴"}
     <div class="card card-pad">
       <h2>Best for your CV</h2>
       <p class="sub">Teaching, scientist and research jobs, government and private, in Punjab, Himachal Pradesh, Haryana, Uttar Pradesh, Bihar, Gujarat and Madhya Pradesh — ranked by how closely they fit your CV.</p>
-      <div class="prof-tags" style="margin-top:10px"><span class="ptag">B.Pharm</span><span class="ptag">M.Pharm Pharmaceutics</span><span class="ptag">Ph.D.</span><span class="ptag">6.9 yrs experience</span><span class="ptag">23 papers</span><span class="ptag">13 book chapters</span><span class="ptag">2 patents</span><span class="ptag">QbD · Herbal · AI/ML</span></div>
+      <div class="myq">
+        <div class="myq-head"><b>Your CV profile</b><button class="linkbtn" id="cvpEdit" type="button">Edit</button></div>
+        <div class="prof-tags" id="cvTags"></div>
+        <div class="pform" id="cvpForm" hidden>
+          <div class="field"><label>Degrees</label><div class="xstates" id="cvpDeg" style="max-height:none"></div></div>
+          <div class="grid2">
+            <div class="field"><label for="cvpSpec">M.Pharm specialisation</label><select id="cvpSpec"></select></div>
+            <div class="field"><label for="cvpPhd">Ph.D. subject</label><input id="cvpPhd"></div>
+            <div class="field"><label for="cvpYears">Total experience (years)</label><input id="cvpYears" inputmode="decimal"></div>
+            <div class="field"><label for="cvpTeach">Teaching experience (years)</label><input id="cvpTeach" inputmode="decimal"></div>
+            <div class="field"><label for="cvpRole">Current / last post</label><select id="cvpRole"></select></div>
+            <div class="field"><label for="cvpPapers">Research papers</label><input id="cvpPapers" inputmode="numeric"></div>
+            <div class="field"><label for="cvpChapters">Book chapters</label><input id="cvpChapters" inputmode="numeric"></div>
+            <div class="field"><label for="cvpPatents">Patents</label><input id="cvpPatents" inputmode="numeric"></div>
+          </div>
+          <div class="field"><label>Exams cleared</label><div class="xstates" id="cvpExams" style="max-height:none"></div></div>
+          <div class="field"><label>Research areas / skills</label><div class="xstates" id="cvpAreas" style="max-height:none"></div></div>
+          <div class="field"><label for="cvpExtra">Other skills (comma separated)</label><input id="cvpExtra" placeholder="e.g. Design Expert, zeta sizer, IPR"></div>
+          <button class="post-btn" id="cvpSave" type="button">Save CV profile</button>
+          <button class="ghost" id="cvpReset" type="button" style="margin-left:6px">Reset to my uploaded CV</button>
+        </div>
+      </div>
       <div class="myq">
         <div class="myq-head"><b>What to show</b><button class="linkbtn" id="cvEdit" type="button">Change</button></div>
         <div class="xnote" id="cvSummary" style="margin-top:4px"></div>
@@ -696,30 +717,65 @@ function jobCard(j,mode){
 }
 const PREF_STATES=["Punjab","Himachal Pradesh","Haryana","Uttar Pradesh","Bihar","Gujarat","Madhya Pradesh"];
 const DOCS_OTHER=["Updated CV","B.Pharm, M.Pharm & Ph.D. certificates","Pharmacy Council registration","Experience letters","Publications list","Passport photo","ID proof"];
-const CV={years:6.9};
+const DEGREES=["D.Pharm","B.Pharm","M.Pharm","Pharm.D","Ph.D.","MBA","M.Sc.","Post-doc"];
+const EXAMS=["GATE","GPAT","NET","SET/SLET"];
+const ROLES_CV=["Assistant Professor","Associate Professor","Professor","Scientist","Research Fellow","Industry R&D","Other"];
+const AREAS={
+  "Pharmaceutics":/pharmaceutics|pharmaceutical technology|pharmaceutical engineering|industrial pharmacy|dosage/,
+  "Quality by Design (QbD)":/qbd|quality by design/,
+  "Formulation / product development":/formulation|product development/,
+  "Novel drug delivery":/drug delivery|nano|ndds/,
+  "Pharmacognosy / herbal":/pharmacognosy|herbal|natural product|phyto|ayush|spice/,
+  "AI / machine learning":/artificial intelligence|machine learning|\bai\b|\bml\b|data scien|computational|bioinformatic/,
+  "Analytical / HPLC":/analytical|hplc|quality control|method development/,
+  "Pharmacology":/pharmacolog|toxicolog/,
+  "Pharmaceutical chemistry":/pharmaceutical chemistry|medicinal chem/,
+  "Pharmacy practice / clinical":/pharmacy practice|clinical pharmacy|pharm\.? ?d\b/,
+  "Regulatory affairs":/regulatory/,
+  "Pharmacovigilance":/pharmacovigilance|drug safety/,
+  "Industrial documentation / QA":/documentation|quality assurance/,
+  "Biotechnology":/biotechnolog|biologic/
+};
+const CV_DEFAULT={degrees:["B.Pharm","M.Pharm","Ph.D."],spec:"Pharmaceutics",phd:"Pharmaceutical Sciences",years:6.9,teach:3.8,role:"Associate Professor",papers:23,chapters:13,patents:2,exams:["GATE"],areas:["Pharmaceutics","Quality by Design (QbD)","Formulation / product development","Novel drug delivery","Pharmacognosy / herbal","AI / machine learning","Analytical / HPLC","Industrial documentation / QA"],extra:"Design Expert, zeta sizer, dissolution, tablet punching"};
+function getCV(){return Object.assign({},CV_DEFAULT,profile.cv||{})}
+function renderCvTags(){
+  const c=getCV(),t=[];
+  c.degrees.forEach(d=>t.push(d==="M.Pharm"?`M.Pharm ${c.spec}`:d==="Ph.D."?`Ph.D. ${c.phd}`:d));
+  if(c.years)t.push(`${c.years} yrs experience`);if(c.teach)t.push(`${c.teach} yrs teaching`);if(c.role)t.push(c.role);
+  if(c.papers)t.push(`${c.papers} papers`);if(c.chapters)t.push(`${c.chapters} book chapters`);if(c.patents)t.push(`${c.patents} patent${c.patents>1?"s":""}`);
+  c.exams.forEach(e=>t.push(e));c.areas.forEach(a=>t.push(a));
+  $("cvTags").innerHTML=t.map(x=>`<span class="ptag">${esc(x)}</span>`).join("");
+}
+function fillCvpForm(){
+  const c=getCV(),cb=(arr,sel,pre)=>arr.map((x,i)=>`<label><input type="checkbox" id="${pre}${i}" value="${esc(x)}" ${sel.includes(x)?"checked":""}> ${esc(x)}</label>`).join("");
+  $("cvpDeg").innerHTML=cb(DEGREES,c.degrees,"cvd");$("cvpExams").innerHTML=cb(EXAMS,c.exams,"cve");$("cvpAreas").innerHTML=cb(Object.keys(AREAS),c.areas,"cva");
+  opts($("cvpSpec"),SPECS);$("cvpSpec").value=c.spec;opts($("cvpRole"),ROLES_CV);$("cvpRole").value=c.role;
+  $("cvpPhd").value=c.phd;$("cvpYears").value=c.years;$("cvpTeach").value=c.teach;$("cvpPapers").value=c.papers;$("cvpChapters").value=c.chapters;$("cvpPatents").value=c.patents;$("cvpExtra").value=c.extra||"";
+}
+const CV={get years(){return getCV().years}};
 function cvFit(j){
-  if(j.cvFit&&typeof j.cvFit.score==="number")return {score:j.cvFit.score,reason:j.cvFit.reason||""};
-  const text=[j.title,j.role,(j.posts||[]).join(" "),j.qualification,j.notes].join(" ").toLowerCase();
-  const posts=(j.posts||[]).map(p=>String(p).toLowerCase());
-  let s=55;const why=[];
-  const ceu=/pharmaceutics|formulation|drug delivery|qbd|quality by design|product development|industrial pharmacy|pharmaceutical technology|pharmaceutical engineering|dosage/.test(text);
-  const herb=/pharmacognosy|herbal|natural product|phyto|ayush|spice/.test(text);
-  const ai=/artificial intelligence|machine learning|\bai\b|\bml\b|data scien|computational|bioinformatic/.test(text);
-  const ana=/analytical|hplc|quality control|method development/.test(text);
-  const otherSub=/pharmacolog|pharmaceutical chemistry|medicinal chem|pharmacy practice|clinical pharmacy|pharm\.? ?d\b/.test(text);
-  if(ceu){s+=20;why.push("Pharmaceutics / QbD formulation matches your M.Pharm and research")}
-  if(herb){s+=12;why.push("your pharmacognosy and herbal research fits")}
-  if(ai){s+=12;why.push("your AI/ML publications are a strong plus")}
-  if(ana){s+=5;why.push("you have HPLC and analytical experience")}
-  if(otherSub&&!ceu&&!herb&&!ai){s-=20;why.push("asks for a different specialisation than Pharmaceutics")}
-  const exactProf=posts.some(p=>/^professor$/.test(p.trim()));
-  if(posts.some(p=>p.includes("assistant professor"))){s+=8;why.push("you exceed Assistant Professor norms (Ph.D., 23 papers)")}
-  if(posts.some(p=>p.includes("associate professor"))){s+=5;why.push("you already hold an Associate Professor post")}
-  if(exactProf&&!posts.some(p=>p.includes("assistant")||p.includes("associate"))){s-=15;why.push("Professor usually needs about 10 years; you have 6.9")}
-  if(/scien|research|r&d|project/.test(text)&&j.category!=="other"){s+=8;why.push("Ph.D. plus 3 years of DST-SERB research suits this")}
-  const m=text.match(/(\d+)\s*(?:\+\s*)?years?/);if(m&&+m[1]>7&&+m[1]<30){s-=10;why.push(`asks for ${m[1]} years of experience`)}
-  s=Math.max(30,Math.min(97,s));
-  return {score:s,reason:(why.length?why.slice(0,3).join("; "):"general fit with your pharmacy degrees and experience")+"."};
+  if(!profile.cvCustom&&j.cvFit&&typeof j.cvFit.score==="number")return {score:j.cvFit.score,reason:j.cvFit.reason||""};
+  const c=getCV(),text=[j.title,j.role,(j.posts||[]).join(" "),j.qualification,j.notes].join(" ").toLowerCase();
+  const posts=(j.posts||[]).map(p=>String(p).toLowerCase()),has=d=>c.degrees.includes(d),yrs=+c.years||0;
+  let s=50;const why=[];
+  const hits=c.areas.filter(a=>AREAS[a]&&AREAS[a].test(text));
+  const specRe=SUBJ[c.spec]||new RegExp(String(c.spec).toLowerCase());
+  if(has("M.Pharm")&&specRe.test(text)){s+=20;why.push(`asks for ${c.spec}, your M.Pharm specialisation`)}
+  if(hits.length){s+=Math.min(24,hits.length*8);why.push(`matches your ${hits.slice(0,3).join(", ")} work`)}
+  const asked=Object.keys(AREAS).filter(a=>AREAS[a].test(text)&&!c.areas.includes(a));
+  if(!hits.length&&!specRe.test(text)&&asked.length){s-=20;why.push(`asks for ${asked.slice(0,2).join(" / ")}, not in your profile`)}
+  const needPhd=/ph\.?\s?d|doctoral|doctorate/.test(text);
+  if(needPhd&&!has("Ph.D.")){s-=25;why.push("needs a Ph.D.")}else if(has("Ph.D.")){s+=5}
+  if(/m\.?\s?pharm/.test(text)&&!has("M.Pharm")){s-=20;why.push("needs an M.Pharm")}
+  const exact=p=>posts.some(x=>x.trim()===p);
+  if(posts.some(p=>p.includes("assistant professor"))){s+=8;why.push(has("Ph.D.")?`you meet Assistant Professor norms with a Ph.D.${c.papers?` and ${c.papers} papers`:""}`:"you meet Assistant Professor norms")}
+  if(posts.some(p=>p.includes("associate professor"))){if(yrs>=8){s+=8;why.push(`your ${yrs} years meet Associate Professor norms`)}else if(c.role==="Associate Professor"){s+=3;why.push(`you already hold an Associate Professor post (most notices ask about 8 years; you have ${yrs})`)}else{s-=8;why.push(`Associate Professor usually needs about 8 years; you have ${yrs}`)}}
+  if(exact("professor")){if(yrs>=10){s+=8;why.push(`your ${yrs} years meet Professor norms`)}else{s-=15;why.push(`Professor usually needs about 10 years; you have ${yrs}`)}}
+  if(/scien|research|r&d|project/.test(text)&&j.category!=="other"&&has("Ph.D.")){s+=8;why.push("your Ph.D. and research experience suit this")}
+  if(/\bgate\b|gpat|\bnet\b/.test(text)&&c.exams.length){s+=4;why.push(`you have ${c.exams.join("/")}`)}
+  const m=text.match(/(\d+)\s*(?:\+\s*)?years?/);if(m&&+m[1]>yrs&&+m[1]<30){s-=10;why.push(`asks for ${m[1]} years; you have ${yrs}`)}
+  s=Math.max(20,Math.min(97,Math.round(s)));
+  return {score:s,reason:(why.length?why.slice(0,3).join("; "):"general fit with your degrees and experience")+"."};
 }
 function cvFitHtml(j){
   const f=j._cv||cvFit(j),cls=f.score>=80?"f-exc":f.score>=65?"f-good":"f-pos",lab=f.score>=80?"Excellent fit for your CV":f.score>=65?"Good fit for your CV":"Possible fit";
@@ -733,7 +789,21 @@ function renderList(el,list,emptyMsg){
   el.innerHTML=`<p class="sub" style="padding:2px 4px;margin:0"><b style="color:var(--ink)">${list.length} job${list.length>1?"s":""}</b> · best fit first</p>`+list.map(j=>jobCard(j,"cv")).join("");
 }
 async function persistProfile(msg){try{localStorage.setItem(PROFILE_KEY,JSON.stringify(profile))}catch(e){}toast(msg)}
+$("cvpEdit").onclick=()=>{const f=$("cvpForm");f.hidden=!f.hidden;if(!f.hidden)fillCvpForm()};
+$("cvpSave").onclick=async()=>{
+  const num=id=>{const v=parseFloat($(id).value);return isNaN(v)?0:v};
+  const cv={degrees:[...document.querySelectorAll("#cvpDeg input:checked")].map(i=>i.value),spec:$("cvpSpec").value,phd:$("cvpPhd").value.trim()||"Pharmaceutical Sciences",
+    years:num("cvpYears"),teach:num("cvpTeach"),role:$("cvpRole").value,papers:num("cvpPapers"),chapters:num("cvpChapters"),patents:num("cvpPatents"),
+    exams:[...document.querySelectorAll("#cvpExams input:checked")].map(i=>i.value),areas:[...document.querySelectorAll("#cvpAreas input:checked")].map(i=>i.value),extra:$("cvpExtra").value.trim()};
+  profile=Object.assign({},profile,{cv,cvCustom:true,mpharmSpec:cv.spec,phd:cv.phd,exp:String(cv.years)});
+  $("cvpForm").hidden=true;renderCvTags();renderProfile();renderFeed();await persistProfile("CV profile saved — scores updated");
+};
+$("cvpReset").onclick=async()=>{
+  profile=Object.assign({},profile,{cv:null,cvCustom:false,mpharmSpec:CV_DEFAULT.spec,phd:CV_DEFAULT.phd,exp:String(CV_DEFAULT.years)});
+  $("cvpForm").hidden=true;renderCvTags();renderProfile();renderFeed();await persistProfile("Reset to your uploaded CV");
+};
 function renderCvSummary(){
+  renderCvTags();
   const P=profile,st=P.cvStates||PREF_STATES,sec=P.cvSectors||[],ty=P.cvTypes||[],min=+P.cvMin||0;
   const stTxt=st.length===STATES.length?"All states":st.length?st.join(", "):"No states selected";
   const secTxt=sec.includes("Government")&&sec.includes("Private")?"Govt + private":sec.includes("Government")?"Government only":sec.includes("Private")?"Private only":"No sector selected";
