@@ -216,7 +216,7 @@ details.more[open] summary::after{content:" ▴"}
 <header class="topbar"><div class="topbar-in">
   <div class="logo" aria-hidden="true">℞</div>
   <label class="searchbox"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4-4"/></svg><input id="q" type="search" placeholder="Search applications" aria-label="Search applications"></label>
-  <button class="post-btn" id="addBtn">+ Add</button>
+  <button class="post-btn" id="refreshBtn" type="button" aria-label="Refresh jobs"><span aria-hidden="true">⟳</span> Refresh</button>
 </div></header>
 
 <div class="wrap">
@@ -260,6 +260,23 @@ details.more[open] summary::after{content:" ▴"}
       <h2>Best for your CV</h2>
       <p class="sub">Teaching, scientist and research jobs, government and private, in Punjab, Himachal Pradesh, Haryana, Uttar Pradesh, Bihar, Gujarat and Madhya Pradesh — ranked by how closely they fit your CV.</p>
       <div class="prof-tags" style="margin-top:10px"><span class="ptag">B.Pharm</span><span class="ptag">M.Pharm Pharmaceutics</span><span class="ptag">Ph.D.</span><span class="ptag">6.9 yrs experience</span><span class="ptag">23 papers</span><span class="ptag">13 book chapters</span><span class="ptag">2 patents</span><span class="ptag">QbD · Herbal · AI/ML</span></div>
+      <div class="myq">
+        <div class="myq-head"><b>What to show</b><button class="linkbtn" id="cvEdit" type="button">Change</button></div>
+        <div class="xnote" id="cvSummary" style="margin-top:4px"></div>
+        <div class="pform" id="cvForm" hidden>
+          <div class="field"><label>States</label>
+            <div class="row2" style="padding:0 0 6px"><button class="ghost" type="button" id="cvAllStates" style="padding:4px 12px">Select all</button><button class="ghost" type="button" id="cvNoStates" style="padding:4px 12px">Clear</button><button class="ghost" type="button" id="cvDefStates" style="padding:4px 12px">My 7 states</button></div>
+            <div class="xstates" id="cvStates"></div></div>
+          <div class="grid2">
+            <div class="field"><label>Government / private</label>
+              <div class="xstates" style="max-height:none"><label><input type="checkbox" id="cvGov" value="Government"> Government</label><label><input type="checkbox" id="cvPvt" value="Private"> Private</label><label><input type="checkbox" id="cvUnk" value=""> Not stated</label></div></div>
+            <div class="field"><label>Job type</label>
+              <div class="xstates" style="max-height:none"><label><input type="checkbox" id="cvFac" value="Faculty"> Teaching (Professor posts)</label><label><input type="checkbox" id="cvSci" value="Scientist"> Scientist &amp; research</label></div></div>
+            <div class="field"><label for="cvMin">Minimum CV fit</label><select id="cvMin"><option value="0">Any score</option><option value="60">60 and above</option><option value="70">70 and above</option><option value="80">80 and above (excellent only)</option></select></div>
+          </div>
+          <button class="post-btn" id="cvSave" type="button">Save</button>
+        </div>
+      </div>
     </div>
     <div class="feed" id="recCv"></div>
   </section>
@@ -536,7 +553,7 @@ $("delYes").onclick=async()=>{try{await store.remove(editingId);closeSheet();toa
 $("closeBtn").onclick=closeSheet;
 $("scrim").addEventListener("click",e=>{if(e.target===$("scrim"))closeSheet()});
 document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!$("scrim").hidden)closeSheet()});
-$("addBtn").onclick=()=>openSheet(null);
+$("refreshBtn").onclick=()=>{const b=$("refreshBtn");b.disabled=true;toast("Refreshing…");loadJobs(true).finally(()=>{b.disabled=false})};
 
 async function addSamples(){
   const d=n=>{const x=new Date();x.setDate(x.getDate()+n);x.setMinutes(x.getMinutes()-x.getTimezoneOffset());return x.toISOString().slice(0,10)};
@@ -553,7 +570,7 @@ async function addSamples(){
 /* jobs for you */
 let jobs=[],feedMeta=null,feedReady=false,fui={type:"all",sector:"all",state:"",sort:"match"};
 const SPECS=["Pharmaceutics","Pharmacology","Pharmaceutical Chemistry","Pharmaceutical Analysis","Pharmacognosy","Pharmacy Practice","Quality Assurance","Industrial Pharmacy","Pharmaceutical Biotechnology","Regulatory Affairs"];
-const DEFAULT_PROFILE={bpharm:true,mpharmSpec:"Pharmaceutics",phd:"Pharmaceutical Sciences",exp:"",pci:"yes",excludeStates:[]};
+const DEFAULT_PROFILE={bpharm:true,mpharmSpec:"Pharmaceutics",phd:"Pharmaceutical Sciences",exp:"",pci:"yes",excludeStates:[],cvStates:["Punjab","Himachal Pradesh","Haryana","Uttar Pradesh","Bihar","Gujarat","Madhya Pradesh"],cvSectors:["Government","Private",""],cvTypes:["Faculty","Scientist"],cvMin:0};
 let profile=Object.assign({},DEFAULT_PROFILE),profileDoc=null;
 const SUBJ={
   "Pharmaceutics":/pharmaceutics|formulation|drug delivery|pharmaceutical technology|industrial pharmacy|pharmaceutical engineering|biopharmaceutic|dosage form|nano/,
@@ -715,9 +732,39 @@ function renderList(el,list,emptyMsg){
   if(!list.length){el.innerHTML=`<div class="card empty"><p>${emptyMsg}</p></div>`;return}
   el.innerHTML=`<p class="sub" style="padding:2px 4px;margin:0"><b style="color:var(--ink)">${list.length} job${list.length>1?"s":""}</b> · best fit first</p>`+list.map(j=>jobCard(j,"cv")).join("");
 }
+async function persistProfile(msg){try{localStorage.setItem(PROFILE_KEY,JSON.stringify(profile))}catch(e){}toast(msg)}
+function renderCvSummary(){
+  const P=profile,st=P.cvStates||PREF_STATES,sec=P.cvSectors||[],ty=P.cvTypes||[],min=+P.cvMin||0;
+  const stTxt=st.length===STATES.length?"All states":st.length?st.join(", "):"No states selected";
+  const secTxt=sec.includes("Government")&&sec.includes("Private")?"Govt + private":sec.includes("Government")?"Government only":sec.includes("Private")?"Private only":"No sector selected";
+  const tyTxt=ty.length===2?"Teaching + scientist":ty.includes("Faculty")?"Teaching only":ty.includes("Scientist")?"Scientist & research only":"No job type selected";
+  $("cvSummary").textContent=`${stTxt} · ${secTxt} · ${tyTxt} · ${min?min+"+ fit":"any fit score"}`;
+}
+function fillCvForm(){
+  const P=profile,st=P.cvStates||PREF_STATES,sec=P.cvSectors||["Government","Private",""],ty=P.cvTypes||["Faculty","Scientist"];
+  $("cvStates").innerHTML=STATES.map((x,i)=>`<label><input type="checkbox" id="cvs${i}" value="${esc(x)}" ${st.includes(x)?"checked":""}> ${esc(x)}</label>`).join("");
+  $("cvGov").checked=sec.includes("Government");$("cvPvt").checked=sec.includes("Private");$("cvUnk").checked=sec.includes("");
+  $("cvFac").checked=ty.includes("Faculty");$("cvSci").checked=ty.includes("Scientist");$("cvMin").value=String(+P.cvMin||0);
+}
+$("cvEdit").onclick=()=>{const f=$("cvForm");f.hidden=!f.hidden;if(!f.hidden)fillCvForm()};
+const setStates=v=>document.querySelectorAll("#cvStates input").forEach(i=>i.checked=v(i.value));
+$("cvAllStates").onclick=()=>setStates(()=>true);
+$("cvNoStates").onclick=()=>setStates(()=>false);
+$("cvDefStates").onclick=()=>setStates(x=>PREF_STATES.includes(x));
+$("cvSave").onclick=async()=>{
+  profile=Object.assign({},profile,{
+    cvStates:[...document.querySelectorAll("#cvStates input:checked")].map(i=>i.value),
+    cvSectors:[["cvGov","Government"],["cvPvt","Private"],["cvUnk",""]].filter(([id])=>$(id).checked).map(([,v])=>v),
+    cvTypes:[["cvFac","Faculty"],["cvSci","Scientist"]].filter(([id])=>$(id).checked).map(([,v])=>v),
+    cvMin:+$("cvMin").value});
+  $("cvForm").hidden=true;renderCv();await persistProfile("Saved");
+};
 function renderCv(){
-  const list=openJobs().filter(j=>j.category!=="other"&&PREF_STATES.includes(j.state));
+  const P=profile,st=P.cvStates||PREF_STATES,sec=P.cvSectors||["Government","Private",""],ty=P.cvTypes||["Faculty","Scientist"],min=+P.cvMin||0;
+  renderCvSummary();
+  const list=openJobs().filter(j=>j.category!=="other"&&st.includes(j.state)&&sec.includes(j.sector||"")&&ty.includes(jobKind(j)));
   list.forEach(j=>{j._cv=cvFit(j);j._m=matchJob(j)});
+  for(let i=list.length-1;i>=0;i--)if(list[i]._cv.score<min)list.splice(i,1);
   list.sort((a,b)=>b._cv.score-a._cv.score);
   renderList($("recCv"),list,"No matching jobs in your preferred states right now. The daily search adds new ones every morning.");
 }
