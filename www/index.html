@@ -128,6 +128,7 @@ button{cursor:pointer}
 .bar .n{font-family:var(--mono);text-align:right}
 .big{font-family:var(--mono);font-size:36px;color:var(--accent);margin-top:6px}
 
+
 /* jobs for you */
 .feedhead{padding:14px 16px}
 .feedhead .upd{font-size:13px;color:var(--muted);margin-top:4px}
@@ -225,6 +226,13 @@ details.more[open] summary::after{content:" ▴"}
 
   <!-- JOBS FOR YOU -->
   <section id="view-foryou" class="feed">
+    <div class="card card-pad liadd">
+      <div style="display:flex;gap:12px;align-items:center">
+        <span class="co" style="background:#0A66C2;width:40px;height:40px;font-size:15px" aria-hidden="true">in</span>
+        <div style="flex:1;min-width:0"><b style="display:block">Saw a job on LinkedIn?</b><span class="sub" style="margin:0">Paste the post text and it is added to your feed on this phone.</span></div>
+        <button class="post-btn" id="liOpen" type="button">Add</button>
+      </div>
+    </div>
     <div class="card">
       <div class="feedhead">
         <h2>Jobs for you</h2>
@@ -416,6 +424,21 @@ details.more[open] summary::after{content:" ▴"}
     </div>
   </form>
 </div>
+<div class="scrim" id="liScrim" hidden>
+  <div class="sheet" role="dialog" aria-modal="true" aria-labelledby="liTitle">
+    <div class="sheet-head"><h2 id="liTitle">Add a job from LinkedIn</h2><button type="button" class="x" id="liClose" aria-label="Close">×</button></div>
+    <div class="sheet-body">
+      <ol class="steps" style="margin-bottom:12px;color:var(--muted)">
+        <li>On the LinkedIn post, tap <b>…</b> → <b>Copy link to post</b>, or select and copy the post text.</li>
+        <li>Paste it below.</li>
+      </ol>
+      <div class="field"><label for="liText">Post text and/or link</label><textarea id="liText" rows="7" placeholder="e.g. We are hiring! Assistant Professor (Pharmaceutics) at … Send your CV to hr@… by 30 Oct"></textarea></div>
+      
+      <p class="xnote" id="liStatus" aria-live="polite"></p>
+      <div class="sheet-actions"><button type="button" class="ghost" id="liCancel">Cancel</button><button type="button" class="post-btn" id="liGo">Add to my feed</button></div>
+    </div>
+  </div>
+</div>
 <datalist id="roleList"></datalist>
 <datalist id="sourceList"></datalist>
 <div class="toast" id="toast" hidden></div>
@@ -468,7 +491,7 @@ async function loadJobs(manual){
     const r=await fetch(JOBS_URL+"?t="+Date.now(),{cache:"no-store"});
     if(!r.ok)throw new Error(r.status);
     const d=await r.json();
-    jobs=(d.jobs||[]).map(j=>{const o=Object.assign({},j);const st=String(o.state||"").replace(/ and /g," & ");if(STATES.includes(st))o.state=st;return o});feedMeta=d.meta||null;feedReady=true;
+    jobs=mineLoad().filter(m=>!m.lastDate||m.lastDate>=today()).concat((d.jobs||[]).map(j=>{const o=Object.assign({},j);const st=String(o.state||"").replace(/ and /g," & ");if(STATES.includes(st))o.state=st;return o}));feedMeta=d.meta||null;feedReady=true;
     try{localStorage.setItem(JOBS_CACHE,JSON.stringify({jobs,meta:feedMeta}))}catch(e){}
     renderFeed();if(manual)toast("Jobs refreshed");
   }catch(e){
@@ -616,6 +639,48 @@ async function addSamples(){
   toast("Samples added. Delete them anytime.");
 }
 
+function isLi(j){return /linkedin/i.test((j.source||"")+" "+(j.sourceUrl||"")+" "+(j.applyUrl||""))}
+function liOpen(){$("liText").value="";if($("liImg"))$("liImg").value="";$("liStatus").textContent="";$("liGo").disabled=false;$("liScrim").hidden=false;setTimeout(()=>$("liText").focus(),50)}
+function liClose(){$("liScrim").hidden=true}
+$("liOpen").onclick=liOpen;$("liClose").onclick=liClose;$("liCancel").onclick=liClose;
+$("liScrim").addEventListener("click",e=>{if(e.target===$("liScrim"))liClose()});
+function slugify(x){return String(x||"job").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").slice(0,60)||"job"}
+function firstUrl(t,re){const m=(t.match(/https?:\/\/[^\s)>"']+/g)||[]).filter(u=>re?re.test(u):true);return m[0]||""}
+
+const MINE_KEY="rxtracker.mine.v1";
+function mineLoad(){try{return JSON.parse(localStorage.getItem(MINE_KEY)||"[]")}catch(e){return[]}}
+function mineSave(a){try{localStorage.setItem(MINE_KEY,JSON.stringify(a))}catch(e){}}
+function parsePost(t){
+  const low=t.toLowerCase(),lines=t.split(/\n+/).map(x=>x.trim()).filter(Boolean);
+  const email=(t.match(/[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/i)||[])[0]||"";
+  const form=firstUrl(t,/forms\.gle|docs\.google\.com\/forms|careers|apply|jobs/)||"";
+  const li=firstUrl(t,/linkedin\.com|lnkd\.in/)||"";
+  const posts=["Professor","Associate Professor","Assistant Professor","Scientist","Research Associate","Academic Associate","Lecturer","Principal","Dean"].filter(p=>new RegExp("\\b"+p+"\\b","i").test(t)).filter((p,i,a)=>!(p==="Professor"&&a.some(x=>x!=="Professor"&&/professor/i.test(x)&&!new RegExp("(^|[^a-z])professor","i").test(t.replace(/(assistant|associate)\s+professor/gi,"")))));
+  const orgLine=lines.find(l=>/(university|college|institute|school of|pharma|laborator|ltd|limited|niper|aiims|iit)/i.test(l))||lines[0]||"LinkedIn post";
+  const org=(orgLine.match(/([A-Z][\w.&'-]*(?:\s+(?:of|and|&|for)?\s*[A-Z][\w.&'-]*)*\s+(?:University|College(?: of [A-Z][\w]+)*|Institute(?: of [A-Z][\w ]+)?|Pharma(?:ceuticals)?|Laboratories|Limited|Ltd\.?))/)||[])[1]||orgLine.slice(0,80);
+  const orgLow=String(org).toLowerCase(),cands=STATES.filter(st=>low.includes(st.toLowerCase())||low.includes(st.toLowerCase().replace(" & "," and ")));
+  const state=cands.find(st=>!orgLow.includes(st.toLowerCase()))||cands[0]||"";
+  const dm=t.match(/(\d{1,2})(?:st|nd|rd|th)?[\s.\-/]+(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*[\s.,\-/]+(20\d\d)/i);
+  let lastDate="";if(dm&&/last date|deadline|before|by|till|walk/i.test(t)){const mo="janfebmaraprmayjunjulaugsepoctnovdec".indexOf(dm[2].toLowerCase())/3+1;lastDate=`${dm[3]}-${String(mo).padStart(2,"0")}-${String(dm[1]).padStart(2,"0")}`}
+  const academic=/professor|scientist|research|faculty|lecturer|academic|dean|principal/i.test(t);
+  const sector=/government|govt\.?|aiims|niper|iit\b|csir|icmr|psc\b|central university|state university/i.test(t)?"Government":"";
+  return {title:posts.length?posts.join(", "):(lines[0]||"").slice(0,90),org,state,sector,posts,category:academic?"academic":"other",
+    type:/scientist|research/i.test(t)&&!/professor/i.test(t)?"Scientist":"Faculty",
+    applyMode:email?`Email CV to ${email}`:form?"Apply through the link in the post":"See the LinkedIn post",applyUrl:form||"",
+    lastDate,qualification:(lines.find(l=>/qualification|eligib|ph\.?\s?d|m\.?\s?pharm|experience/i.test(l))||"").slice(0,300),
+    notes:"Added from a LinkedIn post on this phone. Open the post to check details.",
+    source:"LinkedIn",sourceUrl:li,addedByYou:true,found:today()};
+}
+$("liGo").onclick=()=>{
+  const text=$("liText").value.trim();
+  if(!text){$("liStatus").textContent="Paste the post text or link first.";return}
+  const j=parsePost(text);j.id="mine-"+Date.now().toString(36);
+  const all=mineLoad();all.push(j);mineSave(all);
+  jobs=jobs.filter(x=>!String(x.id).startsWith("mine-")).concat(all);
+  liClose();renderFeed();toast(`Added: ${j.org.slice(0,40)}`);
+};
+
+
 /* jobs for you */
 let jobs=[],feedMeta=null,feedReady=false,fui={type:"all",sector:"all",state:"",sort:"match"};
 const SPECS=["Pharmaceutics","Pharmacology","Pharmaceutical Chemistry","Pharmaceutical Analysis","Pharmacognosy","Pharmacy Practice","Quality Assurance","Industrial Pharmacy","Pharmaceutical Biotechnology","Regulatory Affairs"];
@@ -673,7 +738,7 @@ function genericSteps(j){
 }
 function daysTo(d){if(!d)return null;return Math.round((new Date(d+"T00:00")-new Date(today()+"T00:00"))/864e5)}
 function renderFeed(){
-  $("feedType").innerHTML=[["all","All jobs"],["Faculty","Professor posts"],["Scientist","Scientist & research"]]
+  $("feedType").innerHTML=[["all","All jobs"],["Faculty","Professor posts"],["Scientist","Scientist & research"],["LinkedIn","From LinkedIn"]]
     .map(([k,l])=>`<button class="chip" data-k="${k}" aria-pressed="${fui.type===k}">${l}</button>`).join("");
   $("feedSector").innerHTML=[["all","Govt + private"],["Government","Government"],["Private","Private"]]
     .map(([k,l])=>`<button class="chip" data-k="${k}" aria-pressed="${fui.sector===k}">${l}</button>`).join("");
@@ -682,7 +747,7 @@ function renderFeed(){
   const t=today();
   const ex=profile.excludeStates||[];
   let list=jobs.filter(j=>j.category!=="other").filter(j=>!j.lastDate||j.lastDate>=t).filter(j=>!ex.includes(j.state))
-    .filter(j=>fui.type==="all"||jobKind(j)===fui.type)
+    .filter(j=>fui.type==="all"||(fui.type==="LinkedIn"?isLi(j):jobKind(j)===fui.type))
     .filter(j=>fui.sector==="all"||j.sector===fui.sector)
     .filter(j=>!fui.state||j.state===fui.state);
   const byNew=(a,b)=>(b.posted||b.found||"").localeCompare(a.posted||a.found||"");
@@ -719,7 +784,7 @@ function jobCard(j,mode){
         <div class="badges">
           ${isNew?'<span class="badge new">New</span>':""}
           ${j.sector?`<span class="badge ${j.sector==="Government"?"gov":""}">${esc(j.sector)}</span>`:""}
-          ${/linkedin/i.test((j.source||"")+" "+(j.sourceUrl||"")+" "+(j.applyUrl||""))?'<span class="badge li">via LinkedIn</span>':""}
+          ${isLi(j)?'<span class="badge li">via LinkedIn</span>':""}${j.addedByYou?'<span class="badge">Added by you</span>':""}
           ${j.language&&!/^english$/i.test(j.language)?`<span class="badge lang">Notice in ${esc(j.language)}</span>`:""}
           <span class="badge">${j.category==="other"?esc(j.role||"Non-teaching"):kind==="Scientist"?"Scientist / research":"Faculty"}</span>
           ${posts.map(p=>`<span class="badge">${esc(p)}</span>`).join("")}
