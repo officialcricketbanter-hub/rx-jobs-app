@@ -1,8 +1,8 @@
 {
  "meta": {
-  "lastRun": "2026-10-21T01:18:54Z",
-  "total": 69,
-  "added": 3
+  "lastRun": "2026-10-22T06:00:00Z",
+  "total": 75,
+  "added": 4
  },
  "jobs": [
   {
@@ -220,6 +220,38 @@
    ],
    "title": "Scientist / Senior Scientist",
    "type": "Scientist"
+  },
+  {
+   "id": "aurobindo-formulation-development-professional-osd-hyderabad",
+   "applyMode": "Email updated resume to Pooja.Uppalapati@aurobindo.com",
+   "category": "other",
+   "city": "Bachupally, Hyderabad",
+   "cvFit": {
+    "reason": "Asks for M.Pharm Pharmaceutics with 6–8 years in OSD formulation incl. 505(b)(2) — your degree and 6.9 years fit, but your experience is mainly teaching and project research rather than industry filings.",
+    "score": 68
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "Requires M.Pharm Pharmaceutics — exactly your specialisation, backed by a formulation Ph.D."
+   },
+   "found": "2026-10-21",
+   "org": "Aurobindo Pharma",
+   "posted": "2026-10-09",
+   "posts": [
+    "Formulation Development Professional (OSD)"
+   ],
+   "qualification": "M.Pharm in Pharmaceutics with 6–8 years of relevant formulation development experience, including exposure to 505(b)(2) products.",
+   "role": "Formulation R&D",
+   "sector": "Private",
+   "sourceUrl": "https://pharmabharat.org/aurobindo-pharma-hiring-for-formulation-development-professional/",
+   "state": "Telangana",
+   "steps": [
+    "Tailor your CV to OSD formulation development, QbD/DoE and product development projects",
+    "Mention any regulatory or 505(b)(2)-type work and industrial documentation experience",
+    "Email the CV to Pooja.Uppalapati@aurobindo.com with the post name in the subject",
+    "Be ready for a technical interview on formulation, dissolution and scale-up"
+   ],
+   "title": "Formulation Development Professional (Oral Solid Dosage)"
   },
   {
    "id": "avanthi-group-rangareddy",
@@ -441,6 +473,39 @@
    "title": "Senior Scientific Officer (deputation), Regional Drugs Testing Laboratory"
   },
   {
+   "id": "cencora-senior-manager-qppv-office-pv-agreements-delhi",
+   "applyMode": "Online",
+   "applyUrl": "https://careers.cencora.com/us/en/job/CHKCENUSR2616934EXTERNALENUS/Senior-Manager-QPPV-Office",
+   "category": "other",
+   "city": "New Delhi",
+   "cvFit": {
+    "reason": "Asks for 4+ years in pharmacovigilance or regulatory affairs — your 6.9 years are in teaching and formulation research, so the PV experience is missing.",
+    "score": 35
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "Needs hands-on pharmacovigilance experience, which is outside your Pharmaceutics teaching and research background."
+   },
+   "found": "2026-10-22",
+   "lastDate": "2026-11-20",
+   "org": "Cencora",
+   "posted": "2026-10-20",
+   "posts": [
+    "Senior Manager, QPPV Office"
+   ],
+   "qualification": "Bachelor's in life sciences, pharmacy, medicine, nursing, public health or related field; 4+ years in pharmacovigilance, drug safety, risk management, scientific consulting or regulatory affairs.",
+   "role": "Pharmacovigilance",
+   "sector": "Private",
+   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/cencora-require-pharmacovigilance-agreements-senior-manager",
+   "state": "Delhi",
+   "steps": [
+    "Open the Cencora careers posting",
+    "Tailor your CV to stress regulatory documentation, scientific writing and any drug-safety work",
+    "Apply online through the portal before 20 Nov 2026"
+   ],
+   "title": "Senior Manager, Pharmacovigilance Agreements (QPPV Office)"
+  },
+  {
    "id": "clarivate-patent-search-senior-analyst-noida",
    "applyMode": "Online",
    "applyUrl": "https://clarivate.wd3.myworkdayjobs.com/Clarivate_Careers/job/R271--Noida/Patent-Search-Senior-Analyst_JREQ136232-1",
@@ -587,6 +652,48 @@
    "type": "Scientist"
   },
   {
+   "id": "csir-nbri-senior-project-associate-st-management",
+   "applyMode": "Walk-in interview",
+   "applyUrl": "https://nbri.res.in",
+   "category": "academic",
+   "city": "Lucknow",
+   "cvFit": {
+    "reason": "Asks for a pharma-science master's/doctorate and 3 years' R&D — you exceed this with a Ph.D. and 3 years as DST-SERB JRF, but the role is project management at a lower level than your Associate Professor post.",
+    "score": 66
+   },
+   "documents": [
+    "Application form",
+    "Original certificates and self-attested copies",
+    "Experience certificates",
+    "Passport-size photograph"
+   ],
+   "fit": {
+    "level": "Good",
+    "reason": "Accepts a pharma-science doctorate with R&D experience; S&T management rather than Pharmaceutics research."
+   },
+   "found": "2026-10-22",
+   "lastDate": "2026-10-27",
+   "notes": "Project post tied to project funding. Area-III (Pharmacognosy/Product Development) Project Associate-I posts accepting M.Pharm/Pharmaceutics walk in on 30 Oct 2026 but are junior.",
+   "org": "CSIR-National Botanical Research Institute (NBRI)",
+   "posted": "2026-10-20",
+   "posts": [
+    "Senior Project Associate (Area-I, S&T Management) – 1"
+   ],
+   "qualification": "Master's or integrated Master's in life/natural/plant/pharma/environmental science or biotechnology, or a doctorate in these fields, with 3 years' R&D experience (or 1 year in science communication). Max age 40.",
+   "salary": "Rs 42,000 per month + HRA",
+   "sector": "Government",
+   "sourceUrl": "https://24x7jobalerts.com/jobs/csir-nbri-recruitment-2026-walk-in-for-7-project-posts-63239132-6d28-4389-9b4b-c93b55e9f8ec",
+   "state": "Uttar Pradesh",
+   "steps": [
+    "Download notification No. 10/Project/2026 and the application form from nbri.res.in",
+    "Fill the form and attach self-attested copies of degrees, experience certificates and a passport photo",
+    "Report at K. N. Kaul Block, CSIR-NBRI, Rana Pratap Marg, Lucknow on 27 Oct 2026 by 10:00 AM (interview 11:00 AM)",
+    "Carry all originals for document verification"
+   ],
+   "title": "Senior Project Associate (Area-I, S&T Management) – Walk-in",
+   "type": "Academic Associate"
+  },
+  {
    "id": "csir-ncl-senior-project-associate-polymer",
    "applyMode": "Online form",
    "applyUrl": "https://jobs.ncl.res.in",
@@ -621,6 +728,42 @@
    ],
    "title": "Senior Project Associate (Advt. 898)",
    "type": "Academic Associate"
+  },
+  {
+   "id": "galgotias-university-pharmacy-faculty-greater-noida",
+   "applyMode": "Email",
+   "applyUrl": "https://www.galgotiasuniversity.edu.in/p/current-openings",
+   "category": "academic",
+   "city": "Greater Noida",
+   "cvFit": {
+    "reason": "Assistant Professor in Pharmaceutics needs PG + Ph.D./NET — you have M.Pharm Pharmaceutics, a Ph.D. and 23 papers; Associate Professor asks 8 years, a bit above your 6.9.",
+    "score": 86
+   },
+   "fit": {
+    "level": "Strong",
+    "reason": "Pharmaceutics is a listed specialisation and matches your M.Pharm Pharmaceutics and Ph.D."
+   },
+   "found": "2026-10-22",
+   "notes": "Rolling openings on the official careers page; no closing date stated. Only candidates matching the required experience should apply.",
+   "org": "Galgotias University",
+   "posts": [
+    "Associate Dean",
+    "Professor",
+    "Associate Professor",
+    "Assistant Professor"
+   ],
+   "qualification": "Pharmacy specialisations: Pharmaceutics, Pharmacognosy, Pharmacology, Pharmaceutical Chemistry. Assistant Professor: PG in relevant discipline with NET and/or Ph.D. per UGC norms; Associate Professor: Ph.D. with 8 years' experience; Professor: Ph.D. with 10 years' experience.",
+   "sector": "Private",
+   "sourceUrl": "https://www.galgotiasuniversity.edu.in/p/current-openings",
+   "state": "Uttar Pradesh",
+   "steps": [
+    "Open the university's Current Openings page and confirm the School of Medical and Allied Sciences listing is still active",
+    "Prepare an updated CV highlighting Pharmaceutics teaching, Ph.D., publications and book chapters",
+    "Email the application to recruitments@galgotiasuniversity.edu.in, naming the post and 'Pharmaceutics' in the subject",
+    "Send a separate application for each post you apply for"
+   ],
+   "title": "Assistant / Associate Professor / Professor – Pharmacy (School of Medical and Allied Sciences)",
+   "type": "Faculty"
   },
   {
    "id": "globallux-senior-scientist-formulation",
@@ -697,6 +840,40 @@
    ],
    "title": "R&D walk-in (FARD, AR&D, Process R&D, Formulation R&D)",
    "type": "Scientist"
+  },
+  {
+   "id": "gsk-sr-scientist-pharmacovigilance-operations-hyderabad",
+   "applyMode": "Apply online on GSK Careers (Workday)",
+   "applyUrl": "https://gsknch.wd3.myworkdayjobs.com/GSKCareers/job/India---Andra-Pradesh---Hyderabad/Sr-Scientist-Pharmacovigilance-Operations-Oversight-and-Strategy_547708",
+   "category": "other",
+   "city": "Hyderabad",
+   "cvFit": {
+    "reason": "Wants PharmD/MD and 10–14 years of pharma-industry PV experience — you have a Pharmaceutics M.Pharm/Ph.D. and no PV industry years.",
+    "score": 35
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "Pharmacovigilance operations role aimed at PharmD/MD profiles, not formulation/Pharmaceutics."
+   },
+   "found": "2026-10-21",
+   "lastDate": "2026-11-15",
+   "org": "GSK",
+   "posted": "2026-10-16",
+   "posts": [
+    "Senior Scientist – Pharmacovigilance Operations Oversight and Strategy"
+   ],
+   "qualification": "PharmD (or MD per the candidate profile); listing says 5+ years, candidate profile asks for 10–14 years in the pharmaceutical industry.",
+   "role": "Pharmacovigilance",
+   "sector": "Private",
+   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/gsk-looking-for-senior-scientist-pharmacovigilance",
+   "state": "Telangana",
+   "steps": [
+    "Open the GSK Careers link and create a Workday account",
+    "Upload a CV highlighting any drug-safety, documentation and data/ML work",
+    "Answer the screening questions on qualification and industry experience",
+    "Submit before 15 November 2026"
+   ],
+   "title": "Sr. Scientist, Pharmacovigilance Operations Oversight and Strategy"
   },
   {
    "id": "guru-nanak-institutions-asst-prof",
@@ -1686,6 +1863,50 @@
     "Submit before 30 Oct 2026"
    ],
    "title": "Associate Pharmacovigilance Manager"
+  },
+  {
+   "id": "nppa-consultant-young-professional-pharma",
+   "applyMode": "Email or post",
+   "applyUrl": "https://nppa.gov.in/storage/uploads/tender/vacancynotice-ef3a73713dfb2c15534bed734df6fb7a.pdf",
+   "category": "other",
+   "city": "New Delhi",
+   "cvFit": {
+    "reason": "Young Professional (Pharma) needs only B.Pharm and has an age cap of 32 — you are over-qualified and may be at or past the age limit; the Consultant post wants medical-device experience you lack.",
+    "score": 45
+   },
+   "documents": [
+    "Application form",
+    "Self-certified educational certificates",
+    "Proof of age",
+    "Experience certificates"
+   ],
+   "fit": {
+    "level": "Low",
+    "reason": "A pricing/regulatory support role open to B.Pharm; it does not use your Pharmaceutics specialisation or Ph.D."
+   },
+   "found": "2026-10-22",
+   "lastDate": "2026-10-26",
+   "notes": "Contract for one year, extendable by up to two years. Requires good MS Office/Excel and analytical skills.",
+   "org": "National Pharmaceutical Pricing Authority (NPPA), Department of Pharmaceuticals",
+   "posted": "2026-10-09",
+   "posts": [
+    "Consultant (Medical Device)",
+    "Young Professional (Pharma)",
+    "Young Professional (Medical Device)"
+   ],
+   "qualification": "Young Professional (Pharma): B.Pharm, pharma-sector experience preferred, upper age 32. Consultant (Medical Device): engineering/biotech bachelor's plus PG (M.Pharm included) and 2 years in medical-device manufacturing, regulatory, research or testing, upper age 35.",
+   "role": "Regulatory / Drug Pricing",
+   "salary": "Rs 50,000 per month (YP); Rs 65,000 per month (Consultant)",
+   "sector": "Government",
+   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/career-for-pharma-consultant-and-professional-at-nppa",
+   "state": "Delhi",
+   "steps": [
+    "Download the vacancy notice and application form from nppa.gov.in",
+    "Check the upper age limit (32 for Young Professional) against your date of birth",
+    "Fill the form and attach self-certified copies of all certificates",
+    "Email to hiring@nppa.gov.in or send to Under Secretary (Estt./Admin.), NPPA, 5th Floor, YMCA Cultural Centre Building, 1 Jai Singh Road, New Delhi-110001 by 26 Oct 2026"
+   ],
+   "title": "Consultant (Medical Device) and Young Professional (Pharma) – Contract"
   },
   {
    "id": "nrs-medical-college-project-research-scientist-i",
