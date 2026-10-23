@@ -1,8 +1,8 @@
 {
  "meta": {
-  "lastRun": "2026-10-22T06:00:00Z",
-  "total": 75,
-  "added": 4
+  "lastRun": "2026-10-23T01:22:52Z",
+  "total": 76,
+  "added": 1
  },
  "jobs": [
   {
@@ -1025,6 +1025,40 @@
    ],
    "title": "Scientist B / C / D (Medical & Non-Medical) – Adv. ICMR/NIE/01/2026",
    "type": "Scientist"
+  },
+  {
+   "id": "icon-senior-global-regulatory-scientist-india",
+   "applyMode": "Online",
+   "applyUrl": "https://careers.iconplc.com/job/senior-global-regulatory-scientist-in-india-bangalore-jid-54147",
+   "category": "other",
+   "city": "Bengaluru / Chennai / Trivandrum",
+   "cvFit": {
+    "reason": "Asks for 3-6 years of global clinical-trial regulatory experience — your 6.9 years are in teaching and research, so you lack direct regulatory experience, though your degrees exceed the BSc minimum.",
+    "score": 45
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "A clinical-trial regulatory role; your Pharmaceutics M.Pharm and Ph.D. help with CMC/documentation but the post centres on global trial submissions."
+   },
+   "found": "2026-10-23",
+   "notes": "No closing date stated; apply early. Role is clinical-trial regulatory submissions rather than formulation.",
+   "org": "ICON plc",
+   "posted": "2026-10-22",
+   "posts": [
+    "Senior Global Regulatory Scientist (JR161264)"
+   ],
+   "qualification": "BSc (or higher) in a scientific field with 3-6 years of relevant global regulatory experience in clinical trials for pharmaceuticals (minimum 3 years). Office-based in India.",
+   "role": "Regulatory Affairs",
+   "sector": "Private",
+   "sourceUrl": "https://www.biotecnika.org/2026/10/icon-global-regulatory-scientist-bangalore-2026/",
+   "state": "Karnataka",
+   "steps": [
+    "Open the ICON careers page for job JR161264",
+    "Create or sign in to an ICON candidate account",
+    "Upload a CV highlighting regulatory documentation, QbD and industrial documentation work",
+    "Choose the preferred India location (Bangalore, Chennai or Trivandrum) and submit"
+   ],
+   "title": "Senior Global Regulatory Scientist"
   },
   {
    "id": "iit-bhu-asst-prof-pharm-eng-tech",
