@@ -1,8 +1,8 @@
 {
  "meta": {
-  "lastRun": "2026-10-23T01:22:52Z",
-  "total": 76,
-  "added": 1
+  "lastRun": "2026-10-24T01:28:31Z",
+  "total": 77,
+  "added": 2
  },
  "jobs": [
   {
@@ -329,6 +329,36 @@
    "type": "Faculty"
   },
   {
+   "id": "bihar-college-of-pharmacy-patna-faculty",
+   "applyMode": "See advertisement",
+   "category": "academic",
+   "city": "Patna",
+   "cvFit": {
+    "reason": "Pharmacy faculty posts in your priority state Bihar; your Ph.D., 3.8 years teaching and 23 papers fit, but subjects and level are unconfirmed.",
+    "score": 72
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "Pharmacy faculty openings in Patna — your M.Pharm Pharmaceutics and Ph.D. suit faculty posts; subjects not yet confirmed."
+   },
+   "found": "2026-10-24",
+   "notes": "Announced October 2026 on PharmaTutor; the posting page could not be opened this run, so posts, subjects and last date are unverified.",
+   "org": "Bihar College of Pharmacy",
+   "posts": [
+    "Pharmacy Faculty"
+   ],
+   "sector": "Private",
+   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/bihar-college-of-pharmacy-announces-pharma-faculty-recruitment",
+   "state": "Bihar",
+   "steps": [
+    "Open the PharmaTutor listing for the advertised posts, subjects and contact",
+    "Confirm whether Pharmaceutics is among the subjects",
+    "Send your CV and certificates by the method given in the advertisement"
+   ],
+   "title": "Pharma Faculty Recruitment",
+   "type": "Faculty"
+  },
+  {
    "id": "bms-scientific-writer-ii-hyderabad",
    "applyMode": "Online",
    "applyUrl": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/BMS/job/Hyderabad---TS---IN/Scientific-Writer-II_R1606692",
@@ -504,6 +534,41 @@
     "Apply online through the portal before 20 Nov 2026"
    ],
    "title": "Senior Manager, Pharmacovigilance Agreements (QPPV Office)"
+  },
+  {
+   "id": "chandigarh-university-pharmacy-faculty",
+   "applyMode": "Email CV",
+   "applyUrl": "https://www.cuchd.in/jobs/",
+   "category": "academic",
+   "city": "Gharuan, Mohali",
+   "cvFit": {
+    "reason": "Asks for a Ph.D. in the discipline — you have a Pharmaceutical Sciences Ph.D., 6.9 years and an Associate Professor role, fitting Associate Professor; subject unspecified.",
+    "score": 80
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "Open pharmacy faculty posts needing a Ph.D. — your M.Pharm Pharmaceutics and Ph.D. qualify, though the subject is not specified."
+   },
+   "found": "2026-10-24",
+   "notes": "Rolling combined listing (Pharmacy with CSE, Agriculture, Optometry and others); no last date stated.",
+   "org": "Chandigarh University",
+   "posts": [
+    "Professor",
+    "Associate Professor",
+    "Assistant Professor"
+   ],
+   "qualification": "Ph.D. in the respective discipline required; industry experience highly preferred; freshers can apply. Pharmacy subjects are not specified on the careers page.",
+   "sector": "Private",
+   "sourceUrl": "https://www.cuchd.in/jobs/",
+   "state": "Punjab",
+   "steps": [
+    "Prepare an updated CV highlighting your Ph.D., teaching experience and publications",
+    "Email the CV to career@cumail.in naming the post and 'Pharmacy (Pharmaceutics)' in the subject",
+    "Optionally call or WhatsApp the HR numbers on the careers page to confirm the pharmacy opening",
+    "Check careers.cuchd.in 'Current Openings' for a pharmacy-specific listing"
+   ],
+   "title": "Professor / Associate Professor / Assistant Professor (Pharmacy)",
+   "type": "Faculty"
   },
   {
    "id": "clarivate-patent-search-senior-analyst-noida",
@@ -2164,41 +2229,6 @@
     "Submit soon — no closing date is stated"
    ],
    "title": "Medical Writer (Consultant) – Remote"
-  },
-  {
-   "id": "rcb-research-pharma-chemistry",
-   "applyMode": "Walk-in interview on 16 Oct 2026",
-   "applyUrl": "https://rcb.res.in/files/application-form/application_form_prs-i.pdf",
-   "category": "academic",
-   "city": "Faridabad",
-   "cvFit": {
-    "reason": "Accepts a Ph.D. in Pharmaceutical Sciences — you qualify, though a Project Research Scientist-I post is junior to your current role.",
-    "score": 70
-   },
-   "fit": {
-    "level": "Good",
-    "reason": "Ph.D. in Pharmaceutical Sciences is accepted — matches your Ph.D., though the walk-in on 16 Oct has passed."
-   },
-   "found": "2026-10-20",
-   "lastDate": "2026-10-16",
-   "notes": "Walk-in was 16 Oct 2026 (PI Dr. Avinash Bajaj, bajaj@rcb.res.in).",
-   "org": "Regional Centre for Biotechnology (RCB)",
-   "posted": "2026-10-11",
-   "posts": [
-    "Project Research Scientist-I"
-   ],
-   "qualification": "Ph.D. in Chemistry, Biological Sciences or Pharmaceutical Sciences.",
-   "salary": "Rs 56,000 + 30% HRA per month",
-   "sector": "Government",
-   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/research-recruitment-for-pharmaceutical-sciences-and-chemistry-candidates-at-rcb",
-   "state": "Haryana",
-   "steps": [
-    "Download the PRS-I application form from rcb.res.in",
-    "Bring certificates and experience proof to the walk-in (held 16 Oct 2026)",
-    "Contact bajaj@rcb.res.in if you missed it"
-   ],
-   "title": "Project Research Scientist-I",
-   "type": "Scientist"
   },
   {
    "id": "roche-lead-it-data-scientist-pharma-rd",
