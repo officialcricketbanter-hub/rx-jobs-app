@@ -1,8 +1,8 @@
 {
  "meta": {
-  "lastRun": "2026-10-24T01:28:31Z",
-  "total": 77,
-  "added": 2
+  "lastRun": "2026-10-25T01:23:18Z",
+  "total": 78,
+  "added": 1
  },
  "jobs": [
   {
@@ -112,6 +112,48 @@
     "Apply as early as possible; shortlisted candidates are informed by email"
    ],
    "title": "Faculty posts",
+   "type": "Faculty"
+  },
+  {
+   "id": "asmc-bahraich-pharmacology-faculty-walkin",
+   "applyMode": "Walk-in interview from 27 Oct 2026, every Tuesday and Friday 10:00 AM–2:00 PM (report by noon); notice valid 89 days",
+   "applyUrl": "https://asmcbrh.edu.in",
+   "category": "academic",
+   "city": "Bahraich",
+   "cvFit": {
+    "reason": "Needs NMC-recognised Pharmacology teaching qualifications and fits a reserved category — your M.Pharm Pharmaceutics + Ph.D. is probably not accepted, so check before travelling.",
+    "score": 25
+   },
+   "documents": [
+    "Application in prescribed format",
+    "Rs 2,000 demand draft",
+    "Declaration/affidavit"
+   ],
+   "fit": {
+    "level": "Low",
+    "reason": "Medical-college Pharmacology follows NMC norms that favour MD/M.Sc. Medical Pharmacology, not M.Pharm Pharmaceutics."
+   },
+   "found": "2026-10-25",
+   "notes": "Part of 53 contractual faculty posts; Pharmacology posts are 1 each (Professor OBC, Associate OBC, Assistant SC). No allowances, bonus or pension.",
+   "org": "Maharaja Suheldev Autonomous State Medical College (ASMC) Bahraich",
+   "posted": "2026-10-24",
+   "posts": [
+    "Professor (Pharmacology)",
+    "Associate Professor (Pharmacology)",
+    "Assistant Professor (Pharmacology)"
+   ],
+   "qualification": "As per NMC norms (medical-college teaching qualifications); the notice does not say M.Pharm/Ph.D. holders are eligible. Candidates must be under 70.",
+   "salary": "Fixed: Professor Rs 2,20,000; Associate Professor Rs 1,60,000; Assistant Professor Rs 1,20,000 per month",
+   "sector": "Government",
+   "sourceUrl": "https://www.freejobalert.com/articles/asmc-bahraich-to-recruit-53-faculty-posts-3075042",
+   "state": "Uttar Pradesh",
+   "steps": [
+    "Check the official notice on asmcbrh.edu.in to confirm whether non-medical (M.Pharm/Ph.D.) candidates are eligible under NMC norms",
+    "Fill the prescribed application format",
+    "Prepare a Rs 2,000 demand draft payable to 'Principal, ASMC and Associated Teaching Hospitals Bahraich' and the declaration/affidavit",
+    "Attend the walk-in at the Principal's office, ASMC Bahraich, on a Tuesday or Friday from 27 Oct 2026, reporting by 12 noon"
+   ],
+   "title": "Pharmacology Faculty (Contract) – Walk-in",
    "type": "Faculty"
   },
   {
@@ -2560,22 +2602,28 @@
    "category": "academic",
    "city": "Salem",
    "cvFit": {
-    "reason": "Associate Professor needs 5 years — you have 6.9 years and a Ph.D.; Professor's 10 years is beyond you for now.",
-    "score": 80
+    "reason": "Associate Professor in Pharmaceutics needs a Master's and 5 years — you have M.Pharm Pharmaceutics, a Ph.D. and 6.9 years; Professor's 10 years is beyond you for now.",
+    "score": 82
    },
+   "documents": [
+    "Brief resume",
+    "Scanned certificates",
+    "Passport-size photograph"
+   ],
    "fit": {
     "level": "Strong",
     "reason": "Pharmaceutics is a listed subject — matches your M.Pharm (Pharmaceutics); needs 5 years (Associate) or 10 years (Professor) experience, and the window may have closed."
    },
    "found": "2026-10-20",
-   "notes": "Notice says apply within 10 days of 26 Sep 2026 (may have closed). Depts: Pharmacology, Pharmaceutics, Pharm. Analysis/Chemistry, Pharmacy Practice.",
+   "notes": "Re-advertised on 24 Oct 2026 with 'apply within 10 days' (the text also mentions 7 Aug 2026, so confirm the deadline). Depts: Pharmacology, Pharmaceutics, Pharm. Analysis/Chemistry, Pharmacy Practice, Pharmacognosy.",
    "org": "Sri Shanmugha College of Pharmacy",
-   "posted": "2026-09-26",
+   "posted": "2026-10-24",
    "posts": [
     "Professor",
     "Associate Professor"
    ],
    "qualification": "Master's in the relevant discipline; Professor needs 10 years' and Associate Professor 5 years' experience.",
+   "salary": "Professor Rs 55,000–65,000; Associate Professor Rs 38,000–50,000 per month",
    "sector": "Private",
    "sourceUrl": "https://www.facultyplus.com/faculty-recruitment-2026-at-sri-shanmugha-college-of-pharmacy-salem-2/",
    "state": "Tamil Nadu",
