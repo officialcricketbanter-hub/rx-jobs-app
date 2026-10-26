@@ -1,8 +1,8 @@
 {
  "meta": {
-  "lastRun": "2026-10-25T01:23:18Z",
-  "total": 78,
-  "added": 1
+  "lastRun": "2026-10-26T01:28:12Z",
+  "total": 83,
+  "added": 5
  },
  "jobs": [
   {
@@ -399,6 +399,41 @@
    ],
    "title": "Pharma Faculty Recruitment",
    "type": "Faculty"
+  },
+  {
+   "id": "biovonic-healthcare-frd-associate-scientist-dqa-amritsar",
+   "applyMode": "Email CV to hr@biovonichealthcare.com",
+   "category": "other",
+   "city": "Amritsar",
+   "cvFit": {
+    "reason": "Asks for M.Pharm with 2–4 years in formulation R&D — your Pharmaceutics M.Pharm, HPLC and documentation skills fit, but the post is junior to your Ph.D. and you have no industry tenure.",
+    "score": 55
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "Formulation R&D documentation/QA matches your Pharmaceutics, QbD and industrial-documentation work."
+   },
+   "found": "2026-10-26",
+   "notes": "No last date stated; salary not disclosed.",
+   "org": "Biovonic Healthcare Pvt. Ltd.",
+   "posted": "2026-10-25",
+   "posts": [
+    "FRD – Associate Scientist – DQA",
+    "ADL – Scientist",
+    "ADL – Associate Scientist – GLP"
+   ],
+   "qualification": "FRD Associate Scientist (DQA): M.Pharm or B.Pharm with 2–4 years; ADL Scientist: B.Pharm or M.Sc with 5–8 years; ADL Associate Scientist (GLP): B.Pharm/M.Sc/B.Sc with 2–5 years. Formulation and analytical R&D unit.",
+   "role": "Formulation R&D",
+   "sector": "Private",
+   "sourceUrl": "https://dmc-education.com/2026/10/25/biovonic-healthcare-pvt-ltd-recruitment-2026-rd-scientist-jobs-in-amritsar-punjab/",
+   "state": "Punjab",
+   "steps": [
+    "Update CV to stress formulation development, QbD, HPLC method development and industrial documentation",
+    "Email CV with current and expected CTC to hr@biovonichealthcare.com",
+    "Put the job title (e.g. FRD – Associate Scientist – DQA) in the subject line",
+    "Confirm the vacancy is still open"
+   ],
+   "title": "FRD – Associate Scientist (DQA) / ADL Scientist"
   },
   {
    "id": "bms-scientific-writer-ii-hyderabad",
@@ -835,6 +870,44 @@
    ],
    "title": "Senior Project Associate (Advt. 898)",
    "type": "Academic Associate"
+  },
+  {
+   "id": "dop-technical-consultant-grade-1-2-advt-05-2026",
+   "applyMode": "Offline – speed post / hand delivery, or email (address in notification)",
+   "applyUrl": "https://pharma-dept.gov.in/recruitment",
+   "category": "other",
+   "city": "New Delhi",
+   "cvFit": {
+    "reason": "Grade 1 asks for M.Pharm plus 3–8 years drug R&D — your M.Pharm, Ph.D. and 3 years DST-SERB project research fit, though most of your experience is teaching rather than industry R&D.",
+    "score": 66
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "Open to M.Pharm/Ph.D. pharmaceutical sciences with drug R&D experience, matching your Pharmaceutics research background."
+   },
+   "found": "2026-10-26",
+   "lastDate": "2026-11-11",
+   "notes": "No application fee. Contractual. Confirm email address and age limit in the official notification.",
+   "org": "Department of Pharmaceuticals, Ministry of Chemicals & Fertilizers",
+   "posted": "2026-10-22",
+   "posts": [
+    "Technical Consultant Grade 1 (2)",
+    "Technical Consultant Grade 2 (3)"
+   ],
+   "qualification": "Post-graduate degree (M.Pharm/M.Sc./M.Tech) in Pharmaceutical Sciences, Medicinal Chemistry, Pharmacology, Biotech or related field. Post-qualification drug R&D experience: Grade 1 3–8 years (max age 40), Grade 2 8–15 years (max age 50), as on 31.03.2026.",
+   "role": "Pharma Policy / Technical Consultant",
+   "salary": "Grade 1: ₹80,000–1,45,000/month; Grade 2: ₹1,45,000–2,65,000/month (fixed, contractual, 5% annual increment)",
+   "sector": "Government",
+   "sourceUrl": "https://www.freejobalert.com/articles/department-of-pharmaceuticals-technical-consultant-recruitment-2026-apply-offline-3075432",
+   "state": "Delhi",
+   "steps": [
+    "Download notification and application form from pharma-dept.gov.in/recruitment",
+    "Fill the prescribed form for Grade 1 (fits your experience band)",
+    "Attach self-attested degree, experience and research/publication proofs",
+    "Send by speed post or hand to Under Secretary (Policy), Dept of Pharmaceuticals, Room 22020, 2nd Floor, Kartavya Bhawan-II, New Delhi, or email as per notification",
+    "Ensure it reaches by 11 Nov 2026"
+   ],
+   "title": "Technical Consultant (Grade 1 & Grade 2) – Advt. 05/2026"
   },
   {
    "id": "galgotias-university-pharmacy-faculty-greater-noida",
@@ -2125,6 +2198,40 @@
    "title": "Senior Medical Writer (Clinical Trial Disclosure)"
   },
   {
+   "id": "patanjali-research-foundation-scientific-medical-writer",
+   "applyMode": "Online",
+   "applyUrl": "https://patanjali.res.in/job-details.php?id=310",
+   "category": "other",
+   "city": "Haridwar",
+   "cvFit": {
+    "reason": "Wants a Ph.D. with manuscript-writing experience — you have a Pharmacy Ph.D., 23 papers and 13 book chapters, plus herbal research that matches Patanjali's focus.",
+    "score": 80
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "Herbal-product research writing suits your pharmacognosy, herbal and spice-authentication publications."
+   },
+   "found": "2026-10-26",
+   "lastDate": "2027-02-28",
+   "org": "Patanjali Research Foundation",
+   "posted": "2026-10-17",
+   "posts": [
+    "Scientific / Medical Writer"
+   ],
+   "qualification": "Master's or Ph.D. in Life Sciences, Biology, Biotechnology, Chemistry, Pharmacy or related field; 2–4 years of scientific manuscript / medical writing or publication support preferred (freshers with strong subject knowledge considered).",
+   "role": "Medical / Scientific Writer",
+   "sector": "Private",
+   "sourceUrl": "https://www.biotecnika.org/2026/10/patanjali-research-foundation-scientific-medical-writer-job-2026/",
+   "state": "Uttarakhand",
+   "steps": [
+    "Open the job page on patanjali.res.in",
+    "Prepare a CV highlighting your 23 papers and 13 book chapters, especially herbal/spice work",
+    "Attach 2–3 writing samples (review articles)",
+    "Submit the online application"
+   ],
+   "title": "Scientific / Medical Writer"
+  },
+  {
    "id": "patentwire-pharma-patent-senior-associate-delhi",
    "applyMode": "Email",
    "category": "other",
@@ -2417,6 +2524,40 @@
     "Submit before 15 Nov 2026"
    ],
    "title": "Regulatory Affairs Specialist – Submission Info Management"
+  },
+  {
+   "id": "sanofi-scientific-writer-hyderabad",
+   "applyMode": "Online on Sanofi careers portal",
+   "applyUrl": "https://jobs.sanofi.com/en/job/-/-/2649/46228297600",
+   "category": "other",
+   "city": "Hyderabad",
+   "cvFit": {
+    "reason": "Asks for an advanced degree and 2+ years of content creation incl. academia — your Ph.D., 23 papers and 13 chapters exceed that, though you lack industry medical-writing exposure.",
+    "score": 76
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "Academic content-creation experience counts, and your Pharmaceutics Ph.D. and publications are directly relevant."
+   },
+   "found": "2026-10-26",
+   "lastDate": "2026-10-31",
+   "org": "Sanofi",
+   "posted": "2026-10-23",
+   "posts": [
+    "Scientific Writer"
+   ],
+   "qualification": "Advanced degree in life sciences or related discipline, or a medical degree; at least 2 years of content creation for the pharmaceutical/healthcare industry or academia.",
+   "role": "Medical / Scientific Writer",
+   "sector": "Private",
+   "sourceUrl": "https://www.biotecnika.org/2026/10/sanofi-scientific-writer-hyderabad-job-2026/",
+   "state": "Telangana",
+   "steps": [
+    "Open the Sanofi careers link",
+    "Create/sign in to a candidate profile",
+    "Upload CV listing publications and book chapters",
+    "Apply before 31 Oct 2026"
+   ],
+   "title": "Scientific Writer"
   },
   {
    "id": "sengunthar-institutions-academic",
@@ -2840,6 +2981,38 @@
    ],
    "title": "Research Professor, Associate Professor, Assistant Professor (R&D Cell)",
    "type": "Faculty"
+  },
+  {
+   "id": "wns-toxicologist-regulatory-module-writing-am",
+   "applyMode": "Online via SmartRecruiters",
+   "applyUrl": "https://jobs.smartrecruiters.com/WNSGlobalServices144/744000156728209-toxicologist-with-regulatory-module-writing-experience-am-remote",
+   "category": "other",
+   "city": "Gurugram (remote)",
+   "cvFit": {
+    "reason": "Asks for toxicology/pharmacology plus 3–5 years industry regulatory toxicology — you have a Ph.D. and writing record but a different specialisation and no industry safety experience.",
+    "score": 38
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "Needs a toxicology/pharmacology specialisation and industry regulatory-toxicology experience, unlike your Pharmaceutics profile."
+   },
+   "found": "2026-10-26",
+   "org": "WNS Global Services",
+   "posted": "2026-10-21",
+   "posts": [
+    "Toxicologist – Regulatory Module Writing (AM)"
+   ],
+   "qualification": "Ph.D. or M.Sc. in Toxicology, Pharmacology or Life Sciences, with 3–5 years in toxicology, safety assessment or regulatory toxicology in pharma, consumer health or life sciences industry.",
+   "role": "Regulatory Writing",
+   "sector": "Private",
+   "sourceUrl": "https://pharmabharat.com/wns-global-services-hiring-for-toxicologist-with-regulatory-module-writing/",
+   "state": "Haryana",
+   "steps": [
+    "Open the SmartRecruiters link",
+    "Upload CV and highlight regulatory writing and any toxicity/safety work",
+    "Submit application"
+   ],
+   "title": "Toxicologist with Regulatory Module Writing Experience (Assistant Manager)"
   }
  ]
 }
