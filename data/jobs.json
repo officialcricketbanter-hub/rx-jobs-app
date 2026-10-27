@@ -1,7 +1,7 @@
 {
  "meta": {
-  "lastRun": "2026-10-26T01:28:12Z",
-  "total": 83,
+  "lastRun": "2026-10-27T01:40:00Z",
+  "total": 88,
   "added": 5
  },
  "jobs": [
@@ -192,6 +192,41 @@
    "title": "Regulatory Affairs Manager II"
   },
   {
+   "id": "atharva-college-of-pharmacy-durg-principal",
+   "applyMode": "Email",
+   "applyUrl": "https://www.csvtu.ac.in//uploads/notifications/advertisement-atharva-college-of-pharmacy_1792820721.pdf",
+   "category": "academic",
+   "city": "Dhanora, Durg",
+   "cvFit": {
+    "reason": "PCI norms for Principal usually need a Ph.D. plus about 15 years incl. Professor experience — you have the Ph.D. but 6.9 years' experience.",
+    "score": 35
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "Principal of a pharmacy college — your Pharmaceutics M.Pharm and Ph.D. are relevant, but it is an administrative headship."
+   },
+   "found": "2026-10-27",
+   "notes": "Filled under Statute-19 of CSVTU. Sources give different deadlines (7 or 10 Nov, or within 15 days) — confirm with the college.",
+   "org": "Atharva College of Pharmacy (affiliated to CSVTU)",
+   "posted": "2026-10-26",
+   "posts": [
+    "Principal (1)"
+   ],
+   "qualification": "As per CSVTU (and PCI) norms; minimum qualification and experience not specified in the notice.",
+   "salary": "As per CSVTU norms",
+   "sector": "Private",
+   "sourceUrl": "https://www.freejobalert.com/articles/atharva-college-of-pharmacy-principal-recruitment-2026-3075696",
+   "state": "Chhattisgarh",
+   "steps": [
+    "Read the official CSVTU advertisement PDF",
+    "Email your resume with supporting documents to atharvacollegeofpharmacy23@gmail.com",
+    "Mention 'Application for Principal' in the subject",
+    "Apply within 15 days of the advertisement (about early November 2026)"
+   ],
+   "title": "Principal – Atharva College of Pharmacy",
+   "type": "Faculty"
+  },
+  {
    "id": "atmiya-university-rajkot-pharmacy-faculty",
    "applyMode": "Online through the Career section of the university website",
    "applyUrl": "https://www.atmiyauni.ac.in",
@@ -369,6 +404,41 @@
    ],
    "title": "Professor, Associate Professor, Assistant Professor",
    "type": "Faculty"
+  },
+  {
+   "id": "bhaikaka-university-clinical-research-executive",
+   "applyMode": "Email",
+   "applyUrl": "https://www.bhaikakauniv.edu.in/Career",
+   "category": "other",
+   "city": "Karamsad, Anand",
+   "cvFit": {
+    "reason": "Asks for M.Pharm Clinical Pharmacy/Pharmacology, GCP and 5 years of trial coordination — your M.Pharm is Pharmaceutics and your experience is teaching and formulation research.",
+    "score": 30
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "Needs M.Pharm in Clinical Pharmacy/Pharmacology and trial-site experience, not Pharmaceutics."
+   },
+   "found": "2026-10-27",
+   "lastDate": "2026-10-29",
+   "notes": "Same advertisement also lists GM/DGM/AGM Pharmacy (retail/procurement) posts.",
+   "org": "Bhaikaka University",
+   "posted": "2026-10-21",
+   "posts": [
+    "Clinical Research Executive"
+   ],
+   "qualification": "M.Pharm in Clinical Pharmacy or Clinical Pharmacology with GCP certification/training, plus 5+ years in clinical trial coordination and management.",
+   "role": "Clinical Research",
+   "sector": "Private",
+   "sourceUrl": "https://www.facultyplus.com/healthcare-jobs-2026-at-bhaikaka-university-anand/",
+   "state": "Gujarat",
+   "steps": [
+    "Open the Career page of Bhaikaka University for the advertisement and email address",
+    "Email your updated CV with the position name in the subject line before 29 October 2026",
+    "Highlight any clinical/regulatory documentation and GCP training",
+    "Wait for email shortlisting"
+   ],
+   "title": "Clinical Research Executive – R&D Cell"
   },
   {
    "id": "bihar-college-of-pharmacy-patna-faculty",
@@ -2047,6 +2117,48 @@
    "type": "Scientist"
   },
   {
+   "id": "nmims-sptm-hyderabad-pharmaceutics-faculty",
+   "applyMode": "Online (NMIMS career portal)",
+   "applyUrl": "https://fa-elxu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/14724/",
+   "category": "academic",
+   "city": "Hyderabad",
+   "cvFit": {
+    "reason": "Subject matches your Pharmaceutics M.Pharm and Ph.D., but it asks for 10 years incl. 5 as Associate Professor and Ph.D. guidance — you have 6.9 years and recently became Associate Professor.",
+    "score": 38
+   },
+   "documents": [
+    "CV with publications and research score",
+    "Ph.D., M.Pharm, B.Pharm certificates and mark sheets",
+    "Pharmacist registration certificate",
+    "Experience certificates",
+    "Proof of doctoral guidance",
+    "Photo ID"
+   ],
+   "fit": {
+    "level": "Strong",
+    "reason": "The subject is Pharmaceutics — exactly your M.Pharm specialisation and Ph.D. area."
+   },
+   "found": "2026-10-27",
+   "notes": "Title says Assistant Professor but eligibility text matches Professor — confirm on the portal. No last date stated.",
+   "org": "NMIMS (SVKM's Narsee Monjee Institute of Management Studies)",
+   "posted": "2026-10-26",
+   "posts": [
+    "Assistant Professor / Professor – Pharmaceutics (title unclear)"
+   ],
+   "qualification": "Ph.D. in pharmacy subject; first-class B.Pharm + M.Pharm (or Pharm.D.), PCI-recognised; registered pharmacist. Minimum 10 years incl. 5 as Associate Professor, 10 SCI papers, research score 120 and 2 Ph.D. students guided.",
+   "sector": "Private",
+   "sourceUrl": "https://www.facultyplus.com/nmims-recruitment-2026-apply-for-faculty-post-in-pharmaceutics-sptm/",
+   "state": "Telangana",
+   "steps": [
+    "Open job requisition 14724 on the NMIMS career site",
+    "Create a candidate profile and upload your CV with publication list and research score",
+    "Upload degree certificates, PCI/pharmacist registration and experience certificates",
+    "Submit and track the application on the portal"
+   ],
+   "title": "Faculty – Pharmaceutics, School of Pharmacy & Technology Management (Req. 14724)",
+   "type": "Faculty"
+  },
+  {
    "id": "novo-nordisk-associate-pv-manager-bangalore",
    "applyMode": "Online",
    "applyUrl": "https://careers.novonordisk.com/job/Bangalore-Associate-Pharmacovigilance-Manager-Karn/1447996733/",
@@ -2163,6 +2275,47 @@
    ],
    "title": "Project Research Scientist I (LTMT project, Haematology)",
    "type": "Scientist"
+  },
+  {
+   "id": "oxford-college-of-pharmacy-bengaluru-faculty",
+   "applyMode": "Email",
+   "applyUrl": "http://www.theoxford.edu/",
+   "category": "academic",
+   "city": "Bengaluru",
+   "cvFit": {
+    "reason": "Pharmaceutics with Ph.D. matches you; Associate Professor asks for 5 years as Assistant Professor and your teaching is about 3.8 years, so Assistant Professor is the safer fit.",
+    "score": 76
+   },
+   "documents": [
+    "Updated CV",
+    "Supporting documents"
+   ],
+   "fit": {
+    "level": "Strong",
+    "reason": "Pharmaceutics is a listed subject and Ph.D. is required for senior posts — matches your M.Pharm Pharmaceutics and Ph.D."
+   },
+   "found": "2026-10-27",
+   "notes": "'Apply immediately' — no last date stated. Address: No. 6/9, I Cross, Begur Road, Hongasandra, Bengaluru 560068.",
+   "org": "The Oxford College of Pharmacy",
+   "posted": "2026-10-24",
+   "posts": [
+    "Professor",
+    "Associate Professor",
+    "Assistant Professor"
+   ],
+   "qualification": "Subjects: Pharmaceutics, Pharmacology, Pharmacy Practice, Pharmacognosy, Pharmaceutical Chemistry, Regulatory Affairs. Professor: Ph.D. + 10 years incl. 5 as Associate Professor; Associate Professor: Ph.D. + 5 years as Assistant Professor or equivalent; Assistant Professor: M.Pharm, pursuing Ph.D. Flyer asks for minimum 3 years' teaching in a PCI-approved institution.",
+   "salary": "As per norms",
+   "sector": "Private",
+   "sourceUrl": "https://www.facultyplus.com/faculty-recruitment-2026-at-the-oxford-college-of-pharmacy-bengaluru/",
+   "state": "Karnataka",
+   "steps": [
+    "Open the notice on facultyplus or theoxford.edu to get the application email address",
+    "Email your updated CV with supporting documents, naming the post and Pharmaceutics",
+    "Call 080-61754694 / 9550474330 if the email address is unclear",
+    "Apply immediately — no fixed last date"
+   ],
+   "title": "Professor, Associate Professor & Assistant Professor – Pharmacy",
+   "type": "Faculty"
   },
   {
    "id": "parexel-senior-medical-writer-bengaluru",
@@ -2980,6 +3133,44 @@
     "Send by 20 Oct 2026"
    ],
    "title": "Research Professor, Associate Professor, Assistant Professor (R&D Cell)",
+   "type": "Faculty"
+  },
+  {
+   "id": "vidhyadeep-university-surat-pharmacy-faculty",
+   "applyMode": "Email",
+   "applyUrl": "https://www.vidhyadeepuni.ac.in/career.php",
+   "category": "academic",
+   "city": "Anita, Olpad, Surat",
+   "cvFit": {
+    "reason": "Asks for Pharmaceutics faculty with Ph.D. preferred — you have M.Pharm Pharmaceutics, a Ph.D., 6.9 years' experience and 23 papers, suiting the Associate Professor posts.",
+    "score": 90
+   },
+   "fit": {
+    "level": "Strong",
+    "reason": "Pharmaceutics is one of the listed subjects and Ph.D. holders are preferred — matches your M.Pharm Pharmaceutics and Ph.D."
+   },
+   "found": "2026-10-27",
+   "lastDate": "2026-10-28",
+   "notes": "Advt. No. VIDUNI/REC/57/2026-27 dated 22 Oct 2026. Deadline is very short. Campus: At & Post Anita, Kim–Olpad Highway, Surat 394110.",
+   "org": "Vidhyadeep University",
+   "posted": "2026-10-22",
+   "posts": [
+    "Professor (7)",
+    "Associate Professor (8)",
+    "Assistant Professor (7)"
+   ],
+   "qualification": "As per UGC, regulatory body (PCI) and university norms, for D.Pharm/B.Pharm programmes in Pharmaceutics, Pharmaceutical Chemistry, Quality Assurance, Pharmacology and Pharmacognosy. Ph.D.-qualified candidates get preference.",
+   "salary": "Commensurate with qualifications, experience and performance",
+   "sector": "Private",
+   "sourceUrl": "https://www.staffavailable.com/vidhyadeep-university-pharmacy-recruitment-2026/",
+   "state": "Gujarat",
+   "steps": [
+    "Prepare an updated CV with publications, patents and teaching/research experience",
+    "Email it to hr@vidhyadeepuni.ac.in by 28 October 2026",
+    "Use the subject line 'Application for Associate Professor — Pharmacy — VIDUNI/REC/57/2026-27'",
+    "Mention Pharmaceutics as your specialisation in the email and CV"
+   ],
+   "title": "Professor, Associate Professor & Assistant Professor – Pharmacy (22 posts)",
    "type": "Faculty"
   },
   {
