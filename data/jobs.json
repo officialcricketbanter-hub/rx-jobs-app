@@ -1,8 +1,8 @@
 {
  "meta": {
-  "lastRun": "2026-10-27T01:40:00Z",
-  "total": 88,
-  "added": 5
+  "lastRun": "2026-10-28T01:18:02Z",
+  "total": 89,
+  "added": 3
  },
  "jobs": [
   {
@@ -39,6 +39,42 @@
    "title": "Manager, Regulatory Affairs"
   },
   {
+   "id": "aiims-new-delhi-project-research-scientist-i-pathology-icmr",
+   "applyMode": "Online via Google Form",
+   "applyUrl": "https://forms.gle/tcsBiSTUZCvpLeCG8",
+   "category": "academic",
+   "city": "New Delhi",
+   "cvFit": {
+    "reason": "Asks for a life-sciences PG with cytology and sample-processing skills; your M.Pharm and GATE count, but your formulation background does not match, and the 35-year age limit may apply.",
+    "score": 42
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "A pathology/cytology lab project that does not use your Pharmaceutics formulation specialisation."
+   },
+   "found": "2026-10-28",
+   "lastDate": "2026-11-10",
+   "notes": "Temporary ICMR-funded project (Sep 2026–Sep 2029). Also has 2 Project Technical Support-I posts (not relevant).",
+   "org": "AIIMS New Delhi",
+   "posted": "2026-10-22",
+   "posts": [
+    "Project Research Scientist-I (Non-Medical) (1)"
+   ],
+   "qualification": "Postgraduate degree (incl. integrated PG) in Life Sciences, Biomedical Sciences or allied field; age up to 35. Preferred: cytology/HRA, sample processing, microscopy experience; NET/GATE holders preferred.",
+   "salary": "Rs. 56,000 per month + HRA",
+   "sector": "Government",
+   "sourceUrl": "https://www.aiims.edu/images/pdf/recruitment/advertisement/pathology-22-10-26.pdf",
+   "state": "Delhi",
+   "steps": [
+    "Read the official advertisement (Pathology, 22-10-26)",
+    "Check the 35-year age limit and allied-field eligibility",
+    "Fill the Google Form before 10 Nov 2026, 5:00 PM",
+    "Attend the interview if shortlisted (no TA/DA)"
+   ],
+   "title": "Project Research Scientist-I (Non-Medical) – ICMR project, Dept. of Pathology",
+   "type": "Scientist"
+  },
+  {
    "id": "amneal-regulatory-affairs-assistant-manager-ahmedabad",
    "applyMode": "Apply online on Amneal India careers portal",
    "applyUrl": "https://hcfa.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/AmnealIndiaCareers/job/8785/",
@@ -70,6 +106,45 @@
     "Submit before 30 Oct 2026"
    ],
    "title": "Regulatory Affairs Assistant Manager"
+  },
+  {
+   "id": "apex-institute-pharmacy-raigarh-principal-professor-faculty",
+   "applyMode": "Send resume with supporting documents within 15 days of the advertisement",
+   "applyUrl": "https://www.csvtu.ac.in/uploads/notifications/advertisement2-apex-institute_1793009422.pdf",
+   "category": "academic",
+   "city": "Raigarh",
+   "cvFit": {
+    "reason": "Associate Professor under PCI norms needs a Ph.D. and teaching/research experience — you have a Pharmaceutics Ph.D., are already an Associate Professor and have 23 papers, though the subject isn't specified.",
+    "score": 78
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "A general pharmacy college hiring Associate Professors across subjects, which can include your Pharmaceutics M.Pharm and Ph.D."
+   },
+   "found": "2026-10-28",
+   "notes": "The notice does not print its date; third-party portals give a deadline of 9 or 10 Nov 2026 — confirm with the institute. Affiliated to CSVTU.",
+   "org": "Apex Institute of Pharmacy Education and Research (AIPER)",
+   "posted": "2026-10-26",
+   "posts": [
+    "Principal (1)",
+    "Professor (3)",
+    "Associate Professor (4)",
+    "Assistant Professor / Lecturer (6)"
+   ],
+   "qualification": "As per UGC/AICTE/PCI norms for each post; subjects are not specified in the notice.",
+   "salary": "As per UGC/AICTE/PCI norms",
+   "sector": "Private",
+   "sourceUrl": "https://www.freejobalert.com/articles/aiper-recruitment-2026-apply-offline-for-14-principal-professor-and-more-posts-3075902",
+   "state": "Chhattisgarh",
+   "steps": [
+    "Open the official CSVTU-hosted advertisement and note the institute's email/address",
+    "Prepare an updated CV highlighting your Pharmaceutics M.Pharm, Ph.D., 6.9 years and publications",
+    "Attach copies of degrees, PCI registration, experience letters and publication list",
+    "Call 7972877957 / 9201972529 to confirm the mode of submission and the exact deadline",
+    "Submit within 15 days of the advertisement (job portals indicate about 9–10 Nov 2026)"
+   ],
+   "title": "Principal, Professor, Associate Professor & Assistant Professor (Pharmacy) – 14 posts",
+   "type": "Faculty"
   },
   {
    "id": "arni-university-kangra",
@@ -371,6 +446,40 @@
    "type": "Faculty"
   },
   {
+   "id": "bausch-lomb-pharmacovigilance-specialist-mumbai",
+   "applyMode": "Online on Bausch + Lomb careers portal",
+   "applyUrl": "https://careers.bauschlomb.com/job/IN-Mumbai-Pharmacovigilance-Specialist/1375810257/",
+   "category": "other",
+   "city": "Mumbai",
+   "cvFit": {
+    "reason": "Asks for 3+ years in pharmacovigilance or PMS — your Ph.D. qualifies on degree, but you have no PV case-processing experience.",
+    "score": 35
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "Needs hands-on pharmacovigilance experience, which your Pharmaceutics teaching/research profile does not include."
+   },
+   "found": "2026-10-28",
+   "notes": "Local PV designee role handling expedited reporting to CDSCO, vendor ICSR oversight and PMS programmes.",
+   "org": "Bausch + Lomb",
+   "posted": "2026-10-26",
+   "posts": [
+    "Pharmacovigilance Specialist"
+   ],
+   "qualification": "Bachelor's, master's or doctoral degree in pharmacy, nursing or related field with at least 3 years in pharmacovigilance, materiovigilance or post-marketing surveillance; ICSR/device event review preferred.",
+   "role": "Pharmacovigilance",
+   "sector": "Private",
+   "sourceUrl": "https://pharmabharat.com/bausch-lomb-hiring-for-pharmacovigilance-specialist/",
+   "state": "Maharashtra",
+   "steps": [
+    "Open the job on the Bausch + Lomb careers portal",
+    "Create a candidate profile",
+    "Tailor your CV to stress regulatory documentation, SOP writing and CDSCO knowledge",
+    "Submit the online application"
+   ],
+   "title": "Pharmacovigilance Specialist"
+  },
+  {
    "id": "bbd-university-lucknow-faculty",
    "applyMode": "Email resume",
    "applyUrl": "https://bbdu.ac.in/",
@@ -538,40 +647,6 @@
     "Submit; the role is open until filled"
    ],
    "title": "Scientific Writer II"
-  },
-  {
-   "id": "brahmanand-principal-asst-prof",
-   "applyMode": "Email CV to bgibsr@gmail.com",
-   "category": "academic",
-   "city": "Bulandshahr",
-   "cvFit": {
-    "reason": "Assistant Professor needs M.Pharm with 2 years — you exceed it with a Ph.D. and 6.9 years; Principal/Director would usually need longer senior experience.",
-    "score": 70
-   },
-   "fit": {
-    "level": "Good",
-    "reason": "Assistant Professor post with subject not specified needs M.Pharm plus 2 years' experience; Principal needs a Ph.D. — closes today."
-   },
-   "found": "2026-10-20",
-   "lastDate": "2026-10-20",
-   "notes": "Also 3 Lecturer (D.Pharm) posts.",
-   "org": "Brahmanand Group of Institutions",
-   "posted": "2026-09-22",
-   "posts": [
-    "Assistant Professor",
-    "Professor"
-   ],
-   "qualification": "Principal/Director: Ph.D. in relevant discipline. Assistant Professor (B.Pharm): M.Pharm with 2 years' experience.",
-   "sector": "Private",
-   "sourceUrl": "https://www.pharmatutor.org/content/september-2026/recruitment-of-principal-director-assistant-professor-post-at-brahmanand-group-of-institutions",
-   "state": "Uttar Pradesh",
-   "steps": [
-    "Prepare an updated CV naming the post (Principal/Director or Assistant Professor)",
-    "Email it to bgibsr@gmail.com",
-    "Send by 20 Oct 2026"
-   ],
-   "title": "Principal / Director and Assistant Professor (Pharmacy)",
-   "type": "Faculty"
   },
   {
    "id": "c-camp-computational-cheminformatics-scientist",
@@ -3097,43 +3172,6 @@
     "Prepare for the proposed screening exam on 16 Dec 2026"
    ],
    "title": "Inspector of Drugs (Advt. D-6/E-1/2025, reopened)"
-  },
-  {
-   "id": "usha-martin-university-rnd",
-   "applyMode": "Email letter of interest + resume",
-   "applyUrl": "https://www.facultyplus.com/wp-content/uploads/2026/10/Revised-Advertisement-Research-Developement.pdf",
-   "category": "academic",
-   "city": "Ranchi",
-   "cvFit": {
-    "reason": "R&D-cell faculty posts want a strong research record — your 23 papers and 13 chapters fit Associate Professor; grant experience helps.",
-    "score": 78
-   },
-   "fit": {
-    "level": "Good",
-    "reason": "Research-focused faculty posts open broadly — your Ph.D. and publications fit; closes today."
-   },
-   "found": "2026-10-20",
-   "lastDate": "2026-10-20",
-   "notes": "Research-focused posts in the R&D cell; a Ph.D. with publications fits well.",
-   "org": "Usha Martin University",
-   "posted": "2026-10-02",
-   "posts": [
-    "Professor",
-    "Associate Professor",
-    "Assistant Professor"
-   ],
-   "qualification": "UGC-norm qualifications with strong research record (publications, projects); sponsored-project or grant experience preferred.",
-   "sector": "Private",
-   "sourceUrl": "https://www.facultyplus.com/job-vacancies-at-usha-martin-university-ranchi-for-research-and-development-cell/",
-   "state": "Jharkhand",
-   "steps": [
-    "Get the email address from the advertisement PDF",
-    "Email a letter of interest and detailed resume",
-    "Use subject 'Application for the Post of Research Professor/Faculty'",
-    "Send by 20 Oct 2026"
-   ],
-   "title": "Research Professor, Associate Professor, Assistant Professor (R&D Cell)",
-   "type": "Faculty"
   },
   {
    "id": "vidhyadeep-university-surat-pharmacy-faculty",
