@@ -1,8 +1,8 @@
 {
  "meta": {
-  "lastRun": "2026-10-28T01:18:02Z",
-  "total": 89,
-  "added": 3
+  "lastRun": "2026-10-29T01:23:35Z",
+  "total": 92,
+  "added": 5
  },
  "jobs": [
   {
@@ -550,6 +550,40 @@
    "title": "Clinical Research Executive – R&D Cell"
   },
   {
+   "id": "bharath-institute-pharmacy-professor-associate-professor",
+   "applyMode": "Email CV and documents (address in the notification)",
+   "category": "academic",
+   "city": "Chennai",
+   "cvFit": {
+    "reason": "Associate Professor needs 8 years — you have 6.9 years in total (3.8 teaching), so you fall short on experience though the Ph.D. fits.",
+    "score": 55
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "Pharmacy department senior posts need a Ph.D., which you have; no subject is specified."
+   },
+   "found": "2026-10-29",
+   "org": "Bharath Institute of Higher Education and Research",
+   "posted": "2026-10-26",
+   "posts": [
+    "Professor (Pharmacy)",
+    "Associate Professor (Pharmacy)"
+   ],
+   "qualification": "Ph.D. in the relevant discipline with PCI/UGC eligibility; Professor needs at least 10 years and Associate Professor at least 8 years of academic/research experience.",
+   "salary": "Based on qualification and experience as per UGC/university norms",
+   "sector": "Private",
+   "sourceUrl": "https://www.facultyplus.com/faculty-recruitment-2026-at-bharath-institute-of-higher-education-and-research-chennai/",
+   "state": "Tamil Nadu",
+   "steps": [
+    "Copy the email address from the notification",
+    "Email your CV, scanned experience certificates, testimonials and last-drawn salary details",
+    "Write the post and department (Associate Professor – Pharmacy) in the subject line",
+    "Apply immediately — no closing date is given"
+   ],
+   "title": "Professor / Associate Professor — Pharmacy",
+   "type": "Faculty"
+  },
+  {
    "id": "bihar-college-of-pharmacy-patna-faculty",
    "applyMode": "See advertisement",
    "category": "academic",
@@ -981,42 +1015,6 @@
    "type": "Academic Associate"
   },
   {
-   "id": "csir-ncl-senior-project-associate-polymer",
-   "applyMode": "Online form",
-   "applyUrl": "https://jobs.ncl.res.in",
-   "category": "academic",
-   "city": "Pune",
-   "cvFit": {
-    "reason": "Polymer synthesis focus with an age limit of 28 — mismatched with your profile and level.",
-    "score": 30
-   },
-   "fit": {
-    "level": "Low",
-    "reason": "Polymer-fibre project with age limit 28 and 2-3 years' R&D experience — not a Pharmaceutics post."
-   },
-   "found": "2026-10-20",
-   "lastDate": "2026-10-21",
-   "notes": "2 posts, aramid/carbon fibre project (Polymer Science & Engg). Low age limit (28 + relaxation) – check eligibility before applying.",
-   "org": "CSIR-National Chemical Laboratory",
-   "posted": "2026-10-16",
-   "posts": [
-    "Senior Project Associate"
-   ],
-   "qualification": "Master's in Pharmaceutical/Natural Sciences with 3 years' R&D experience, or a Doctoral degree in Science/Pharma with 2 years' R&D experience. Polymer synthesis/characterisation experience preferred. Age limit 28 (relaxable).",
-   "salary": "Rs 42,000 + HRA per month",
-   "sector": "Government",
-   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/job-for-phd-mpharm-msc-candidates-as-project-associate-at-national-chemical-laboratory",
-   "state": "Maharashtra",
-   "steps": [
-    "Register on jobs.ncl.res.in with a valid email",
-    "Upload photo (<50 KB JPG) and signature (<25 KB JPG)",
-    "Upload scanned mark sheets (SSC to PhD) and one PDF of testimonials",
-    "Submit by 21 Oct 2026; shortlist on 23 Oct, online interview 27 Oct"
-   ],
-   "title": "Senior Project Associate (Advt. 898)",
-   "type": "Academic Associate"
-  },
-  {
    "id": "dop-technical-consultant-grade-1-2-advt-05-2026",
    "applyMode": "Offline – speed post / hand delivery, or email (address in notification)",
    "applyUrl": "https://pharma-dept.gov.in/recruitment",
@@ -1199,6 +1197,39 @@
     "Submit before 15 November 2026"
    ],
    "title": "Sr. Scientist, Pharmacovigilance Operations Oversight and Strategy"
+  },
+  {
+   "id": "guru-nanak-group-of-colleges-seohara-hod-pharmacy",
+   "applyMode": "Email resume (address in the notice); phone 9520768200 / 9412412035",
+   "category": "academic",
+   "city": "Seohara (Bijnor)",
+   "cvFit": {
+    "reason": "A leadership post in Pharmacy where your Ph.D., 6.9 years and current Associate Professor role make you a credible HoD candidate; exact norms aren't stated.",
+    "score": 72
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "A pharmacy HoD post where your Ph.D. and Associate Professor experience are relevant; no subject restriction."
+   },
+   "found": "2026-10-29",
+   "notes": "Notice says 'Apply Immediately'; qualification, salary and closing date are not given.",
+   "org": "Guru Nanak Group of Colleges",
+   "posted": "2026-10-26",
+   "posts": [
+    "Head of Department (Pharmacy)"
+   ],
+   "qualification": "As per norms for the post (not detailed in the notice).",
+   "sector": "Private",
+   "sourceUrl": "https://www.facultyplus.com/teaching-vacancies-at-guru-nanak-group-of-colleges-seohara/",
+   "state": "Uttar Pradesh",
+   "steps": [
+    "Update your resume highlighting your Associate Professor role and Ph.D.",
+    "Email it to the address in the notice, naming 'HOD Pharmacy' in the subject",
+    "Call 9520768200 or 9412412035 for details",
+    "Keep certificates and experience letters ready; apply immediately"
+   ],
+   "title": "Head of Department — Pharmacy",
+   "type": "Faculty"
   },
   {
    "id": "guru-nanak-institutions-asst-prof",
@@ -1639,6 +1670,43 @@
     "Apply immediately; queries 040-29880083 / 29880084"
    ],
    "title": "Assistant Professor (Pharmacology)",
+   "type": "Faculty"
+  },
+  {
+   "id": "jaipur-national-university-pharmacy-faculty",
+   "applyMode": "Email CV, photo and self-attested testimonials (address in the advertisement / jnujaipur.ac.in)",
+   "applyUrl": "https://www.jnujaipur.ac.in",
+   "category": "academic",
+   "city": "Jaipur",
+   "cvFit": {
+    "reason": "Pharmaceutics posts at all levels with a Ph.D. desirable — you have the Ph.D., 6.9 years and 23 papers; Associate Professor level suits your current role.",
+    "score": 86
+   },
+   "fit": {
+    "level": "Strong",
+    "reason": "Pharmaceutics is a listed subject and a Ph.D. is desired — matches your M.Pharm Pharmaceutics + Ph.D."
+   },
+   "found": "2026-10-29",
+   "notes": "Applications are due within 7 days of the advertisement dated 28 Oct 2026.",
+   "org": "Jaipur National University",
+   "posted": "2026-10-28",
+   "posts": [
+    "Professor",
+    "Associate Professor",
+    "Assistant Professor (Pharmaceutics, Pharmaceutical Chemistry, Quality Assurance, Pharmacology, Pharmacognosy, Pharmacy Practice, Pharma Analysis)"
+   ],
+   "qualification": "As per UGC norms; for Assistant Professor NET/SET is preferred and a Ph.D. is desirable. Pharmaceutics is a listed subject.",
+   "salary": "As per norms",
+   "sector": "Private",
+   "sourceUrl": "https://www.facultyplus.com/faculty-and-staff-jobs-2026-at-jaipur-national-university-jaipur/",
+   "state": "Rajasthan",
+   "steps": [
+    "Open the advertisement on facultyplus or jnujaipur.ac.in and copy the university-posts email address",
+    "Prepare a detailed CV with your Ph.D., 23 papers and 13 chapters listed",
+    "Email CV, recent photo and self-attested testimonials with the post name (e.g. Associate Professor – Pharmaceutics) in the subject",
+    "Send quickly — the deadline is 7 days from the 28 Oct 2026 advertisement"
+   ],
+   "title": "Professor / Associate Professor / Assistant Professor — Pharmaceutical Sciences",
    "type": "Faculty"
   },
   {
@@ -2754,6 +2822,42 @@
    "title": "Regulatory Affairs Specialist – Submission Info Management"
   },
   {
+   "id": "sanjivani-university-assistant-professor-pharmaceutics",
+   "applyMode": "Email CV to the address in the advertisement",
+   "applyUrl": "https://www.facultyplus.com/faculty-and-leadership-jobs-2026-at-sanjivani-university-kopargaon/",
+   "category": "academic",
+   "city": "Kopargaon",
+   "cvFit": {
+    "reason": "Subject matches your Pharmaceutics Ph.D. exactly, but it is an Assistant Professor post — a step below your current Associate Professor role.",
+    "score": 74
+   },
+   "fit": {
+    "level": "Strong",
+    "reason": "An Assistant Professor post in Pharmaceutics — your exact M.Pharm specialisation and Ph.D. area."
+   },
+   "found": "2026-10-29",
+   "lastDate": "2026-11-01",
+   "notes": "Accommodation support, relocation assistance and incentives are mentioned. Professor/Associate Professor posts in this advert are not for pharmacy.",
+   "org": "Sanjivani University",
+   "posted": "2026-10-28",
+   "posts": [
+    "Assistant Professor (Pharmaceutics)",
+    "Assistant Professor (Pharmacology)",
+    "Assistant Professor (Drug Regulatory Affairs)"
+   ],
+   "qualification": "Eligibility as per UGC, AICTE and PCI norms and university requirements; specific degrees and experience are not listed.",
+   "sector": "Private",
+   "sourceUrl": "https://www.facultyplus.com/faculty-and-leadership-jobs-2026-at-sanjivani-university-kopargaon/",
+   "state": "Maharashtra",
+   "steps": [
+    "Get the official email address from the advertisement",
+    "Email your CV naming 'Assistant Professor – Pharmaceutics' in the subject",
+    "Send by 1 Nov 2026; shortlisted candidates are informed by email"
+   ],
+   "title": "Assistant Professor — Pharmaceutics, Pharmacology, Drug Regulatory Affairs",
+   "type": "Faculty"
+  },
+  {
    "id": "sanofi-scientific-writer-hyderabad",
    "applyMode": "Online on Sanofi careers portal",
    "applyUrl": "https://jobs.sanofi.com/en/job/-/-/2649/46228297600",
@@ -3138,40 +3242,38 @@
    "title": "Assistant Manager – Product Development Group (OSD Project Management)"
   },
   {
-   "id": "uppsc-inspector-of-drugs-d6-2025",
-   "applyMode": "Online",
-   "applyUrl": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
+   "id": "torrent-pharma-formulation-development-assistant-manager-oncology",
+   "applyMode": "Walk-in interview on 1 Nov 2026, 10:00 AM–3:00 PM at Torrent R&D Centre, Village Bhat, Gandhinagar, or email resume",
    "category": "other",
-   "city": "Prayagraj",
+   "city": "Gandhinagar",
    "cvFit": {
-    "reason": "Needs a pharmacy degree and age up to 40 — your B.Pharm, M.Pharm and Ph.D. qualify, though the role is regulatory rather than research.",
-    "score": 78
+    "reason": "Your Ph.D. in formulation/QbD fits the subject, but the Assistant Manager role wants 8-15 years of industry formulation experience, which you don't have.",
+    "score": 50
    },
    "fit": {
     "level": "Good",
-    "reason": "Pharmacy degree is the core eligibility; your B.Pharm, M.Pharm Pharmaceutics and Ph.D. comfortably exceed it."
+    "reason": "Formulation development matches your Pharmaceutics M.Pharm and QbD Ph.D., but industry years are expected."
    },
-   "found": "2026-10-20",
-   "lastDate": "2026-10-21",
-   "notes": "Applications reopened by corrigendum dated 19 Sep 2026; proposed screening exam 16 Dec 2026. Confirm dates on the official notice.",
-   "org": "Uttar Pradesh Public Service Commission (UPPSC)",
+   "found": "2026-10-29",
+   "lastDate": "2026-11-01",
+   "org": "Torrent Pharmaceuticals",
+   "posted": "2026-10-25",
    "posts": [
-    "Inspector of Drugs (26 posts)"
+    "Assistant Manager – Formulation Development",
+    "Executive – Formulation Development"
    ],
-   "qualification": "Degree in Pharmacy or Pharmaceutical Sciences, or a Medicine degree with Clinical Pharmacology or Microbiology, from a university established by law in India. Age 21-40 with relaxation for reserved categories as per UP rules.",
-   "role": "Drug Inspector",
-   "salary": "Pay Matrix Level-8 (Rs 47,600 – 1,51,100)",
-   "sector": "Government",
-   "sourceUrl": "https://centralstatejobs.in/jobs/uppsc-inspector-of-drugs-recruitment-2026",
-   "state": "Uttar Pradesh",
+   "qualification": "Assistant Manager: M.Pharm or Ph.D. with 8-15 years; Executive: M.Pharm with 3-8 years, in formulation development (oncology/domestic markets).",
+   "role": "Formulation R&D",
+   "sector": "Private",
+   "sourceUrl": "https://pharmastuff.org/job/torrent-pharma-formulation-development-recruitment",
+   "state": "Gujarat",
    "steps": [
-    "Open the UPPSC notifications page and select the Inspector of Drugs advertisement (D-6/E-1/2025, corrigendum of 19 Sep 2026)",
-    "Complete One Time Registration if not already done",
-    "Fill the online form and upload photo and signature",
-    "Pay the fee and submit by 21 Oct 2026; corrections are allowed until 28 Oct 2026",
-    "Prepare for the proposed screening exam on 16 Dec 2026"
+    "Update your CV to highlight formulation development, QbD and Design Expert work",
+    "Carry CV plus education and experience documents",
+    "Attend the walk-in on Sunday 1 Nov 2026 (10 AM–3 PM) at Torrent R&D Centre, Village Bhat, near Indira Bridge, Gandhinagar",
+    "Skip if Torrent interviewed you in the last six months"
    ],
-   "title": "Inspector of Drugs (Advt. D-6/E-1/2025, reopened)"
+   "title": "Assistant Manager / Executive — Formulation Development (Oncology & Domestic)"
   },
   {
    "id": "vidhyadeep-university-surat-pharmacy-faculty",
