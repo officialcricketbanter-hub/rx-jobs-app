@@ -1,8 +1,8 @@
 {
  "meta": {
-  "lastRun": "2026-10-29T01:23:35Z",
-  "total": 92,
-  "added": 5
+  "lastRun": "2026-10-30T01:24:18Z",
+  "total": 95,
+  "added": 3
  },
  "jobs": [
   {
@@ -715,6 +715,50 @@
     "Send before 31 Oct 2026"
    ],
    "title": "Computational / Cheminformatics Scientist"
+  },
+  {
+   "id": "cdfd-hyderabad-scientist-iii-iv-v-advt-04-2026",
+   "applyMode": "Online only via cdfd.org.in (opens 31 Oct 2026, closes 31 Dec 2026, 6 PM)",
+   "applyUrl": "https://cdfd.org.in/APPS/recruit2026/Advt.04_2026.pdf",
+   "category": "academic",
+   "city": "Hyderabad",
+   "cvFit": {
+    "reason": "Your Pharmaceutical Sciences Ph.D. meets the Scientist-III bar and your 23 papers help, but CDFD focuses on genetics/molecular biology, so your pharmaceutics/QbD profile is a partial match.",
+    "score": 68
+   },
+   "documents": [
+    "Master's/M.Pharm and Ph.D. certificates",
+    "Experience certificates (full-time only)",
+    "Publication list"
+   ],
+   "fit": {
+    "level": "Good",
+    "reason": "Pharmaceutical Sciences Ph.D. is explicitly eligible, though CDFD's research is molecular-biology oriented rather than pharmaceutics."
+   },
+   "found": "2026-10-30",
+   "lastDate": "2026-12-31",
+   "notes": "6 posts in total. Only full-time project/regular experience counts; guest/visiting faculty work is not counted.",
+   "org": "BRIC-Centre for DNA Fingerprinting and Diagnostics (CDFD)",
+   "posted": "2026-10-28",
+   "posts": [
+    "Scientist-V",
+    "Scientist-IV",
+    "Scientist-III"
+   ],
+   "qualification": "Ph.D. in Life Sciences, Biotechnology, Biochemistry, Chemistry, Pharmaceutical Sciences or related fields (or Ph.D. in Pharmaceutical/Chemical/Biomedical Engineering, MD/MDS/MVSc). Scientist-III needs no post-Ph.D. experience; Scientist-IV/V need progressively more research experience. Age up to 45 years as on 31 Dec 2026.",
+   "salary": "Scientist-III Pay Level 11 (basic Rs 67,700); Scientist-IV Level 12 (Rs 78,800); Scientist-V Level 13 (Rs 1,23,100)",
+   "sector": "Government",
+   "sourceUrl": "https://centralstatejobs.in/jobs/cdfd-scientist-recruitment-2026-advt-042026",
+   "state": "Telangana",
+   "steps": [
+    "Download and read Advt. 04/2026 from cdfd.org.in to check the research areas sought for each level",
+    "Pick the level that matches your post-Ph.D. experience (Scientist-III is the entry level)",
+    "Prepare a research statement linking your drug-delivery/QbD and AI-in-pharma work to CDFD's areas",
+    "Register and apply online on cdfd.org.in between 31 Oct and 31 Dec 2026 and pay the fee",
+    "Upload Master's/M.Pharm and Ph.D. certificates, experience proof and publication list"
+   ],
+   "title": "Scientist-III / Scientist-IV / Scientist-V (Advt. 04/2026)",
+   "type": "Scientist"
   },
   {
    "id": "cdsco-rdtl-guwahati-senior-scientific-officer",
@@ -2069,6 +2113,48 @@
    "title": "Specialist – Regulatory Affairs Manager"
   },
   {
+   "id": "msn-laboratories-formulation-ard-deputy-manager-manager-hyderabad",
+   "applyMode": "Walk-in interview on Sat 31 Oct 2026, 9:30 AM–2:00 PM, at MSN R&D Center, Pashamylaram, Patancheru Mandal, Sangareddy, Telangana 502307; queries by email",
+   "applyUrl": "mailto:tejamanivemanamanda@msnlabs.com",
+   "category": "other",
+   "city": "Hyderabad (Pashamylaram, Sangareddy)",
+   "cvFit": {
+    "reason": "Asks for 14–18 years of industry formulation AR&D experience — you have 6.9 years, mostly academic, though your HPLC/HPTLC method work is relevant.",
+    "score": 30
+   },
+   "documents": [
+    "Resume",
+    "Photocopies of educational certificates",
+    "Passport-size photographs",
+    "Aadhaar card copy",
+    "PAN card copy"
+   ],
+   "fit": {
+    "level": "Low",
+    "reason": "Analytical R&D manager role needing 14–18 years of industry experience, beyond your academic-research background."
+   },
+   "found": "2026-10-30",
+   "lastDate": "2026-10-31",
+   "org": "MSN Laboratories Pvt. Ltd.",
+   "posted": "2026-10-25",
+   "posts": [
+    "Deputy Manager/Manager – Formulation AR&D-RA Query Support",
+    "Deputy Manager/Manager – Formulation AR&D-AVD",
+    "Deputy Manager/Manager – Formulation AR&D-Innovation Support"
+   ],
+   "qualification": "B.Sc./M.Sc./B.Pharm/M.Pharm with 14–18 years of formulation analytical R&D experience for Deputy Manager/Manager levels.",
+   "role": "Formulation R&D",
+   "sector": "Private",
+   "sourceUrl": "https://pharmabharat.com/msn-laboratories-is-hiring-for-formulation-ard-roles-at-rd-center/",
+   "state": "Telangana",
+   "steps": [
+    "Update your CV to highlight HPLC/HPTLC method development and industrial documentation",
+    "Email the CV in advance to tejamanivemanamanda@msnlabs.com",
+    "Attend the walk-in on 31 Oct 2026 at the MSN R&D Center with documents"
+   ],
+   "title": "Deputy Manager / Manager – Formulation AR&D (RA Query Support, AVD, Innovation Support)"
+  },
+  {
    "id": "nandkumar-shinde-cop-vaijapur",
    "applyMode": "Email, post or by hand",
    "applyUrl": "https://www.facultyplus.com/shriram-dnyan-shikshan-prasarak-mandal-nandkumar-shinde-college-of-pharmacy-vaijapur-teaching-and-non-teaching-faculty/",
@@ -2332,6 +2418,38 @@
     "Submit before 30 Oct 2026"
    ],
    "title": "Associate Pharmacovigilance Manager"
+  },
+  {
+   "id": "novo-nordisk-pv-process-excellence-specialist-bangalore",
+   "applyMode": "Online on Novo Nordisk careers portal",
+   "applyUrl": "https://careers.novonordisk.com/job/Bangalore-PV-Process-Excellence-Specialist-Karn/1437808133/",
+   "category": "other",
+   "city": "Bengaluru",
+   "cvFit": {
+    "reason": "Asks for 5 years of pharmacovigilance experience — you have none in PV, though your industrial documentation skills partly transfer.",
+    "score": 28
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "Needs 5+ years of hands-on PV experience, which your pharmaceutics teaching and research profile does not include."
+   },
+   "found": "2026-10-30",
+   "org": "Novo Nordisk Global Business Services",
+   "posted": "2026-10-29",
+   "posts": [
+    "PV Process Excellence Specialist (2 openings)"
+   ],
+   "qualification": "Bachelor's degree in Life Sciences or Pharmaceutical Sciences (B.Pharm/M.Pharm/Pharm.D/M.Sc. accepted) with at least 5 years of pharmacovigilance experience in PV operations, quality systems, governance, compliance or QPPV office functions.",
+   "role": "Pharmacovigilance",
+   "sector": "Private",
+   "sourceUrl": "https://pharmabharat.com/novo-nordisk-hiring-for-pharmacovigilance-process-excellence-specialists/",
+   "state": "Karnataka",
+   "steps": [
+    "Open the Novo Nordisk careers link and read the full job description",
+    "Tailor your CV to stress regulatory documentation, SOP writing and training work",
+    "Apply online with your CV"
+   ],
+   "title": "PV Process Excellence Specialist (Global Patient Safety)"
   },
   {
    "id": "nppa-consultant-young-professional-pharma",
