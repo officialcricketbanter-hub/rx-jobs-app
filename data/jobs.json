@@ -1,8 +1,8 @@
 {
  "meta": {
-  "lastRun": "2026-10-30T01:24:18Z",
-  "total": 95,
-  "added": 3
+  "lastRun": "2026-10-31T01:22:07Z",
+  "total": 97,
+  "added": 2
  },
  "jobs": [
   {
@@ -37,6 +37,42 @@
     "Submit before 30 Oct 2026"
    ],
    "title": "Manager, Regulatory Affairs"
+  },
+  {
+   "id": "aiims-bhubaneswar-project-research-scientist-i-icmr-escams",
+   "applyMode": "Online via Google Form linked in the official notice; tentative walk-in interview 11 Nov 2026 for shortlisted candidates",
+   "applyUrl": "https://aiimsbhubaneswar.nic.in/wp-content/uploads/2026/10/f16762f0-449c-41b7-9496-6a557f017889.pdf",
+   "category": "academic",
+   "city": "Bhubaneswar",
+   "cvFit": {
+    "reason": "Needs a pharma PG with Ph.D. desirable — you exceed that, but the clinical-trial focus differs from your Pharmaceutics/QbD work and the 35-year age cap must be checked.",
+    "score": 68
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "Accepts a PG in Pharmaceutical Sciences and prefers a Ph.D., which you have, though the work is clinical-trial rather than formulation."
+   },
+   "found": "2026-10-31",
+   "lastDate": "2026-11-08",
+   "notes": "ICMR-funded trial of semaglutide vs placebo in schizophrenia patients with metabolic syndrome (Psychiatry dept.). Temporary, 11 months initially, extendable up to 3 years.",
+   "org": "AIIMS Bhubaneswar",
+   "posted": "2026-10-30",
+   "posts": [
+    "Project Research Scientist-I (Non-Medical) – 1 post"
+   ],
+   "qualification": "Postgraduate degree in Life Sciences or Pharmaceutical Sciences (incl. integrated PG). Desirable: clinical trial research experience, biostatistics knowledge and/or Ph.D. Maximum age 35 years.",
+   "salary": "Rs 56,000 + 20% HRA per month",
+   "sector": "Government",
+   "sourceUrl": "https://www.biotecnika.org/2026/10/aiims-bhubaneswar-icmr-project-research-scientist-i-2026/",
+   "state": "Odisha",
+   "steps": [
+    "Download the official notice and application format from the AIIMS Bhubaneswar link",
+    "Fill in the prescribed format and attach scanned certificates",
+    "Upload through the Google Form in the notice before 8 Nov 2026, 5 PM",
+    "Watch your email for the shortlist and the 11 Nov 2026 interview"
+   ],
+   "title": "Project Research Scientist-I (Non-Medical) – ICMR ESCaMS Trial",
+   "type": "Scientist"
   },
   {
    "id": "aiims-new-delhi-project-research-scientist-i-pathology-icmr",
@@ -3294,6 +3330,40 @@
     "Prepare for a technical interview on oral formulation development"
    ],
    "title": "R&D – Formulation Development (Orals)"
+  },
+  {
+   "id": "sun-pharma-senior-manager-regulatory-affairs-cmc-biologics-gurgaon",
+   "applyMode": "Online via Sun Pharma careers portal",
+   "applyUrl": "https://careers.sunpharma.com/job/Gurgaon-Senior-Manager%2C-Regulatory-Affairs-%28CMC%29/57269644/",
+   "category": "other",
+   "city": "Gurgaon",
+   "cvFit": {
+    "reason": "Asks for M.Pharm plus 10-15 years of regulatory affairs experience — you have the degree and QbD/product development research but no industry RA experience.",
+    "score": 35
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "Your Pharmaceutics M.Pharm and Ph.D. fit the CMC subject area, but the role needs a decade of hands-on regulatory filing experience."
+   },
+   "found": "2026-10-31",
+   "notes": "Role covers CMC strategy and IND/NDA/MAA submissions for US, EU and Canada branded products.",
+   "org": "Sun Pharmaceutical Industries Ltd",
+   "posted": "2026-10-30",
+   "posts": [
+    "Senior Manager, Regulatory Affairs (Biologics), Grade G9"
+   ],
+   "qualification": "Minimum M.Pharm in pharmaceutical sciences with 10-15 years of hands-on regulatory affairs experience, including NDA activities, R&D exposure and team leadership. Gurgaon R&D preferred (Baroda/Mumbai also listed); hybrid.",
+   "role": "Regulatory Affairs",
+   "sector": "Private",
+   "sourceUrl": "https://careers.sunpharma.com/job/Gurgaon-Senior-Manager%2C-Regulatory-Affairs-%28CMC%29/57269644/",
+   "state": "Haryana",
+   "steps": [
+    "Open the Sun Pharma careers posting",
+    "Tailor your CV to highlight CMC documentation, QbD and product development work",
+    "Create a candidate profile and upload the CV",
+    "Submit the application and track it on the portal"
+   ],
+   "title": "Senior Manager, Regulatory Affairs (CMC – Biologics)"
   },
   {
    "id": "teva-lead-gpv-professional-icsr",
