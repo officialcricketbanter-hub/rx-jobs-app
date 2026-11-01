@@ -1,7 +1,7 @@
 {
  "meta": {
-  "lastRun": "2026-10-31T01:22:07Z",
-  "total": 97,
+  "lastRun": "2026-11-01T01:33:06Z",
+  "total": 94,
   "added": 2
  },
  "jobs": [
@@ -1053,6 +1053,42 @@
    "type": "Scientist"
   },
   {
+   "id": "csir-imtech-project-research-scientist-iii-non-medical",
+   "applyMode": "Online",
+   "applyUrl": "https://www.imtech.res.in/recruitment-form/rolling-advt-no-2026-10-06",
+   "category": "academic",
+   "city": "Chandigarh",
+   "cvFit": {
+    "reason": "Asks for a PG with 5 years or a Ph.D. with 2 — your experience fits, but they prefer data science or bioinformatics degrees, and your ML work is only a secondary area.",
+    "score": 55
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "A data-science-leaning project post — pharmaceutics doesn't match directly, but your AI/ML-in-pharma research is relevant."
+   },
+   "found": "2026-11-01",
+   "lastDate": "2026-11-10",
+   "notes": "1 post on a project (rolling advertisement). Data-science or computational skills are preferred.",
+   "org": "CSIR-Institute of Microbial Technology (IMTECH)",
+   "posted": "2026-10-28",
+   "posts": [
+    "Project Research Scientist-III (Non-Medical)"
+   ],
+   "qualification": "PG degree with 5 years' post-qualification experience, or Ph.D. with 2 years; Engineering/IT/CS graduates are also eligible. Data science, bioinformatics or computational biology degrees are preferred.",
+   "salary": "Rs 78,000 per month + HRA",
+   "sector": "Government",
+   "sourceUrl": "https://www.freejobalert.com/articles/csir-imtech-project-research-scientist-iii-recruitment-2026-apply-online-3076532",
+   "state": "Chandigarh",
+   "steps": [
+    "Read Rolling Advt. No. 2026-10-06 on imtech.res.in",
+    "Get your Ph.D. certificate (or provisional) ready, plus proof of 2+ years' post-Ph.D. or 5 years' post-PG experience",
+    "Fill in the online form at the IMTECH recruitment link and include your AI/ML and data work",
+    "Submit by 10 Nov 2026"
+   ],
+   "title": "Project Research Scientist-III (Non-Medical) at CSIR-IMTECH",
+   "type": "Scientist"
+  },
+  {
    "id": "csir-nbri-senior-project-associate-st-management",
    "applyMode": "Walk-in interview",
    "applyUrl": "https://nbri.res.in",
@@ -1200,48 +1236,6 @@
     "Apply before 13 Nov 2026"
    ],
    "title": "Senior Scientist – Formulation Development",
-   "type": "Scientist"
-  },
-  {
-   "id": "granules-india-rnd-interview",
-   "applyMode": "Walk-in interview on 24 Oct 2026 (10 AM-3 PM), ALEAP Industrial Area, Gajularamaram, Hyderabad; or email CV to Rebecca.Shirley@granulesindia.com",
-   "category": "academic",
-   "city": "Hyderabad",
-   "cvFit": {
-    "reason": "Formulation R&D needs M.Pharm with 2-4 years — you exceed it, though these executive-level roles are below your seniority.",
-    "score": 60
-   },
-   "documents": [
-    "Resume",
-    "Increment letter and last 3 months' payslips",
-    "Relieving/service certificates",
-    "Educational certificates",
-    "Aadhaar and PAN"
-   ],
-   "fit": {
-    "level": "Strong",
-    "reason": "Formulation R&D wing asks for M.Pharm with 2-4 years' experience — matches your M.Pharm (Pharmaceutics), if you have the industry experience."
-   },
-   "found": "2026-10-20",
-   "lastDate": "2026-10-24",
-   "org": "Granules India",
-   "posted": "2026-10-19",
-   "posts": [
-    "Senior Executive",
-    "Executive",
-    "Formulation R&D Scientist"
-   ],
-   "qualification": "M.Sc./M.Pharm with 2-4 years' experience (Formulation R&D needs M.Pharm).",
-   "sector": "Private",
-   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/interview-for-research-and-development-at-granules-india",
-   "state": "Telangana",
-   "steps": [
-    "Attend walk-in on Sat 24 Oct 2026, 10 AM-3 PM",
-    "Venue: Pragathi Nagar Road, ALEAP Industrial Area, Gajularamaram, Hyderabad 500090",
-    "Bring resume, latest increment letter, last 3 payslips, relieving letters, certificates, Aadhaar and PAN",
-    "Queries: Rebecca.Shirley@granulesindia.com"
-   ],
-   "title": "R&D walk-in (FARD, AR&D, Process R&D, Formulation R&D)",
    "type": "Scientist"
   },
   {
@@ -1463,6 +1457,43 @@
    "type": "Scientist"
   },
   {
+   "id": "icmr-nine-scientist-d-non-medical",
+   "applyMode": "Online",
+   "applyUrl": "https://recruitment.icmr.org.in",
+   "category": "academic",
+   "city": "New Delhi",
+   "cvFit": {
+    "reason": "Asks for a biomedical master's or Pharm-D plus 8 years of R&D — your M.Pharm may not be listed, and your 6.9 years (with the Ph.D. counted) falls short.",
+    "score": 45
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "This is an epidemiology/biomedical scientist post, not pharmaceutics, but your Ph.D. in pharmaceutical sciences may count as a biomedical background."
+   },
+   "found": "2026-11-01",
+   "lastDate": "2026-11-16",
+   "notes": "All-India transfer liability. 1 Non-Medical post (1 Medical post is also advertised).",
+   "org": "ICMR-National Institute of NCD Epidemiology (ICMR-NINE)",
+   "posted": "2026-10-07",
+   "posts": [
+    "Scientist-D (Non-Medical)"
+   ],
+   "qualification": "Master's degree in a biomedical sciences-related subject or Pharm-D (UGC/PCI recognised); Ph.D. in biomedical sciences desirable. 8 years' essential R&D experience (a Ph.D. counts as 4 years). Check the official notice to confirm whether M.Pharm counts as eligible.",
+   "salary": "Level 12 (7th CPC), Rs 78,800–2,09,200 per month plus allowances",
+   "sector": "Government",
+   "sourceUrl": "https://www.freejobalert.com/articles/icmr-scientist-d-recruitment-2026-apply-online-3071449",
+   "state": "Delhi",
+   "steps": [
+    "Download and read the ICMR-NINE Scientist-D advertisement on recruitment.icmr.org.in",
+    "Check that your M.Pharm/Ph.D. counts as a biomedical sciences master's degree and that your experience adds up to 8 years",
+    "Register on recruitment.icmr.org.in and fill in the online form for Scientist-D (Non-Medical)",
+    "Upload your certificates and experience proofs, then pay the fee if one applies",
+    "Submit by 16 Nov 2026, 5:30 PM, and save the application printout"
+   ],
+   "title": "Scientist-D (Non-Medical) at ICMR-National Institute of NCD Epidemiology",
+   "type": "Scientist"
+  },
+  {
    "id": "icon-senior-global-regulatory-scientist-india",
    "applyMode": "Online",
    "applyUrl": "https://careers.iconplc.com/job/senior-global-regulatory-scientist-in-india-bangalore-jid-54147",
@@ -1652,41 +1683,6 @@
    "title": "Editorial Assistant (walk-in)"
   },
   {
-   "id": "ipt-salipur-pharma-faculty",
-   "applyMode": "Email CV to principalipt@gmail.com",
-   "category": "academic",
-   "city": "Salipur",
-   "cvFit": {
-    "reason": "Pharmacy faculty per PCI norms — your Ph.D., M.Pharm Pharmaceutics and 3.8 years' teaching suit Assistant/Associate Professor.",
-    "score": 78
-   },
-   "fit": {
-    "level": "Good",
-    "reason": "Faculty posts open in all pharmacy disciplines per PCI norms — your M.Pharm (Pharmaceutics) and Ph.D. qualify; Associate/Professor need experience."
-   },
-   "found": "2026-10-20",
-   "lastDate": "2026-10-24",
-   "notes": "6 Lecturer/Assistant Professor and 2 Associate Professor/Professor posts, all disciplines.",
-   "org": "Institute of Pharmacy and Technology",
-   "posted": "2026-10-16",
-   "posts": [
-    "Assistant Professor",
-    "Associate Professor",
-    "Professor"
-   ],
-   "qualification": "As per PCI norms.",
-   "sector": "Private",
-   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/advertisement-for-pharma-faculty-and-laboratory-technician-at-institute-of-pharmacy-and-technology-salipur",
-   "state": "Odisha",
-   "steps": [
-    "Prepare updated CV with a recent photograph",
-    "Email it to principalipt@gmail.com (email only)",
-    "Send by 24 Oct 2026"
-   ],
-   "title": "Pharmacy Faculty",
-   "type": "Faculty"
-  },
-  {
    "id": "iqvia-regulatory-affairs-manager-hyderabad",
    "applyMode": "Online",
    "applyUrl": "https://jobs.iqvia.com/en/jobs/R1572647-0",
@@ -1788,47 +1784,6 @@
    ],
    "title": "Professor / Associate Professor / Assistant Professor — Pharmaceutical Sciences",
    "type": "Faculty"
-  },
-  {
-   "id": "jipmer-project-scientist-iii-hta",
-   "applyMode": "Email application to htarcjipmer@gmail.com",
-   "applyUrl": "https://jipmer.edu.in/sites/default/files/2.Application_Form_Oct_2026.pdf",
-   "category": "academic",
-   "city": "Puducherry",
-   "cvFit": {
-    "reason": "Ph.D. plus 2 years' post-Ph.D. R&D accepted, but the work is health technology assessment, outside your formulation focus.",
-    "score": 45
-   },
-   "documents": [
-    "Prescribed application form",
-    "CV",
-    "Educational and experience certificates"
-   ],
-   "fit": {
-    "level": "Low",
-    "reason": "Health-technology-assessment project needing 2 years' post-Ph.D. experience — not a Pharmaceutics post."
-   },
-   "found": "2026-10-20",
-   "lastDate": "2026-10-24",
-   "notes": "2 posts under DHR-funded Health Technology Assessment project (PI Dr. Sitanshu Sekhar Kar). Health economics/HTA experience desirable.",
-   "org": "JIPMER",
-   "posted": "2026-10-13",
-   "posts": [
-    "Project Scientist-III"
-   ],
-   "qualification": "Non-medical route: Ph.D. in a relevant subject with 2 years' post-Ph.D. R&D/teaching experience, or a Master's (including Pharmacy) / PharmD / MPH with 5 years' post-Master's R&D/teaching experience. Age limit 45.",
-   "salary": "Rs 78,000 + HRA per month",
-   "sector": "Government",
-   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/jipmer-recruitment-for-pharma-microbiology-biochemistry-biotechnology-life-sciences-candidates",
-   "state": "Puducherry",
-   "steps": [
-    "Download the prescribed application form from jipmer.edu.in",
-    "Fill it and merge form, CV and supporting documents into one PDF named 'Candidate name_Post-name_year application'",
-    "Email to htarcjipmer@gmail.com with the post name in the subject line",
-    "Submit before 24 Oct 2026, 1:00 PM"
-   ],
-   "title": "Project Scientist-III (Medical/Non-Medical), HTA Centre of Excellence",
-   "type": "Scientist"
   },
   {
    "id": "jnj-manager-analytical-development-mumbai",
@@ -3046,42 +3001,6 @@
    "title": "Scientific Writer"
   },
   {
-   "id": "sengunthar-institutions-academic",
-   "applyMode": "Email application with scanned certificates",
-   "applyUrl": "https://www.facultyplus.com/wp-content/uploads/2026/10/Faculty-plus-adv-16.10.2026.pdf",
-   "category": "academic",
-   "city": "Tiruchengode, Namakkal",
-   "cvFit": {
-    "reason": "Pharmacy college posts per regulatory norms — your Ph.D. and 6.9 years fit Assistant/Associate Professor.",
-    "score": 78
-   },
-   "fit": {
-    "level": "Good",
-    "reason": "Pharmacy/pharmaceutical technology faculty with subject unspecified — your Pharmaceutics Ph.D. fits; closes 24 Oct."
-   },
-   "found": "2026-10-20",
-   "lastDate": "2026-10-24",
-   "notes": "Sengunthar College of Pharmacy and Pharmaceutical Technology dept. (Sengunthar Engineering College) listed.",
-   "org": "Sengunthar Institutions",
-   "posted": "2026-10-17",
-   "posts": [
-    "Assistant Professor",
-    "Associate Professor",
-    "Professor"
-   ],
-   "qualification": "As per regulatory norms for the discipline.",
-   "sector": "Private",
-   "sourceUrl": "https://www.facultyplus.com/academic-jobs-at-sengunthar-institutions-namakkal/",
-   "state": "Tamil Nadu",
-   "steps": [
-    "Get the institutional email address from the notification PDF",
-    "Email application with scanned certificates and passport photo",
-    "Send by 24 Oct 2026; shortlisted candidates contacted by email (phone 04288-255716)"
-   ],
-   "title": "Academic posts (Pharmacy college)",
-   "type": "Faculty"
-  },
-  {
    "id": "shoolini-university-assistant-professor-pharmacy",
    "applyMode": "Email CV to hr@shooliniuniversity.com",
    "applyUrl": "https://shooliniuniversity.com/faculty-positions",
@@ -3154,40 +3073,6 @@
    ],
    "title": "Principal and Assistant Professor (Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmacognosy)",
    "type": "Faculty"
-  },
-  {
-   "id": "springer-nature-scientific-medical-writer-pune",
-   "applyMode": "Apply online on Springer Nature Workday portal",
-   "applyUrl": "https://springernature.wd3.myworkdayjobs.com/de-DE/SpringerNatureCareers/job/Pune/Scientific---Medical-Writer_JR106652-1",
-   "category": "other",
-   "city": "Pune",
-   "cvFit": {
-    "reason": "Asks for a pharmacy degree and 2 years in pharma/biotech/CRO — you have the degrees and 23 papers plus Springer chapters, but your experience is academic/JRF rather than industry.",
-    "score": 62
-   },
-   "fit": {
-    "level": "Good",
-    "reason": "Pharmacy degrees accepted and your Springer/Elsevier chapters and papers show strong scientific writing."
-   },
-   "found": "2026-10-20",
-   "lastDate": "2026-10-24",
-   "org": "Springer Nature",
-   "posted": "2026-10-15",
-   "posts": [
-    "Scientific & Medical Writer (JR106652)"
-   ],
-   "qualification": "Bachelor's or higher in Life Sciences, Pharmacy or Medicine; minimum 3 years total, including at least 2 years in a biotech, pharma or CRO setting.",
-   "role": "Medical Writing",
-   "sector": "Private",
-   "sourceUrl": "https://pharmabharat.com/springer-nature-hiring-for-scientific-medical-writer-in-pune/",
-   "state": "Maharashtra",
-   "steps": [
-    "Open the Workday link and create an account",
-    "Upload a CV with your publication and book-chapter list",
-    "Add a short writing sample if asked",
-    "Submit by 24 Oct 2026"
-   ],
-   "title": "Scientific & Medical Writer"
   },
   {
    "id": "sri-sai-ranganathan-pharmacy",
