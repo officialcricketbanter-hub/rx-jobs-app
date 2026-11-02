@@ -1,7 +1,7 @@
 {
  "meta": {
-  "lastRun": "2026-11-01T01:33:06Z",
-  "total": 94,
+  "lastRun": "2026-11-02T01:30:36Z",
+  "total": 95,
   "added": 2
  },
  "jobs": [
@@ -37,6 +37,43 @@
     "Submit before 30 Oct 2026"
    ],
    "title": "Manager, Regulatory Affairs"
+  },
+  {
+   "id": "aiims-bhopal-project-research-scientist-i-tb-hiv-pk",
+   "applyMode": "Email (single merged PDF of application form + documents); no hard copy",
+   "applyUrl": "https://www.aiimsbhopal.edu.in/AIIMSFiles/career/jonUnderProject/Download/Ad_TB-HIV_merged.pdf",
+   "category": "academic",
+   "city": "Bhopal",
+   "cvFit": {
+    "reason": "Asks for a pharmacy PG with PK/ADR experience desirable — you have M.Pharm, Ph.D. and HPLC skills, but your research is formulation rather than clinical PK.",
+    "score": 66
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "Accepts a PG in Pharmacy and your Ph.D. adds weight, though the pharmacokinetics/pharmacogenomics focus differs from your Pharmaceutics/QbD formulation work."
+   },
+   "found": "2026-11-02",
+   "lastDate": "2026-11-16",
+   "notes": "ICMR-funded project on multi-omics and population pharmacokinetics of drug interactions/ADRs in antitubercular + antiretroviral therapy (PI: Dept. of General Medicine / Translational Medicine). Temporary, 11 months.",
+   "org": "AIIMS Bhopal",
+   "posted": "2026-10-30",
+   "posts": [
+    "Project Research Scientist-I (Non-Medical) – 1 post"
+   ],
+   "qualification": "Postgraduate degree (incl. integrated PG) in Pharmacy, Pharm.D, Life Sciences, Biotechnology or Biochemistry. Desirable: experience in pharmacogenomics, pharmacokinetics, molecular biology, ADR analysis or TB/HIV research.",
+   "salary": "Rs 56,000 + 20% HRA (Rs 67,200) per month",
+   "sector": "Government",
+   "sourceUrl": "https://www.freejobalert.com/articles/aiims-bhopal-project-research-scientist-i-non-medical-recruitment-2026-3077497",
+   "state": "Madhya Pradesh",
+   "steps": [
+    "Download the official notice and application form from the AIIMS Bhopal link",
+    "Fill the form completely, including two referees and a note on how your expertise fits the project",
+    "Merge the form and supporting documents into one PDF",
+    "Email it to the address given in the notice by 16 Nov 2026",
+    "Watch your email for the interview call"
+   ],
+   "title": "Project Research Scientist-I (Non-Medical) – ICMR TB-HIV Pharmacokinetics Project",
+   "type": "Scientist"
   },
   {
    "id": "aiims-bhubaneswar-project-research-scientist-i-icmr-escams",
@@ -2670,43 +2707,6 @@
    "title": "Senior Associate – Pharmaceutical Patent Practice (Band 1/2)"
   },
   {
-   "id": "pcimh-project-consultant-chemistry-ghaziabad",
-   "applyMode": "Email application in prescribed format with certificates and signed biodata to hr@jmjenterprisessolutions.com",
-   "category": "other",
-   "city": "Ghaziabad",
-   "cvFit": {
-    "reason": "Project Consultant wants M.Pharm in Pharmaceutical Analysis/Chemistry with Ph.D. and ASU&H HPTLC analysis — you have the Ph.D. and HPTLC/herbal experience, but your M.Pharm is Pharmaceutics.",
-    "score": 62
-   },
-   "fit": {
-    "level": "Good",
-    "reason": "Herbal (ASU&H) drug analysis by HPTLC matches your pharmacognosy/HPTLC work, though the M.Pharm subjects listed are analysis/chemistry, not Pharmaceutics."
-   },
-   "found": "2026-10-20",
-   "lastDate": "2026-10-25",
-   "notes": "Outsourced contractual posts, initially 1 year. Age limit 64 for Project Consultant. Qualification/age may be relaxed for meritorious candidates.",
-   "org": "PCIM&H, Ministry of AYUSH (via JMJ Enterprises Solutions)",
-   "posted": "2026-10-12",
-   "posts": [
-    "Project Consultant (Chemistry)",
-    "Pharmacopoeial Associate (Chemistry)",
-    "Pharmacopoeial Associate (Microbiology)"
-   ],
-   "qualification": "Project Consultant: M.Sc. Chemistry or M.Pharm (Pharmaceutical Analysis / QC&A / Pharmaceutical Chemistry) with Ph.D. in the subject, NABL/ISO knowledge; 5 years desirable, preference for ASU&H drug analysis and HPTLC/GC/ICP-OES. Pharmacopoeial Associate (Chemistry): same Master's with 2 years in a research institute; age up to 35.",
-   "role": "Drug Testing / Pharmacopoeia",
-   "salary": "Project Consultant Rs 50,000/month; Pharmacopoeial Associate Rs 32,000/month",
-   "sector": "Government",
-   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/recruitment-of-pharma-microbiology-chemistry-under-ministry-of-ayush-pcimh",
-   "state": "Uttar Pradesh",
-   "steps": [
-    "Download the prescribed application format from the notice",
-    "Attach self-attested certificates, experience certificates and signed biodata",
-    "Email to hr@jmjenterprisessolutions.com by 25 Oct 2026",
-    "Wait for a confirmation email for the interview (no TA/DA)"
-   ],
-   "title": "Project Consultant (Chemistry) and Pharmacopoeial Associate"
-  },
-  {
    "id": "pgimer-research-scientist",
    "applyMode": "Email single PDF to sharma.gaurav@pgimer.edu.in or post hard copy",
    "applyUrl": "https://pgimer.edu.in/PGIMER_PORTAL/PGIMERPORTAL/Vacancies/JSP/ViewAll.jsp?record=15843",
@@ -3249,6 +3249,40 @@
     "Submit the application and track it on the portal"
    ],
    "title": "Senior Manager, Regulatory Affairs (CMC – Biologics)"
+  },
+  {
+   "id": "sun-pharma-senior-manager-regulatory-business-continuity-usfda-cmc-gurgaon",
+   "applyMode": "Online via Sun Pharma careers portal",
+   "applyUrl": "https://careers.sunpharma.com/job/Gurgaon-Senior-Manager-Regulatory-&-Business-Continuity-USFDA-%28CMC/60213344/",
+   "category": "other",
+   "city": "Gurgaon",
+   "cvFit": {
+    "reason": "Asks for M.Pharm with 13-18 years of USFDA CMC regulatory experience — you have the degree and documentation research but 6.9 years mostly in academia.",
+    "score": 30
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "Your Pharmaceutics M.Pharm and QbD research suit CMC work, but the role needs 13+ years of hands-on US regulatory filings."
+   },
+   "found": "2026-11-02",
+   "notes": "Different from the Senior Manager, Regulatory Affairs (CMC – Biologics) role already in the feed.",
+   "org": "Sun Pharmaceutical Industries Ltd",
+   "posted": "2026-10-24",
+   "posts": [
+    "Sr. Manager-2, Regulatory & Business Continuity (USFDA – CMC)"
+   ],
+   "qualification": "M.Pharm with 13-18 years of regulatory experience: preparing/reviewing CMC dossiers, deficiency responses, US/OAM lifecycle management (variations, annual reports, labelling) and eCTD compilation.",
+   "role": "Regulatory Affairs",
+   "sector": "Private",
+   "sourceUrl": "https://freehire.me/jobs/senior-manager-2-sun-pharmaceutical-industries-n4cc3uch",
+   "state": "Haryana",
+   "steps": [
+    "Open the Sun Pharma careers posting",
+    "Tailor your CV to highlight CMC documentation, QbD and industrial documentation work",
+    "Create a candidate profile and upload the CV",
+    "Submit and track the application on the portal"
+   ],
+   "title": "Senior Manager-2, Regulatory & Business Continuity (USFDA, CMC)"
   },
   {
    "id": "teva-lead-gpv-professional-icsr",
