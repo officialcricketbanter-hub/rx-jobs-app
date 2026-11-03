@@ -1,8 +1,8 @@
 {
  "meta": {
-  "lastRun": "2026-11-02T01:30:36Z",
-  "total": 95,
-  "added": 2
+  "lastRun": "2026-11-03T01:28:32Z",
+  "total": 98,
+  "added": 5
  },
  "jobs": [
   {
@@ -756,6 +756,51 @@
    "title": "Scientific Writer II"
   },
   {
+   "id": "bric-niab-hyderabad-scientist-c-d-advt-31-2026",
+   "applyMode": "Online at the NIAB website, plus copy to admin@niab.org.in",
+   "applyUrl": "http://www.niab.org.in/Notifications/Advt_31_2026/Notification_31_2026_English.pdf",
+   "category": "academic",
+   "city": "Hyderabad",
+   "cvFit": {
+    "reason": "Your Ph.D. in Pharmaceutical Sciences and 23 papers fit Scientist-C; Scientist-D's 3 years post-Ph.D. experience is not yet met, and the research focus is animal biotech.",
+    "score": 72
+   },
+   "documents": [
+    "Passport-size photo",
+    "Educational certificates",
+    "Experience certificates",
+    "Caste/category certificate",
+    "NOC from current employer"
+   ],
+   "fit": {
+    "level": "Good",
+    "reason": "Pharmaceutical Sciences is a listed Ph.D. discipline, though the institute's focus is animal biotechnology rather than pharmaceutics."
+   },
+   "found": "2026-11-03",
+   "lastDate": "2026-11-30",
+   "notes": "Regular scientist posts at a DBT-BRIC institute. Since your Ph.D. is from 2026, Scientist-C is the realistic level; Scientist-D needs 3 years post-Ph.D.",
+   "org": "BRIC-National Institute of Animal Biotechnology (NIAB)",
+   "posted": "2026-10-26",
+   "posts": [
+    "Scientist-D (Pay Level 12)",
+    "Scientist-C (Pay Level 11)"
+   ],
+   "qualification": "Ph.D. in a listed discipline (the list includes Pharmaceutical Sciences and Pharmaceutical Engineering) or Ph.D. in Engineering/Technology, or M.D./MDS/MVSc. Scientist-D additionally needs at least 3 years of post-qualification experience; Scientist-C has no experience requirement.",
+   "salary": "Scientist-D: Pay Level 12; Scientist-C: Pay Level 11 (7th CPC)",
+   "sector": "Government",
+   "sourceUrl": "https://facultytick.com/2026/10/30/bric-national-institute-of-animal-biotechnology-applications-are-invited-from-the-eligible-candidates-for-the-post-of-project-scientist-job-vacancy-2026/",
+   "state": "Telangana",
+   "steps": [
+    "Read the official notification (Advt. 31/2026) to confirm the discipline list and the posts' research areas",
+    "Register on the NIAB online recruitment portal and fill in the form",
+    "Upload photo, degree and experience certificates, category certificate and employer NOC",
+    "Pay the fee online or by DD in favour of 'National Institute of Animal Biotechnology, Hyderabad' (PwD/departmental exempt)",
+    "Submit by 30 Nov 2026, 5 PM; email recruitment@niab.org.in for technical queries"
+   ],
+   "title": "Scientist-C and Scientist-D (Advt. 31/2026)",
+   "type": "Scientist"
+  },
+  {
    "id": "c-camp-computational-cheminformatics-scientist",
    "applyMode": "Email",
    "applyUrl": "https://www.ccamp.res.in/careers",
@@ -1009,48 +1054,6 @@
     "Submit before 30 Oct 2026"
    ],
    "title": "SME – Regulatory Affairs & Medical Writing"
-  },
-  {
-   "id": "csir-ihbt-senior-project-associate-17023",
-   "applyMode": "Walk-in interview on 26 Oct 2026 (9:30 AM)",
-   "applyUrl": "https://www.ihbt.res.in/components/com_chronoforms5/chronoforms/uploads/Recruitment/20261007154027_Final_Advt._no._17_by_2026_with_Application_Form.pdf",
-   "category": "academic",
-   "city": "Palampur",
-   "cvFit": {
-    "reason": "Wants natural-product chemistry or synthesis experience — your herbal/spice authentication work overlaps slightly, but the role is chemistry-led and below your level.",
-    "score": 40
-   },
-   "documents": [
-    "Filled application form with photo",
-    "Original certificates",
-    "Self-attested copies of age, education and experience proofs"
-   ],
-   "fit": {
-    "level": "Low",
-    "reason": "Project is natural-product/aroma chemistry needing 2-3 years' R&D experience — differs from your Pharmaceutics specialisation."
-   },
-   "found": "2026-10-20",
-   "lastDate": "2026-10-26",
-   "notes": "CSIR Aroma 4.0 project, tenure up to 31.03.2029. No online interviews, no TA.",
-   "org": "CSIR-Institute of Himalayan Bioresource Technology (IHBT)",
-   "posted": "2026-10-08",
-   "posts": [
-    "Senior Project Associate"
-   ],
-   "qualification": "M.Sc. Chemistry or M.Pharm with 3 years' R&D experience, or Ph.D. in Chemical Sciences with 2 years' R&D experience. Natural product chemistry, organic synthesis or catalysis experience desirable. Age limit 40 (relaxable).",
-   "salary": "Rs 42,000 + HRA per month",
-   "sector": "Government",
-   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/opportunities-for-pharma-chemistry-biotechnology-biochemistry-life-sciences-candidates-at-ihbt",
-   "state": "Himachal Pradesh",
-   "steps": [
-    "Download the advertisement and application form from the IHBT link",
-    "Fill the form for post code 17023 and paste a recent colour photo",
-    "Carry originals plus self-attested copies of age, education and experience certificates",
-    "Report at CSIR-IHBT Palampur by 9:30 AM on 26 Oct 2026 (no entry after 10 AM)",
-    "Appear for possible MCQ test and interview the same day"
-   ],
-   "title": "Senior Project Associate (Post 17023, Advt. 17/2026)",
-   "type": "Academic Associate"
   },
   {
    "id": "csir-iiim-project-scientist-iii-pharmacology",
@@ -1376,6 +1379,37 @@
    "type": "Faculty"
   },
   {
+   "id": "haldia-institute-of-pharmacy-professor-associate-assistant",
+   "category": "academic",
+   "city": "Haldia",
+   "cvFit": {
+    "reason": "Your Ph.D., 23 papers and current Associate Professor role suit the Associate Professor post, but the subjects and requirements aren't confirmed yet.",
+    "score": 70
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "Pharmacy faculty posts at all levels; Pharmaceutics is likely but not confirmed."
+   },
+   "found": "2026-11-03",
+   "notes": "Posted on PharmaTutor in November 2026. The posting page could not be opened this run, so subjects, eligibility and last date are not verified.",
+   "org": "Haldia Institute of Pharmacy",
+   "posts": [
+    "Professor",
+    "Associate Professor",
+    "Assistant Professor"
+   ],
+   "sector": "Private",
+   "sourceUrl": "https://www.pharmatutor.org/content/november-2026/job-for-professor-associate-professor-and-assistant-professor-at-haldia-institute-of-pharmacy",
+   "state": "West Bengal",
+   "steps": [
+    "Open the PharmaTutor posting (or the institute's website) for subjects, eligibility and last date",
+    "Check whether Pharmaceutics is among the subjects",
+    "Send your CV with your publication list and experience certificates as the notice directs"
+   ],
+   "title": "Professor, Associate Professor and Assistant Professor",
+   "type": "Faculty"
+  },
+  {
    "id": "hppsc-scientific-officer-forensic-services-65-2026",
    "applyMode": "Online only via HPPSC portal (One Time Registration), fee Rs 600",
    "applyUrl": "https://hppsc.hp.gov.in/",
@@ -1637,6 +1671,47 @@
    "type": "Scientist"
   },
   {
+   "id": "iit-kharagpur-project-research-scientist-i-ml-multiomics",
+   "applyMode": "Email application in prescribed format (see IIT KGP SRIC temporary jobs page)",
+   "applyUrl": "https://erp.iitkgp.ac.in/SricWeb/temporaryJobs.htm",
+   "category": "academic",
+   "city": "Kharagpur",
+   "cvFit": {
+    "reason": "Your M.Pharm meets the PG requirement and your ML-in-pharma work helps, but the post is junior to your Associate Professor level and wants respiratory-health ML experience.",
+    "score": 50
+   },
+   "documents": [
+    "Application in prescribed format",
+    "Updated CV",
+    "Copies of certificates",
+    "Passport-size photo"
+   ],
+   "fit": {
+    "level": "Low",
+    "reason": "A clinical ML multi-omics project, not pharmaceutics, though it uses your AI/ML research interest."
+   },
+   "found": "2026-11-03",
+   "notes": "36-month ICMR project (PI Prof. Koel Chaudhury, Medical Science & Technology) on telling lymph-node TB from sarcoidosis with ML. No fee. Last date not shown on the listing.",
+   "org": "IIT Kharagpur",
+   "posted": "2026-11-02",
+   "posts": [
+    "Project Research Scientist-I (Non-Medical)"
+   ],
+   "qualification": "Post-graduate degree (incl. integrated PG), or 4-year graduate degree in Engineering/IT/CS. Desirable: 1 year of research experience in respiratory health and machine learning, with publications. Pharmacy is not named explicitly.",
+   "salary": "Up to Rs 56,000 per month consolidated + HRA",
+   "sector": "Government",
+   "sourceUrl": "https://facultytick.com/2026/11/02/indian-institute-of-technology-kharagpur-applications-from-eligible-candidates-for-the-following-post-of-project-research-scientist-i-job-vacancy-2026/",
+   "state": "West Bengal",
+   "steps": [
+    "Open the IIT KGP SRIC temporary jobs page and find Ref. IIT/SRIC/R/OIG/2026/101",
+    "Download the prescribed application format and check the last date",
+    "Fill it in and attach your CV, certificates and a photo",
+    "Email it to the address in the notice, stressing your AI/ML-in-pharma publications"
+   ],
+   "title": "Project Research Scientist-I (Non-Medical) – ML-enabled multi-omics (ICMR)",
+   "type": "Scientist"
+  },
+  {
    "id": "iit-ropar-project-research-scientist-i-icmr",
    "applyMode": "Email application form and CV to atharva@iitrpr.ac.in",
    "applyUrl": "https://www.iitrpr.ac.in/api/v2/files/download/223",
@@ -1673,6 +1748,48 @@
     "Shortlisted candidates are interviewed in person or online (no TA/DA)"
    ],
    "title": "Project Research Scientist I (ICMR project with PGIMER)",
+   "type": "Scientist"
+  },
+  {
+   "id": "ilbs-new-delhi-project-research-scientist-iii-mash-icmr",
+   "applyMode": "Email resume; interview/skill test on 21 Nov 2026 at ILBS, Vasant Kunj",
+   "applyUrl": "https://www.ilbs.in/images/media/advt_for_various_post_under_project_02_11_2026.pdf",
+   "category": "academic",
+   "city": "New Delhi",
+   "cvFit": {
+    "reason": "Your M.Pharm + Ph.D. satisfy PSR-III, but the project wants animal-model, omics and cell-biology experience rather than formulation work.",
+    "score": 55
+   },
+   "documents": [
+    "Resume",
+    "Printed application form (at interview)",
+    "Photocopies of degrees, certificates and testimonials"
+   ],
+   "fit": {
+    "level": "Low",
+    "reason": "Liver biology / macrophage research project, not pharmaceutics, though your Ph.D. meets the PSR-III degree rule."
+   },
+   "found": "2026-11-03",
+   "lastDate": "2026-11-18",
+   "notes": "3-year ICMR project, initial 12-month contract. No TA/DA.",
+   "org": "Institute of Liver & Biliary Sciences (ILBS)",
+   "posted": "2026-11-02",
+   "posts": [
+    "Project Research Scientist-III (Non-Medical) – 1",
+    "Project Research Scientist-I (Non-Medical) – 1"
+   ],
+   "qualification": "PSR-III: first-class PG degree with 3 years' experience, or Ph.D. (or second-class PG with Ph.D. and 3 years), plus 1 year of research in animal experiments, cell culture, omics or single-cell sequencing; age limit 45. PSR-I: first-class PG; age limit 35. Pharmacy is not named explicitly — confirm in the official notice.",
+   "salary": "PSR-III Rs 78,000 + 30% HRA (Rs 1,01,400); PSR-I Rs 56,000 + HRA (Rs 72,800) per month",
+   "sector": "Government",
+   "sourceUrl": "https://www.biotecnika.org/2026/11/biotech-jobs-delhi-ilbs-research-scientist-2026/",
+   "state": "Delhi",
+   "steps": [
+    "Open the official ILBS notice and note the email addresses (PI Dr. Anupam Kumar, Molecular & Cellular Medicine)",
+    "Email your resume by 18 Nov 2026, mentioning the post (PSR-III)",
+    "Highlight animal-study, cell-culture and HPLC/analytical experience from your Ph.D./JRF work",
+    "If shortlisted, attend the interview/skill test on 21 Nov 2026 with a printed application and photocopies of all certificates"
+   ],
+   "title": "Project Research Scientist-III & I (Non-Medical) – ICMR project on MASH cirrhosis",
    "type": "Scientist"
   },
   {
@@ -2478,50 +2595,6 @@
     "Apply online with your CV"
    ],
    "title": "PV Process Excellence Specialist (Global Patient Safety)"
-  },
-  {
-   "id": "nppa-consultant-young-professional-pharma",
-   "applyMode": "Email or post",
-   "applyUrl": "https://nppa.gov.in/storage/uploads/tender/vacancynotice-ef3a73713dfb2c15534bed734df6fb7a.pdf",
-   "category": "other",
-   "city": "New Delhi",
-   "cvFit": {
-    "reason": "Young Professional (Pharma) needs only B.Pharm and has an age cap of 32 — you are over-qualified and may be at or past the age limit; the Consultant post wants medical-device experience you lack.",
-    "score": 45
-   },
-   "documents": [
-    "Application form",
-    "Self-certified educational certificates",
-    "Proof of age",
-    "Experience certificates"
-   ],
-   "fit": {
-    "level": "Low",
-    "reason": "A pricing/regulatory support role open to B.Pharm; it does not use your Pharmaceutics specialisation or Ph.D."
-   },
-   "found": "2026-10-22",
-   "lastDate": "2026-10-26",
-   "notes": "Contract for one year, extendable by up to two years. Requires good MS Office/Excel and analytical skills.",
-   "org": "National Pharmaceutical Pricing Authority (NPPA), Department of Pharmaceuticals",
-   "posted": "2026-10-09",
-   "posts": [
-    "Consultant (Medical Device)",
-    "Young Professional (Pharma)",
-    "Young Professional (Medical Device)"
-   ],
-   "qualification": "Young Professional (Pharma): B.Pharm, pharma-sector experience preferred, upper age 32. Consultant (Medical Device): engineering/biotech bachelor's plus PG (M.Pharm included) and 2 years in medical-device manufacturing, regulatory, research or testing, upper age 35.",
-   "role": "Regulatory / Drug Pricing",
-   "salary": "Rs 50,000 per month (YP); Rs 65,000 per month (Consultant)",
-   "sector": "Government",
-   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/career-for-pharma-consultant-and-professional-at-nppa",
-   "state": "Delhi",
-   "steps": [
-    "Download the vacancy notice and application form from nppa.gov.in",
-    "Check the upper age limit (32 for Young Professional) against your date of birth",
-    "Fill the form and attach self-certified copies of all certificates",
-    "Email to hiring@nppa.gov.in or send to Under Secretary (Estt./Admin.), NPPA, 5th Floor, YMCA Cultural Centre Building, 1 Jai Singh Road, New Delhi-110001 by 26 Oct 2026"
-   ],
-   "title": "Consultant (Medical Device) and Young Professional (Pharma) – Contract"
   },
   {
    "id": "nrs-medical-college-project-research-scientist-i",
@@ -3451,6 +3524,41 @@
     "Submit application"
    ],
    "title": "Toxicologist with Regulatory Module Writing Experience (Assistant Manager)"
+  },
+  {
+   "id": "zydus-formulation-scientist-deputy-manager-vaccine-rd-ahmedabad",
+   "applyMode": "LinkedIn Easy Apply",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4486145260/",
+   "category": "other",
+   "city": "Ahmedabad",
+   "cvFit": {
+    "reason": "Asks for 8–15 years with biotech formulation; you have strong formulation/QbD research but 6.9 years, mostly academic, and no vaccine work.",
+    "score": 56
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "Formulation development matches your M.Pharm Pharmaceutics and Ph.D., though this role is for vaccines/biologics."
+   },
+   "found": "2026-11-03",
+   "notes": "Seen via a BioTecNika repost of the LinkedIn listing; full-time, on-site.",
+   "org": "Zydus Lifesciences (Zydus Biotechnology)",
+   "posted": "2026-11-02",
+   "posts": [
+    "Formulation Scientist – Deputy Manager / Associate Manager (Vaccine R&D)"
+   ],
+   "qualification": "Ph.D./M.Sc. in Biotechnology, Biochemistry or Microbiology, or a master's in pharmacy or engineering with biotechnology; 8–15 years of experience, including at least 1 year each in formulation and biotechnology research.",
+   "role": "Formulation R&D",
+   "sector": "Private",
+   "source": "LinkedIn",
+   "sourceUrl": "https://www.linkedin.com/jobs/view/4486145260/",
+   "state": "Gujarat",
+   "steps": [
+    "Open the LinkedIn job post and check that it is still accepting applications",
+    "Update your LinkedIn profile to highlight formulation development, QbD and Design Expert work",
+    "Apply with Easy Apply, attaching a CV that stresses formulation R&D and your research years",
+    "Mention your M.Pharm Pharmaceutics, Ph.D. and patents in the cover note"
+   ],
+   "title": "Formulation Scientist – Deputy Manager (Vaccine R&D)"
   }
  ]
 }
