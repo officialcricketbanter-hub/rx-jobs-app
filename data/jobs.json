@@ -1,8 +1,8 @@
 {
  "meta": {
-  "lastRun": "2026-11-03T01:28:32Z",
-  "total": 98,
-  "added": 5
+  "lastRun": "2026-11-04T01:32:09Z",
+  "total": 99,
+  "added": 2
  },
  "jobs": [
   {
@@ -302,6 +302,49 @@
     "Attend the walk-in at the Principal's office, ASMC Bahraich, on a Tuesday or Friday from 27 Oct 2026, reporting by 12 noon"
    ],
    "title": "Pharmacology Faculty (Contract) – Walk-in",
+   "type": "Faculty"
+  },
+  {
+   "id": "aspm-college-of-pharmacy-sangulwadi-principal-professor-faculty",
+   "applyMode": "Email or post (prescribed format) within 21 days of advertisement",
+   "applyUrl": "https://aspmcop.org",
+   "category": "academic",
+   "city": "Sangulwadi",
+   "cvFit": {
+    "reason": "Pharmaceutics Associate Professor/Assistant Professor posts under PCI norms — your M.Pharm Pharmaceutics, Ph.D. and current Associate Professor role fit well; Professor/Principal would need more years.",
+    "score": 86
+   },
+   "documents": [
+    "Detailed CV",
+    "Attested copies of all supporting documents"
+   ],
+   "fit": {
+    "level": "Strong",
+    "reason": "Pharmaceutics is one of the listed departments, matching your M.Pharm Pharmaceutics and Ph.D."
+   },
+   "found": "2026-11-04",
+   "notes": "Deadline is 21 days from advertisement (around 24 Nov 2026 if counted from 3 Nov). No TA/DA for interview.",
+   "org": "ASPM College of Pharmacy",
+   "posted": "2026-11-03",
+   "posts": [
+    "Principal",
+    "Professor",
+    "Associate Professor",
+    "Assistant Professor"
+   ],
+   "qualification": "As per AICTE/PCI, Government of Maharashtra and Dr. Babasaheb Ambedkar Technological University (Lonere) norms; departments include Pharmaceutics, Pharmaceutical Chemistry, Pharmacology, Pharmacognosy and Pharmacy Practice.",
+   "salary": "As per norms",
+   "sector": "Private",
+   "sourceUrl": "https://facultytick.com/2026/11/03/aspm-college-of-pharmacy-applications-are-invited-for-the-post-of-principal-professor-associate-professor-and-assistant-professor-teaching-and-non-teaching-faculty-job-vacancy-2026/",
+   "state": "Maharashtra",
+   "steps": [
+    "Download the prescribed application format and notification from aspmcop.org",
+    "Fill the form and attach a detailed CV with attested copies of all certificates",
+    "Email the application to ph3493@dbatu.ac.in",
+    "Also post the application to ASPM College of Pharmacy, Sangulwadi, Maharashtra-416810 within 21 days of the advertisement (3 Nov 2026)",
+    "Serving employees must apply through proper channel"
+   ],
+   "title": "Principal, Professor, Associate Professor & Assistant Professor (Pharmacy)",
    "type": "Faculty"
   },
   {
@@ -1127,48 +1170,6 @@
    ],
    "title": "Project Research Scientist-III (Non-Medical) at CSIR-IMTECH",
    "type": "Scientist"
-  },
-  {
-   "id": "csir-nbri-senior-project-associate-st-management",
-   "applyMode": "Walk-in interview",
-   "applyUrl": "https://nbri.res.in",
-   "category": "academic",
-   "city": "Lucknow",
-   "cvFit": {
-    "reason": "Asks for a pharma-science master's/doctorate and 3 years' R&D — you exceed this with a Ph.D. and 3 years as DST-SERB JRF, but the role is project management at a lower level than your Associate Professor post.",
-    "score": 66
-   },
-   "documents": [
-    "Application form",
-    "Original certificates and self-attested copies",
-    "Experience certificates",
-    "Passport-size photograph"
-   ],
-   "fit": {
-    "level": "Good",
-    "reason": "Accepts a pharma-science doctorate with R&D experience; S&T management rather than Pharmaceutics research."
-   },
-   "found": "2026-10-22",
-   "lastDate": "2026-10-27",
-   "notes": "Project post tied to project funding. Area-III (Pharmacognosy/Product Development) Project Associate-I posts accepting M.Pharm/Pharmaceutics walk in on 30 Oct 2026 but are junior.",
-   "org": "CSIR-National Botanical Research Institute (NBRI)",
-   "posted": "2026-10-20",
-   "posts": [
-    "Senior Project Associate (Area-I, S&T Management) – 1"
-   ],
-   "qualification": "Master's or integrated Master's in life/natural/plant/pharma/environmental science or biotechnology, or a doctorate in these fields, with 3 years' R&D experience (or 1 year in science communication). Max age 40.",
-   "salary": "Rs 42,000 per month + HRA",
-   "sector": "Government",
-   "sourceUrl": "https://24x7jobalerts.com/jobs/csir-nbri-recruitment-2026-walk-in-for-7-project-posts-63239132-6d28-4389-9b4b-c93b55e9f8ec",
-   "state": "Uttar Pradesh",
-   "steps": [
-    "Download notification No. 10/Project/2026 and the application form from nbri.res.in",
-    "Fill the form and attach self-attested copies of degrees, experience certificates and a passport photo",
-    "Report at K. N. Kaul Block, CSIR-NBRI, Rana Pratap Marg, Lucknow on 27 Oct 2026 by 10:00 AM (interview 11:00 AM)",
-    "Carry all originals for document verification"
-   ],
-   "title": "Senior Project Associate (Area-I, S&T Management) – Walk-in",
-   "type": "Academic Associate"
   },
   {
    "id": "dop-technical-consultant-grade-1-2-advt-05-2026",
@@ -3491,6 +3492,49 @@
     "Mention Pharmaceutics as your specialisation in the email and CV"
    ],
    "title": "Professor, Associate Professor & Assistant Professor – Pharmacy (22 posts)",
+   "type": "Faculty"
+  },
+  {
+   "id": "vivekananda-global-college-of-pharmacy-sivagangai-faculty",
+   "applyMode": "Email or post",
+   "applyUrl": "https://www.vgcop.in",
+   "category": "academic",
+   "city": "Sivagangai",
+   "cvFit": {
+    "reason": "Asks for M.Pharm in Pharmaceutics — you have it plus a Ph.D., 3.8 years teaching and 23 papers, good for Associate Professor; location is outside your priority states.",
+    "score": 84
+   },
+   "documents": [
+    "Updated resume/CV",
+    "Educational certificates and mark sheets",
+    "Experience certificates",
+    "Passport-size photo"
+   ],
+   "fit": {
+    "level": "Strong",
+    "reason": "Pharmaceutics department posts match your M.Pharm Pharmaceutics and Ph.D."
+   },
+   "found": "2026-11-04",
+   "lastDate": "2026-11-28",
+   "notes": "Contact: 82200 11602, 73737 11606.",
+   "org": "Vivekananda Global College of Pharmacy",
+   "posted": "2026-11-02",
+   "posts": [
+    "Assistant Professor",
+    "Associate Professor"
+   ],
+   "qualification": "M.Pharm or Pharm.D in Pharmaceutics or Pharmaceutical Chemistry; experience not stated.",
+   "salary": "As per institutional norms",
+   "sector": "Private",
+   "sourceUrl": "https://www.facultyplus.com/education-jobs-2026-at-vivekananda-global-college-of-pharmacy-sivagangai/",
+   "state": "Tamil Nadu",
+   "steps": [
+    "Prepare an updated CV with scanned certificates and photo",
+    "Email the application to the addresses in the notification (see facultyplus page / vgcop.in)",
+    "Or post to Vivekananda Global College of Pharmacy, Kummangudi, Athikaram Post, Sivagangai 630 207, Tamil Nadu",
+    "Ensure it reaches by 28 Nov 2026; shortlisted candidates are informed by email"
+   ],
+   "title": "Assistant Professor & Associate Professor (Pharmaceutics, Pharmaceutical Chemistry)",
    "type": "Faculty"
   },
   {
