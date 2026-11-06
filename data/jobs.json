@@ -1,8 +1,8 @@
 {
  "meta": {
-  "lastRun": "2026-11-05T01:18:22Z",
+  "lastRun": "2026-11-06T01:17:14Z",
   "total": 101,
-  "added": 7
+  "added": 2
  },
  "jobs": [
   {
@@ -694,41 +694,6 @@
    "type": "Faculty"
   },
   {
-   "id": "bhaikaka-university-clinical-research-executive",
-   "applyMode": "Email",
-   "applyUrl": "https://www.bhaikakauniv.edu.in/Career",
-   "category": "other",
-   "city": "Karamsad, Anand",
-   "cvFit": {
-    "reason": "Asks for M.Pharm Clinical Pharmacy/Pharmacology, GCP and 5 years of trial coordination — your M.Pharm is Pharmaceutics and your experience is teaching and formulation research.",
-    "score": 30
-   },
-   "fit": {
-    "level": "Low",
-    "reason": "Needs M.Pharm in Clinical Pharmacy/Pharmacology and trial-site experience, not Pharmaceutics."
-   },
-   "found": "2026-10-27",
-   "lastDate": "2026-10-29",
-   "notes": "Same advertisement also lists GM/DGM/AGM Pharmacy (retail/procurement) posts.",
-   "org": "Bhaikaka University",
-   "posted": "2026-10-21",
-   "posts": [
-    "Clinical Research Executive"
-   ],
-   "qualification": "M.Pharm in Clinical Pharmacy or Clinical Pharmacology with GCP certification/training, plus 5+ years in clinical trial coordination and management.",
-   "role": "Clinical Research",
-   "sector": "Private",
-   "sourceUrl": "https://www.facultyplus.com/healthcare-jobs-2026-at-bhaikaka-university-anand/",
-   "state": "Gujarat",
-   "steps": [
-    "Open the Career page of Bhaikaka University for the advertisement and email address",
-    "Email your updated CV with the position name in the subject line before 29 October 2026",
-    "Highlight any clinical/regulatory documentation and GCP training",
-    "Wait for email shortlisting"
-   ],
-   "title": "Clinical Research Executive – R&D Cell"
-  },
-  {
    "id": "bharath-institute-pharmacy-professor-associate-professor",
    "applyMode": "Email CV and documents (address in the notification)",
    "category": "academic",
@@ -1160,6 +1125,44 @@
     "Submit before 30 Oct 2026"
    ],
    "title": "SME – Regulatory Affairs & Medical Writing"
+  },
+  {
+   "id": "csir-iiim-jammu-project-research-scientist-i-advt-43-2026",
+   "applyMode": "Online (Google form); online interview via MS Teams",
+   "applyUrl": "https://forms.gle/uHchmQx9yEf2kCEk6",
+   "category": "academic",
+   "city": "Jammu",
+   "cvFit": {
+    "reason": "Accepts your M.Pharm and your herbal/natural-product research fits IIIM, but it is an early-career project post with a 35-year age cap, below your Associate Professor level.",
+    "score": 58
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "PG in Pharmaceutical Sciences is accepted for the Biology post, and IIIM's natural-product/herbal drug research matches your pharmacognosy and herbal product work."
+   },
+   "found": "2026-11-06",
+   "lastDate": "2026-11-18",
+   "notes": "Project post, temporary. Age limit of 35 years may rule you out — check relaxation rules.",
+   "org": "CSIR-Indian Institute of Integrative Medicine (IIIM)",
+   "posted": "2026-11-04",
+   "posts": [
+    "Project Research Scientist-I (Non-Med.) – Biology (1)",
+    "Project Research Scientist-I (Non-Med.) – Chemistry (1)"
+   ],
+   "qualification": "Biology post: PG degree in Biotechnology, Microbiology, Pharmaceutical Sciences or Zoology. Chemistry post: M.Sc. Chemistry. Maximum age 35 years as on last date.",
+   "salary": "Rs 56,000 per month + HRA (if no institute accommodation)",
+   "sector": "Government",
+   "sourceUrl": "https://www.freejobalert.com/articles/csir-iiim-recruitment-2026-project-research-scientist-i-non-med-3078606",
+   "state": "Jammu & Kashmir",
+   "steps": [
+    "Read the official notification (Advt. 43/2026) on iiim.res.in.",
+    "Check the age limit (35 years as on 18 Nov 2026) before applying.",
+    "Fill in the Google application form for the Biology post (Pharmaceutical Sciences is eligible).",
+    "Upload CV and degree/experience documents as asked.",
+    "Wait for the email invitation to the online MS Teams interview."
+   ],
+   "title": "Project Research Scientist-I (Non-Medical) – Biology & Chemistry (Advt. 43/2026)",
+   "type": "Scientist"
   },
   {
    "id": "csir-imtech-project-research-scientist-iii-non-medical",
@@ -2785,47 +2788,55 @@
    "title": "Senior Associate – Pharmaceutical Patent Practice (Band 1/2)"
   },
   {
-   "id": "pgimer-research-scientist",
-   "applyMode": "Email single PDF to sharma.gaurav@pgimer.edu.in or post hard copy",
-   "applyUrl": "https://pgimer.edu.in/PGIMER_PORTAL/PGIMERPORTAL/Vacancies/JSP/ViewAll.jsp?record=15843",
+   "id": "poona-college-of-pharmacy-bharati-vidyapeeth-faculty",
+   "applyMode": "Online form + hard copy by post/courier (no email or in-person)",
+   "applyUrl": "https://bvp.bharatividyapeeth.edu/index.php/careers",
    "category": "academic",
-   "city": "Chandigarh",
+   "city": "Pune",
    "cvFit": {
-    "reason": "Restricted to life-science PG/Ph.D. subjects — pharmacy isn't listed.",
-    "score": 25
+    "reason": "Associate Professor in Pharmaceutics — matches your M.Pharm Pharmaceutics, Ph.D. and current Associate Professor role; your 3.8 years of teaching may fall short if they strictly want 8 years for Associate Professor.",
+    "score": 88
    },
    "documents": [
-    "CV with photo and publication list",
-    "Educational certificates",
-    "Experience letters",
-    "NOC if applicable",
-    "Photo ID"
+    "Printed online application form",
+    "Attested photocopies of all certificates"
    ],
    "fit": {
-    "level": "Low",
-    "reason": "Asks for life-science subjects (genetics/NGS) — pharmacy is not listed and differs from your Pharmaceutics specialisation."
+    "level": "Strong",
+    "reason": "There is a dedicated Associate Professor post in Pharmaceutics, matching your M.Pharm Pharmaceutics and Ph.D."
    },
-   "found": "2026-10-20",
-   "lastDate": "2026-10-29",
-   "notes": "ICMR project; pharmacy not explicitly listed – NGS/exome data experience desirable.",
-   "org": "PGIMER",
-   "posted": "2026-10-19",
+   "found": "2026-11-06",
+   "notes": "Advertisement says apply within 15 days of publication (newspaper notice 4 Nov 2026); no exact calendar date printed. Email and in-person applications not accepted.",
+   "org": "Poona College of Pharmacy, Bharati Vidyapeeth (Deemed to be University)",
+   "posted": "2026-11-04",
    "posts": [
-    "Project Research Scientist-II"
+    "Associate Professor – Pharmaceutics (1)",
+    "Associate Professor – Pharmaceutical Chemistry (1)",
+    "Associate Professor – Pharmacology (1)",
+    "Associate Professor – Pharmacognosy (2)",
+    "Associate Professor – Pharmacy Practice (2)",
+    "Professor – Pharmacy Practice (1)",
+    "Professor – Pharmaceutical Quality Assurance (1)",
+    "Professor – Pharmaceutical Biotechnology (1)",
+    "Assistant Professor – Pharmaceutical Chemistry (1)",
+    "Assistant Professor – Pharmacognosy (1)",
+    "Assistant Professor – Pharmaceutical Quality Assurance (1)",
+    "Assistant Professor – Industrial Pharmacy (1)"
    ],
-   "qualification": "First-class PG in life science subjects (Biochemistry, Biotechnology, Genetics etc.) with 3 years' research experience, or Ph.D. in these subjects. Age up to 40.",
-   "salary": "Rs 80,400 per month (67,000 + 20% HRA)",
-   "sector": "Government",
-   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/call-for-research-scientist-at-pgimer",
-   "state": "Chandigarh",
+   "qualification": "Qualifications and experience as per norms (PCI/UGC); full details on the Bharati Vidyapeeth careers page. Includes one Associate Professor post in Pharmaceutics.",
+   "salary": "As per norms",
+   "sector": "Private",
+   "sourceUrl": "https://www.facultyplus.com/pharmacy-faculty-jobs-2026-at-poona-college-of-pharmacy-pune/",
+   "state": "Maharashtra",
    "steps": [
-    "Prepare one PDF: CV with photo and publications, certificates, experience letters, NOC, photo ID",
-    "Email to sharma.gaurav@pgimer.edu.in (or post to Dept. of Translational & Regenerative Medicine, Research Block-B, PGIMER Chandigarh)",
-    "Send by 29 Oct 2026",
-    "Shortlisted candidates interviewed ~31 Oct 2026, 11 AM"
+    "Open the Bharati Vidyapeeth careers page and fill in the online application for Associate Professor – Pharmaceutics.",
+    "Download and print the completed form.",
+    "Attach attested photocopies of all certificates (degrees, Ph.D., experience, publications).",
+    "Send by post/courier to The Secretary, Bharati Vidyapeeth Bhavan, 4th floor, Central Office, L.B.S. Marg, Pune – 411030.",
+    "Make sure it reaches within 15 days of the 4 Nov 2026 advertisement (around 19 Nov)."
    ],
-   "title": "Project Research Scientist-II (Non-Medical)",
-   "type": "Scientist"
+   "title": "Professor, Associate Professor & Assistant Professor (14 posts) – Poona College of Pharmacy",
+   "type": "Faculty"
   },
   {
    "id": "quanticate-medical-writer-consultant-remote",
