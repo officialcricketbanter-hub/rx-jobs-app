@@ -1,43 +1,10 @@
 {
  "meta": {
-  "lastRun": "2026-11-06T01:17:14Z",
-  "total": 101,
-  "added": 2
+  "lastRun": "2026-11-07T01:22:44Z",
+  "total": 95,
+  "added": 3
  },
  "jobs": [
-  {
-   "id": "abbott-manager-regulatory-affairs-mumbai",
-   "applyMode": "Apply online on Abbott careers portal",
-   "applyUrl": "https://www.jobs.abbott/us/en/job/ABLAUS31162843ENUSEXTERNAL/Manager-Regulatory-Affairs",
-   "category": "other",
-   "city": "Mumbai",
-   "cvFit": {
-    "reason": "Leads an RA team, so prior regulatory affairs experience is implied — you have leadership as Associate Professor but no RA background.",
-    "score": 38
-   },
-   "fit": {
-    "level": "Low",
-    "reason": "A people-manager RA role that expects prior regulatory experience, which your Pharmaceutics academic profile lacks."
-   },
-   "found": "2026-10-20",
-   "lastDate": "2026-10-30",
-   "org": "Abbott",
-   "posted": "2026-10-08",
-   "posts": [
-    "Manager – Regulatory Affairs"
-   ],
-   "qualification": "Not specified in the listing; the role leads a team of more than 2 regulatory affairs professionals.",
-   "role": "Regulatory Affairs",
-   "sector": "Private",
-   "sourceUrl": "https://www.pharmatutor.org/wanted-regulatory-affairs-manager-abbott",
-   "state": "Maharashtra",
-   "steps": [
-    "Open the Abbott job link and check the full requirements",
-    "Upload a CV stressing team leadership and documentation work",
-    "Submit before 30 Oct 2026"
-   ],
-   "title": "Manager, Regulatory Affairs"
-  },
   {
    "id": "aiims-bhopal-project-research-scientist-i-tb-hiv-pk",
    "applyMode": "Email (single merged PDF of application form + documents); no hard copy",
@@ -146,39 +113,6 @@
    ],
    "title": "Project Research Scientist-I (Non-Medical) – ICMR project, Dept. of Pathology",
    "type": "Scientist"
-  },
-  {
-   "id": "amneal-regulatory-affairs-assistant-manager-ahmedabad",
-   "applyMode": "Apply online on Amneal India careers portal",
-   "applyUrl": "https://hcfa.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/AmnealIndiaCareers/job/8785/",
-   "category": "other",
-   "city": "Ahmedabad",
-   "cvFit": {
-    "reason": "Asks for B.Pharm/M.Pharm with 8–10 years in regulatory affairs — you have the degrees but 6.9 years, mostly academic, with no RA role.",
-    "score": 40
-   },
-   "fit": {
-    "level": "Low",
-    "reason": "Needs 8–10 years of industry regulatory work; your Pharmaceutics M.Pharm/Ph.D. is relevant but your experience is academic."
-   },
-   "found": "2026-10-20",
-   "lastDate": "2026-10-30",
-   "org": "Amneal Pharmaceuticals",
-   "posted": "2026-10-05",
-   "posts": [
-    "Regulatory Affairs Assistant Manager"
-   ],
-   "qualification": "B.Pharm required, M.Pharm preferred; 8–10 years of experience.",
-   "role": "Regulatory Affairs",
-   "sector": "Private",
-   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/amneal-pharma-hiring-regulatory-affairs-assistant-manager",
-   "state": "Gujarat",
-   "steps": [
-    "Open the Amneal careers link",
-    "Create a candidate profile and upload your CV, highlighting documentation and QbD/product development work",
-    "Submit before 30 Oct 2026"
-   ],
-   "title": "Regulatory Affairs Assistant Manager"
   },
   {
    "id": "apex-institute-pharmacy-raigarh-principal-professor-faculty",
@@ -485,41 +419,6 @@
    ],
    "title": "Professor / Associate Professor / Assistant Professor (Pharmacy)",
    "type": "Faculty"
-  },
-  {
-   "id": "aurigene-oncology-scientist-sr-scientist",
-   "applyMode": "Email CV to tamil_s@aurigene.com",
-   "category": "academic",
-   "city": "Electronic City, Bengaluru",
-   "cvFit": {
-    "reason": "Asks for 7-15 years of industry R&D, chemistry-leaning — your 6.9 years are mostly academic and formulation-focused.",
-    "score": 35
-   },
-   "fit": {
-    "level": "Low",
-    "reason": "Needs 7-15 years of industry R&D experience in a chemistry-oriented role — more than your profile shows, and not a Pharmaceutics-specific post."
-   },
-   "found": "2026-10-20",
-   "lastDate": "2026-10-30",
-   "notes": "Full-time industry role; department/specialisation not given in the posting.",
-   "org": "Aurigene Oncology",
-   "posted": "2026-10-09",
-   "posts": [
-    "Scientist",
-    "Senior Scientist"
-   ],
-   "qualification": "M.Pharm or M.Sc. (Chemistry). The posting lists 12-15 years' experience for Scientist and 7-8 years for Senior Scientist; department not stated.",
-   "sector": "Private",
-   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/aurigene-oncology-hiring-scientist-senior-scientist",
-   "state": "Karnataka",
-   "steps": [
-    "Update your CV highlighting R&D years, techniques and publications",
-    "Write a short cover email naming the post (Scientist or Sr. Scientist)",
-    "Email CV to tamil_s@aurigene.com before 30 Oct 2026",
-    "Wait for HR shortlisting call"
-   ],
-   "title": "Scientist / Senior Scientist",
-   "type": "Scientist"
   },
   {
    "id": "aurobindo-formulation-development-professional-osd-hyderabad",
@@ -1091,40 +990,6 @@
     "Submit; hybrid role in Noida"
    ],
    "title": "Patent Search Senior Analyst (JREQ136232)"
-  },
-  {
-   "id": "cognizant-sme-regulatory-affairs-medical-writing-mumbai",
-   "applyMode": "Apply online on Cognizant careers",
-   "applyUrl": "https://careers.cognizant.com/global-en/jobs/00070603282/sme-reg-affairs-med-writing/",
-   "category": "other",
-   "city": "Mumbai",
-   "cvFit": {
-    "reason": "Wants hands-on regulatory documentation and Veeva — your 23 papers and 13 chapters show strong writing, but you have no regulatory submission or Veeva experience.",
-    "score": 50
-   },
-   "fit": {
-    "level": "Good",
-    "reason": "Your scientific writing and industrial documentation work suit the medical-writing side; Veeva/regulatory publishing would be new."
-   },
-   "found": "2026-10-20",
-   "lastDate": "2026-10-30",
-   "notes": "Hybrid, day shift.",
-   "org": "Cognizant",
-   "posted": "2026-10-09",
-   "posts": [
-    "SME, Regulatory Affairs & Medical Writing"
-   ],
-   "qualification": "Hands-on life-sciences regulatory documentation experience and Veeva expertise; RAC or equivalent certification preferred. No degree or years stated.",
-   "role": "Regulatory Affairs",
-   "sector": "Private",
-   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/openings-in-regulatory-affairs-and-medical-writing-at-cognizant",
-   "state": "Maharashtra",
-   "steps": [
-    "Open the Cognizant job link",
-    "Upload a CV highlighting scientific writing (23 papers, 13 chapters) and documentation work",
-    "Submit before 30 Oct 2026"
-   ],
-   "title": "SME – Regulatory Affairs & Medical Writing"
   },
   {
    "id": "csir-iiim-jammu-project-research-scientist-i-advt-43-2026",
@@ -1847,45 +1712,6 @@
    "type": "Scientist"
   },
   {
-   "id": "iit-ropar-project-research-scientist-i-icmr",
-   "applyMode": "Email application form and CV to atharva@iitrpr.ac.in",
-   "applyUrl": "https://www.iitrpr.ac.in/api/v2/files/download/223",
-   "category": "academic",
-   "city": "Rupnagar",
-   "cvFit": {
-    "reason": "Pharmacy Master's/Ph.D. accepted — you qualify easily, but a Project Research Scientist I post is below your Associate Professor level.",
-    "score": 60
-   },
-   "documents": [
-    "Filled application form",
-    "CV"
-   ],
-   "fit": {
-    "level": "Good",
-    "reason": "Broad research post open to pharmacy Master's/Ph.D. holders — your Ph.D. in Pharmaceutical Sciences qualifies; subject is materials/biomedical rather than formulation specifically."
-   },
-   "found": "2026-10-20",
-   "lastDate": "2026-10-30",
-   "org": "IIT Ropar",
-   "posted": "2026-10-18",
-   "posts": [
-    "Project Research Scientist I"
-   ],
-   "qualification": "Master's or Ph.D. in materials science, biochemistry, biophysics, life sciences, biotechnology, biomedical engineering, pharmacy or a related medical/life science field. GATE/NET not required.",
-   "salary": "Rs 56,000 + 10% HRA (Rs 61,600 per month)",
-   "sector": "Government",
-   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/iit-ropar-research-recruitment-for-pharmacy-biochemistry-life-sciences-biotechnology-candidates",
-   "state": "Punjab",
-   "steps": [
-    "Download the advertisement and attached application form",
-    "Fill in the form and prepare an updated CV",
-    "Email both to Dr. Atharva Poundarik at atharva@iitrpr.ac.in before 30 Oct 2026",
-    "Shortlisted candidates are interviewed in person or online (no TA/DA)"
-   ],
-   "title": "Project Research Scientist I (ICMR project with PGIMER)",
-   "type": "Scientist"
-  },
-  {
    "id": "ilbs-new-delhi-project-research-scientist-iii-mash-icmr",
    "applyMode": "Email resume; interview/skill test on 21 Nov 2026 at ILBS, Vasant Kunj",
    "applyUrl": "https://www.ilbs.in/images/media/advt_for_various_post_under_project_02_11_2026.pdf",
@@ -2176,41 +2002,6 @@
    "type": "Faculty"
   },
   {
-   "id": "lambda-therapeutic-research-associate-bioanalytical",
-   "applyMode": "Email CV to saurabhkharya@lambda-cro.com",
-   "applyUrl": "https://www.pharmatutor.org/content/october-2026/lambda-therapeutic-hiring-research-associate",
-   "category": "academic",
-   "city": "Ahmedabad",
-   "cvFit": {
-    "reason": "Bioanalytical Research Associate with 1-5 years — your HPLC skills help, but the post is junior and off your formulation specialisation.",
-    "score": 40
-   },
-   "fit": {
-    "level": "Low",
-    "reason": "Bioanalytical CRO role needing 1-5 years' bioanalytical experience — differs from your Pharmaceutics focus."
-   },
-   "found": "2026-10-20",
-   "lastDate": "2026-10-30",
-   "notes": "CRO role; location not stated (HQ Ahmedabad).",
-   "org": "Lambda Therapeutic Research Ltd",
-   "posted": "2026-10-17",
-   "posts": [
-    "Research Associate"
-   ],
-   "qualification": "M.Sc., M.Pharm or B.Pharm with 1-5 years of relevant bioanalytical experience.",
-   "sector": "Private",
-   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/lambda-therapeutic-hiring-research-associate",
-   "state": "Gujarat",
-   "steps": [
-    "Update CV highlighting LC-MS/MS bioanalytical work",
-    "Email it to saurabhkharya@lambda-cro.com",
-    "Use subject 'Research Associate - Bioanalytical'",
-    "Send before 30 Oct 2026"
-   ],
-   "title": "Research Associate – Bioanalytical Operations",
-   "type": "Academic Associate"
-  },
-  {
    "id": "lupin-senior-research-scientist-pharma-research-ood-pune",
    "applyMode": "Online via Lupin careers portal",
    "applyUrl": "https://careers.lupin.com/job/Pune_RD-Senior-Research-Scientist-Pharma-Research-OOD-MH/1437122600/",
@@ -2242,6 +2033,40 @@
     "Complete the talent-community profile and submit"
    ],
    "title": "Senior Research Scientist – Pharma Research (OOD)"
+  },
+  {
+   "id": "lvpei-project-research-scientist-i-ocular-oncology",
+   "applyMode": "Email CV",
+   "category": "academic",
+   "city": "Hyderabad",
+   "cvFit": {
+    "reason": "You have the Ph.D. and publications, but it wants cancer-biology, EV and proteomics bench skills, which aren't on your CV.",
+    "score": 42
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "A cancer-biology and proteomics project, outside your Pharmaceutics and formulation focus."
+   },
+   "found": "2026-11-07",
+   "lastDate": "2026-11-14",
+   "notes": "ICMR-funded project on biomarker discovery in ocular cancers at the Kallam Anji Reddy Campus. The post lasts as long as the project.",
+   "org": "L V Prasad Eye Institute (LVPEI)",
+   "posted": "2026-11-05",
+   "posts": [
+    "Project Research Scientist-I (Non-Medical)"
+   ],
+   "qualification": "Ph.D. plus a PG degree in Biotechnology, Biochemistry, Life Sciences or a related field, OR a first-class PG with 3 years of cancer biology research. Desirable: extracellular vesicles, cell culture, proteomics, flow cytometry.",
+   "salary": "As per ICMR norms",
+   "sector": "Private",
+   "sourceUrl": "https://www.biotecnika.org/2026/11/lvpei-project-research-scientist-hyderabad-2026/",
+   "state": "Telangana",
+   "steps": [
+    "Open the notice for the PI email addresses (Dr Rani Pallavi, Dr Vijitha Sai Vempuluru, Dr Swathi Kaliki)",
+    "Prepare a CV with qualifications, research experience, technical skills and publications",
+    "Email it before 14 Nov 2026 with the post name in the subject line"
+   ],
+   "title": "Project Research Scientist-I (Non-Medical), Ocular Oncology",
+   "type": "Scientist"
   },
   {
    "id": "mahe-mcops-project-research-scientist-i",
@@ -2278,6 +2103,42 @@
    ],
    "title": "Project Research Scientist I (Non-Medical) – TDM precision dosing project",
    "type": "Scientist"
+  },
+  {
+   "id": "mandsaur-university-pharmacy-faculty-nov-2026",
+   "applyMode": "Email CV (address in the notice) or contact the university",
+   "applyUrl": "https://www.meu.edu.in",
+   "category": "academic",
+   "city": "Mandsaur",
+   "cvFit": {
+    "reason": "Opens all three faculty levels in pharmacy, including Pharmaceutics — your Ph.D., 3.8 years of teaching and current Associate Professor role fit the Associate Professor post.",
+    "score": 84
+   },
+   "fit": {
+    "level": "Strong",
+    "reason": "Pharmaceutics was among Mandsaur's open pharmacy subjects, which matches your M.Pharm Pharmaceutics and Ph.D."
+   },
+   "found": "2026-11-07",
+   "notes": "Readvertised in November 2026; the full notice page could not be opened, so check the last date and email on the official notice. The phone number in earlier notices was 6232874161.",
+   "org": "Mandsaur University",
+   "posted": "2026-11-01",
+   "posts": [
+    "Professor",
+    "Associate Professor",
+    "Assistant Professor"
+   ],
+   "qualification": "As per PCI/UGC norms. The university's 2026 pharmacy notices covered Pharmaceutics, Pharmaceutical Chemistry, Pharmacology, Pharmacognosy and Pharm.D across its two pharmacy institutes (BRNCOP and MIP).",
+   "sector": "Private",
+   "sourceUrl": "https://www.pharmatutor.org/content/november-2026/recruitment-for-professor-associate-professor-assistant-professor-at-mandsaur-university",
+   "state": "Madhya Pradesh",
+   "steps": [
+    "Open the PharmaTutor November 2026 notice (or meu.edu.in) for the application email and subject list",
+    "Confirm that Pharmaceutics is among the open subjects for Associate Professor",
+    "Email your CV with the post and subject in the subject line",
+    "Attach your degrees, Ph.D. certificate, experience letters and publication list"
+   ],
+   "title": "Professor, Associate Professor, Assistant Professor (Pharmacy)",
+   "type": "Faculty"
   },
   {
    "id": "marwadi-university-pharmacy-faculty",
@@ -2498,49 +2359,6 @@
    "type": "Scientist"
   },
   {
-   "id": "niper-guwahati-research-manager-scientific",
-   "applyMode": "Post hard copy (Speed Post / courier)",
-   "applyUrl": "https://niperguwahati.ac.in/DOC/RECRUITMENT/CONTRACTUAL-POSITIONS/Advt._Research%20Manager_05(C).2026-Bilingual.pdf",
-   "category": "academic",
-   "city": "Guwahati",
-   "cvFit": {
-    "reason": "M.Pharm with 10 years' experience and age up to 40 — you have 6.9 years, short of the requirement.",
-    "score": 45
-   },
-   "documents": [
-    "Signed application form",
-    "Age proof",
-    "Degree mark sheets and certificates",
-    "Experience certificates",
-    "Resume"
-   ],
-   "fit": {
-    "level": "Low",
-    "reason": "Needs 10 years' research/teaching/industry experience with age limit 40 — likely more experience than you have."
-   },
-   "found": "2026-10-20",
-   "lastDate": "2026-10-30",
-   "notes": "1 post, contractual. Age limit 40. Ph.D. holders with long research/industry experience fit well.",
-   "org": "NIPER Guwahati",
-   "posted": "2026-10-15",
-   "posts": [
-    "Research Manager (Scientific)"
-   ],
-   "qualification": "M.Sc. or M.Pharm from a recognised university with at least 10 years of research, teaching or industry experience. Maximum age 40.",
-   "salary": "Rs 1,25,000 per month consolidated (11-month contract, extendable)",
-   "sector": "Government",
-   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/career-for-pharma-and-science-candidates-as-research-manager-at-niper",
-   "state": "Assam",
-   "steps": [
-    "Download the prescribed application form from the official advertisement (Advt. 05(C)/2026)",
-    "Fill and ink-sign the form; attach self-attested copies of age proof, degree mark sheets, certificates, experience certificates and resume",
-    "Send by Speed Post/courier to The Registrar i/c, NIPER Guwahati, Sila Katamur (Halugurisuk), P.O. Changsari, Kamrup, Assam 781101",
-    "Ensure it reaches by 30 Oct 2026, 5:00 PM (no application fee)"
-   ],
-   "title": "Research Manager (Scientific)",
-   "type": "Scientist"
-  },
-  {
    "id": "nmims-sptm-hyderabad-pharmaceutics-faculty",
    "applyMode": "Online (NMIMS career portal)",
    "applyUrl": "https://fa-elxu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/14724/",
@@ -2581,38 +2399,6 @@
    ],
    "title": "Faculty – Pharmaceutics, School of Pharmacy & Technology Management (Req. 14724)",
    "type": "Faculty"
-  },
-  {
-   "id": "novo-nordisk-associate-pv-manager-bangalore",
-   "applyMode": "Online",
-   "applyUrl": "https://careers.novonordisk.com/job/Bangalore-Associate-Pharmacovigilance-Manager-Karn/1447996733/",
-   "category": "other",
-   "city": "Bengaluru",
-   "cvFit": {
-    "reason": "Asks for 7+ years in pharmacovigilance — your pharmacy degrees qualify but you have no drug-safety experience.",
-    "score": 25
-   },
-   "fit": {
-    "level": "Low",
-    "reason": "Needs 7+ years of pharmacovigilance; your experience is in pharmaceutics teaching and research."
-   },
-   "found": "2026-10-20",
-   "lastDate": "2026-10-30",
-   "org": "Novo Nordisk India",
-   "posts": [
-    "Associate Pharmacovigilance Manager"
-   ],
-   "qualification": "Bachelor's or Master's in Pharmacy or Pharm.D with 7-10 years' experience, at least 7 in pharmacovigilance/drug safety.",
-   "role": "Pharmacovigilance",
-   "sector": "Private",
-   "sourceUrl": "https://pharmabharat.com/hiring-for-2-experienced-pharmacovigilance-roles-at-novo-nordisk-and-teva/",
-   "state": "Karnataka",
-   "steps": [
-    "Open the Novo Nordisk careers posting",
-    "Register and upload your CV",
-    "Submit before 30 Oct 2026"
-   ],
-   "title": "Associate Pharmacovigilance Manager"
   },
   {
    "id": "novo-nordisk-pv-process-excellence-specialist-bangalore",
@@ -2786,6 +2572,40 @@
     "Highlight your design patents and formulation expertise"
    ],
    "title": "Senior Associate – Pharmaceutical Patent Practice (Band 1/2)"
+  },
+  {
+   "id": "piramal-sr-research-scientist-medicinal-chemistry-ahmedabad",
+   "applyMode": "Email CV",
+   "applyUrl": "mailto:Garima.chaturvedi@piramal.com",
+   "category": "other",
+   "city": "Ahmedabad",
+   "cvFit": {
+    "reason": "Asks for medicinal chemistry with 10–15 years in a CRO — you have a Ph.D. but a Pharmaceutics specialisation and mostly academic experience.",
+    "score": 30
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "A medicinal-chemistry discovery role, not Pharmaceutics or formulation."
+   },
+   "found": "2026-11-07",
+   "notes": "No last date given.",
+   "org": "Piramal Pharma Solutions",
+   "posted": "2026-10-08",
+   "posts": [
+    "Sr. Research Scientist",
+    "Principal Scientist"
+   ],
+   "qualification": "Ph.D. or post-doctorate (M.Sc./M.Pharm Medicinal Chemistry preferred) with 10–15 years in a CRO on integrated drug discovery programmes.",
+   "role": "Medicinal Chemistry R&D",
+   "sector": "Private",
+   "sourceUrl": "https://www.jobavailables.com/2026/10/piramal-pharma-r-jobs-senior-research.html",
+   "state": "Gujarat",
+   "steps": [
+    "Update your CV to highlight synthesis and drug-discovery work",
+    "Email it to Garima.chaturvedi@piramal.com",
+    "Use the subject line 'Application for Medicinal Chemistry Position'"
+   ],
+   "title": "Sr. Research Scientist / Principal Scientist, R&D – Medicinal Chemistry"
   },
   {
    "id": "poona-college-of-pharmacy-bharati-vidyapeeth-faculty",
@@ -3478,39 +3298,6 @@
    ],
    "title": "Project Research Scientist-I (Non-Medical)",
    "type": "Scientist"
-  },
-  {
-   "id": "torrent-pharma-assistant-manager-pdg",
-   "applyMode": "Email",
-   "applyUrl": "mailto:rndhr@torrentpharma.com",
-   "category": "other",
-   "city": "Gandhinagar",
-   "cvFit": {
-    "reason": "Your formulation, QbD and tablet-punching background fits the subject, but the post demands hands-on industry OSD project management, which you lack.",
-    "score": 62
-   },
-   "fit": {
-    "level": "Good",
-    "reason": "Pharmaceutics/OSD product development matches your M.Pharm and QbD Ph.D., but industry project-management experience is mandatory."
-   },
-   "found": "2026-10-20",
-   "lastDate": "2026-10-30",
-   "org": "Torrent Pharmaceuticals",
-   "posted": "2026-10-19",
-   "posts": [
-    "Assistant Manager (PDG)"
-   ],
-   "qualification": "B.Pharm, M.Pharm or MBA with 3-8 years' experience; pharma OSD (tablet/capsule) project management experience is mandatory.",
-   "role": "Formulation R&D",
-   "sector": "Private",
-   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/torrent-pharma-hiring-assistant-manager",
-   "state": "Gujarat",
-   "steps": [
-    "Update your CV to highlight oral solid dosage development, QbD and any project management work",
-    "Email the CV to rndhr@torrentpharma.com mentioning 'Assistant Manager – PDG' in the subject",
-    "Send before 30 Oct 2026"
-   ],
-   "title": "Assistant Manager – Product Development Group (OSD Project Management)"
   },
   {
    "id": "torrent-pharma-formulation-development-assistant-manager-oncology",
