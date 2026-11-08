@@ -1,10 +1,53 @@
 {
  "meta": {
-  "lastRun": "2026-11-07T01:22:44Z",
-  "total": 95,
+  "lastRun": "2026-11-08T01:22:56Z",
+  "total": 91,
   "added": 3
  },
  "jobs": [
+  {
+   "id": "adichunchanagiri-university-principal-pharmacy-college",
+   "applyMode": "Email (no walk-in)",
+   "applyUrl": "https://www.acu.edu.in",
+   "category": "academic",
+   "city": "BG Nagara, Mandya",
+   "cvFit": {
+    "reason": "Needs a Ph.D. plus PCI principal-level experience and admin leadership — you have the Ph.D. and 6.9 years, but PCI usually expects about 15 years for a Principal.",
+    "score": 55
+   },
+   "documents": [
+    "Updated CV",
+    "Scanned educational certificates and mark sheets",
+    "Experience certificates",
+    "Recent passport-size photograph"
+   ],
+   "fit": {
+    "level": "Good",
+    "reason": "Principal post open to any pharmacy specialisation with Ph.D.; your Pharmaceutics M.Pharm and Ph.D. qualify, though leadership experience weighs heavily."
+   },
+   "found": "2026-11-08",
+   "lastDate": "2026-11-20",
+   "notes": "Same notification also covers Principal posts for Engineering and Natural Sciences colleges. Shortlisted candidates are informed by email.",
+   "org": "Adichunchanagiri University",
+   "posted": "2026-11-06",
+   "posts": [
+    "Principal (Pharmacy College)"
+   ],
+   "qualification": "Ph.D. in Pharmacy or a relevant specialisation with qualifications and experience as prescribed by PCI and statutory authorities; proven academic and administrative leadership, research, accreditation and regulatory-compliance experience.",
+   "salary": "As per norms",
+   "sector": "Private",
+   "sourceUrl": "https://www.facultyplus.com/faculty-recruitment-leadership-roles-2026-at-adichunchanagiri-university-bg-nagara/",
+   "state": "Karnataka",
+   "steps": [
+    "Get the official notification and application email from www.acu.edu.in",
+    "Prepare an updated CV highlighting leadership, accreditation (NAAC/NBA/PCI) and research work",
+    "Scan certificates, mark sheets, experience letters and a passport photo",
+    "Email the application with 'Principal – Pharmacy College' in the subject on or before 20 Nov 2026",
+    "Watch your email for shortlisting"
+   ],
+   "title": "Principal – Pharmacy College",
+   "type": "Faculty"
+  },
   {
    "id": "aiims-bhopal-project-research-scientist-i-tb-hiv-pk",
    "applyMode": "Email (single merged PDF of application form + documents); no hard copy",
@@ -312,41 +355,6 @@
    ],
    "title": "Principal, Professor, Associate Professor & Assistant Professor (Pharmacy)",
    "type": "Faculty"
-  },
-  {
-   "id": "astrazeneca-regulatory-affairs-manager-ii-mumbai",
-   "applyMode": "Online on AstraZeneca careers",
-   "applyUrl": "https://careers.astrazeneca.com/job/-/-/7684/101691907040",
-   "category": "other",
-   "city": "Mumbai",
-   "cvFit": {
-    "reason": "Asks for 8+ years of biopharma regulatory work — you have 6.9 years, mostly academic, with no licence-maintenance or labelling experience.",
-    "score": 40
-   },
-   "fit": {
-    "level": "Low",
-    "reason": "Needs 8+ years of industry regulatory work, which your academic pharmaceutics profile does not cover."
-   },
-   "found": "2026-10-20",
-   "lastDate": "2026-10-31",
-   "notes": "Plans and delivers global maintenance submissions and coordinates cross-functional teams.",
-   "org": "AstraZeneca",
-   "posted": "2026-10-09",
-   "posts": [
-    "Regulatory Affairs Manager II"
-   ],
-   "qualification": "University degree in science or a related discipline with 8+ years of biopharma regulatory experience including licence maintenance, labelling and publishing.",
-   "role": "Regulatory Affairs",
-   "sector": "Private",
-   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/astrazeneca-hiring-regulatory-affair-manager",
-   "state": "Maharashtra",
-   "steps": [
-    "Open the AstraZeneca careers link",
-    "Create a candidate profile and upload your CV",
-    "Highlight any regulatory, documentation and QbD work",
-    "Submit before 31 Oct 2026"
-   ],
-   "title": "Regulatory Affairs Manager II"
   },
   {
    "id": "atharva-college-of-pharmacy-durg-principal",
@@ -771,40 +779,6 @@
    "type": "Scientist"
   },
   {
-   "id": "c-camp-computational-cheminformatics-scientist",
-   "applyMode": "Email",
-   "applyUrl": "https://www.ccamp.res.in/careers",
-   "category": "other",
-   "city": "Bengaluru",
-   "cvFit": {
-    "reason": "Your ML-in-pharma papers are relevant, but the role needs a cheminformatics/medicinal chemistry Ph.D. with RDKit and docking experience.",
-    "score": 40
-   },
-   "fit": {
-    "level": "Low",
-    "reason": "Computational chemistry/cheminformatics role; your AI/ML-in-pharma work overlaps, but your Ph.D. is formulation-focused."
-   },
-   "found": "2026-10-20",
-   "lastDate": "2026-10-31",
-   "org": "Centre for Cellular and Molecular Platforms (C-CAMP)",
-   "posted": "2026-10-18",
-   "posts": [
-    "Computational / Cheminformatics Scientist"
-   ],
-   "qualification": "Ph.D. in computational chemistry, cheminformatics, medicinal chemistry or a related field (or equivalent experience), with hands-on RDKit, docking/molecular modelling, Python and hit-to-lead/lead-optimisation work.",
-   "role": "AI/ML",
-   "sector": "Government",
-   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/open-positions-for-computational-cheminformatics-scientist-at-c-camp",
-   "state": "Karnataka",
-   "steps": [
-    "Check the role on the C-CAMP careers page",
-    "Prepare a CV highlighting AI/ML, Python and any modelling work",
-    "Email it to rails.bio@ccamp.res.in with subject 'Computational / Cheminformatics Scientist'",
-    "Send before 31 Oct 2026"
-   ],
-   "title": "Computational / Cheminformatics Scientist"
-  },
-  {
    "id": "cdfd-hyderabad-scientist-iii-iv-v-advt-04-2026",
    "applyMode": "Online only via cdfd.org.in (opens 31 Oct 2026, closes 31 Dec 2026, 6 PM)",
    "applyUrl": "https://cdfd.org.in/APPS/recruit2026/Advt.04_2026.pdf",
@@ -1168,6 +1142,41 @@
    "title": "Scientist – Formulation and Drug Product (Biologics)"
   },
   {
+   "id": "enzene-cmc-regulatory-affairs-biologics-pune",
+   "applyMode": "Online via company LinkedIn posting",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4483479054/",
+   "category": "other",
+   "city": "Pune (Chakan)",
+   "cvFit": {
+    "reason": "Requires hands-on biologics/biosimilar CMC regulatory experience — you have M.Pharm, Ph.D. and QbD/documentation skills but mainly academic, not regulatory industry experience.",
+    "score": 45
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "Regulatory CMC role for biologics; your Pharmaceutics/QbD background is related but not biologics-specific."
+   },
+   "found": "2026-11-08",
+   "lastDate": "2026-11-18",
+   "notes": "Reported via BioTecNika (biotecnika.org, 4 Nov 2026).",
+   "org": "Enzene Biosciences Ltd.",
+   "posted": "2026-11-04",
+   "posts": [
+    "CMC Regulatory Affairs – Biologics"
+   ],
+   "qualification": "M.Pharm, M.Sc, M.Tech or Ph.D. in Biotechnology/Life Sciences with 3–15 years in Regulatory Affairs or CMC; biologics/biosimilars experience mandatory.",
+   "role": "Regulatory Affairs",
+   "sector": "Private",
+   "source": "LinkedIn",
+   "sourceUrl": "https://www.linkedin.com/jobs/view/4483479054/",
+   "state": "Maharashtra",
+   "steps": [
+    "Open the Enzene LinkedIn job (ID 4483479054)",
+    "Tailor your CV to CMC documentation, QbD and industrial documentation work",
+    "Apply online before 18 Nov 2026"
+   ],
+   "title": "CMC Regulatory Affairs – Biologics (Executive to Manager)"
+  },
+  {
    "id": "galgotias-university-pharmacy-faculty-greater-noida",
    "applyMode": "Email",
    "applyUrl": "https://www.galgotiasuniversity.edu.in/p/current-openings",
@@ -1444,50 +1453,6 @@
    ],
    "title": "Professor, Associate Professor & Assistant Professor (Pharmacy) – 21 posts",
    "type": "Faculty"
-  },
-  {
-   "id": "icmr-hq-pharmacy-professionals",
-   "applyMode": "Email form + CV to amr.icmrhqrs@gmail.com",
-   "applyUrl": "https://www.icmr.gov.in/icmrobject/uploads/Recruitment/1792255228_advertisementforconsultantpositions.pdf",
-   "category": "academic",
-   "city": "New Delhi",
-   "cvFit": {
-    "reason": "Needs 12 years in AMR/public health — you have 6.9 years in pharmaceutics teaching and research.",
-    "score": 25
-   },
-   "documents": [
-    "Application form with photo",
-    "CV",
-    "Certificates from 10th onwards",
-    "Experience and age proof",
-    "Photo ID",
-    "Caste/PwD certificate if applicable"
-   ],
-   "fit": {
-    "level": "Low",
-    "reason": "Needs 12 years' AMR/public-health experience (Ph.D. counts as 4) — likely more experience than you have."
-   },
-   "found": "2026-10-20",
-   "lastDate": "2026-10-31",
-   "notes": "1-year project contract; written exam + discussion for shortlisted.",
-   "org": "Indian Council of Medical Research (ICMR)",
-   "posted": "2026-10-19",
-   "posts": [
-    "Senior Consultant (Scientific Non-Medical)"
-   ],
-   "qualification": "Minimum M.Sc/B.Pharm/MPH or equivalent with at least 12 years' post-qualification experience in AMR/public health (Ph.D. counts as 4 years). Age 40-70.",
-   "salary": "Up to Rs 1,50,000 per month consolidated",
-   "sector": "Government",
-   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/opportunity-for-pharmacy-professionals-to-join-icmr-headquarters",
-   "state": "Delhi",
-   "steps": [
-    "Download the advertisement and application form",
-    "Fill the form; attach CV and self-attested certificates, experience and age proof",
-    "Email to amr.icmrhqrs@gmail.com",
-    "Submit by 31 Oct 2026, 5:00 PM"
-   ],
-   "title": "Senior Consultant (Scientific Non-Medical), AMR Coordination Unit",
-   "type": "Scientist"
   },
   {
    "id": "icmr-nie-scientist-b-d-non-medical",
@@ -1931,43 +1896,6 @@
    "type": "Faculty"
   },
   {
-   "id": "kavery-pharmacy-college-mecheri-walkin",
-   "applyMode": "Walk-in interview on 31 Oct 2026 (10 AM-4 PM) or online Google Form",
-   "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeJlWmaiv44fb465IwNgVYHDo7oq1AaDDORefsG9TbNAud5EQ/viewform",
-   "category": "academic",
-   "city": "Mecheri, Salem",
-   "cvFit": {
-    "reason": "Walk-in for 0-10 years' experience across faculty levels — your Ph.D. and 6.9 years fit Associate Professor; subjects not stated.",
-    "score": 78
-   },
-   "fit": {
-    "level": "Good",
-    "reason": "Pharmacy faculty posts with subject not specified — your M.Pharm (Pharmaceutics) and Ph.D. should qualify; Associate Professor/Professor need teaching experience."
-   },
-   "found": "2026-10-20",
-   "lastDate": "2026-10-31",
-   "notes": "Notice is an image; walk-in date shown as both 30 and 31 Oct 2026.",
-   "org": "The Kavery Pharmacy College (Kavery Educational Institutions)",
-   "posted": "2026-10-15",
-   "posts": [
-    "Assistant Professor",
-    "Associate Professor",
-    "Professor"
-   ],
-   "qualification": "Qualifications as per norms; 0-10 years' experience, freshers with strong academics welcome. Pharmacy subjects are not specified in the notice.",
-   "sector": "Private",
-   "sourceUrl": "https://www.facultyplus.com/faculty-recruitment-at-the-kavery-educational-institutions-salem-walk-in-on-30-10-2026/",
-   "state": "Tamil Nadu",
-   "steps": [
-    "Fill the Kavery Pharmacy College Google Form with your details",
-    "Prepare CV, certificates and publication list",
-    "Confirm the walk-in date by phone (81228 55153) — title says 30 Oct, notice body says 31 Oct",
-    "Attend the walk-in at Kavery Educational Institutions, Mecheri, 10 AM-4 PM"
-   ],
-   "title": "Pharmacy Faculty walk-in (Asst./Assoc. Professor, Professor)",
-   "type": "Faculty"
-  },
-  {
    "id": "kota-college-of-pharmacy-assoc-asst-prof",
    "applyMode": "Email CV to kcpkota@gmail.com",
    "applyUrl": "https://www.pharmatutor.org/content/september-2026/kota-college-of-pharmacy-announces-associate-and-assistant-professor-recruitment",
@@ -2066,42 +1994,6 @@
     "Email it before 14 Nov 2026 with the post name in the subject line"
    ],
    "title": "Project Research Scientist-I (Non-Medical), Ocular Oncology",
-   "type": "Scientist"
-  },
-  {
-   "id": "mahe-mcops-project-research-scientist-i",
-   "applyMode": "Online via MAHE careers portal",
-   "applyUrl": "https://www.manipal.edu/career/faculty-positions-collection/project-research-scientist-i-non-medical",
-   "category": "academic",
-   "city": "Manipal",
-   "cvFit": {
-    "reason": "Wants Pharmacology/Medical Devices or Pharm.D with point-of-care device experience — not your Pharmaceutics/QbD area.",
-    "score": 35
-   },
-   "fit": {
-    "level": "Low",
-    "reason": "Asks for Pharmacology/Medical Devices with point-of-care device experience — differs from your Pharmaceutics specialisation, though a Ph.D. route is listed."
-   },
-   "found": "2026-10-20",
-   "lastDate": "2026-10-31",
-   "notes": "Project post in the Dept. of Pharmacy Practice (polymyxin B therapeutic drug monitoring); one year, extendable.",
-   "org": "Manipal Academy of Higher Education (MAHE) – Manipal College of Pharmaceutical Sciences",
-   "posted": "2026-10-18",
-   "posts": [
-    "Project Research Scientist I"
-   ],
-   "qualification": "First-class PG degree (Pharm.D, or M.Pharm in Pharmacology or Medical Devices), integrated PG with 3 years' experience, or Ph.D. Prior research experience designing and clinically validating point-of-care devices and good scientific writing required.",
-   "salary": "Rs 56,000 per month + 10% HRA",
-   "sector": "Private",
-   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/mahe-inviting-applications-from-pharmd-mpharm-candidates",
-   "state": "Karnataka",
-   "steps": [
-    "Open the MAHE careers page for this post",
-    "Check eligibility (Pharmacology/Medical Devices PG or Ph.D. with point-of-care device research experience)",
-    "Prepare CV and qualification certificates",
-    "Submit the online application before 31 Oct 2026"
-   ],
-   "title": "Project Research Scientist I (Non-Medical) – TDM precision dosing project",
    "type": "Scientist"
   },
   {
@@ -2208,48 +2100,6 @@
     "Submit the application before 10 Nov 2026"
    ],
    "title": "Specialist – Regulatory Affairs Manager"
-  },
-  {
-   "id": "msn-laboratories-formulation-ard-deputy-manager-manager-hyderabad",
-   "applyMode": "Walk-in interview on Sat 31 Oct 2026, 9:30 AM–2:00 PM, at MSN R&D Center, Pashamylaram, Patancheru Mandal, Sangareddy, Telangana 502307; queries by email",
-   "applyUrl": "mailto:tejamanivemanamanda@msnlabs.com",
-   "category": "other",
-   "city": "Hyderabad (Pashamylaram, Sangareddy)",
-   "cvFit": {
-    "reason": "Asks for 14–18 years of industry formulation AR&D experience — you have 6.9 years, mostly academic, though your HPLC/HPTLC method work is relevant.",
-    "score": 30
-   },
-   "documents": [
-    "Resume",
-    "Photocopies of educational certificates",
-    "Passport-size photographs",
-    "Aadhaar card copy",
-    "PAN card copy"
-   ],
-   "fit": {
-    "level": "Low",
-    "reason": "Analytical R&D manager role needing 14–18 years of industry experience, beyond your academic-research background."
-   },
-   "found": "2026-10-30",
-   "lastDate": "2026-10-31",
-   "org": "MSN Laboratories Pvt. Ltd.",
-   "posted": "2026-10-25",
-   "posts": [
-    "Deputy Manager/Manager – Formulation AR&D-RA Query Support",
-    "Deputy Manager/Manager – Formulation AR&D-AVD",
-    "Deputy Manager/Manager – Formulation AR&D-Innovation Support"
-   ],
-   "qualification": "B.Sc./M.Sc./B.Pharm/M.Pharm with 14–18 years of formulation analytical R&D experience for Deputy Manager/Manager levels.",
-   "role": "Formulation R&D",
-   "sector": "Private",
-   "sourceUrl": "https://pharmabharat.com/msn-laboratories-is-hiring-for-formulation-ard-roles-at-rd-center/",
-   "state": "Telangana",
-   "steps": [
-    "Update your CV to highlight HPLC/HPTLC method development and industrial documentation",
-    "Email the CV in advance to tejamanivemanamanda@msnlabs.com",
-    "Attend the walk-in on 31 Oct 2026 at the MSN R&D Center with documents"
-   ],
-   "title": "Deputy Manager / Manager – Formulation AR&D (RA Query Support, AVD, Innovation Support)"
   },
   {
    "id": "nandkumar-shinde-cop-vaijapur",
@@ -2876,40 +2726,6 @@
    "type": "Faculty"
   },
   {
-   "id": "sanofi-scientific-writer-hyderabad",
-   "applyMode": "Online on Sanofi careers portal",
-   "applyUrl": "https://jobs.sanofi.com/en/job/-/-/2649/46228297600",
-   "category": "other",
-   "city": "Hyderabad",
-   "cvFit": {
-    "reason": "Asks for an advanced degree and 2+ years of content creation incl. academia — your Ph.D., 23 papers and 13 chapters exceed that, though you lack industry medical-writing exposure.",
-    "score": 76
-   },
-   "fit": {
-    "level": "Good",
-    "reason": "Academic content-creation experience counts, and your Pharmaceutics Ph.D. and publications are directly relevant."
-   },
-   "found": "2026-10-26",
-   "lastDate": "2026-10-31",
-   "org": "Sanofi",
-   "posted": "2026-10-23",
-   "posts": [
-    "Scientific Writer"
-   ],
-   "qualification": "Advanced degree in life sciences or related discipline, or a medical degree; at least 2 years of content creation for the pharmaceutical/healthcare industry or academia.",
-   "role": "Medical / Scientific Writer",
-   "sector": "Private",
-   "sourceUrl": "https://www.biotecnika.org/2026/10/sanofi-scientific-writer-hyderabad-job-2026/",
-   "state": "Telangana",
-   "steps": [
-    "Open the Sanofi careers link",
-    "Create/sign in to a candidate profile",
-    "Upload CV listing publications and book chapters",
-    "Apply before 31 Oct 2026"
-   ],
-   "title": "Scientific Writer"
-  },
-  {
    "id": "shoolini-university-assistant-professor-pharmacy",
    "applyMode": "Email CV to hr@shooliniuniversity.com",
    "applyUrl": "https://shooliniuniversity.com/faculty-positions",
@@ -2942,6 +2758,48 @@
     "Send early — the page asks for CVs within 7 days of the advertisement's publication"
    ],
    "title": "Assistant Professor — Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmacognosy",
+   "type": "Faculty"
+  },
+  {
+   "id": "snvpmv-secunderabad-principal-professor-faculty",
+   "applyMode": "Offline – application reaching the college office",
+   "applyUrl": "http://www.snvpharmacycollege.com",
+   "category": "academic",
+   "city": "Tarnaka, Secunderabad",
+   "cvFit": {
+    "reason": "PCI/OU norms for Associate Professor need a Ph.D. and teaching/research years — you have the Ph.D., 6.9 years and 23 papers; Telangana location and a tight deadline.",
+    "score": 78
+   },
+   "documents": [
+    "Resume",
+    "Copies of certificates"
+   ],
+   "fit": {
+    "level": "Good",
+    "reason": "Open to all pharmacy specialisations, so your Pharmaceutics M.Pharm and Ph.D. fit the Associate Professor level."
+   },
+   "found": "2026-11-08",
+   "lastDate": "2026-11-15",
+   "notes": "Co-ed college; per-post vacancy split not given.",
+   "org": "Sarojini Naidu Vanita Pharmacy Maha Vidyalaya (SNVPMV)",
+   "posted": "2026-11-07",
+   "posts": [
+    "Principal",
+    "Professor",
+    "Associate Professor",
+    "Assistant Professor"
+   ],
+   "qualification": "All pharmacy specialisations; qualifications and experience as per PCI / Osmania University norms (4 vacancies in total).",
+   "sector": "Private",
+   "sourceUrl": "https://www.freejobalert.com/articles/snvpmv-recruitment-2026-principal-professor-3079548",
+   "state": "Telangana",
+   "steps": [
+    "Check the notice on www.snvpharmacycollege.com",
+    "Prepare application with resume and self-attested certificate copies",
+    "Send/deliver to H.No 12-5-31 & 32, Vijayapuri Colony, Tarnaka, Secunderabad",
+    "Ensure it reaches by 15 Nov 2026 (10 AM–5 PM)"
+   ],
+   "title": "Principal, Professor, Associate Professor & Assistant Professor (Pharmacy)",
    "type": "Faculty"
   },
   {
