@@ -1,8 +1,8 @@
 {
  "meta": {
-  "lastRun": "2026-11-08T01:22:56Z",
-  "total": 91,
-  "added": 3
+  "lastRun": "2026-11-09T01:21:37Z",
+  "total": 90,
+  "added": 1
  },
  "jobs": [
   {
@@ -2690,42 +2690,6 @@
    "title": "Regulatory Affairs Specialist – Submission Info Management"
   },
   {
-   "id": "sanjivani-university-assistant-professor-pharmaceutics",
-   "applyMode": "Email CV to the address in the advertisement",
-   "applyUrl": "https://www.facultyplus.com/faculty-and-leadership-jobs-2026-at-sanjivani-university-kopargaon/",
-   "category": "academic",
-   "city": "Kopargaon",
-   "cvFit": {
-    "reason": "Subject matches your Pharmaceutics Ph.D. exactly, but it is an Assistant Professor post — a step below your current Associate Professor role.",
-    "score": 74
-   },
-   "fit": {
-    "level": "Strong",
-    "reason": "An Assistant Professor post in Pharmaceutics — your exact M.Pharm specialisation and Ph.D. area."
-   },
-   "found": "2026-10-29",
-   "lastDate": "2026-11-01",
-   "notes": "Accommodation support, relocation assistance and incentives are mentioned. Professor/Associate Professor posts in this advert are not for pharmacy.",
-   "org": "Sanjivani University",
-   "posted": "2026-10-28",
-   "posts": [
-    "Assistant Professor (Pharmaceutics)",
-    "Assistant Professor (Pharmacology)",
-    "Assistant Professor (Drug Regulatory Affairs)"
-   ],
-   "qualification": "Eligibility as per UGC, AICTE and PCI norms and university requirements; specific degrees and experience are not listed.",
-   "sector": "Private",
-   "sourceUrl": "https://www.facultyplus.com/faculty-and-leadership-jobs-2026-at-sanjivani-university-kopargaon/",
-   "state": "Maharashtra",
-   "steps": [
-    "Get the official email address from the advertisement",
-    "Email your CV naming 'Assistant Professor – Pharmaceutics' in the subject",
-    "Send by 1 Nov 2026; shortlisted candidates are informed by email"
-   ],
-   "title": "Assistant Professor — Pharmaceutics, Pharmacology, Drug Regulatory Affairs",
-   "type": "Faculty"
-  },
-  {
    "id": "shoolini-university-assistant-professor-pharmacy",
    "applyMode": "Email CV to hr@shooliniuniversity.com",
    "applyUrl": "https://shooliniuniversity.com/faculty-positions",
@@ -3052,6 +3016,42 @@
    "title": "Senior Manager-2, Regulatory & Business Continuity (USFDA, CMC)"
   },
   {
+   "id": "svsu-palwal-skill-instructor-pharmacy-2026",
+   "applyMode": "Online via svsu.ac.in (application link opened 31 Oct 2026)",
+   "applyUrl": "https://svsu.ac.in/wp-content/uploads/2026/10/Advt%20for%20Skill%20Instructor.pdf",
+   "category": "academic",
+   "city": "Palwal",
+   "cvFit": {
+    "reason": "Asks only for B.Pharm + 3 years at Pay Level 6 — you easily qualify, but as an Associate Professor with a Ph.D. and 23 papers this post is far below your level.",
+    "score": 42
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "Pharmacy teaching role in Haryana, but it is an instructor-level post well below your M.Pharm Pharmaceutics + Ph.D. level."
+   },
+   "found": "2026-11-09",
+   "lastDate": "2026-11-23",
+   "notes": "State government skill university; selection by written test + skill test. Separate application and fee for each post. Some private-university degrees are listed as ineligible — check the PDF.",
+   "org": "Shri Vishwakarma Skill University (SVSU)",
+   "posts": [
+    "Skill Instructor – Pharmacy (2 posts, part of 45-post advertisement)"
+   ],
+   "qualification": "B.Pharm with 55% marks plus 3 years' experience, or D.Pharm with 5 years' experience; registration with the State Pharmacy Council. Age 18–42 as on 23 Nov 2026 (relaxation per Haryana rules).",
+   "salary": "Functional Pay Level 6 (7th CPC) as per notification",
+   "sector": "Government",
+   "sourceUrl": "https://www.mysarkarinaukri.com/find/shri-vishwakarma-skill-university-jobs/167701",
+   "state": "Haryana",
+   "steps": [
+    "Download and read the official advertisement (ref. 22/163/2024-5HR-III) from svsu.ac.in",
+    "Register and fill the online application for the Pharmacy Skill Instructor post on svsu.ac.in",
+    "Pay the fee (Rs 1000 for candidates from other states / Haryana general males)",
+    "Submit before midnight on 23 Nov 2026 and keep a printout",
+    "Prepare for the 50-mark written test and 50-mark skill test, then document verification"
+   ],
+   "title": "Skill Instructor (Pharmacy) – 2 posts",
+   "type": "Faculty"
+  },
+  {
    "id": "tetri-chandravansi-pharmacy-college-palamu-faculty",
    "applyMode": "Email",
    "category": "academic",
@@ -3156,40 +3156,6 @@
    ],
    "title": "Project Research Scientist-I (Non-Medical)",
    "type": "Scientist"
-  },
-  {
-   "id": "torrent-pharma-formulation-development-assistant-manager-oncology",
-   "applyMode": "Walk-in interview on 1 Nov 2026, 10:00 AM–3:00 PM at Torrent R&D Centre, Village Bhat, Gandhinagar, or email resume",
-   "category": "other",
-   "city": "Gandhinagar",
-   "cvFit": {
-    "reason": "Your Ph.D. in formulation/QbD fits the subject, but the Assistant Manager role wants 8-15 years of industry formulation experience, which you don't have.",
-    "score": 50
-   },
-   "fit": {
-    "level": "Good",
-    "reason": "Formulation development matches your Pharmaceutics M.Pharm and QbD Ph.D., but industry years are expected."
-   },
-   "found": "2026-10-29",
-   "lastDate": "2026-11-01",
-   "org": "Torrent Pharmaceuticals",
-   "posted": "2026-10-25",
-   "posts": [
-    "Assistant Manager – Formulation Development",
-    "Executive – Formulation Development"
-   ],
-   "qualification": "Assistant Manager: M.Pharm or Ph.D. with 8-15 years; Executive: M.Pharm with 3-8 years, in formulation development (oncology/domestic markets).",
-   "role": "Formulation R&D",
-   "sector": "Private",
-   "sourceUrl": "https://pharmastuff.org/job/torrent-pharma-formulation-development-recruitment",
-   "state": "Gujarat",
-   "steps": [
-    "Update your CV to highlight formulation development, QbD and Design Expert work",
-    "Carry CV plus education and experience documents",
-    "Attend the walk-in on Sunday 1 Nov 2026 (10 AM–3 PM) at Torrent R&D Centre, Village Bhat, near Indira Bridge, Gandhinagar",
-    "Skip if Torrent interviewed you in the last six months"
-   ],
-   "title": "Assistant Manager / Executive — Formulation Development (Oncology & Domestic)"
   },
   {
    "id": "vivekananda-global-college-of-pharmacy-sivagangai-faculty",
