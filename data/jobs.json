@@ -1,8 +1,8 @@
 {
  "meta": {
-  "lastRun": "2026-11-09T01:21:37Z",
-  "total": 90,
-  "added": 1
+  "lastRun": "2026-11-10T01:29:39Z",
+  "total": 93,
+  "added": 3
  },
  "jobs": [
   {
@@ -1142,6 +1142,37 @@
    "title": "Scientist – Formulation and Drug Product (Biologics)"
   },
   {
+   "id": "ecolab-senior-regulatory-specialist-toxicology-pune",
+   "applyMode": "Online via Ecolab careers (Job ID R00304481)",
+   "category": "other",
+   "city": "Pune",
+   "cvFit": {
+    "reason": "A toxicology regulatory role — your documentation and research skills help, but you have no stated toxicology or regulatory-affairs industry experience.",
+    "score": 50
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "Toxicology-focused regulatory role in chemicals/hygiene, not pharmaceutics."
+   },
+   "found": "2026-11-10",
+   "notes": "Eligibility not stated in the listing; check the full job description. Listed in BioTecNika Times of 9 Nov 2026.",
+   "org": "Ecolab",
+   "posts": [
+    "Senior Regulatory Specialist I, Toxicology"
+   ],
+   "role": "Regulatory Affairs",
+   "sector": "Private",
+   "sourceUrl": "https://www.biotecnika.org/2026/11/regulatory-affairs-job-at-ecolab-apply-now/",
+   "state": "Maharashtra",
+   "steps": [
+    "Open the BioTecNika listing and follow the link to Ecolab careers",
+    "Search Job ID R00304481",
+    "Highlight industrial documentation, regulatory writing and analytical skills in your CV",
+    "Submit the online application"
+   ],
+   "title": "Senior Regulatory Specialist I – Toxicology (Global Regulatory Affairs)"
+  },
+  {
    "id": "enzene-cmc-regulatory-affairs-biologics-pune",
    "applyMode": "Online via company LinkedIn posting",
    "applyUrl": "https://www.linkedin.com/jobs/view/4483479054/",
@@ -2069,6 +2100,38 @@
    "type": "Faculty"
   },
   {
+   "id": "medpace-associate-clinical-trial-manager-navi-mumbai",
+   "applyMode": "Online via Medpace careers",
+   "category": "other",
+   "city": "Navi Mumbai",
+   "cvFit": {
+    "reason": "Asks for a life-sciences Ph.D. with cardio-renal-metabolic or GI research — you have the Ph.D. and project experience but your research is formulation-focused, not in those areas.",
+    "score": 55
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "A clinical project role preferring therapeutic-area research; your Pharmaceutics/formulation focus is only partly relevant."
+   },
+   "found": "2026-11-10",
+   "notes": "Full-time role; listed in BioTecNika Times of 9 Nov 2026. No closing date stated.",
+   "org": "Medpace",
+   "posts": [
+    "Associate Clinical Trial Manager"
+   ],
+   "qualification": "Ph.D. in life sciences with research experience in cardiovascular, renal, metabolic or gastrointestinal areas.",
+   "role": "Clinical Research",
+   "sector": "Private",
+   "sourceUrl": "https://www.biotecnika.org/2026/11/medpace-actm-navi-mumbai/",
+   "state": "Maharashtra",
+   "steps": [
+    "Open the BioTecNika listing and follow the link to the Medpace careers page",
+    "Search for 'Associate Clinical Trial Manager' in Navi Mumbai",
+    "Tailor your CV to clinical/preclinical research and project management",
+    "Submit the online application"
+   ],
+   "title": "Associate Clinical Trial Manager"
+  },
+  {
    "id": "merck-specialist-regulatory-affairs-manager-bangalore",
    "applyMode": "Apply online on Merck careers portal",
    "applyUrl": "https://careers.merckgroup.com/global/en/job/304492/Specialist-Regulatory-Affairs-Manager",
@@ -2542,6 +2605,47 @@
     "Submit soon — no closing date is stated"
    ],
    "title": "Medical Writer (Consultant) – Remote"
+  },
+  {
+   "id": "rbbsu-dehradun-pharmacy-faculty-nov-2026",
+   "applyMode": "Email resume and highest qualification document, or meet the Vice-Chancellor in person on any working day until the last date",
+   "category": "academic",
+   "city": "Dehradun",
+   "cvFit": {
+    "reason": "Asks for UGC/PCI eligibility for pharmacy faculty — your M.Pharm Pharmaceutics, Ph.D. and current Associate Professor role fit Associate Professor, but subjects and vacancy counts aren't stated.",
+    "score": 78
+   },
+   "documents": [
+    "Resume",
+    "Highest qualification document"
+   ],
+   "fit": {
+    "level": "Good",
+    "reason": "Pharmacy faculty posts open at all levels; subject not specified, so your Pharmaceutics M.Pharm + Ph.D. should qualify."
+   },
+   "found": "2026-11-10",
+   "lastDate": "2026-11-15",
+   "notes": "Newspaper advertisement dated 4 Nov 2026. Pharmacy subjects not specified — confirm with the university.",
+   "org": "Ras Bihari Bose Subharti University",
+   "posted": "2026-11-04",
+   "posts": [
+    "Dean",
+    "Professor",
+    "Associate Professor",
+    "Assistant Professor"
+   ],
+   "qualification": "As per UGC norms and the relevant statutory councils (PCI for pharmacy). The advertisement lists the Faculty of Pharmacy but does not name subjects or vacancies per post.",
+   "sector": "Private",
+   "sourceUrl": "https://www.facultyplus.com/?p=285360",
+   "state": "Uttarakhand",
+   "steps": [
+    "Open the facultyplus listing and note the application email from the advertisement image",
+    "Prepare an updated CV highlighting Pharmaceutics, Ph.D. and 23 publications",
+    "Email the CV and your highest qualification certificate, naming the post (Associate Professor – Pharmacy) in the subject",
+    "Alternatively walk in to meet the Vice-Chancellor at Nanda ki Chowki, Premnagar, Dehradun before 15 Nov 2026"
+   ],
+   "title": "Faculty Posts (incl. Faculty of Pharmacy) – Professor / Associate Professor / Assistant Professor",
+   "type": "Faculty"
   },
   {
    "id": "roche-lead-it-data-scientist-pharma-rd",
