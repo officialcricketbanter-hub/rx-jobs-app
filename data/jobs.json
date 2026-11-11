@@ -1,8 +1,8 @@
 {
  "meta": {
-  "lastRun": "2026-11-10T01:29:39Z",
-  "total": 93,
-  "added": 3
+  "lastRun": "2026-11-11T01:35:39Z",
+  "total": 97,
+  "added": 5
  },
  "jobs": [
   {
@@ -155,6 +155,49 @@
     "Attend the interview if shortlisted (no TA/DA)"
    ],
    "title": "Project Research Scientist-I (Non-Medical) – ICMR project, Dept. of Pathology",
+   "type": "Scientist"
+  },
+  {
+   "id": "aiims-raebareli-project-research-scientist-i-aspartame-cognition",
+   "applyMode": "Email or walk-in interview",
+   "applyUrl": "https://www.aiimsrbl.edu.in/recruitments",
+   "category": "academic",
+   "city": "Raebareli",
+   "cvFit": {
+    "reason": "Asks for neuroscience/molecular biology and animal-study skills — your profile is formulation and QbD, and pharmacy is not named in eligibility.",
+    "score": 50
+   },
+   "documents": [
+    "Filled application form",
+    "ID and address proof",
+    "Date of birth proof",
+    "Photo",
+    "Mark sheets",
+    "Experience certificates"
+   ],
+   "fit": {
+    "level": "Low",
+    "reason": "Neuroscience/pharmacology project, not pharmaceutics or formulation."
+   },
+   "found": "2026-11-11",
+   "lastDate": "2026-11-21",
+   "notes": "Project on aspartame, neurovascular flow and cognition; 1-year tenure, extendable.",
+   "org": "AIIMS Raebareli",
+   "posted": "2026-11-10",
+   "posts": [
+    "Project Research Scientist-I (Non-Medical)"
+   ],
+   "qualification": "Degree in Sciences, Neuroscience, Biotechnology, Molecular Biology or related discipline; cognitive testing, animal studies and molecular biology experience desirable. Age limit 35 (relaxation as per rules).",
+   "salary": "Rs 56,000 per month + HRA",
+   "sector": "Government",
+   "sourceUrl": "https://facultytick.com/2026/11/10/all-india-institute-of-medical-sciences-raebareli-applications-are-invited-for-the-project-research-scientist-i-non-medical-job-opportunity-2026/",
+   "state": "Uttar Pradesh",
+   "steps": [
+    "Read the official notice on aiimsrbl.edu.in/recruitments",
+    "Email CV, certificates and photo to the PI (arbindchoudhary111@gmail.com) by 21 Nov 2026",
+    "Or attend the walk-in on 21 Nov 2026 with filled form and originals"
+   ],
+   "title": "Project Research Scientist-I (Non-Medical)",
    "type": "Scientist"
   },
   {
@@ -779,6 +822,39 @@
    "type": "Scientist"
   },
   {
+   "id": "bsv-scientist-analytical-development-ndds-navi-mumbai",
+   "applyMode": "Online (QR code / Google form in advertisement)",
+   "applyUrl": "https://pharmabharat.org/bsv-hiring-for-research-development/",
+   "category": "other",
+   "city": "Airoli, Navi Mumbai",
+   "cvFit": {
+    "reason": "Asks for 8-10 years of industry analytical development on complex injectables — you have HPLC and NDDS research and a Ph.D. but 6.9 years, mostly academic.",
+    "score": 55
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "NDDS analytical role touches your novel drug delivery and HPLC work, but is analytical rather than pharmaceutics."
+   },
+   "found": "2026-11-11",
+   "org": "Bharat Serums and Vaccines (Mankind Group)",
+   "posted": "2026-11-05",
+   "posts": [
+    "Scientist, Analytical Development"
+   ],
+   "qualification": "M.Sc. Chemistry, M.Pharm (Pharmaceutical Analysis) or Ph.D. with 8-10 years in analytical development for NDDS and complex injectables (liposomes, microspheres).",
+   "role": "Analytical / Formulation R&D",
+   "sector": "Private",
+   "sourceUrl": "https://pharmabharat.org/bsv-hiring-for-research-development/",
+   "state": "Maharashtra",
+   "steps": [
+    "Open the BSV advertisement",
+    "Scan the QR code or open the online form",
+    "Upload CV highlighting HPLC method development and NDDS work",
+    "Submit"
+   ],
+   "title": "Scientist, Analytical Development (NDDS / complex injectables)"
+  },
+  {
    "id": "cdfd-hyderabad-scientist-iii-iv-v-advt-04-2026",
    "applyMode": "Online only via cdfd.org.in (opens 31 Oct 2026, closes 31 Dec 2026, 6 PM)",
    "applyUrl": "https://cdfd.org.in/APPS/recruit2026/Advt.04_2026.pdf",
@@ -821,6 +897,44 @@
    ],
    "title": "Scientist-III / Scientist-IV / Scientist-V (Advt. 04/2026)",
    "type": "Scientist"
+  },
+  {
+   "id": "cdsco-additional-joint-deputy-drugs-controller-deputation-2026",
+   "applyMode": "Offline through proper channel",
+   "applyUrl": "https://cdsco.gov.in/opencms/export/sites/CDSCO_WEB/Pdf-documents/vacancy-circular.pdf",
+   "category": "other",
+   "city": "New Delhi",
+   "cvFit": {
+    "reason": "Deputation posts for serving government officers with regulatory experience — your career is in academia and research, so you probably are not eligible.",
+    "score": 35
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "Senior regulatory deputation posts meant for serving government officers."
+   },
+   "found": "2026-11-11",
+   "lastDate": "2026-12-25",
+   "notes": "Mainly for serving government officers on deputation; check whether the short-term contract route is open to others.",
+   "org": "Central Drugs Standard Control Organisation (CDSCO)",
+   "posted": "2026-10-21",
+   "posts": [
+    "Additional Drugs Controller (I) - 1",
+    "Joint Drugs Controller (I) - 4",
+    "Deputy Drugs Controller (I) - 9"
+   ],
+   "qualification": "Deputation (including short-term contract) of eligible officers; detailed eligibility in the CDSCO vacancy circular dated 21 Oct 2026.",
+   "role": "Drug Regulatory Officer",
+   "salary": "Pay Levels 12, 13 and 13A (7th CPC)",
+   "sector": "Government",
+   "sourceUrl": "https://www.freejobalert.com/articles/cdsco-recruitment-2026-additional-drugs-controller-3080063",
+   "state": "Delhi",
+   "steps": [
+    "Read the vacancy circular on cdsco.gov.in to check eligibility",
+    "Prepare application in the prescribed proforma",
+    "Forward through your employer (proper channel)",
+    "Send to Deputy Director Admn. (Drugs), CDSCO HQ, FDA Bhawan, Kotla Road, New Delhi 110002 by 25 Dec 2026"
+   ],
+   "title": "Additional / Joint / Deputy Drugs Controller (India) — deputation"
   },
   {
    "id": "cdsco-rdtl-guwahati-senior-scientific-officer",
@@ -1038,6 +1152,84 @@
    ],
    "title": "Project Research Scientist-III (Non-Medical) at CSIR-IMTECH",
    "type": "Scientist"
+  },
+  {
+   "id": "cusb-gaya-professor-associate-assistant-professor-pharmacy-advt-49",
+   "applyMode": "Online only (Samarth portal); no offline forms",
+   "applyUrl": "https://curec.samarth.ac.in",
+   "category": "academic",
+   "city": "Gaya",
+   "cvFit": {
+    "reason": "UGC/PCI norms ask for M.Pharm + Ph.D. and 8 years for Associate Professor — you have both degrees, 6.9 years and 23 papers, so Assistant Professor fits fully and Associate is close.",
+    "score": 88
+   },
+   "documents": [
+    "Updated CV",
+    "Copies of relevant certificates",
+    "Passport-size photograph"
+   ],
+   "fit": {
+    "level": "Strong",
+    "reason": "Pharmacy faculty posts at a central university suit your M.Pharm Pharmaceutics and Ph.D. in Pharmaceutical Sciences."
+   },
+   "found": "2026-11-11",
+   "lastDate": "2026-12-07",
+   "notes": "Central university (7th CPC pay). Technical help: recruitment@cusb.ac.in. Verify Pharmacy post count in the official PDF.",
+   "org": "Central University of South Bihar",
+   "posted": "2026-11-10",
+   "posts": [
+    "Professor",
+    "Associate Professor",
+    "Assistant Professor"
+   ],
+   "qualification": "As per UGC Regulations 2018 (and amendments) plus applicable regulatory-body (PCI) norms for Pharmacy; post-wise counts and specialisations are in the official advertisement.",
+   "salary": "Professor Level 14 (Rs 1,44,200-2,18,200); Associate Professor Level 13A (Rs 1,31,400-2,17,100); Assistant Professor Level 10 (Rs 57,700-1,82,400)",
+   "sector": "Government",
+   "sourceUrl": "https://facultytick.com/2026/11/10/central-university-of-south-bihar-applications-are-invited-for-the-post-of-professor-associate-professor-and-assistant-professor-teaching-faculty-recruitment-job-opportunity-2026/",
+   "state": "Bihar",
+   "steps": [
+    "Download and read the official advertisement (advt_49) at cusb.ac.in to confirm Pharmacy posts and reservation",
+    "Register on curec.samarth.ac.in and fill the online form for Pharmacy",
+    "Upload CV, certificates and photo",
+    "Pay Rs 2,000 fee (UR/OBC/EWS; SC/ST/PwBD/women exempt)",
+    "Submit before 5:00 pm on 7 Dec 2026"
+   ],
+   "title": "Professor / Associate Professor / Assistant Professor (Pharmacy included)",
+   "type": "Faculty"
+  },
+  {
+   "id": "dav-university-jalandhar-pharmaceutical-sciences-faculty-nov-2026",
+   "applyMode": "Application form linked from the university jobs page",
+   "applyUrl": "https://davuniversity.org/notice/jobs-and-vacancies.aspx",
+   "category": "academic",
+   "city": "Jalandhar",
+   "cvFit": {
+    "reason": "Pharmacy faculty in your preferred state — your Ph.D., 6.9 years and 23 papers meet Assistant/Associate Professor norms; check which subjects are listed.",
+    "score": 86
+   },
+   "fit": {
+    "level": "Strong",
+    "reason": "Pharmaceutical Sciences faculty openings in Punjab match your Pharmaceutics M.Pharm and Ph.D."
+   },
+   "found": "2026-11-11",
+   "notes": "Notice dated 03.11.2026 covers teaching and non-teaching posts in the Faculty of Pharmaceutical Sciences; closing date not shown on the listing page.",
+   "org": "DAV University",
+   "posted": "2026-11-03",
+   "posts": [
+    "Teaching faculty (Pharmaceutical Sciences)"
+   ],
+   "qualification": "As per PCI/UGC norms; see the official advertisement for posts and specialisations.",
+   "sector": "Private",
+   "sourceUrl": "https://davuniversity.org/notice/jobs-and-vacancies.aspx",
+   "state": "Punjab",
+   "steps": [
+    "Open the DAV University Jobs & Vacancies page",
+    "Download the 03.11.2026 Pharmaceutical Sciences advertisement and application form",
+    "Check posts, eligibility and closing date",
+    "Fill the form and send it with CV and documents as instructed"
+   ],
+   "title": "Teaching positions, Faculty of Pharmaceutical Sciences",
+   "type": "Faculty"
   },
   {
    "id": "dermatouch-formulation-scientist-ahmedabad",
@@ -1407,42 +1599,6 @@
    ],
    "title": "Professor, Associate Professor and Assistant Professor",
    "type": "Faculty"
-  },
-  {
-   "id": "hppsc-scientific-officer-forensic-services-65-2026",
-   "applyMode": "Online only via HPPSC portal (One Time Registration), fee Rs 600",
-   "applyUrl": "https://hppsc.hp.gov.in/",
-   "category": "other",
-   "city": "Shimla",
-   "cvFit": {
-    "reason": "Asks for M.Pharm with 3 years' research/analytical experience and age up to 45 — you meet all of it, but it is a trainee-level post at Rs 28,000, well below your current level.",
-    "score": 66
-   },
-   "fit": {
-    "level": "Good",
-    "reason": "M.Pharm is accepted and your Ph.D. plus JRF/analytical (HPLC/HPTLC) experience meets the 3-year research requirement."
-   },
-   "found": "2026-10-20",
-   "lastDate": "2026-11-03",
-   "notes": "Advertisement No. 65/10-2026. Experience certificate must be signed by the research supervisor or head of organisation.",
-   "org": "HPPSC (Directorate of Forensic Services, HP)",
-   "posted": "2026-10-07",
-   "posts": [
-    "Scientific Officer (Group-B, Job Trainee) — 3 posts (UR)"
-   ],
-   "qualification": "Second-class M.Sc. Forensic Science (chemical sciences), or M.Sc. Chemistry/Biochemistry/Pharmacy, or M.S.(Pharm)/M.Pharm, with at least 3 years of research/training/analytical experience (Ph.D. research counts). Ph.D. desirable. Age 18–45 as on 01-01-2026.",
-   "role": "Scientific Officer",
-   "salary": "Rs 28,000 per month (job trainee emoluments)",
-   "sector": "Government",
-   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/pharmacy-chemistry-biochemistry-recruitment-in-the-directorate-of-forensic-services",
-   "state": "Himachal Pradesh",
-   "steps": [
-    "Register on the HPPSC One Time Registration portal",
-    "Apply online for Advt. No. 65/10-2026 and upload photo and signature",
-    "Pay the Rs 600 fee online by 3 Nov 2026, 11:59 PM",
-    "Prepare for the screening test, descriptive Subject Aptitude Test (120 marks) and Personality Test (30 marks) in Shimla"
-   ],
-   "title": "Scientific Officer, Group-B (Job Trainee), Directorate of Forensic Services"
   },
   {
    "id": "hr-patel-institute-shirpur-professor-associate-assistant-professor",
