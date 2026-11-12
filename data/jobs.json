@@ -1,7 +1,7 @@
 {
  "meta": {
-  "lastRun": "2026-11-11T01:35:39Z",
-  "total": 97,
+  "lastRun": "2026-11-12T01:24:25Z",
+  "total": 102,
   "added": 5
  },
  "jobs": [
@@ -120,6 +120,42 @@
    ],
    "title": "Project Research Scientist-I (Non-Medical) – ICMR ESCaMS Trial",
    "type": "Scientist"
+  },
+  {
+   "id": "aiims-bibinagar-research-associate-iii-dhr-trc-evidence-synthesis",
+   "applyMode": "Walk-in interview",
+   "applyUrl": "https://aiimsbibinagar.edu.in/pdf/Research/Recruitment%20notice%20with%20application%20proforma.pdf",
+   "category": "academic",
+   "city": "Bibinagar, Hyderabad",
+   "cvFit": {
+    "reason": "Asks for M.Pharm with 3 years' research and an SCI paper — you have a 3-year DST-SERB JRF and 23 papers, but the work is psychiatry evidence synthesis rather than formulation.",
+    "score": 60
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "Evidence-synthesis (systematic review) work, not Pharmaceutics, though your M.Pharm with research experience is eligible."
+   },
+   "found": "2026-11-12",
+   "lastDate": "2026-11-25",
+   "notes": "One temporary contractual post, funded by the Department of Health Research; work involves systematic reviews, meta-analyses and GRADE assessment.",
+   "org": "AIIMS Bibinagar",
+   "posted": "2026-11-11",
+   "posts": [
+    "Research Associate Grade III"
+   ],
+   "qualification": "MD/MS/MDS or MPH with science; or Ph.D. in Life Sciences, Social Sciences or Public Health; or M.Pharm/M.Sc/M.Tech with at least 3 years of research experience and one SCI-indexed paper. Systematic review/meta-analysis experience desirable.",
+   "salary": "Rs. 67,000 per month + 30% HRA",
+   "sector": "Government",
+   "sourceUrl": "https://www.biotecnika.org/2026/11/aiims-bibinagar-research-associate-walk-in-2026/",
+   "state": "Telangana",
+   "steps": [
+    "Download the notice and application proforma from the AIIMS Bibinagar website",
+    "Check whether any prior email submission deadline applies",
+    "Fill in the proforma and attach self-attested certificates and SCI publications",
+    "Attend the walk-in on 25 Nov 2026 from 9 am at the Department of Psychiatry, AIIMS Bibinagar"
+   ],
+   "title": "Research Associate Grade III (DHR Technical Resource Centre)",
+   "type": "Academic Associate"
   },
   {
    "id": "aiims-new-delhi-project-research-scientist-i-pathology-icmr",
@@ -1864,6 +1900,42 @@
    "type": "Scientist"
   },
   {
+   "id": "iit-kharagpur-research-associate-mst-icmr-cancer-imager",
+   "applyMode": "Online (IIT Kharagpur ERP)",
+   "applyUrl": "https://erp.iitkgp.ac.in/SricWeb/showAdvtFilePdf.htm?ref_no=IIT/SRIC/R/IIC/2026/102",
+   "category": "academic",
+   "city": "Kharagpur",
+   "cvFit": {
+    "reason": "Asks for a Ph.D. or M.Pharm with 3 years' research and an SCI paper — you have both, but the imaging-device project is far from your formulation work and it is a short project post.",
+    "score": 62
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "Project is on a cancer screening imaging device, outside your Pharmaceutics/formulation specialisation, though your Ph.D. qualifies."
+   },
+   "found": "2026-11-12",
+   "lastDate": "2026-11-14",
+   "notes": "Time-bound post of 6 months or until the project ends.",
+   "org": "IIT Kharagpur, Department of Medical Science and Technology",
+   "posted": "2026-10-30",
+   "posts": [
+    "Research Associate"
+   ],
+   "qualification": "Ph.D., MD, MS or MDS; or 3 years of research/teaching/design experience after MVSc, M.Pharm, ME or M.Tech with at least one SCI journal paper.",
+   "salary": "Up to Rs. 61,000 per month",
+   "sector": "Government",
+   "sourceUrl": "https://www.careerswave.in/iit-kharagpur-research-associate-2026/",
+   "state": "West Bengal",
+   "steps": [
+    "Read advertisement IIT/SRIC/R/IIC/2026/102 on the IIT Kharagpur ERP",
+    "Register on the SRIC online application portal",
+    "Fill in the form and upload your CV, Ph.D. certificate and SCI publications",
+    "Submit by 14 Nov 2026 (no fee)"
+   ],
+   "title": "Research Associate (ICMR cancer screening imager project)",
+   "type": "Academic Associate"
+  },
+  {
    "id": "ilbs-new-delhi-project-research-scientist-iii-mash-icmr",
    "applyMode": "Email resume; interview/skill test on 21 Nov 2026 at ILBS, Vasant Kunj",
    "applyUrl": "https://www.ilbs.in/images/media/advt_for_various_post_under_project_02_11_2026.pdf",
@@ -2950,6 +3022,42 @@
    "title": "Regulatory Affairs Specialist – Submission Info Management"
   },
   {
+   "id": "sharda-university-agra-professor-pharmacy",
+   "applyMode": "Online (HRMates portal / QR code on banner)",
+   "applyUrl": "https://www.agra.sharda.ac.in/about/career",
+   "category": "academic",
+   "city": "Agra",
+   "cvFit": {
+    "reason": "Subject matches your Ph.D., but a Professor post under PCI norms usually needs around 10 years of experience — you have 6.9, so this is a stretch.",
+    "score": 55
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "Pharmacy Professor post open to a relevant Ph.D.; your Pharmaceutics M.Pharm and Pharmaceutical Sciences Ph.D. match the subject."
+   },
+   "found": "2026-11-12",
+   "lastDate": "2026-11-20",
+   "notes": "Duties include teaching, leading research, guiding scholars and publishing. Professor posts under PCI norms usually require about 10 years of teaching/research experience.",
+   "org": "Sharda University Agra",
+   "posted": "2026-10-30",
+   "posts": [
+    "Professor (Pharmacy)"
+   ],
+   "qualification": "Ph.D. in Pharmacy in a relevant specialisation meeting regulatory norms; experience as per PCI regulations and university guidelines.",
+   "salary": "Competitive, as per university standards",
+   "sector": "Private",
+   "sourceUrl": "https://www.agra.sharda.ac.in/about/career",
+   "state": "Uttar Pradesh",
+   "steps": [
+    "Open the Sharda University Agra careers page",
+    "Click the HRMates job portal link for Professor (Pharmacy) or scan the QR code on the banner",
+    "Fill in the online form and upload your CV with publications, patents and Ph.D. details",
+    "Submit before 20 Nov 2026"
+   ],
+   "title": "Professor (Pharmacy)",
+   "type": "Faculty"
+  },
+  {
    "id": "shoolini-university-assistant-professor-pharmacy",
    "applyMode": "Email CV to hr@shooliniuniversity.com",
    "applyUrl": "https://shooliniuniversity.com/faculty-positions",
@@ -3172,6 +3280,50 @@
     "Be ready to join immediately with relieving letter and original certificates"
    ],
    "title": "Professor / Associate Professor / Assistant Professor (Pharmaceutics, Pharm. Chemistry, Regulatory Affairs)",
+   "type": "Faculty"
+  },
+  {
+   "id": "st-pauls-college-of-pharmacy-ranga-reddy-associate-assistant-professor",
+   "applyMode": "Email",
+   "applyUrl": "https://stpaulscollege.ac.in/",
+   "category": "academic",
+   "city": "Turkayamjal, Abdullapurmet, Ranga Reddy",
+   "cvFit": {
+    "reason": "Associate Professor needs M.Pharm + Ph.D. and 5 years' Assistant Professor teaching plus 2 years post-Ph.D. — you have both degrees but about 3.8 years of teaching, so Assistant Professor is a safe fit and Associate may be borderline.",
+    "score": 80
+   },
+   "documents": [
+    "Bio-data",
+    "Scanned copies of all certificates",
+    "Educational certificates and mark sheets",
+    "Experience certificates"
+   ],
+   "fit": {
+    "level": "Good",
+    "reason": "General pharmacy faculty posts; your M.Pharm Pharmaceutics and Ph.D. meet the Associate Professor qualification, though no subject is named."
+   },
+   "found": "2026-11-12",
+   "lastDate": "2026-11-19",
+   "notes": "Newspaper advertisement dated 11 Nov 2026; shortlisted candidates are informed by email.",
+   "org": "St. Pauls College of Pharmacy",
+   "posted": "2026-11-11",
+   "posts": [
+    "Associate Professor",
+    "Assistant Professor"
+   ],
+   "qualification": "Associate Professor: M.Pharm or Pharm.D with Ph.D., 5 years' teaching as Assistant Professor plus 2 years post-Ph.D. teaching. Assistant Professor: M.Pharm or Pharm.D in First Class. All as per PCI norms; subjects not specified.",
+   "salary": "As per PCI norms",
+   "sector": "Private",
+   "sourceUrl": "https://www.facultyplus.com/pharmacy-faculty-jobs-2026-at-st-pauls-college-of-pharmacy-ranga-reddy/",
+   "state": "Telangana",
+   "steps": [
+    "Open the facultyplus listing or the college website to get the recruitment email address",
+    "Prepare your bio-data stating the post (Associate Professor) and specialisation (Pharmaceutics)",
+    "Scan all certificates, mark sheets, Ph.D. and experience certificates",
+    "Email the bio-data with scans before 19 Nov 2026",
+    "Wait for an email if shortlisted"
+   ],
+   "title": "Associate Professor & Assistant Professor (Pharmacy)",
    "type": "Faculty"
   },
   {
@@ -3416,6 +3568,40 @@
    ],
    "title": "Project Research Scientist-I (Non-Medical)",
    "type": "Scientist"
+  },
+  {
+   "id": "usp-scientist-iii-analytical-rd-prep-hplc-hyderabad",
+   "applyMode": "Online",
+   "applyUrl": "https://usp.jobs/hyderabad-ind/scientist-iii-analytical-research-developmentprep-hplc/E5FE151B7DA14E748DEFF41B4CEA845F/job/",
+   "category": "other",
+   "city": "Hyderabad",
+   "cvFit": {
+    "reason": "Wants an experienced analytical chemist doing prep HPLC — you have HPLC/HPTLC method development, but your core is formulation and academia, not reference-standard lab work.",
+    "score": 55
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "Analytical chemistry role; your HPLC/HPTLC method development experience is relevant but your specialisation is Pharmaceutics."
+   },
+   "found": "2026-11-12",
+   "notes": "Full-time, non-supervisory. Duties include testing, SOP/protocol writing, IQ/OQ/PQ, GLP compliance and mentoring juniors.",
+   "org": "U.S. Pharmacopeial Convention (USP)",
+   "posted": "2026-11-11",
+   "posts": [
+    "Scientist III"
+   ],
+   "qualification": "Analytical chemistry background with pharmaceutical analysis and preparative HPLC skills; years of experience not stated in the listing.",
+   "role": "Analytical R&D",
+   "sector": "Private",
+   "sourceUrl": "https://www.rasayanika.com/2026/11/11/usp-scientist-iii-analytical-rd-hyderabad/",
+   "state": "Telangana",
+   "steps": [
+    "Open the USP careers listing (Req ID SCIEN003633)",
+    "Create a candidate profile",
+    "Upload a CV highlighting HPLC/HPTLC method development and validation work",
+    "Submit the online application"
+   ],
+   "title": "Scientist III, Analytical R&D (Prep HPLC), Reference Standard Laboratory"
   },
   {
    "id": "vivekananda-global-college-of-pharmacy-sivagangai-faculty",
