@@ -1,8 +1,8 @@
 {
  "meta": {
-  "lastRun": "2026-11-12T01:24:25Z",
-  "total": 102,
-  "added": 5
+  "lastRun": "2026-11-13T01:19:08Z",
+  "total": 104,
+  "added": 2
  },
  "jobs": [
   {
@@ -2189,6 +2189,51 @@
    "type": "Faculty"
   },
   {
+   "id": "lnct-vidhyapeeth-university-indore-pharmacy-faculty-nov-2026",
+   "applyMode": "Walk-in interview on 14–15 Nov 2026 (10 am–4 pm), or email/post resume within 10 days of the advertisement",
+   "applyUrl": "https://www.lnctvu.ac.in",
+   "category": "academic",
+   "city": "Indore",
+   "cvFit": {
+    "reason": "Asks for PCI/UGC norms with industry experience preferred — your Ph.D., 6.9 years, current Associate Professor role and 23 papers fit Associate Professor; subject isn't specified.",
+    "score": 80
+   },
+   "documents": [
+    "Updated resume/CV",
+    "Educational certificates and mark sheets",
+    "Experience certificates",
+    "Recent passport-size photograph"
+   ],
+   "fit": {
+    "level": "Good",
+    "reason": "Open pharmacy posts at all levels; subject not specified, so your M.Pharm Pharmaceutics and Ph.D. fit Associate Professor generally."
+   },
+   "found": "2026-11-13",
+   "lastDate": "2026-11-22",
+   "notes": "Last date is approximate: the ad says 'within 10 days' of 12 Nov 2026. Walk-in dates 14–15 Nov 2026. Salary depends on qualification and experience.",
+   "org": "LNCT Vidhyapeeth University",
+   "posted": "2026-11-12",
+   "posts": [
+    "Director/Principal (Pharmacy)",
+    "Professor",
+    "Associate Professor",
+    "Assistant Professor"
+   ],
+   "qualification": "As per UGC and other regulatory body (PCI) norms; industrial experience highly preferred. Pharmacy is one of the listed departments for all teaching posts.",
+   "sector": "Private",
+   "sourceUrl": "https://www.facultyplus.com/academic-recruitment-2026-at-lnct-vidhyapeeth-university-indore/",
+   "state": "Madhya Pradesh",
+   "steps": [
+    "Attend the walk-in at LNCT Vidhyapeeth University, Sewakunj Hospital, Kanadia, Indore – 452016 on 14 or 15 Nov 2026, 10 am–4 pm",
+    "If you can't attend, email or post your resume within 10 days of the ad (get the email from the official notice QR code or lnctvu.ac.in)",
+    "Mention the post (Associate Professor – Pharmacy / Pharmaceutics) in the subject line",
+    "Carry originals and copies of all documents",
+    "For queries call 7509060378"
+   ],
+   "title": "Director/Principal, Professor, Associate Professor & Assistant Professor (Pharmacy) – Walk-in",
+   "type": "Faculty"
+  },
+  {
    "id": "lupin-senior-research-scientist-pharma-research-ood-pune",
    "applyMode": "Online via Lupin careers portal",
    "applyUrl": "https://careers.lupin.com/job/Pune_RD-Senior-Research-Scientist-Pharma-Research-OOD-MH/1437122600/",
@@ -3325,6 +3370,40 @@
    ],
    "title": "Associate Professor & Assistant Professor (Pharmacy)",
    "type": "Faculty"
+  },
+  {
+   "id": "sun-pharma-medical-writer-mumbai-nov-2026",
+   "applyMode": "Online via Sun Pharma careers",
+   "applyUrl": "https://sunpharma.com/careers/",
+   "category": "other",
+   "city": "Mumbai",
+   "cvFit": {
+    "reason": "Wants 3–5 years of CRO/pharma medical writing on clinical studies — you have strong scientific writing (23 papers, 13 chapters) but no industry medical-writing years.",
+    "score": 52
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "Writing role in clinical studies, not formulation; your publishing record helps but clinical-study writing experience is asked."
+   },
+   "found": "2026-11-13",
+   "notes": "Corporate office role at Sun House, Mumbai. No last date stated.",
+   "org": "Sun Pharma Laboratories Ltd",
+   "posted": "2026-11-04",
+   "posts": [
+    "Medical Writer"
+   ],
+   "qualification": "Bachelor's or Master's in Science, Healthcare, Clinical Research or Life Sciences and/or PG in Clinical Research; 3–5 years of medical writing in a CRO, pharma or biotech covering interventional and non-interventional studies.",
+   "role": "Medical Writer",
+   "sector": "Private",
+   "sourceUrl": "https://www.biotecnika.org/2026/11/sun-pharma-medical-writer-mumbai-2026/",
+   "state": "Maharashtra",
+   "steps": [
+    "Open Sun Pharma careers and search 'Medical Writer' (Sun House, Mumbai)",
+    "Prepare a CV highlighting your 23 papers, 13 book chapters and review-writing experience",
+    "Add a short cover note on regulatory/clinical writing skills",
+    "Submit the online application"
+   ],
+   "title": "Medical Writer"
   },
   {
    "id": "sun-pharma-rnd-formulation-development-orals-vadodara",
