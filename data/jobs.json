@@ -1,7 +1,7 @@
 {
  "meta": {
-  "lastRun": "2026-11-13T01:19:08Z",
-  "total": 104,
+  "lastRun": "2026-11-14T01:17:29Z",
+  "total": 106,
   "added": 2
  },
  "jobs": [
@@ -1114,6 +1114,44 @@
     "Submit; hybrid role in Noida"
    ],
    "title": "Patent Search Senior Analyst (JREQ136232)"
+  },
+  {
+   "id": "csir-hrdg-new-delhi-project-scientist-jigyasa-2026",
+   "applyMode": "Walk-in interview, 30 Nov 2026, reporting 9:00-11:00 AM",
+   "applyUrl": "https://www.csir.res.in/sites/default/files/2026-11/jigyasa_proj_staff_advt_eng.pdf",
+   "category": "academic",
+   "city": "New Delhi",
+   "cvFit": {
+    "reason": "Asks for a science/pharma doctorate — you have a Ph.D., 6.9 years and strong teaching/outreach record, but the role is programme coordination, not formulation R&D, and pays below your current level.",
+    "score": 64
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "Your Ph.D. in Pharmaceutical Sciences meets the doctorate-in-science/pharma condition, though the work is science outreach rather than pharmaceutics research."
+   },
+   "found": "2026-11-14",
+   "lastDate": "2026-11-30",
+   "notes": "JIGYASA is CSIR's science outreach/education programme; interviews may continue the next day if many candidates attend.",
+   "org": "CSIR-Human Resource Development Group (HRDG)",
+   "posts": [
+    "Project Scientist-II (1)",
+    "Project Scientist-I (1)",
+    "Principal Project Associate (1)",
+    "Senior Project Associate (2)"
+   ],
+   "qualification": "Project Scientist posts need a doctorate in Science (or Master's in Engineering/Technology); Principal/Senior Project Associate accept a Master's in Pharmaceutical Sciences with 6/3 years' experience or a doctorate in Pharma. Advt. HRDG/JIGYASA/01/2026.",
+   "salary": "Project Scientist-II Rs. 67,000; Project Scientist-I Rs. 56,000; Principal Project Associate Rs. 49,000; Senior Project Associate Rs. 42,000 per month + HRA",
+   "sector": "Government",
+   "sourceUrl": "https://www.freejobalert.com/articles/csir-hrdg-recruitment-2026-project-scientist-project-associate-3080397",
+   "state": "Delhi",
+   "steps": [
+    "Download the advertisement and application format from the CSIR website.",
+    "Fill the application form and paste a signed passport-size photo.",
+    "Prepare self-attested copies of all certificates, originals for verification, a biodata and up to ten best publications.",
+    "Report to CSIR-HRDG, CSIR Complex, Library Avenue, PUSA, New Delhi 110012 on 30 Nov 2026 between 9:00 and 11:00 AM (no entry after 11:00 AM)."
+   ],
+   "title": "Project Scientist-I / II (CSIR JIGYASA)",
+   "type": "Scientist"
   },
   {
    "id": "csir-iiim-jammu-project-research-scientist-i-advt-43-2026",
@@ -2543,6 +2581,43 @@
    ],
    "title": "Scientist C / Scientist D (Advt. 02/2026) – Pharmaceutical Sciences eligible",
    "type": "Scientist"
+  },
+  {
+   "id": "niper-mohali-research-associate-iii-pharmacy-practice-advt-31-2026",
+   "applyMode": "Offline hard copy by post/courier/hand + scanned PDF by email",
+   "applyUrl": "https://www.niper.gov.in/sites/default/files/inline-files/upload_224115a06268.pdf",
+   "category": "academic",
+   "city": "Mohali",
+   "cvFit": {
+    "reason": "Asks for M.Pharm with 3 years' experience or a Ph.D. — you have both plus 6.9 years and 23 papers, but the clinical/epidemiology focus is outside your formulation research and it is a step down from Associate Professor.",
+    "score": 68
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "Accepts M.Pharm with experience or a Ph.D., which you have, though the project is pharmacy-practice/clinical rather than pharmaceutics."
+   },
+   "found": "2026-11-14",
+   "lastDate": "2026-11-27",
+   "notes": "Department of Pharmacy Practice & Clinical Research; temporary project post with no claim to regularisation. Check the official PDF for the email address and full subject list.",
+   "org": "NIPER S.A.S. Nagar (Mohali)",
+   "posted": "2026-11-13",
+   "posts": [
+    "Research Associate-III (1 post, project-based, Advt. No. 31/2026)"
+   ],
+   "qualification": "Post-graduate degree in a listed subject (e.g. Public Health, Statistics, Epidemiology, Life Sciences, or M.Pharm with 3 years' experience) or a Ph.D. in a listed subject. One-year engagement, co-terminus with the project.",
+   "salary": "Rs. 67,000 per month + HRA as admissible",
+   "sector": "Government",
+   "sourceUrl": "https://www.freejobalert.com/articles/niper-research-associate-iii-recruitment-2026-3081000",
+   "state": "Punjab",
+   "steps": [
+    "Download the advertisement and application form from niper.gov.in/jobs (Advt. No. 31/2026).",
+    "Pay the Rs. 500 fee by NEFT (UR/OBC; SC/ST/PwBD and women exempt) and keep the transaction proof.",
+    "Fill the form and attach self-attested copies of degrees, Ph.D. certificate, experience letters and publication list.",
+    "Send the hard copy to Prof. Dipika Bansal, NIPER, Sector-67, SAS Nagar 160062 by speed post/courier/hand.",
+    "Email a single scanned PDF of the form and attachments to the addresses in the advertisement by 27 Nov 2026."
+   ],
+   "title": "Research Associate-III (Pharmacy Practice & Clinical Research)",
+   "type": "Academic Associate"
   },
   {
    "id": "nmims-sptm-hyderabad-pharmaceutics-faculty",
