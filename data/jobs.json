@@ -1,7 +1,7 @@
 {
  "meta": {
-  "lastRun": "2026-11-14T01:17:29Z",
-  "total": 106,
+  "lastRun": "2026-11-15T01:17:48Z",
+  "total": 108,
   "added": 2
  },
  "jobs": [
@@ -1472,6 +1472,48 @@
     "Apply online before 18 Nov 2026"
    ],
    "title": "CMC Regulatory Affairs – Biologics (Executive to Manager)"
+  },
+  {
+   "id": "g-pulla-reddy-college-of-pharmacy-hyderabad-principal-asst-prof",
+   "applyMode": "Offline / email",
+   "applyUrl": "https://osmania.ac.in/Collegecareer2026/G%20P%20R%20Faculty%20advertisent.pdf",
+   "category": "academic",
+   "city": "Mehdipatnam, Hyderabad",
+   "cvFit": {
+    "reason": "Assistant Professor needs M.Pharm per PCI — you exceed it with a Ph.D. and 6.9 years; the Principal post usually needs about 15 years, which you don't yet have.",
+    "score": 72
+   },
+   "documents": [
+    "Application with biodata",
+    "Passport-size photo",
+    "Qualification certificates",
+    "Experience certificates"
+   ],
+   "fit": {
+    "level": "Good",
+    "reason": "General pharmacy faculty posts with subject unspecified — your M.Pharm Pharmaceutics and Ph.D. meet the Assistant Professor route; Principal needs longer senior experience."
+   },
+   "found": "2026-11-15",
+   "lastDate": "2026-11-23",
+   "notes": "Advertised in Sakshi (Hyderabad) on 13 November 2026; number of vacancies per post not stated.",
+   "org": "G. Pulla Reddy College of Pharmacy (Autonomous)",
+   "posted": "2026-11-13",
+   "posts": [
+    "Professor & Principal",
+    "Assistant Professor"
+   ],
+   "qualification": "Professor & Principal: M.Pharm with Ph.D. and other conditions per PCI/UGC norms. Assistant Professor: M.Pharm, Pharm.D or Pharm.D (PB) per PCI/UGC norms. Subjects not specified.",
+   "sector": "Private",
+   "sourceUrl": "https://www.freejobalert.com/articles/gprcp-recruitment-2026-principal-professor-3081226",
+   "state": "Telangana",
+   "steps": [
+    "Read the official notification (Osmania University college careers page)",
+    "Write the application on plain paper with detailed biodata and a passport-size photo",
+    "Enclose copies of qualification, eligibility and experience certificates",
+    "Submit at the college office in Mehdipatnam or by email to the college by 23 November 2026"
+   ],
+   "title": "Professor & Principal; Assistant Professors",
+   "type": "Faculty"
   },
   {
    "id": "galgotias-university-pharmacy-faculty-greater-noida",
@@ -3798,6 +3840,55 @@
     "Ensure it reaches by 28 Nov 2026; shortlisted candidates are informed by email"
    ],
    "title": "Assistant Professor & Associate Professor (Pharmaceutics, Pharmaceutical Chemistry)",
+   "type": "Faculty"
+  },
+  {
+   "id": "vpmm-group-virudhunagar-pharmacy-faculty-nov-2026",
+   "applyMode": "Email or post",
+   "applyUrl": "https://www.facultyplus.com/wp-content/uploads/2026/11/Faculty-plus-b.pharm_.pdf",
+   "category": "academic",
+   "city": "Krishnankoil, Virudhunagar",
+   "cvFit": {
+    "reason": "Asks for M.Pharm in Pharmaceutics (among others) with Ph.D. preferred — you have both plus 3.8 years of teaching, 23 papers and a current Associate Professor role.",
+    "score": 86
+   },
+   "documents": [
+    "Letter of interest",
+    "Detailed resume",
+    "Passport-size photo",
+    "Degree certificates",
+    "Ph.D. certificate",
+    "PCI registration",
+    "Experience certificates",
+    "Publication list"
+   ],
+   "fit": {
+    "level": "Strong",
+    "reason": "Pharmaceutics is one of the listed departments and a Ph.D. is preferred — matches your M.Pharm Pharmaceutics and Ph.D."
+   },
+   "found": "2026-11-15",
+   "lastDate": "2026-11-30",
+   "notes": "Official site: www.vpmm.in",
+   "org": "VPMM Group of Educational Institutions",
+   "posted": "2026-11-13",
+   "posts": [
+    "Assistant Professor",
+    "Associate Professor",
+    "Professor"
+   ],
+   "qualification": "B.Pharm and M.Pharm in Pharmaceutics, Pharmaceutical Chemistry, Pharmacology, Pharmacognosy, Pharmacy Practice or Pharmaceutical Analysis; Ph.D. preferred; qualifications as per PCI norms with valid PCI registration. Teaching experience and publications preferred; fresh Ph.D. holders may apply.",
+   "salary": "As per norms, based on qualification and experience",
+   "sector": "Private",
+   "sourceUrl": "https://www.facultyplus.com/faculty-vacancy-2026-at-vpmm-group-of-educational-institutions-virudhunagar/",
+   "state": "Tamil Nadu",
+   "steps": [
+    "Open the notification and copy the application email address",
+    "Write a letter of interest naming the post and department (Pharmaceutics)",
+    "Attach your detailed CV, photo and scanned certificates (degrees, Ph.D., PCI registration, experience, publications)",
+    "Email with the job title and department in the subject line, or post to The Director, VPMM Group of Educational Institutions, Krishnankoil, Srivilliputtur Taluk, Virudhunagar – 626126",
+    "Apply before 30 November 2026; queries: 8925804367"
+   ],
+   "title": "Pharmacy Faculty – Assistant / Associate Professor / Professor",
    "type": "Faculty"
   },
   {
