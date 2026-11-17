@@ -1,8 +1,8 @@
 {
  "meta": {
-  "lastRun": "2026-11-16T01:18:07Z",
-  "total": 108,
-  "added": 1
+  "lastRun": "2026-11-17T01:20:48Z",
+  "total": 110,
+  "added": 2
  },
  "jobs": [
   {
@@ -46,6 +46,52 @@
     "Watch your email for shortlisting"
    ],
    "title": "Principal – Pharmacy College",
+   "type": "Faculty"
+  },
+  {
+   "id": "aiims-bathinda-faculty-pharmacology-nov-2026",
+   "applyMode": "Online Google Form + hard copy by post (hard copy by 3 Dec 2026)",
+   "applyUrl": "https://aiimsbathinda.edu.in/images/Reqruitment/20261109052537.pdf",
+   "category": "academic",
+   "city": "Bathinda",
+   "cvFit": {
+    "reason": "Medical-college Pharmacology posts normally ask for MBBS + MD — you have M.Pharm Pharmaceutics and a Ph.D., so you qualify only if non-medical slots are open.",
+    "score": 35
+   },
+   "documents": [
+    "Application form (prescribed)",
+    "Updated CV",
+    "Certificates",
+    "Passport-size photo"
+   ],
+   "fit": {
+    "level": "Low",
+    "reason": "Pharmacology faculty at AIIMS is mainly for medical (MBBS/MD) candidates; your M.Pharm Pharmaceutics and Ph.D. fit only if non-medical slots exist."
+   },
+   "found": "2026-11-17",
+   "lastDate": "2026-11-30",
+   "notes": "Third-party summary — online deadline 30 Nov, hard copy 3 Dec 2026.",
+   "org": "AIIMS Bathinda",
+   "posted": "2026-11-09",
+   "posts": [
+    "Professor",
+    "Additional Professor",
+    "Associate Professor",
+    "Assistant Professor"
+   ],
+   "qualification": "Group A faculty posts in about 30 disciplines including Pharmacology; qualifications and experience as per AIIMS norms (see official notification). AIIMS Pharmacology faculty posts usually need MBBS + MD, with limited non-medical (M.Sc/Ph.D.) slots — check the notification.",
+   "salary": "Professor Level 14A (Rs 1,68,900–2,20,400); Additional Prof Level 13A2+; Associate Prof Level 13A1+ (Rs 1,38,300–2,09,200); Assistant Prof Level 12 (Rs 1,01,500–1,67,400)",
+   "sector": "Government",
+   "sourceUrl": "https://facultytick.com/2026/11/15/all-india-institute-of-medical-sciences-bathinda-invited-applications-for-the-following-positions-of-teaching-faculty-recruitment-job-vacancy-2026/",
+   "state": "Punjab",
+   "steps": [
+    "Read the official notification and confirm whether non-medical candidates are eligible for Pharmacology",
+    "Download the MS Word application form from aiimsbathinda.edu.in",
+    "Fill and print the form; submit the mandatory online Google Form by 30 Nov 2026, 5 PM",
+    "Post the hard copy with CV, certificates and photo to the Recruitment Cell, AIIMS Bathinda, to arrive by 3 Dec 2026",
+    "Put the post and discipline in the subject line of any email query"
+   ],
+   "title": "Professor / Additional / Associate / Assistant Professor (incl. Pharmacology) – AIIMS Bathinda",
    "type": "Faculty"
   },
   {
@@ -1755,6 +1801,50 @@
    ],
    "title": "Professor, Associate Professor & Assistant Professor (Pharmacy) – 21 posts",
    "type": "Faculty"
+  },
+  {
+   "id": "ibsd-imphal-scientist-c-d-e-advt-04-2026",
+   "applyMode": "Online (IBSD job portal) + application fee by NEFT/RTGS",
+   "applyUrl": "https://ibsd.gov.in/job-portal/login",
+   "category": "academic",
+   "city": "Imphal",
+   "cvFit": {
+    "reason": "Scientist-C suits a Ph.D. with research experience — you have a Ph.D., 6.9 years and 23 papers including herbal and spice work, but the posts lean to biotechnology.",
+    "score": 66
+   },
+   "documents": [
+    "Academic certificates",
+    "Publication list",
+    "Research proposal",
+    "Fee transaction URN"
+   ],
+   "fit": {
+    "level": "Good",
+    "reason": "Bioresources research institute open to pharmaceutical sciences — your Ph.D. plus pharmacognosy/herbal product and HPTLC work match its natural-product focus."
+   },
+   "found": "2026-11-17",
+   "lastDate": "2026-12-30",
+   "notes": "Bioresource / natural-product focus — your herbal products, spice authentication and HPTLC work are relevant.",
+   "org": "BRIC-Institute of Bioresources and Sustainable Development (IBSD)",
+   "posted": "2026-11-16",
+   "posts": [
+    "Scientist-C (2)",
+    "Scientist-D (2)",
+    "Scientist-E (1)"
+   ],
+   "qualification": "Five regular Scientist posts in Bioresources & Biotechnology; PharmaTutor lists pharmaceutical sciences or life sciences candidates as eligible. Ph.D. with research experience and publications expected — check the official notice for exact eligibility and experience per grade.",
+   "sector": "Government",
+   "sourceUrl": "https://www.freejobalert.com/articles/ibsd-recruitment-2026-scientist-c-scientist-d-3081529",
+   "state": "Manipur",
+   "steps": [
+    "Read the official notice at ibsd.gov.in (notice-tender-vacancy/job-portal)",
+    "Register on the IBSD job portal with your email (OTP login)",
+    "Choose Scientist-C or D and fill personal, education, experience and publication details",
+    "Pay the application fee by NEFT/RTGS to Director, IBSD Imphal and note the URN",
+    "Upload documents and research proposal, then submit before 30 Dec 2026"
+   ],
+   "title": "Scientist-C / Scientist-D / Scientist-E – BRIC-IBSD Imphal (Advt 04/2026)",
+   "type": "Scientist"
   },
   {
    "id": "icmr-nie-scientist-b-d-non-medical",
