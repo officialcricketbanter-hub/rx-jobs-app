@@ -1,8 +1,8 @@
 {
  "meta": {
-  "lastRun": "2026-11-17T01:20:48Z",
+  "lastRun": "2026-11-18T01:17:32Z",
   "total": 110,
-  "added": 2
+  "added": 3
  },
  "jobs": [
   {
@@ -166,42 +166,6 @@
    ],
    "title": "Research Associate Grade III (DHR Technical Resource Centre)",
    "type": "Academic Associate"
-  },
-  {
-   "id": "aiims-new-delhi-project-research-scientist-i-pathology-icmr",
-   "applyMode": "Online via Google Form",
-   "applyUrl": "https://forms.gle/tcsBiSTUZCvpLeCG8",
-   "category": "academic",
-   "city": "New Delhi",
-   "cvFit": {
-    "reason": "Asks for a life-sciences PG with cytology and sample-processing skills; your M.Pharm and GATE count, but your formulation background does not match, and the 35-year age limit may apply.",
-    "score": 42
-   },
-   "fit": {
-    "level": "Low",
-    "reason": "A pathology/cytology lab project that does not use your Pharmaceutics formulation specialisation."
-   },
-   "found": "2026-10-28",
-   "lastDate": "2026-11-10",
-   "notes": "Temporary ICMR-funded project (Sep 2026–Sep 2029). Also has 2 Project Technical Support-I posts (not relevant).",
-   "org": "AIIMS New Delhi",
-   "posted": "2026-10-22",
-   "posts": [
-    "Project Research Scientist-I (Non-Medical) (1)"
-   ],
-   "qualification": "Postgraduate degree (incl. integrated PG) in Life Sciences, Biomedical Sciences or allied field; age up to 35. Preferred: cytology/HRA, sample processing, microscopy experience; NET/GATE holders preferred.",
-   "salary": "Rs. 56,000 per month + HRA",
-   "sector": "Government",
-   "sourceUrl": "https://www.aiims.edu/images/pdf/recruitment/advertisement/pathology-22-10-26.pdf",
-   "state": "Delhi",
-   "steps": [
-    "Read the official advertisement (Pathology, 22-10-26)",
-    "Check the 35-year age limit and allied-field eligibility",
-    "Fill the Google Form before 10 Nov 2026, 5:00 PM",
-    "Attend the interview if shortlisted (no TA/DA)"
-   ],
-   "title": "Project Research Scientist-I (Non-Medical) – ICMR project, Dept. of Pathology",
-   "type": "Scientist"
   },
   {
    "id": "aiims-raebareli-project-research-scientist-i-aspartame-cognition",
@@ -1237,42 +1201,6 @@
    "type": "Scientist"
   },
   {
-   "id": "csir-imtech-project-research-scientist-iii-non-medical",
-   "applyMode": "Online",
-   "applyUrl": "https://www.imtech.res.in/recruitment-form/rolling-advt-no-2026-10-06",
-   "category": "academic",
-   "city": "Chandigarh",
-   "cvFit": {
-    "reason": "Asks for a PG with 5 years or a Ph.D. with 2 — your experience fits, but they prefer data science or bioinformatics degrees, and your ML work is only a secondary area.",
-    "score": 55
-   },
-   "fit": {
-    "level": "Low",
-    "reason": "A data-science-leaning project post — pharmaceutics doesn't match directly, but your AI/ML-in-pharma research is relevant."
-   },
-   "found": "2026-11-01",
-   "lastDate": "2026-11-10",
-   "notes": "1 post on a project (rolling advertisement). Data-science or computational skills are preferred.",
-   "org": "CSIR-Institute of Microbial Technology (IMTECH)",
-   "posted": "2026-10-28",
-   "posts": [
-    "Project Research Scientist-III (Non-Medical)"
-   ],
-   "qualification": "PG degree with 5 years' post-qualification experience, or Ph.D. with 2 years; Engineering/IT/CS graduates are also eligible. Data science, bioinformatics or computational biology degrees are preferred.",
-   "salary": "Rs 78,000 per month + HRA",
-   "sector": "Government",
-   "sourceUrl": "https://www.freejobalert.com/articles/csir-imtech-project-research-scientist-iii-recruitment-2026-apply-online-3076532",
-   "state": "Chandigarh",
-   "steps": [
-    "Read Rolling Advt. No. 2026-10-06 on imtech.res.in",
-    "Get your Ph.D. certificate (or provisional) ready, plus proof of 2+ years' post-Ph.D. or 5 years' post-PG experience",
-    "Fill in the online form at the IMTECH recruitment link and include your AI/ML and data work",
-    "Submit by 10 Nov 2026"
-   ],
-   "title": "Project Research Scientist-III (Non-Medical) at CSIR-IMTECH",
-   "type": "Scientist"
-  },
-  {
    "id": "cusb-gaya-professor-associate-assistant-professor-pharmacy-advt-49",
    "applyMode": "Online only (Samarth portal); no offline forms",
    "applyUrl": "https://curec.samarth.ac.in",
@@ -1482,6 +1410,41 @@
     "Submit the online application"
    ],
    "title": "Senior Regulatory Specialist I – Toxicology (Global Regulatory Affairs)"
+  },
+  {
+   "id": "eli-lilly-scientific-writer-senior-scientific-writer-bangalore",
+   "applyMode": "Online",
+   "applyUrl": "https://careers.lilly.com/us/en/job/LILLUSR115466EXTERNALENUS/Scientific-Writer-Senior-Scientific-Writer-Global-Scientific-Communications",
+   "category": "other",
+   "city": "Bengaluru",
+   "cvFit": {
+    "reason": "Needs a science Master's and publication-writing experience, Ph.D. preferred — you have M.Pharm, Ph.D., 23 papers and 13 chapters, but no industry medical-writing experience.",
+    "score": 80
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "A publications-writing role that uses your Ph.D. research and writing record rather than Pharmaceutics specifically."
+   },
+   "found": "2026-11-18",
+   "notes": "Plan, write and coordinate abstracts, posters, manuscripts and presentations; full-time regular role.",
+   "org": "Eli Lilly and Company",
+   "posted": "2026-11-17",
+   "posts": [
+    "Scientific Writer",
+    "Senior Scientific Writer"
+   ],
+   "qualification": "Master's degree in a scientific field required; Ph.D./PharmD/MD preferred. Prior experience writing scientific publications (abstracts, posters, manuscripts) required; writing exercise part of evaluation.",
+   "role": "Medical / Scientific Writer",
+   "sector": "Private",
+   "sourceUrl": "https://www.biotecnika.org/2026/11/lilly-scientific-writer-job-bangalore/",
+   "state": "Karnataka",
+   "steps": [
+    "Open the Lilly careers page (Job ID R-115466).",
+    "Create or sign in to a Lilly candidate account.",
+    "Upload a CV listing your 23 papers, 13 book chapters and any review/editing work.",
+    "Complete the online application and prepare for a writing exercise."
+   ],
+   "title": "Scientific Writer / Senior Scientific Writer – Global Scientific Communications"
   },
   {
    "id": "enzene-cmc-regulatory-affairs-biologics-pune",
@@ -2250,6 +2213,46 @@
    "type": "Faculty"
   },
   {
+   "id": "jamia-hamdard-sper-guest-faculty-ai-ml-data-analytics",
+   "applyMode": "Email",
+   "category": "academic",
+   "city": "New Delhi",
+   "cvFit": {
+    "reason": "Asks for B.Tech/M.Tech or MCA — you have pharmacy degrees, so you likely don't meet the essential qualification despite your AI/ML research.",
+    "score": 30
+   },
+   "documents": [
+    "Application form with coloured photo",
+    "Updated CV",
+    "Supporting documents (single PDF)"
+   ],
+   "fit": {
+    "level": "Low",
+    "reason": "The post is for computing/AI teaching and asks for engineering degrees, not Pharmaceutics, though it touches your AI/ML-in-pharma research."
+   },
+   "found": "2026-11-18",
+   "lastDate": "2026-11-20",
+   "notes": "Temporary guest post teaching B.Pharm students; advertisement FR-15/2026 dated 11 Nov 2026.",
+   "org": "Jamia Hamdard – School of Pharmaceutical Education and Research (SPER)",
+   "posted": "2026-11-11",
+   "posts": [
+    "Guest/Visiting Faculty (Post Code 001)"
+   ],
+   "qualification": "B.E./B.Tech./B.S. and M.E./M.Tech./M.S. (or B.Tech + MCA) in a relevant branch with First Class in one degree, plus NET/SLET/SET/GPAT/GATE; Ph.D. in the relevant discipline and teaching experience in Python, AI/ML and data analytics desirable.",
+   "salary": "As per Jamia Hamdard norms",
+   "sector": "Private",
+   "sourceUrl": "https://www.facultyplus.com/guest-faculty-recruitment-jamia-hamdard-new-delhi/",
+   "state": "Delhi",
+   "steps": [
+    "Download the official notification (Advt. No. FR-15/2026) linked on the FacultyPlus page to get the application form and email address.",
+    "Fill the application form and attach a recent coloured photo.",
+    "Combine the form, updated CV and supporting documents into a single PDF.",
+    "Email it before 20 Nov 2026."
+   ],
+   "title": "Guest / Visiting Faculty – Python, AI & Machine Learning, Data Analytics (B.Pharm teaching)",
+   "type": "Faculty"
+  },
+  {
    "id": "jnj-manager-analytical-development-mumbai",
    "applyMode": "Online",
    "applyUrl": "https://www.careers.jnj.com/en/jobs/r-096820/manager-analytical-development-analytics/",
@@ -2355,6 +2358,55 @@
     "Follow up by phone/email as no last date is given"
    ],
    "title": "Associate Professor & Assistant Professor (Pharmaceutical Chemistry)",
+   "type": "Faculty"
+  },
+  {
+   "id": "ksr-college-of-pharmacy-tiruchengode-professor-associate-assistant-nov-2026",
+   "applyMode": "Email",
+   "applyUrl": "https://www.ksrei.org",
+   "category": "academic",
+   "city": "Tiruchengode, Namakkal",
+   "cvFit": {
+    "reason": "Associate Professor – Pharmaceutics asks for M.Pharm with 5+ years — you have M.Pharm Pharmaceutics plus a Ph.D., 6.9 years and 23 papers; Professor needs 10 years, which you don't yet have.",
+    "score": 88
+   },
+   "documents": [
+    "Updated bio-data / resume",
+    "Educational certificates",
+    "Experience certificates",
+    "Passport-size photo"
+   ],
+   "fit": {
+    "level": "Strong",
+    "reason": "Associate Professor in Pharmaceutics matches your M.Pharm Pharmaceutics specialisation and Ph.D."
+   },
+   "found": "2026-11-18",
+   "notes": "Applications accepted within 10 days of the notification dated 17 Nov 2026 (no calendar last date printed). Lab Technician post also advertised.",
+   "org": "K.S. Rangasamy College of Pharmacy (K.S.R Educational Institutions)",
+   "posted": "2026-11-17",
+   "posts": [
+    "Professor – Pharmaceutics",
+    "Professor – Pharmacology",
+    "Associate Professor – Pharmaceutics",
+    "Associate Professor – Pharmacognosy",
+    "Assistant Professor – Pharmaceutics",
+    "Assistant Professor – Pharmacognosy",
+    "Assistant Professor – Pharmacy Practice / Pharm.D.",
+    "Assistant Professor – Pharmaceutical Chemistry / Analysis"
+   ],
+   "qualification": "Professor: M.Pharm + Ph.D. with 10 years' experience. Associate Professor: M.Pharm with 5+ years' experience. Assistant Professor: M.Pharm (Pharm.D. for Pharmacy Practice), freshers or experienced; all as per university norms.",
+   "salary": "Not a constraint for the right candidate (no figure stated)",
+   "sector": "Private",
+   "sourceUrl": "https://www.facultyplus.com/faculty-hiring-2026-at-k-s-r-educational-institutions-namakkal/",
+   "state": "Tamil Nadu",
+   "steps": [
+    "Open the official notification PDF linked on the FacultyPlus page or www.ksrei.org to get the HR email address.",
+    "Prepare an updated CV highlighting Pharmaceutics teaching, Ph.D., publications and patents.",
+    "Attach copies of educational and experience certificates and a recent passport-size photo.",
+    "Email the application, naming the post (e.g. Associate Professor – Pharmaceutics) in the subject.",
+    "Apply within 10 days of the 17 Nov 2026 notification; shortlisted candidates are contacted by email (phone +91 90039 66566)."
+   ],
+   "title": "Professor / Associate Professor / Assistant Professor – Pharmacy (Pharmaceutics, Pharmacognosy, Pharmacology, Chemistry, Pharmacy Practice)",
    "type": "Faculty"
   },
   {
@@ -2572,39 +2624,6 @@
     "Submit the online application"
    ],
    "title": "Associate Clinical Trial Manager"
-  },
-  {
-   "id": "merck-specialist-regulatory-affairs-manager-bangalore",
-   "applyMode": "Apply online on Merck careers portal",
-   "applyUrl": "https://careers.merckgroup.com/global/en/job/304492/Specialist-Regulatory-Affairs-Manager",
-   "category": "other",
-   "city": "Bengaluru",
-   "cvFit": {
-    "reason": "Asks for 5 years in pharma/academia/R&D including 1 year in regulatory affairs — you have 6.9 years in academia/R&D but no dedicated regulatory affairs role.",
-    "score": 58
-   },
-   "fit": {
-    "level": "Good",
-    "reason": "Academia/R&D experience counts toward the 5 years, and your industrial documentation and QbD work are relevant, but direct regulatory affairs experience is required."
-   },
-   "found": "2026-10-20",
-   "lastDate": "2026-11-10",
-   "org": "Merck Limited",
-   "posted": "2026-10-08",
-   "posts": [
-    "Specialist – Regulatory Affairs Manager"
-   ],
-   "qualification": "Degree in Life Science or related discipline (M.Sc. preferred); minimum 5 years in pharma, competent authority or academia/R&D, including at least 1 year in regulatory affairs.",
-   "role": "Regulatory Affairs",
-   "sector": "Private",
-   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/merck-limited-hiring-regulatory-affairs-manager",
-   "state": "Karnataka",
-   "steps": [
-    "Open the Merck careers link",
-    "Create a profile and upload a CV highlighting regulatory/industrial documentation work",
-    "Submit the application before 10 Nov 2026"
-   ],
-   "title": "Specialist – Regulatory Affairs Manager"
   },
   {
    "id": "nandkumar-shinde-cop-vaijapur",
