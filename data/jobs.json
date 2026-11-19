@@ -1,7 +1,7 @@
 {
  "meta": {
-  "lastRun": "2026-11-18T01:17:32Z",
-  "total": 110,
+  "lastRun": "2026-11-19T01:17:27Z",
+  "total": 112,
   "added": 3
  },
  "jobs": [
@@ -1311,44 +1311,6 @@
    "title": "Formulation Scientist"
   },
   {
-   "id": "dop-technical-consultant-grade-1-2-advt-05-2026",
-   "applyMode": "Offline – speed post / hand delivery, or email (address in notification)",
-   "applyUrl": "https://pharma-dept.gov.in/recruitment",
-   "category": "other",
-   "city": "New Delhi",
-   "cvFit": {
-    "reason": "Grade 1 asks for M.Pharm plus 3–8 years drug R&D — your M.Pharm, Ph.D. and 3 years DST-SERB project research fit, though most of your experience is teaching rather than industry R&D.",
-    "score": 66
-   },
-   "fit": {
-    "level": "Good",
-    "reason": "Open to M.Pharm/Ph.D. pharmaceutical sciences with drug R&D experience, matching your Pharmaceutics research background."
-   },
-   "found": "2026-10-26",
-   "lastDate": "2026-11-11",
-   "notes": "No application fee. Contractual. Confirm email address and age limit in the official notification.",
-   "org": "Department of Pharmaceuticals, Ministry of Chemicals & Fertilizers",
-   "posted": "2026-10-22",
-   "posts": [
-    "Technical Consultant Grade 1 (2)",
-    "Technical Consultant Grade 2 (3)"
-   ],
-   "qualification": "Post-graduate degree (M.Pharm/M.Sc./M.Tech) in Pharmaceutical Sciences, Medicinal Chemistry, Pharmacology, Biotech or related field. Post-qualification drug R&D experience: Grade 1 3–8 years (max age 40), Grade 2 8–15 years (max age 50), as on 31.03.2026.",
-   "role": "Pharma Policy / Technical Consultant",
-   "salary": "Grade 1: ₹80,000–1,45,000/month; Grade 2: ₹1,45,000–2,65,000/month (fixed, contractual, 5% annual increment)",
-   "sector": "Government",
-   "sourceUrl": "https://www.freejobalert.com/articles/department-of-pharmaceuticals-technical-consultant-recruitment-2026-apply-offline-3075432",
-   "state": "Delhi",
-   "steps": [
-    "Download notification and application form from pharma-dept.gov.in/recruitment",
-    "Fill the prescribed form for Grade 1 (fits your experience band)",
-    "Attach self-attested degree, experience and research/publication proofs",
-    "Send by speed post or hand to Under Secretary (Policy), Dept of Pharmaceuticals, Room 22020, 2nd Floor, Kartavya Bhawan-II, New Delhi, or email as per notification",
-    "Ensure it reaches by 11 Nov 2026"
-   ],
-   "title": "Technical Consultant (Grade 1 & Grade 2) – Advt. 05/2026"
-  },
-  {
    "id": "dr-reddys-scientist-formulation-drug-product-biologics-hyderabad",
    "applyMode": "Online (company careers portal)",
    "applyUrl": "https://careers.drreddys.com/job/scientist-formulation-and-drug-product-in-hyderabad-jid-927",
@@ -2110,6 +2072,47 @@
    "type": "Scientist"
   },
   {
+   "id": "intas-senior-research-associate-formulation-rd-osd-ahmedabad-walkin",
+   "applyMode": "Walk-in interview, 29 Nov 2026, 9:30 am–4:00 pm, Crowne Plaza, S.G. Highway, Ahmedabad",
+   "applyUrl": "https://www.biotecnika.org/2026/11/intas-pharma-walk-in-interview-ahmedabad-2026/",
+   "category": "other",
+   "city": "Matoda, Ahmedabad",
+   "cvFit": {
+    "reason": "Wants M.Pharm with 3–8 years of OSD formulation R&D — your Pharmaceutics M.Pharm, QbD and tablet work fit, but most of your 6.9 years are academic/project research, not industry, and the level is below your current role.",
+    "score": 62
+   },
+   "documents": [
+    "Updated resume",
+    "Educational certificates",
+    "Experience documents",
+    "Salary documents"
+   ],
+   "fit": {
+    "level": "Good",
+    "reason": "Formulation R&D for oral solids matches your M.Pharm Pharmaceutics and QbD-based product development Ph.D."
+   },
+   "found": "2026-11-19",
+   "lastDate": "2026-11-29",
+   "org": "Intas Pharmaceuticals",
+   "posted": "2026-11-13",
+   "posts": [
+    "Research Associate",
+    "Senior Research Associate"
+   ],
+   "qualification": "M.Pharm with 3–8 years of experience in oral solid dosage formulation R&D.",
+   "role": "Formulation R&D",
+   "sector": "Private",
+   "sourceUrl": "https://www.jobavailables.com/2026/11/intas-pharmaceuticals-walk-in-interview.html",
+   "state": "Gujarat",
+   "steps": [
+    "Update your CV to highlight formulation development, QbD/Design Expert and OSD work (paediatric/effervescent tablets, tablet punching, dissolution)",
+    "Attend the walk-in on Sunday 29 Nov 2026 between 9:30 am and 4:00 pm at Crowne Plaza Ahmedabad City Centre, S.G. Highway",
+    "Carry resume, educational, experience and salary documents",
+    "Skip if you interviewed with Intas in the last six months"
+   ],
+   "title": "Research Associate / Senior Research Associate – Formulation R&D (OSD)"
+  },
+  {
    "id": "iqvia-regulatory-affairs-manager-hyderabad",
    "applyMode": "Online",
    "applyUrl": "https://jobs.iqvia.com/en/jobs/R1572647-0",
@@ -2770,6 +2773,47 @@
    "type": "Academic Associate"
   },
   {
+   "id": "niper-raebareli-project-research-scientist-i-icmr-parkinsons-microparticle",
+   "applyMode": "Walk-in interview (26 Nov 2026, 10:00 am; no entry after 11:00 am)",
+   "applyUrl": "https://niperraebareli.edu.in/Jobs/2026/Project_Position_Advertisement_ICMR_Pharmacology_and_Toxicology-Final.pdf",
+   "category": "academic",
+   "city": "Lucknow (transit campus)",
+   "cvFit": {
+    "reason": "Asks for M.Pharm Pharmacology or life-science M.Sc and age ≤35 — your Pharmaceutics M.Pharm and Ph.D. fit the microparticle formulation work, but the subject and age criteria may not match.",
+    "score": 50
+   },
+   "documents": [
+    "Prescribed application form",
+    "CV",
+    "Photocopies of all certificates"
+   ],
+   "fit": {
+    "level": "Low",
+    "reason": "Project lists M.Pharm Pharmacology, not Pharmaceutics, though the sustained-release microparticle work overlaps with your drug-delivery background."
+   },
+   "found": "2026-11-19",
+   "lastDate": "2026-11-26",
+   "notes": "Age limit 35 may exclude you unless relaxation applies; check eligibility for M.Pharm Pharmaceutics with the PI.",
+   "org": "NIPER Raebareli",
+   "posted": "2026-11-18",
+   "posts": [
+    "Project Research Scientist-I (Non-Medical)"
+   ],
+   "qualification": "M.Sc Life Science/Biochemistry/Neuroscience/Biotechnology with 60%, or MS Pharm / M.Pharm (Pharmacology), M.Tech Biotech, MD Pharmacology or MVSc; second-class PG with Ph.D. also qualifies. Max age 35 (relaxable). ICMR project on an oral sustained-release microparticle platform for Parkinson's therapy.",
+   "salary": "Rs 56,000 + HRA",
+   "sector": "Government",
+   "sourceUrl": "https://www.biotecnika.org/2026/11/niper-raebareli-jobs-project-research-scientist-2026/",
+   "state": "Uttar Pradesh",
+   "steps": [
+    "Download the official advertisement and application form from the NIPER Raebareli PDF",
+    "Email the filled form and CV to the PI (Dr. Ashok K. Datusalia) in advance",
+    "Attend the walk-in at NIPER Raebareli transit campus, Lucknow on 26 Nov 2026 by 10:00 am",
+    "Carry the form, CV and photocopies of all certificates; ask the PI about online interview if needed"
+   ],
+   "title": "Project Research Scientist-I (Non-Medical) – ICMR project",
+   "type": "Scientist"
+  },
+  {
    "id": "nmims-sptm-hyderabad-pharmaceutics-faculty",
    "applyMode": "Online (NMIMS career portal)",
    "applyUrl": "https://fa-elxu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/14724/",
@@ -2983,6 +3027,49 @@
     "Highlight your design patents and formulation expertise"
    ],
    "title": "Senior Associate – Pharmaceutical Patent Practice (Band 1/2)"
+  },
+  {
+   "id": "peri-college-of-pharmacy-chengalpattu-professor-associate-assistant",
+   "applyMode": "Email (soft copy) or WhatsApp",
+   "applyUrl": "https://www.facultyplus.com/faculty-jobs-at-peri-college-of-pharmacy-chengalpattu/",
+   "category": "academic",
+   "city": "Mannivakkam, Chengalpattu (Chennai)",
+   "cvFit": {
+    "reason": "Wants M.Pharm/Ph.D. in Pharmaceutics with teaching experience — you have both plus 3.8 years of teaching and a current Associate Professor role; location is far from your preferred states.",
+    "score": 86
+   },
+   "documents": [
+    "Letter of interest",
+    "Updated CV",
+    "Educational certificates and mark sheets",
+    "Experience certificates"
+   ],
+   "fit": {
+    "level": "Strong",
+    "reason": "Pharmaceutics is one of the listed departments, matching your M.Pharm Pharmaceutics and Ph.D."
+   },
+   "found": "2026-11-19",
+   "notes": "No fixed last date – 'as soon as possible, immediate joining preferred'.",
+   "org": "PERI College of Pharmacy",
+   "posted": "2026-11-16",
+   "posts": [
+    "Professor",
+    "Associate Professor",
+    "Assistant Professor"
+   ],
+   "qualification": "M.Pharm or Ph.D. in the relevant discipline (Pharmaceutics, Pharmacology, Pharmacognosy, Pharmacy Practice, Pharmaceutical Chemistry). Assistant Professor needs at least 2 years of teaching experience; other posts as per PCI norms.",
+   "salary": "As per institutional norms",
+   "sector": "Private",
+   "sourceUrl": "https://www.facultyplus.com/faculty-jobs-at-peri-college-of-pharmacy-chengalpattu/",
+   "state": "Tamil Nadu",
+   "steps": [
+    "Prepare a letter of interest naming the post (Associate Professor – Pharmaceutics) and a detailed CV",
+    "Email both as soft copies to the college recruitment address (jobs@peri.education as decoded from the listing – verify first)",
+    "Optionally follow up on WhatsApp 7418885569 / 9566043014",
+    "Wait for shortlisting email; immediate joining is preferred"
+   ],
+   "title": "Professor, Associate Professor & Assistant Professor – Pharmacy",
+   "type": "Faculty"
   },
   {
    "id": "piramal-sr-research-scientist-medicinal-chemistry-ahmedabad",
