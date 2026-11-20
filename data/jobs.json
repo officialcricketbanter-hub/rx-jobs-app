@@ -1,8 +1,8 @@
 {
  "meta": {
-  "lastRun": "2026-11-19T01:17:27Z",
-  "total": 112,
-  "added": 3
+  "lastRun": "2026-11-20T01:17:18Z",
+  "total": 115,
+  "added": 4
  },
  "jobs": [
   {
@@ -1728,6 +1728,48 @@
    "type": "Faculty"
   },
   {
+   "id": "iasst-guwahati-associate-professor-ii-2026",
+   "applyMode": "Online",
+   "applyUrl": "https://iasst.gov.in/",
+   "category": "academic",
+   "city": "Guwahati",
+   "cvFit": {
+    "reason": "Requires 10 years after Ph.D. with 5 at Level 11 — your Ph.D. is from 2026, so you do not meet the experience rule yet.",
+    "score": 25
+   },
+   "documents": [
+    "Research summary (1000 words)",
+    "Work plan (2000 words)",
+    "3 recommendation letters",
+    "Academic records"
+   ],
+   "fit": {
+    "level": "Low",
+    "reason": "Pharmacy is eligible but the post is senior research faculty needing a decade after Ph.D."
+   },
+   "found": "2026-11-20",
+   "lastDate": "2026-12-17",
+   "notes": "No application fee. Government employees need an NOC.",
+   "org": "Institute of Advanced Study in Science and Technology (IASST), DST",
+   "posted": "2026-11-18",
+   "posts": [
+    "Associate Professor-II"
+   ],
+   "qualification": "First-class Master's in Life Sciences or Pharmacy/Pharmacology and Ph.D. in Life Sciences/Pharmacy/Pharmacology/Pharmaceuticals, with 10 years post-Ph.D. experience including 5 years at Level 11 or above; max age 50.",
+   "salary": "Level 13 (Rs 1,18,500 – 2,14,100)",
+   "sector": "Government",
+   "sourceUrl": "https://www.dailyassamjob.in/2026/11/iasst-guwahati-recruitment-2026-apply.html",
+   "state": "Assam",
+   "steps": [
+    "Read the advertisement PDF on iasst.gov.in",
+    "Prepare a 1000-word research summary and 2000-word work plan",
+    "Arrange 3 recommendation letters (one from your Ph.D. supervisor)",
+    "Submit the online application by 17 Dec 2026"
+   ],
+   "title": "Associate Professor-II (3 posts)",
+   "type": "Scientist"
+  },
+  {
    "id": "ibsd-imphal-scientist-c-d-e-advt-04-2026",
    "applyMode": "Online (IBSD job portal) + application fee by NEFT/RTGS",
    "applyUrl": "https://ibsd.gov.in/job-portal/login",
@@ -2327,6 +2369,49 @@
     "Apply immediately; phone +91 9092690231 for queries"
    ],
    "title": "Associate Professor, Assistant Professor",
+   "type": "Faculty"
+  },
+  {
+   "id": "klr-pharmacy-college-palvancha-faculty-walkin-nov-2026",
+   "applyMode": "Walk-in interview (Sun 22 Nov 2026, 10:00 AM) or email resume",
+   "category": "academic",
+   "city": "Palvancha, Bhadradri Kothagudem",
+   "cvFit": {
+    "reason": "PCI-norm faculty posts with no subject named — your Ph.D., 6.9 years and Associate Professor rank fit an Associate Professor slot, but the walk-in is far away in Telangana at short notice.",
+    "score": 72
+   },
+   "documents": [
+    "Updated resume",
+    "Educational certificates and mark sheets",
+    "Experience certificates",
+    "Passport-size photo"
+   ],
+   "fit": {
+    "level": "Good",
+    "reason": "General pharmacy faculty drive; Pharmaceutics is not named but your M.Pharm Pharmaceutics and Ph.D. suit any core faculty post."
+   },
+   "found": "2026-11-20",
+   "lastDate": "2026-11-22",
+   "notes": "Engineering posts in the same ad. Specialisations are not listed.",
+   "org": "KLR Pharmacy College (KLR Group of Institutions)",
+   "posted": "2026-11-19",
+   "posts": [
+    "Principal",
+    "Professor",
+    "Associate Professor",
+    "Assistant Professor"
+   ],
+   "qualification": "As per AICTE / PCI norms; subjects not specified.",
+   "salary": "As per AICTE / PCI norms",
+   "sector": "Private",
+   "sourceUrl": "https://www.facultyplus.com/academic-careers-2026-at-klr-group-of-institutions-bhadradri-kothagudem/",
+   "state": "Telangana",
+   "steps": [
+    "Attend the walk-in on Sunday 22 Nov 2026 at 10:00 AM at KLR Pharmacy Campus, Contractors Colony, Palvancha",
+    "Carry CV, certificates, experience letters and a photo",
+    "If unable to attend, email your resume (addresses on the facultyplus page) or call 9989372551 / 8096951481"
+   ],
+   "title": "Principal / Professor / Associate Professor / Assistant Professor – Walk-in",
    "type": "Faculty"
   },
   {
@@ -3855,6 +3940,49 @@
    "type": "Faculty"
   },
   {
+   "id": "swift-group-of-colleges-rajpura-pharmacy-faculty-nov-2026",
+   "applyMode": "Email, post or in person",
+   "applyUrl": "https://www.swiftcollege.edu.in/",
+   "category": "academic",
+   "city": "Rajpura (Ghaggar Sarai, Patiala)",
+   "cvFit": {
+    "reason": "Asks for M.Pharm in Pharmaceutics with PCI-norm experience — you have M.Pharm Pharmaceutics, a Ph.D., 6.9 years and current Associate Professor rank, so Associate Professor fits well (Professor needs more teaching years).",
+    "score": 88
+   },
+   "documents": [
+    "Updated CV",
+    "Educational certificates and mark sheets",
+    "Experience certificates",
+    "Passport-size photo"
+   ],
+   "fit": {
+    "level": "Strong",
+    "reason": "Pharmaceutics is one of the listed subjects, matching your M.Pharm Pharmaceutics and Pharma Ph.D."
+   },
+   "found": "2026-11-20",
+   "notes": "Notice dated 17 Nov 2026 says apply within 20 days; no exact closing date printed. Nursing posts in the same ad.",
+   "org": "Swift Group of Colleges",
+   "posted": "2026-11-19",
+   "posts": [
+    "Professor",
+    "Associate Professor",
+    "Assistant Professor"
+   ],
+   "qualification": "M.Pharm in the relevant discipline (Pharmaceutics, Pharmacology, Pharmacognosy, Pharmaceutical Chemistry, Pharmacy Practice); experience as per PCI/regulatory norms, freshers may also apply.",
+   "salary": "As per experience",
+   "sector": "Private",
+   "sourceUrl": "https://www.facultyplus.com/faculty-hiring-2026-at-swift-group-of-colleges-rajpura/",
+   "state": "Punjab",
+   "steps": [
+    "Open the official notice on the facultyplus listing and note the email address",
+    "Prepare CV and certificates for the Pharmaceutics Professor/Associate Professor post",
+    "Email the application, or post/hand it in at Swift Group of Colleges, Ghaggar Sarai, Tehsil Rajpura, Distt. Patiala, Punjab 140401",
+    "Apply within 20 days of 17 Nov 2026 (about 7 Dec); shortlisted candidates are informed by email"
+   ],
+   "title": "Professor / Associate Professor / Assistant Professor – Pharmacy",
+   "type": "Faculty"
+  },
+  {
    "id": "tetri-chandravansi-pharmacy-college-palamu-faculty",
    "applyMode": "Email",
    "category": "academic",
@@ -3921,46 +4049,6 @@
    "title": "Lead GPV Professional, ICSR Conventions"
   },
   {
-   "id": "thsti-faridabad-project-research-scientist-i-non-medical",
-   "applyMode": "Walk-in interview, 12 Nov 2026, 9:00 AM",
-   "applyUrl": "https://thsti.res.in/public/upload/news/1793332809img.pdf",
-   "category": "academic",
-   "city": "Faridabad",
-   "cvFit": {
-    "reason": "Needs only a PG degree, which you exceed, but it prefers clinical trial/GCP experience you don't list, and age is capped at 35.",
-    "score": 52
-   },
-   "documents": [
-    "CV",
-    "Original certificates + photocopies",
-    "Photo ID"
-   ],
-   "fit": {
-    "level": "Low",
-    "reason": "Clinical research project role, not Pharmaceutics or formulation."
-   },
-   "found": "2026-11-05",
-   "lastDate": "2026-11-12",
-   "org": "BRIC-Translational Health Science and Technology Institute (THSTI)",
-   "posted": "2026-10-29",
-   "posts": [
-    "Project Research Scientist-I (Non-Medical) (1)"
-   ],
-   "qualification": "Postgraduate degree; desirable: PG in clinical research/trials, epidemiology or public health, clinical research experience with biological samples, SOP writing and GCP certification. Age up to 35 years.",
-   "salary": "Rs. 56,000 + HRA per month",
-   "sector": "Government",
-   "sourceUrl": "https://www.biotecnika.org/2026/10/research-jobs-at-bric-thsti-faridabad/",
-   "state": "Haryana",
-   "steps": [
-    "Read notice THS-C/RN/20/2026 on thsti.res.in.",
-    "Check that you meet the 35-year age limit.",
-    "Bring your CV, original certificates and photocopies, and ID.",
-    "Attend the walk-in at THSTI, NCR Biotech Science Cluster, Faridabad, on 12 Nov 2026 at 9:00 AM."
-   ],
-   "title": "Project Research Scientist-I (Non-Medical)",
-   "type": "Scientist"
-  },
-  {
    "id": "usp-scientist-iii-analytical-rd-prep-hplc-hyderabad",
    "applyMode": "Online",
    "applyUrl": "https://usp.jobs/hyderabad-ind/scientist-iii-analytical-research-developmentprep-hplc/E5FE151B7DA14E748DEFF41B4CEA845F/job/",
@@ -3993,6 +4081,45 @@
     "Submit the online application"
    ],
    "title": "Scientist III, Analytical R&D (Prep HPLC), Reference Standard Laboratory"
+  },
+  {
+   "id": "vasantidevi-patil-institute-of-pharmacy-kodoli-faculty-nov-2026",
+   "applyMode": "Offline (by post/hand to the Secretary)",
+   "applyUrl": "https://www.unishivaji.ac.in/uploads/recruitment/2026/Nov/19-Nov/kodoli.pdf",
+   "category": "academic",
+   "city": "Kodoli, Kolhapur",
+   "cvFit": {
+    "reason": "Associate Professor in Pharmaceutics needs a Ph.D. and teaching/research experience per PCI — you have the Ph.D., 6.9 years and 23 papers; Professor would likely need more years.",
+    "score": 86
+   },
+   "fit": {
+    "level": "Strong",
+    "reason": "Dedicated Pharmaceutics posts at all three levels match your M.Pharm Pharmaceutics and Ph.D."
+   },
+   "found": "2026-11-20",
+   "lastDate": "2026-12-04",
+   "org": "Vasantidevi Patil Institute of Pharmacy (Shri Yashwant Shikshan Prasarak Mandal)",
+   "posted": "2026-11-19",
+   "posts": [
+    "Professor – Pharmaceutics (1)",
+    "Associate Professor – Pharmaceutics (2)",
+    "Assistant Professor – Pharmaceutics (4)",
+    "Posts in Pharm. Chemistry, Pharmacology, Pharmacognosy, Pharm. Analysis, Pharmacy Practice, QA"
+   ],
+   "qualification": "As prescribed by the Govt of Maharashtra, apex body (PCI/AICTE) and Shivaji University, Kolhapur; Pharmaceutics has 1 Professor, 2 Associate and 4 Assistant Professor posts.",
+   "salary": "Pay scale as per Govt/University norms",
+   "sector": "Private",
+   "sourceUrl": "https://indiangovtjobs.co.in/vasantidevi-patil-institute-of-pharmacy-professor-pharmaceutics/",
+   "state": "Maharashtra",
+   "steps": [
+    "Download the Shivaji University advertisement PDF and check the reservation of the Pharmaceutics post",
+    "Prepare the application with CV and attested certificates",
+    "Send it to the Secretary, Shri Yashwant Shikshan Prasarak Mandal, Kodoli, Tal. Panhala, Dist. Kolhapur",
+    "Reserved-category candidates also send a copy to the Deputy Registrar, Special Cell, Shivaji University, Kolhapur-416004",
+    "Ensure it reaches by 4 Dec 2026"
+   ],
+   "title": "Professor / Associate Professor / Assistant Professor (32 posts)",
+   "type": "Faculty"
   },
   {
    "id": "vivekananda-global-college-of-pharmacy-sivagangai-faculty",
