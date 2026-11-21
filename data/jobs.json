@@ -1,8 +1,8 @@
 {
  "meta": {
-  "lastRun": "2026-11-20T01:17:18Z",
-  "total": 115,
-  "added": 4
+  "lastRun": "2026-11-21T01:16:22Z",
+  "total": 117,
+  "added": 3
  },
  "jobs": [
   {
@@ -689,6 +689,52 @@
    "type": "Faculty"
   },
   {
+   "id": "bfuhs-faridkot-guest-faculty-pharmacy-dec-2026",
+   "applyMode": "Walk-in interview with application form and online fee",
+   "applyUrl": "https://bfuhs.ggsmch.org/wp-content/uploads/2026/11/Advert-for-IT.pdf",
+   "category": "academic",
+   "city": "Faridkot",
+   "cvFit": {
+    "reason": "Asks for B.Pharm + M.Pharm in the subject — you match Physical Pharmaceutics/QA well, but this is a per-lecture guest post well below your Associate Professor level.",
+    "score": 68
+   },
+   "documents": [
+    "Filled application form with photo",
+    "Original and self-attested copies of all certificates",
+    "Date of birth proof",
+    "Category certificate (SC/BC, if applicable)",
+    "Experience certificates in chronological order",
+    "Fee payment receipt details"
+   ],
+   "fit": {
+    "level": "Strong",
+    "reason": "One of the posts is Physical Pharmaceutics-II / Quality Assurance, directly in your M.Pharm Pharmaceutics and Ph.D. area."
+   },
+   "found": "2026-11-21",
+   "lastDate": "2026-12-01",
+   "notes": "Lecture-basis guest post, no fixed monthly salary; no TA/DA. Form asks whether Punjabi was passed up to Matric. Contact 01639-256232/256236.",
+   "org": "Baba Farid University of Health Sciences (BFUHS)",
+   "posted": "2026-11-19",
+   "posts": [
+    "Guest Faculty – Physical Pharmaceutics-II / Quality Assurance",
+    "Guest Faculty – Pharmaceutical Inorganic & Analytical Chemistry / Pharmaceutical Organic Chemistry",
+    "Guest Faculty – Human Anatomy, Physiology & Pathophysiology / Pharmacology-I"
+   ],
+   "qualification": "First-class B.Pharm with Master's in Pharmacy in the appropriate specialisation (PCI recognised); Pharm.D eligible for pathophysiology/pharmacology subjects. Experience not stated. Advt. No. BFU-26/29 (10 guest posts in all, 3 in pharmacy).",
+   "salary": "Honorarium Rs 500 per lecture and Rs 250 per practical hour",
+   "sector": "Government",
+   "sourceUrl": "https://www.freejobalert.com/articles/bfuhs-guest-faculty-recruitment-2026-walkin-for-10-posts-3082702",
+   "state": "Punjab",
+   "steps": [
+    "Download the advertisement and application form from the BFUHS website (bfuhs.ac.in)",
+    "Pay the non-refundable fee online (Rs 590 incl. GST general; Rs 295 SC) and note the receipt details",
+    "Fill the form for the Physical Pharmaceutics-II / Quality Assurance post and affix a passport photo",
+    "Attend the walk-in on 1 Dec 2026 at the Committee Room, BFUHS, Sadiq Road, Faridkot (registration from 9:00 AM, interview 11:30 AM) with originals and self-attested copies"
+   ],
+   "title": "Guest Faculty (Pharmacy subjects) – Walk-in",
+   "type": "Faculty"
+  },
+  {
    "id": "bharath-institute-pharmacy-professor-associate-professor",
    "applyMode": "Email CV and documents (address in the notification)",
    "category": "academic",
@@ -820,6 +866,40 @@
     "Submit; the role is open until filled"
    ],
    "title": "Scientific Writer II"
+  },
+  {
+   "id": "boehringer-ingelheim-manager-regulatory-affairs-mumbai",
+   "applyMode": "Online (company careers site)",
+   "applyUrl": "https://jobs.boehringer-ingelheim.com/job/Mumbai-Manager-Regulatory-Affairs-Mumbai-Delhi-Indi/1449228933/",
+   "category": "other",
+   "city": "Mumbai",
+   "cvFit": {
+    "reason": "Asks for 4-6 years of hands-on regulatory affairs with authorities at an MNC — your experience is academic and research, not RA.",
+    "score": 40
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "Regulatory affairs uses your industrial documentation background but not your pharmaceutics research specialisation."
+   },
+   "found": "2026-11-21",
+   "notes": "No closing date stated; listing showed about 29 days open as of 9 Nov 2026.",
+   "org": "Boehringer Ingelheim India",
+   "posted": "2026-11-07",
+   "posts": [
+    "Manager Regulatory Affairs (Mumbai/Delhi)"
+   ],
+   "qualification": "Bachelor's degree in pharmacy or similar medical education with 4-6 years in pharma regulatory affairs at a multinational, including direct interaction with regulatory authorities; people management an asset.",
+   "role": "Regulatory Affairs",
+   "sector": "Private",
+   "sourceUrl": "https://freehire.me/jobs/manager-regulatory-affairs-mumbai-boehringer-ingelheim-2tdh4vdm",
+   "state": "Maharashtra",
+   "steps": [
+    "Open the Boehringer Ingelheim careers link",
+    "Create an account and candidate profile",
+    "Upload your resume emphasising industrial documentation and regulatory knowledge",
+    "Submit the application"
+   ],
+   "title": "Manager Regulatory Affairs"
   },
   {
    "id": "bric-niab-hyderabad-scientist-c-d-advt-31-2026",
@@ -1520,40 +1600,6 @@
    ],
    "title": "Assistant / Associate Professor / Professor – Pharmacy (School of Medical and Allied Sciences)",
    "type": "Faculty"
-  },
-  {
-   "id": "globallux-senior-scientist-formulation",
-   "applyMode": "Email CV to ashish.makwana@globalluxrx.com or apply via LinkedIn",
-   "applyUrl": "https://www.linkedin.com/posts/we-are-hiring-senior-scientist-formulation-share-7513935051995344901-tJu8/",
-   "category": "academic",
-   "city": "Navi Mumbai (Rabale)",
-   "cvFit": {
-    "reason": "Wants 5-10 years of hands-on generic formulation development — your QbD and formulation research match the subject, but most of your experience is academic.",
-    "score": 72
-   },
-   "fit": {
-    "level": "Good",
-    "reason": "Formulation development matches your Pharmaceutics background, but it asks for 5–10 years of industry formulation experience."
-   },
-   "found": "2026-10-20",
-   "lastDate": "2026-11-13",
-   "org": "Globallux",
-   "posted": "2026-10-14",
-   "posts": [
-    "Senior Scientist"
-   ],
-   "qualification": "5–10 years of hands-on formulation development (oral solid dosage; injectables/oral liquids a plus) for generic, value-added generic and 505(b)(2) programmes for US/EU markets. Degree not specified.",
-   "sector": "Private",
-   "sourceUrl": "https://jobs.biopatrika.com/job/senior-scientist-formulation-development/",
-   "state": "Maharashtra",
-   "steps": [
-    "Update your CV to highlight formulation development, scale-up and regulatory-market work",
-    "Email it to ashish.makwana@globalluxrx.com (or apply through the LinkedIn post)",
-    "Mention 'Senior Scientist – Formulation Development' in the subject",
-    "Apply before 13 Nov 2026"
-   ],
-   "title": "Senior Scientist – Formulation Development",
-   "type": "Scientist"
   },
   {
    "id": "gsk-sr-scientist-pharmacovigilance-operations-hyderabad",
@@ -2971,6 +3017,40 @@
     "Apply online with your CV"
    ],
    "title": "PV Process Excellence Specialist (Global Patient Safety)"
+  },
+  {
+   "id": "novo-nordisk-sr-safety-medical-writer-bengaluru",
+   "applyMode": "Online (company careers portal)",
+   "applyUrl": "https://careers.novonordisk.com/job/Bangalore-Sr-Safety-Medical-Writer-Karn/1457473533/",
+   "category": "other",
+   "city": "Bengaluru",
+   "cvFit": {
+    "reason": "Asks for 7+ years in pharmacovigilance and medical writing — you have a Ph.D., 23 papers and 13 chapters but no PSUR/DSUR/RMP experience.",
+    "score": 45
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "Safety medical writing draws on your Ph.D. writing record but is pharmacovigilance-focused rather than pharmaceutics."
+   },
+   "found": "2026-11-21",
+   "lastDate": "2026-12-02",
+   "org": "Novo Nordisk Global Business Services",
+   "posted": "2026-11-17",
+   "posts": [
+    "Sr Safety Medical Writer (Job Level 7)"
+   ],
+   "qualification": "Master's and/or Ph.D. in Life Sciences (e.g. Pharmacy) with more than 7 years in pharmacovigilance and medical writing; knowledge of PSURs, DSURs and RMPs; MAA submission experience an advantage.",
+   "role": "Medical Writer",
+   "sector": "Private",
+   "sourceUrl": "https://meditechnika.org/novo-nordisk-medical-writer-job-bengaluru/",
+   "state": "Karnataka",
+   "steps": [
+    "Open the Novo Nordisk careers link",
+    "Create a candidate profile",
+    "Upload a CV highlighting scientific writing, publications and any safety/regulatory documentation",
+    "Submit before 2 Dec 2026"
+   ],
+   "title": "Senior Safety Medical Writer"
   },
   {
    "id": "oxford-college-of-pharmacy-bengaluru-faculty",
