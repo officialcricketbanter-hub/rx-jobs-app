@@ -1,8 +1,8 @@
 {
  "meta": {
-  "lastRun": "2026-11-21T01:16:22Z",
-  "total": 117,
-  "added": 3
+  "lastRun": "2026-11-22T01:17:43Z",
+  "total": 116,
+  "added": 1
  },
  "jobs": [
   {
@@ -2082,42 +2082,6 @@
    "type": "Scientist"
   },
   {
-   "id": "iit-kharagpur-research-associate-mst-icmr-cancer-imager",
-   "applyMode": "Online (IIT Kharagpur ERP)",
-   "applyUrl": "https://erp.iitkgp.ac.in/SricWeb/showAdvtFilePdf.htm?ref_no=IIT/SRIC/R/IIC/2026/102",
-   "category": "academic",
-   "city": "Kharagpur",
-   "cvFit": {
-    "reason": "Asks for a Ph.D. or M.Pharm with 3 years' research and an SCI paper — you have both, but the imaging-device project is far from your formulation work and it is a short project post.",
-    "score": 62
-   },
-   "fit": {
-    "level": "Low",
-    "reason": "Project is on a cancer screening imaging device, outside your Pharmaceutics/formulation specialisation, though your Ph.D. qualifies."
-   },
-   "found": "2026-11-12",
-   "lastDate": "2026-11-14",
-   "notes": "Time-bound post of 6 months or until the project ends.",
-   "org": "IIT Kharagpur, Department of Medical Science and Technology",
-   "posted": "2026-10-30",
-   "posts": [
-    "Research Associate"
-   ],
-   "qualification": "Ph.D., MD, MS or MDS; or 3 years of research/teaching/design experience after MVSc, M.Pharm, ME or M.Tech with at least one SCI journal paper.",
-   "salary": "Up to Rs. 61,000 per month",
-   "sector": "Government",
-   "sourceUrl": "https://www.careerswave.in/iit-kharagpur-research-associate-2026/",
-   "state": "West Bengal",
-   "steps": [
-    "Read advertisement IIT/SRIC/R/IIC/2026/102 on the IIT Kharagpur ERP",
-    "Register on the SRIC online application portal",
-    "Fill in the form and upload your CV, Ph.D. certificate and SCI publications",
-    "Submit by 14 Nov 2026 (no fee)"
-   ],
-   "title": "Research Associate (ICMR cancer screening imager project)",
-   "type": "Academic Associate"
-  },
-  {
    "id": "ilbs-new-delhi-project-research-scientist-iii-mash-icmr",
    "applyMode": "Email resume; interview/skill test on 21 Nov 2026 at ILBS, Vasant Kunj",
    "applyUrl": "https://www.ilbs.in/images/media/advt_for_various_post_under_project_02_11_2026.pdf",
@@ -2620,40 +2584,6 @@
     "Complete the talent-community profile and submit"
    ],
    "title": "Senior Research Scientist – Pharma Research (OOD)"
-  },
-  {
-   "id": "lvpei-project-research-scientist-i-ocular-oncology",
-   "applyMode": "Email CV",
-   "category": "academic",
-   "city": "Hyderabad",
-   "cvFit": {
-    "reason": "You have the Ph.D. and publications, but it wants cancer-biology, EV and proteomics bench skills, which aren't on your CV.",
-    "score": 42
-   },
-   "fit": {
-    "level": "Low",
-    "reason": "A cancer-biology and proteomics project, outside your Pharmaceutics and formulation focus."
-   },
-   "found": "2026-11-07",
-   "lastDate": "2026-11-14",
-   "notes": "ICMR-funded project on biomarker discovery in ocular cancers at the Kallam Anji Reddy Campus. The post lasts as long as the project.",
-   "org": "L V Prasad Eye Institute (LVPEI)",
-   "posted": "2026-11-05",
-   "posts": [
-    "Project Research Scientist-I (Non-Medical)"
-   ],
-   "qualification": "Ph.D. plus a PG degree in Biotechnology, Biochemistry, Life Sciences or a related field, OR a first-class PG with 3 years of cancer biology research. Desirable: extracellular vesicles, cell culture, proteomics, flow cytometry.",
-   "salary": "As per ICMR norms",
-   "sector": "Private",
-   "sourceUrl": "https://www.biotecnika.org/2026/11/lvpei-project-research-scientist-hyderabad-2026/",
-   "state": "Telangana",
-   "steps": [
-    "Open the notice for the PI email addresses (Dr Rani Pallavi, Dr Vijitha Sai Vempuluru, Dr Swathi Kaliki)",
-    "Prepare a CV with qualifications, research experience, technical skills and publications",
-    "Email it before 14 Nov 2026 with the post name in the subject line"
-   ],
-   "title": "Project Research Scientist-I (Non-Medical), Ocular Oncology",
-   "type": "Scientist"
   },
   {
    "id": "mandsaur-university-pharmacy-faculty-nov-2026",
@@ -3355,6 +3285,50 @@
     "Submit soon — no closing date is stated"
    ],
    "title": "Medical Writer (Consultant) – Remote"
+  },
+  {
+   "id": "raisoni-education-saikheda-pharmacy-faculty-nov-2026",
+   "applyMode": "Email (recruitment.rgi@raisoni.net — verify on the official notice)",
+   "category": "academic",
+   "city": "Saikheda (Chhindwara)",
+   "cvFit": {
+    "reason": "Asks for a Master's and Ph.D. in Pharmacy with experience preferred — you have both plus 6.9 years and a current Associate Professor role; subject isn't specified.",
+    "score": 82
+   },
+   "documents": [
+    "Updated CV",
+    "Scanned certificates",
+    "Experience certificates (if any)",
+    "Passport-size photographs"
+   ],
+   "fit": {
+    "level": "Good",
+    "reason": "Pharmacy faculty posts at all levels needing M.Pharm + Ph.D., which matches your Pharmaceutics M.Pharm and Pharmaceutical Sciences Ph.D., though no specialisation is named."
+   },
+   "found": "2026-11-22",
+   "lastDate": "2026-11-30",
+   "notes": "Group-wide notice; mention the campus/location you want in the email. No interview date — shortlisting by email.",
+   "org": "Raisoni Education (Raisoni Group of Institutions)",
+   "posted": "2026-11-21",
+   "posts": [
+    "Professor (Pharmacy)",
+    "Associate Professor (Pharmacy)",
+    "Assistant Professor (Pharmacy)"
+   ],
+   "qualification": "Master's and Ph.D. in the respective discipline (Pharmacy); relevant experience preferred, no minimum stated. Openings are group-wide across Nagpur, Pune, Amravati, Jalgaon (Maharashtra) and Saikheda (Madhya Pradesh); pharmacy specialisations are not listed.",
+   "salary": "Commensurate with qualification and experience",
+   "sector": "Private",
+   "sourceUrl": "https://www.facultyplus.com/job-vacancies-2026-at-raisoni-education-maharashtra-and-madhya-pradesh/",
+   "state": "Madhya Pradesh",
+   "steps": [
+    "Open the Faculty Plus posting and check the official Raisoni notice",
+    "Prepare an updated CV highlighting Pharmaceutics, QbD and publications",
+    "Write an email naming the post (e.g. Associate Professor – Pharmacy) and preferred location (Saikheda, MP or a Maharashtra campus)",
+    "Attach CV, scanned certificates, experience letters and passport photo",
+    "Send before 30 November 2026; shortlisted candidates are informed by email"
+   ],
+   "title": "Professor / Associate Professor / Assistant Professor – Pharmacy",
+   "type": "Faculty"
   },
   {
    "id": "rbbsu-dehradun-pharmacy-faculty-nov-2026",
