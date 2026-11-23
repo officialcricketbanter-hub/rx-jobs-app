@@ -1,7 +1,7 @@
 {
  "meta": {
-  "lastRun": "2026-11-22T01:17:43Z",
-  "total": 116,
+  "lastRun": "2026-11-23T01:17:32Z",
+  "total": 111,
   "added": 1
  },
  "jobs": [
@@ -129,6 +129,49 @@
     "Watch your email for the interview call"
    ],
    "title": "Project Research Scientist-I (Non-Medical) – ICMR TB-HIV Pharmacokinetics Project",
+   "type": "Scientist"
+  },
+  {
+   "id": "aiims-bhubaneswar-project-research-scientist-i-pharmacology-depression",
+   "applyMode": "Google Form by 24 Nov 2026, then walk-in interview on 27 Nov 2026 at Dept. of Pharmacology, AIIMS Bhubaneswar",
+   "applyUrl": "https://forms.gle/5AoBfqKonA5ZnksF6",
+   "category": "academic",
+   "city": "Bhubaneswar",
+   "cvFit": {
+    "reason": "Asks for a PG in Pharmaceutical/Life Sciences — your M.Pharm and Ph.D. qualify, but the work is molecular/cell-culture pharmacology and it is a junior contract post for your 6.9 years.",
+    "score": 62
+   },
+   "documents": [
+    "Filled application form",
+    "Original certificates",
+    "Self-attested photocopies",
+    "One passport-size photo"
+   ],
+   "fit": {
+    "level": "Good",
+    "reason": "Pharmaceutical Sciences PG is eligible, but the project is pharmacology/molecular biology rather than pharmaceutics formulation."
+   },
+   "found": "2026-11-23",
+   "lastDate": "2026-11-24",
+   "notes": "ICMR-funded project on depression phenotypes. Google Form deadline is 24 Nov 2026 — very close.",
+   "org": "AIIMS Bhubaneswar",
+   "posted": "2026-11-18",
+   "posts": [
+    "Project Research Scientist-I (Non-Medical)"
+   ],
+   "qualification": "Post-graduate degree (incl. integrated PG) in Life Sciences or Pharmaceutical Sciences; molecular biology and cell-culture experience desirable. Max age 35; candidates in regular government service not eligible.",
+   "salary": "Rs 56,000 + 20% HRA per month (consolidated), 11 months extendable up to 36 months",
+   "sector": "Government",
+   "sourceUrl": "https://aiimsbhubaneswar.nic.in/wp-content/uploads/2026/11/Project-Staff-Recruitment-Advertisement-And-Application-Form-R-MAITI.pdf",
+   "state": "Odisha",
+   "steps": [
+    "Read the advertisement (Advt. PHARMA-13011/4/2026) on the AIIMS Bhubaneswar website",
+    "Fill the Google Form for PRS-I before 24 Nov 2026",
+    "Print and fill the application form attached to the advertisement",
+    "Attend the walk-in interview on 27 Nov 2026 at the Dept. of Pharmacology with originals, photocopies and a passport photo",
+    "Be ready for a possible screening MCQ test"
+   ],
+   "title": "Project Research Scientist-I (Non-Medical), Dept. of Pharmacology – ICMR project",
    "type": "Scientist"
   },
   {
@@ -1602,40 +1645,6 @@
    "type": "Faculty"
   },
   {
-   "id": "gsk-sr-scientist-pharmacovigilance-operations-hyderabad",
-   "applyMode": "Apply online on GSK Careers (Workday)",
-   "applyUrl": "https://gsknch.wd3.myworkdayjobs.com/GSKCareers/job/India---Andra-Pradesh---Hyderabad/Sr-Scientist-Pharmacovigilance-Operations-Oversight-and-Strategy_547708",
-   "category": "other",
-   "city": "Hyderabad",
-   "cvFit": {
-    "reason": "Wants PharmD/MD and 10–14 years of pharma-industry PV experience — you have a Pharmaceutics M.Pharm/Ph.D. and no PV industry years.",
-    "score": 35
-   },
-   "fit": {
-    "level": "Low",
-    "reason": "Pharmacovigilance operations role aimed at PharmD/MD profiles, not formulation/Pharmaceutics."
-   },
-   "found": "2026-10-21",
-   "lastDate": "2026-11-15",
-   "org": "GSK",
-   "posted": "2026-10-16",
-   "posts": [
-    "Senior Scientist – Pharmacovigilance Operations Oversight and Strategy"
-   ],
-   "qualification": "PharmD (or MD per the candidate profile); listing says 5+ years, candidate profile asks for 10–14 years in the pharmaceutical industry.",
-   "role": "Pharmacovigilance",
-   "sector": "Private",
-   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/gsk-looking-for-senior-scientist-pharmacovigilance",
-   "state": "Telangana",
-   "steps": [
-    "Open the GSK Careers link and create a Workday account",
-    "Upload a CV highlighting any drug-safety, documentation and data/ML work",
-    "Answer the screening questions on qualification and industry experience",
-    "Submit before 15 November 2026"
-   ],
-   "title": "Sr. Scientist, Pharmacovigilance Operations Oversight and Strategy"
-  },
-  {
    "id": "guru-nanak-group-of-colleges-seohara-hod-pharmacy",
    "applyMode": "Email resume (address in the notice); phone 9520768200 / 9412412035",
    "category": "academic",
@@ -2163,40 +2172,6 @@
     "Skip if you interviewed with Intas in the last six months"
    ],
    "title": "Research Associate / Senior Research Associate – Formulation R&D (OSD)"
-  },
-  {
-   "id": "iqvia-regulatory-affairs-manager-hyderabad",
-   "applyMode": "Online",
-   "applyUrl": "https://jobs.iqvia.com/en/jobs/R1572647-0",
-   "category": "other",
-   "city": "Hyderabad",
-   "cvFit": {
-    "reason": "Wants 8 years of regulatory affairs experience — your 6.9 years are in teaching and research, not dossier filing.",
-    "score": 40
-   },
-   "fit": {
-    "level": "Low",
-    "reason": "Regulatory management role; your industrial-documentation teaching is related but you lack hands-on regulatory filing experience."
-   },
-   "found": "2026-10-20",
-   "lastDate": "2026-11-15",
-   "org": "IQVIA",
-   "posted": "2026-10-15",
-   "posts": [
-    "Regulatory Affairs Manager"
-   ],
-   "qualification": "Bachelor's or Master's in life sciences or a related discipline with 8 years of relevant regulatory experience.",
-   "role": "Regulatory Affairs",
-   "sector": "Private",
-   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/apply-online-for-regulatory-affairs-manager-at-iqvia",
-   "state": "Telangana",
-   "steps": [
-    "Open the IQVIA posting (R1572647)",
-    "Create a candidate profile",
-    "Upload a CV stressing industrial documentation and regulatory exposure",
-    "Submit before 15 Nov 2026"
-   ],
-   "title": "Regulatory Affairs Manager"
   },
   {
    "id": "isl-pharmacy-college-asst-prof",
@@ -3331,47 +3306,6 @@
    "type": "Faculty"
   },
   {
-   "id": "rbbsu-dehradun-pharmacy-faculty-nov-2026",
-   "applyMode": "Email resume and highest qualification document, or meet the Vice-Chancellor in person on any working day until the last date",
-   "category": "academic",
-   "city": "Dehradun",
-   "cvFit": {
-    "reason": "Asks for UGC/PCI eligibility for pharmacy faculty — your M.Pharm Pharmaceutics, Ph.D. and current Associate Professor role fit Associate Professor, but subjects and vacancy counts aren't stated.",
-    "score": 78
-   },
-   "documents": [
-    "Resume",
-    "Highest qualification document"
-   ],
-   "fit": {
-    "level": "Good",
-    "reason": "Pharmacy faculty posts open at all levels; subject not specified, so your Pharmaceutics M.Pharm + Ph.D. should qualify."
-   },
-   "found": "2026-11-10",
-   "lastDate": "2026-11-15",
-   "notes": "Newspaper advertisement dated 4 Nov 2026. Pharmacy subjects not specified — confirm with the university.",
-   "org": "Ras Bihari Bose Subharti University",
-   "posted": "2026-11-04",
-   "posts": [
-    "Dean",
-    "Professor",
-    "Associate Professor",
-    "Assistant Professor"
-   ],
-   "qualification": "As per UGC norms and the relevant statutory councils (PCI for pharmacy). The advertisement lists the Faculty of Pharmacy but does not name subjects or vacancies per post.",
-   "sector": "Private",
-   "sourceUrl": "https://www.facultyplus.com/?p=285360",
-   "state": "Uttarakhand",
-   "steps": [
-    "Open the facultyplus listing and note the application email from the advertisement image",
-    "Prepare an updated CV highlighting Pharmaceutics, Ph.D. and 23 publications",
-    "Email the CV and your highest qualification certificate, naming the post (Associate Professor – Pharmacy) in the subject",
-    "Alternatively walk in to meet the Vice-Chancellor at Nanda ki Chowki, Premnagar, Dehradun before 15 Nov 2026"
-   ],
-   "title": "Faculty Posts (incl. Faculty of Pharmacy) – Professor / Associate Professor / Assistant Professor",
-   "type": "Faculty"
-  },
-  {
    "id": "roche-lead-it-data-scientist-pharma-rd",
    "applyMode": "Online",
    "applyUrl": "https://careers.roche.com/global/en/job/ROCHGLOBAL202607119687EXTERNALENGLOBAL/Data-Scientist-RDT-Pharma-R-D",
@@ -3403,48 +3337,6 @@
     "Submit; open until filled"
    ],
    "title": "Lead IT Data Scientist – Pharma R&D"
-  },
-  {
-   "id": "rv-university-academic-2026",
-   "applyMode": "Online form",
-   "applyUrl": "https://rvu.edu.in/careers",
-   "category": "academic",
-   "city": "Bengaluru / Mysuru",
-   "cvFit": {
-    "reason": "Professor/Associate Professor posts per norms — your Ph.D., 6.9 years and 23 papers suit Associate Professor if a pharmacy post is listed.",
-    "score": 70
-   },
-   "documents": [
-    "Updated CV",
-    "Educational certificates and mark sheets",
-    "Experience certificates",
-    "Passport-size photo"
-   ],
-   "fit": {
-    "level": "Good",
-    "reason": "Pharmacy faculty at Mysuru with subject not specified — your Ph.D. fits; Professor/Associate posts need teaching experience."
-   },
-   "found": "2026-10-20",
-   "lastDate": "2026-11-15",
-   "notes": "Pharmacy faculty opening at Mysuru campus; designation in detailed notification.",
-   "org": "RV University",
-   "posted": "2026-10-15",
-   "posts": [
-    "Professor",
-    "Associate Professor"
-   ],
-   "qualification": "Given per post in the detailed notification on the careers page.",
-   "sector": "Private",
-   "sourceUrl": "https://www.facultyplus.com/academic-and-administrative-jobs-2026-at-rv-university-bengaluru-and-mysuru/",
-   "state": "Karnataka",
-   "steps": [
-    "Go to rvu.edu.in/careers and read the detailed notification",
-    "Choose the Pharmacy post at the Mysuru campus",
-    "Fill the online form and upload CV, certificates, experience proof and photo",
-    "Submit by 15 Nov 2026"
-   ],
-   "title": "Professor, Associate Professor and other academic posts",
-   "type": "Faculty"
   },
   {
    "id": "sabarmati-university-faculty",
@@ -3481,41 +3373,6 @@
    ],
    "title": "Teaching Faculty",
    "type": "Faculty"
-  },
-  {
-   "id": "sandoz-regulatory-affairs-specialist-submission",
-   "applyMode": "Online",
-   "applyUrl": "https://www.sandoz.com/careers/career-search/job-details/REQ-10032268/regulatory-affairs-specialist-submission-info-management/",
-   "category": "other",
-   "city": "Hyderabad",
-   "cvFit": {
-    "reason": "Asks for pharma industry regulatory experience — you have strong technical knowledge but no regulatory-submission work.",
-    "score": 45
-   },
-   "fit": {
-    "level": "Low",
-    "reason": "Regulatory submission management; your pharmaceutics and documentation background is relevant but not industry RA."
-   },
-   "found": "2026-10-20",
-   "lastDate": "2026-11-15",
-   "notes": "Experience requirement is stated inconsistently (2 vs 5+ years).",
-   "org": "Sandoz",
-   "posted": "2026-10-14",
-   "posts": [
-    "Regulatory Affairs Specialist"
-   ],
-   "qualification": "Graduate with pharmaceutical industry experience; listing says minimum 2 years while the profile mentions 5+ years of relevant experience.",
-   "role": "Regulatory Affairs",
-   "sector": "Private",
-   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/sandoz-require-regulatory-affairs-specialist",
-   "state": "Telangana",
-   "steps": [
-    "Open the Sandoz careers posting REQ-10032268",
-    "Register and upload your CV",
-    "Highlight documentation, QbD and formulation knowledge",
-    "Submit before 15 Nov 2026"
-   ],
-   "title": "Regulatory Affairs Specialist – Submission Info Management"
   },
   {
    "id": "sharda-university-agra-professor-pharmacy",
@@ -3586,48 +3443,6 @@
     "Send early — the page asks for CVs within 7 days of the advertisement's publication"
    ],
    "title": "Assistant Professor — Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmacognosy",
-   "type": "Faculty"
-  },
-  {
-   "id": "snvpmv-secunderabad-principal-professor-faculty",
-   "applyMode": "Offline – application reaching the college office",
-   "applyUrl": "http://www.snvpharmacycollege.com",
-   "category": "academic",
-   "city": "Tarnaka, Secunderabad",
-   "cvFit": {
-    "reason": "PCI/OU norms for Associate Professor need a Ph.D. and teaching/research years — you have the Ph.D., 6.9 years and 23 papers; Telangana location and a tight deadline.",
-    "score": 78
-   },
-   "documents": [
-    "Resume",
-    "Copies of certificates"
-   ],
-   "fit": {
-    "level": "Good",
-    "reason": "Open to all pharmacy specialisations, so your Pharmaceutics M.Pharm and Ph.D. fit the Associate Professor level."
-   },
-   "found": "2026-11-08",
-   "lastDate": "2026-11-15",
-   "notes": "Co-ed college; per-post vacancy split not given.",
-   "org": "Sarojini Naidu Vanita Pharmacy Maha Vidyalaya (SNVPMV)",
-   "posted": "2026-11-07",
-   "posts": [
-    "Principal",
-    "Professor",
-    "Associate Professor",
-    "Assistant Professor"
-   ],
-   "qualification": "All pharmacy specialisations; qualifications and experience as per PCI / Osmania University norms (4 vacancies in total).",
-   "sector": "Private",
-   "sourceUrl": "https://www.freejobalert.com/articles/snvpmv-recruitment-2026-principal-professor-3079548",
-   "state": "Telangana",
-   "steps": [
-    "Check the notice on www.snvpharmacycollege.com",
-    "Prepare application with resume and self-attested certificate copies",
-    "Send/deliver to H.No 12-5-31 & 32, Vijayapuri Colony, Tarnaka, Secunderabad",
-    "Ensure it reaches by 15 Nov 2026 (10 AM–5 PM)"
-   ],
-   "title": "Principal, Professor, Associate Professor & Assistant Professor (Pharmacy)",
    "type": "Faculty"
   },
   {
