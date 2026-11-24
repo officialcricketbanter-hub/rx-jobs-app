@@ -1,8 +1,8 @@
 {
  "meta": {
-  "lastRun": "2026-11-23T01:17:32Z",
+  "lastRun": "2026-11-24T01:16:29Z",
   "total": 111,
-  "added": 1
+  "added": 2
  },
  "jobs": [
   {
@@ -93,43 +93,6 @@
    ],
    "title": "Professor / Additional / Associate / Assistant Professor (incl. Pharmacology) – AIIMS Bathinda",
    "type": "Faculty"
-  },
-  {
-   "id": "aiims-bhopal-project-research-scientist-i-tb-hiv-pk",
-   "applyMode": "Email (single merged PDF of application form + documents); no hard copy",
-   "applyUrl": "https://www.aiimsbhopal.edu.in/AIIMSFiles/career/jonUnderProject/Download/Ad_TB-HIV_merged.pdf",
-   "category": "academic",
-   "city": "Bhopal",
-   "cvFit": {
-    "reason": "Asks for a pharmacy PG with PK/ADR experience desirable — you have M.Pharm, Ph.D. and HPLC skills, but your research is formulation rather than clinical PK.",
-    "score": 66
-   },
-   "fit": {
-    "level": "Good",
-    "reason": "Accepts a PG in Pharmacy and your Ph.D. adds weight, though the pharmacokinetics/pharmacogenomics focus differs from your Pharmaceutics/QbD formulation work."
-   },
-   "found": "2026-11-02",
-   "lastDate": "2026-11-16",
-   "notes": "ICMR-funded project on multi-omics and population pharmacokinetics of drug interactions/ADRs in antitubercular + antiretroviral therapy (PI: Dept. of General Medicine / Translational Medicine). Temporary, 11 months.",
-   "org": "AIIMS Bhopal",
-   "posted": "2026-10-30",
-   "posts": [
-    "Project Research Scientist-I (Non-Medical) – 1 post"
-   ],
-   "qualification": "Postgraduate degree (incl. integrated PG) in Pharmacy, Pharm.D, Life Sciences, Biotechnology or Biochemistry. Desirable: experience in pharmacogenomics, pharmacokinetics, molecular biology, ADR analysis or TB/HIV research.",
-   "salary": "Rs 56,000 + 20% HRA (Rs 67,200) per month",
-   "sector": "Government",
-   "sourceUrl": "https://www.freejobalert.com/articles/aiims-bhopal-project-research-scientist-i-non-medical-recruitment-2026-3077497",
-   "state": "Madhya Pradesh",
-   "steps": [
-    "Download the official notice and application form from the AIIMS Bhopal link",
-    "Fill the form completely, including two referees and a note on how your expertise fits the project",
-    "Merge the form and supporting documents into one PDF",
-    "Email it to the address given in the notice by 16 Nov 2026",
-    "Watch your email for the interview call"
-   ],
-   "title": "Project Research Scientist-I (Non-Medical) – ICMR TB-HIV Pharmacokinetics Project",
-   "type": "Scientist"
   },
   {
    "id": "aiims-bhubaneswar-project-research-scientist-i-pharmacology-depression",
@@ -1248,6 +1211,46 @@
    "title": "Patent Search Senior Analyst (JREQ136232)"
   },
   {
+   "id": "csir-cdri-lucknow-research-associate-iii-ayush-project-advt-11-2026",
+   "applyMode": "Walk-in interview, 1–2 December 2026 from 09:00 AM (no entry after 10:00 AM)",
+   "applyUrl": "https://cdri.res.in/pdf/recruitment/Advt_11-2026.pdf",
+   "category": "academic",
+   "city": "Lucknow",
+   "cvFit": {
+    "reason": "Asks for a Ph.D. in Life Sciences or equivalent plus 1 year of research — you have a Pharmaceutical Sciences Ph.D., 3 years as a DST-SERB JRF and herbal-product work, but it is a project post below your Associate Professor level.",
+    "score": 72
+   },
+   "documents": [
+    "Filled application form and undertaking",
+    "Original and self-attested certificates",
+    "Passport-size photo"
+   ],
+   "fit": {
+    "level": "Good",
+    "reason": "An AYUSH (herbal) research project suits your pharmacognosy/herbal-product and Ph.D. research background, though the post is listed under Life Sciences."
+   },
+   "found": "2026-11-24",
+   "lastDate": "2026-12-02",
+   "notes": "Walk-in dates 1–2 Dec 2026; last date set to the second walk-in day. Emoluments not verified.",
+   "org": "CSIR-Central Drug Research Institute (CDRI)",
+   "posted": "2026-11-23",
+   "posts": [
+    "Research Associate-III (position code 011, 1 post)"
+   ],
+   "qualification": "Ph.D. in Life Sciences or equivalent with 1 year of research experience (Advt. 11/2026, Ministry of AYUSH project GAP0481). Check the official notice for whether Pharmaceutical Sciences is accepted as equivalent.",
+   "sector": "Government",
+   "sourceUrl": "https://www.biotecnika.org/2026/11/csir-cdri-recruitment-2026-project-staff-walk-in/",
+   "state": "Uttar Pradesh",
+   "steps": [
+    "Download Advt. 11/2026, the application form and undertaking from cdri.res.in",
+    "Confirm that a Ph.D. in Pharmaceutical Sciences counts as 'Life Sciences or equivalent' for code 011",
+    "Fill the form and undertaking, attach self-attested copies",
+    "Report at CSIR-CDRI, Sector 10, Jankipuram Extension, Sitapur Road, Lucknow-226031 on 1 or 2 Dec 2026 before 10:00 AM with originals"
+   ],
+   "title": "Research Associate-III (Ministry of AYUSH project) – walk-in",
+   "type": "Academic Associate"
+  },
+  {
    "id": "csir-hrdg-new-delhi-project-scientist-jigyasa-2026",
    "applyMode": "Walk-in interview, 30 Nov 2026, reporting 9:00-11:00 AM",
    "applyUrl": "https://www.csir.res.in/sites/default/files/2026-11/jigyasa_proj_staff_advt_eng.pdf",
@@ -1904,43 +1907,6 @@
     "Print the submitted application"
    ],
    "title": "Scientist B / C / D (Medical & Non-Medical) – Adv. ICMR/NIE/01/2026",
-   "type": "Scientist"
-  },
-  {
-   "id": "icmr-nine-scientist-d-non-medical",
-   "applyMode": "Online",
-   "applyUrl": "https://recruitment.icmr.org.in",
-   "category": "academic",
-   "city": "New Delhi",
-   "cvFit": {
-    "reason": "Asks for a biomedical master's or Pharm-D plus 8 years of R&D — your M.Pharm may not be listed, and your 6.9 years (with the Ph.D. counted) falls short.",
-    "score": 45
-   },
-   "fit": {
-    "level": "Low",
-    "reason": "This is an epidemiology/biomedical scientist post, not pharmaceutics, but your Ph.D. in pharmaceutical sciences may count as a biomedical background."
-   },
-   "found": "2026-11-01",
-   "lastDate": "2026-11-16",
-   "notes": "All-India transfer liability. 1 Non-Medical post (1 Medical post is also advertised).",
-   "org": "ICMR-National Institute of NCD Epidemiology (ICMR-NINE)",
-   "posted": "2026-10-07",
-   "posts": [
-    "Scientist-D (Non-Medical)"
-   ],
-   "qualification": "Master's degree in a biomedical sciences-related subject or Pharm-D (UGC/PCI recognised); Ph.D. in biomedical sciences desirable. 8 years' essential R&D experience (a Ph.D. counts as 4 years). Check the official notice to confirm whether M.Pharm counts as eligible.",
-   "salary": "Level 12 (7th CPC), Rs 78,800–2,09,200 per month plus allowances",
-   "sector": "Government",
-   "sourceUrl": "https://www.freejobalert.com/articles/icmr-scientist-d-recruitment-2026-apply-online-3071449",
-   "state": "Delhi",
-   "steps": [
-    "Download and read the ICMR-NINE Scientist-D advertisement on recruitment.icmr.org.in",
-    "Check that your M.Pharm/Ph.D. counts as a biomedical sciences master's degree and that your experience adds up to 8 years",
-    "Register on recruitment.icmr.org.in and fill in the online form for Scientist-D (Non-Medical)",
-    "Upload your certificates and experience proofs, then pay the fee if one applies",
-    "Submit by 16 Nov 2026, 5:30 PM, and save the application printout"
-   ],
-   "title": "Scientist-D (Non-Medical) at ICMR-National Institute of NCD Epidemiology",
    "type": "Scientist"
   },
   {
@@ -2807,6 +2773,46 @@
    ],
    "title": "Research Associate-III (Pharmacy Practice & Clinical Research)",
    "type": "Academic Associate"
+  },
+  {
+   "id": "niper-raebareli-assistant-professor-contract-medical-devices-nov-2026",
+   "applyMode": "Online (Google Form)",
+   "applyUrl": "https://forms.gle/nHEz6asrWo9pv9Dm7",
+   "category": "academic",
+   "city": "Raebareli (transit campus Lucknow)",
+   "cvFit": {
+    "reason": "Prefers M.Tech plus medical-devices experience — you have M.Pharm Pharmaceutics, a Ph.D. and 23 papers but no device background, and it is a contractual post below your current Associate Professor level.",
+    "score": 55
+   },
+   "documents": [
+    "Updated CV",
+    "Copies of relevant certificates",
+    "Passport-size photo"
+   ],
+   "fit": {
+    "level": "Low",
+    "reason": "Teaching is for an M.Tech Medical Devices programme; Pharmaceutical Science is an eligible area but your Pharmaceutics specialisation only partly matches."
+   },
+   "found": "2026-11-24",
+   "notes": "Deadline not verified: the source shows 28 Nov 10:30 AM and interview 4 Dec but with year 2025 on a 2026 posting — confirm on the official site.",
+   "org": "NIPER Raebareli",
+   "posted": "2026-11-18",
+   "posts": [
+    "Assistant Professor (contractual)"
+   ],
+   "qualification": "M.Tech in a relevant field with a consistently good academic record; Ph.D. and medical-devices experience preferred. Areas listed include Pharmaceutical Science, Biomedical Engineering/Medical Devices, ECE/EEE, Mechanical Engineering and Life Science.",
+   "salary": "Rs 70,000/month (M.Tech + 1 yr); Rs 75,000 (Ph.D., <1 yr); Rs 80,000 (Ph.D. + 1 yr) – consolidated",
+   "sector": "Government",
+   "sourceUrl": "https://facultytick.com/2026/11/18/national-institute-of-pharmaceutical-education-research-raebareli-online-applications-are-invited-from-eligible-candidate-for-the-assistant-professor-teaching-faculty-job-role-2026/",
+   "state": "Uttar Pradesh",
+   "steps": [
+    "Check the official notice on niperraebareli.edu.in for the current deadline (the mirrored page prints 28 Nov with an inconsistent year)",
+    "Prepare an updated CV highlighting formulation/device-related research",
+    "Fill the Assistant Professor Google Form",
+    "Contact recruitment@niperrbl.ac.in if the deadline is unclear"
+   ],
+   "title": "Assistant Professor (contractual) – M.Tech Medical Devices programme",
+   "type": "Faculty"
   },
   {
    "id": "niper-raebareli-project-research-scientist-i-icmr-parkinsons-microparticle",
