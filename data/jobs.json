@@ -1,8 +1,8 @@
 {
  "meta": {
-  "lastRun": "2026-11-24T01:16:29Z",
-  "total": 111,
-  "added": 2
+  "lastRun": "2026-11-25T01:15:34Z",
+  "total": 112,
+  "added": 1
  },
  "jobs": [
   {
@@ -1645,6 +1645,38 @@
     "Send a separate application for each post you apply for"
    ],
    "title": "Assistant / Associate Professor / Professor – Pharmacy (School of Medical and Allied Sciences)",
+   "type": "Faculty"
+  },
+  {
+   "id": "gehu-bhimtal-college-of-pharmacy-assistant-professor-lecturer-nov-2026",
+   "category": "academic",
+   "city": "Bhimtal",
+   "cvFit": {
+    "reason": "Entry faculty posts needing M.Pharm — you have M.Pharm Pharmaceutics, a Ph.D. and 23 papers, so you are over-qualified; subject list not confirmed.",
+    "score": 72
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "Pharmacy Assistant Professor posts usually include Pharmaceutics, matching your M.Pharm Pharmaceutics and Ph.D."
+   },
+   "found": "2026-11-25",
+   "notes": "Advertised on PharmaTutor in November 2026; exact posting date and last date not verified.",
+   "org": "Graphic Era Hill University (Bhimtal Campus)",
+   "posts": [
+    "Assistant Professor",
+    "Lecturer"
+   ],
+   "qualification": "Pharmacy faculty posts as per PCI norms; subject-wise eligibility and experience are in the original advertisement (not verified here).",
+   "sector": "Private",
+   "sourceUrl": "https://www.pharmatutor.org/content/november-2026/recruitment-of-assistant-professors-lecturers-at-college-of-pharmacy-gehu-bhimtal-campus",
+   "state": "Uttarakhand",
+   "steps": [
+    "Open the PharmaTutor notice and check the departments listed (look for Pharmaceutics).",
+    "Check the GEHU careers page for the official advertisement and contact email.",
+    "Send your CV, publication list and certificates to the address in the advertisement.",
+    "Mention the post and department in the email subject."
+   ],
+   "title": "Assistant Professor / Lecturer – College of Pharmacy, GEHU Bhimtal Campus",
    "type": "Faculty"
   },
   {
