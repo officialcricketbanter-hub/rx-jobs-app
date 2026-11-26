@@ -1,8 +1,8 @@
 {
  "meta": {
-  "lastRun": "2026-11-25T01:15:34Z",
-  "total": 112,
-  "added": 1
+  "lastRun": "2026-11-26T01:16:31Z",
+  "total": 111,
+  "added": 3
  },
  "jobs": [
   {
@@ -1289,44 +1289,6 @@
    "type": "Scientist"
   },
   {
-   "id": "csir-iiim-jammu-project-research-scientist-i-advt-43-2026",
-   "applyMode": "Online (Google form); online interview via MS Teams",
-   "applyUrl": "https://forms.gle/uHchmQx9yEf2kCEk6",
-   "category": "academic",
-   "city": "Jammu",
-   "cvFit": {
-    "reason": "Accepts your M.Pharm and your herbal/natural-product research fits IIIM, but it is an early-career project post with a 35-year age cap, below your Associate Professor level.",
-    "score": 58
-   },
-   "fit": {
-    "level": "Good",
-    "reason": "PG in Pharmaceutical Sciences is accepted for the Biology post, and IIIM's natural-product/herbal drug research matches your pharmacognosy and herbal product work."
-   },
-   "found": "2026-11-06",
-   "lastDate": "2026-11-18",
-   "notes": "Project post, temporary. Age limit of 35 years may rule you out — check relaxation rules.",
-   "org": "CSIR-Indian Institute of Integrative Medicine (IIIM)",
-   "posted": "2026-11-04",
-   "posts": [
-    "Project Research Scientist-I (Non-Med.) – Biology (1)",
-    "Project Research Scientist-I (Non-Med.) – Chemistry (1)"
-   ],
-   "qualification": "Biology post: PG degree in Biotechnology, Microbiology, Pharmaceutical Sciences or Zoology. Chemistry post: M.Sc. Chemistry. Maximum age 35 years as on last date.",
-   "salary": "Rs 56,000 per month + HRA (if no institute accommodation)",
-   "sector": "Government",
-   "sourceUrl": "https://www.freejobalert.com/articles/csir-iiim-recruitment-2026-project-research-scientist-i-non-med-3078606",
-   "state": "Jammu & Kashmir",
-   "steps": [
-    "Read the official notification (Advt. 43/2026) on iiim.res.in.",
-    "Check the age limit (35 years as on 18 Nov 2026) before applying.",
-    "Fill in the Google application form for the Biology post (Pharmaceutical Sciences is eligible).",
-    "Upload CV and degree/experience documents as asked.",
-    "Wait for the email invitation to the online MS Teams interview."
-   ],
-   "title": "Project Research Scientist-I (Non-Medical) – Biology & Chemistry (Advt. 43/2026)",
-   "type": "Scientist"
-  },
-  {
    "id": "cusb-gaya-professor-associate-assistant-professor-pharmacy-advt-49",
    "applyMode": "Online only (Samarth portal); no offline forms",
    "applyUrl": "https://curec.samarth.ac.in",
@@ -1403,38 +1365,6 @@
    ],
    "title": "Teaching positions, Faculty of Pharmaceutical Sciences",
    "type": "Faculty"
-  },
-  {
-   "id": "dermatouch-formulation-scientist-ahmedabad",
-   "applyMode": "Online (LinkedIn job listing)",
-   "category": "other",
-   "city": "Ahmedabad",
-   "cvFit": {
-    "reason": "Wants 3-5 years of cosmetic formulation — you have strong formulation R&D and herbal research, but not in cosmetics specifically.",
-    "score": 66
-   },
-   "fit": {
-    "level": "Good",
-    "reason": "Skincare formulation and stability work draws on your Pharmaceutics and herbal product development background."
-   },
-   "found": "2026-11-05",
-   "lastDate": "2026-11-18",
-   "org": "Dermatouch",
-   "posted": "2026-11-04",
-   "posts": [
-    "Formulation Scientist"
-   ],
-   "qualification": "Bachelor's, Master's or Ph.D. in cosmetic science, chemistry, biochemistry, pharmaceutical sciences or chemical engineering, with 3-5+ years in cosmetic formulation, R&D or QC (GMP/ISO 22716 labs).",
-   "role": "Formulation R&D",
-   "sector": "Private",
-   "sourceUrl": "https://www.rasayanika.com/2026/11/04/dermatouch-formulation-scientist-ahmedabad/",
-   "state": "Gujarat",
-   "steps": [
-    "Open the listing and follow the 'Apply online' link.",
-    "Highlight your emulsion/gel formulation, stability and herbal-product experience.",
-    "Submit your CV before 18 Nov 2026."
-   ],
-   "title": "Formulation Scientist"
   },
   {
    "id": "dr-reddys-scientist-formulation-drug-product-biologics-hyderabad",
@@ -1533,41 +1463,6 @@
     "Complete the online application and prepare for a writing exercise."
    ],
    "title": "Scientific Writer / Senior Scientific Writer – Global Scientific Communications"
-  },
-  {
-   "id": "enzene-cmc-regulatory-affairs-biologics-pune",
-   "applyMode": "Online via company LinkedIn posting",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4483479054/",
-   "category": "other",
-   "city": "Pune (Chakan)",
-   "cvFit": {
-    "reason": "Requires hands-on biologics/biosimilar CMC regulatory experience — you have M.Pharm, Ph.D. and QbD/documentation skills but mainly academic, not regulatory industry experience.",
-    "score": 45
-   },
-   "fit": {
-    "level": "Low",
-    "reason": "Regulatory CMC role for biologics; your Pharmaceutics/QbD background is related but not biologics-specific."
-   },
-   "found": "2026-11-08",
-   "lastDate": "2026-11-18",
-   "notes": "Reported via BioTecNika (biotecnika.org, 4 Nov 2026).",
-   "org": "Enzene Biosciences Ltd.",
-   "posted": "2026-11-04",
-   "posts": [
-    "CMC Regulatory Affairs – Biologics"
-   ],
-   "qualification": "M.Pharm, M.Sc, M.Tech or Ph.D. in Biotechnology/Life Sciences with 3–15 years in Regulatory Affairs or CMC; biologics/biosimilars experience mandatory.",
-   "role": "Regulatory Affairs",
-   "sector": "Private",
-   "source": "LinkedIn",
-   "sourceUrl": "https://www.linkedin.com/jobs/view/4483479054/",
-   "state": "Maharashtra",
-   "steps": [
-    "Open the Enzene LinkedIn job (ID 4483479054)",
-    "Tailor your CV to CMC documentation, QbD and industrial documentation work",
-    "Apply online before 18 Nov 2026"
-   ],
-   "title": "CMC Regulatory Affairs – Biologics (Executive to Manager)"
   },
   {
    "id": "g-pulla-reddy-college-of-pharmacy-hyderabad-principal-asst-prof",
@@ -1942,6 +1837,41 @@
    "type": "Scientist"
   },
   {
+   "id": "icmr-nirbi-kolkata-scientist-d-non-medical-2026",
+   "applyMode": "Online",
+   "applyUrl": "https://recruitment.icmr.org.in",
+   "category": "academic",
+   "city": "Kolkata",
+   "cvFit": {
+    "reason": "Asks for biomedical master's with Cryo-EM structural biology; your pharmaceutics/formulation profile does not match the desired area and M.Pharm is not named as eligible.",
+    "score": 35
+   },
+   "fit": {
+    "level": "Low",
+    "reason": "Post wants structural biology / Cryo-EM; your Pharmaceutics M.Pharm and Ph.D. are only loosely related."
+   },
+   "found": "2026-11-26",
+   "lastDate": "2026-12-31",
+   "notes": "Selection by CBT and/or interview; all-India transfer liability.",
+   "org": "Indian Council of Medical Research (ICMR) – posting at ICMR-NIRBI",
+   "posts": [
+    "Scientist-D (Non-Medical) – 1 post"
+   ],
+   "qualification": "Master's degree in a subject related to Biomedical Sciences or Pharm.D (UGC/PCI recognised) with 8 years' experience (Ph.D. counts as 4 years). Desirable: Ph.D. in Biophysics, Molecular Biology or Biochemistry and structural biology (Cryo-EM) experience. Age limit 45.",
+   "salary": "Pay Level 12 (Rs 78,800–2,09,200) plus allowances",
+   "sector": "Government",
+   "sourceUrl": "https://www.icmr.gov.in/icmrobject/uploads/Recruitment/1795166694_finaladvertisement_sci_d.pdf",
+   "state": "West Bengal",
+   "steps": [
+    "Register on recruitment.icmr.org.in.",
+    "Fill the Scientist-D (Non-Medical) application for Adv. No. ICMR/Rectt/Sc-D/02/2026-RPCell.",
+    "Upload documents and pay Rs 1,500 fee (SC/ST/Women/PwD/EWS exempt).",
+    "Submit by 31 Dec 2026, 5:30 PM."
+   ],
+   "title": "Scientist-D (Non-Medical)",
+   "type": "Scientist"
+  },
+  {
    "id": "icon-senior-global-regulatory-scientist-india",
    "applyMode": "Online",
    "applyUrl": "https://careers.iconplc.com/job/senior-global-regulatory-scientist-in-india-bangalore-jid-54147",
@@ -2089,46 +2019,52 @@
    "type": "Scientist"
   },
   {
-   "id": "ilbs-new-delhi-project-research-scientist-iii-mash-icmr",
-   "applyMode": "Email resume; interview/skill test on 21 Nov 2026 at ILBS, Vasant Kunj",
-   "applyUrl": "https://www.ilbs.in/images/media/advt_for_various_post_under_project_02_11_2026.pdf",
+   "id": "indra-ganesan-college-of-pharmacy-trichy-faculty-nov-2026",
+   "applyMode": "Online",
+   "applyUrl": "https://careers.indraganesan.com/careers/ad/AD-2026-014",
    "category": "academic",
-   "city": "New Delhi",
+   "city": "Tiruchirappalli",
    "cvFit": {
-    "reason": "Your M.Pharm + Ph.D. satisfy PSR-III, but the project wants animal-model, omics and cell-biology experience rather than formulation work.",
-    "score": 55
+    "reason": "Pharmaceutics matches, but there is no Associate Professor post in Pharmaceutics; Professor needs 10 years and you have 6.9, so Assistant Professor is the realistic option.",
+    "score": 72
    },
    "documents": [
-    "Resume",
-    "Printed application form (at interview)",
-    "Photocopies of degrees, certificates and testimonials"
+    "Updated CV",
+    "Educational certificates and mark sheets",
+    "Ph.D. certificate (Professor posts)",
+    "Experience certificates",
+    "Passport-size photograph"
    ],
    "fit": {
-    "level": "Low",
-    "reason": "Liver biology / macrophage research project, not pharmaceutics, though your Ph.D. meets the PSR-III degree rule."
+    "level": "Strong",
+    "reason": "Pharmaceutics posts match your M.Pharm Pharmaceutics and Ph.D."
    },
-   "found": "2026-11-03",
-   "lastDate": "2026-11-18",
-   "notes": "3-year ICMR project, initial 12-month contract. No TA/DA.",
-   "org": "Institute of Liver & Biliary Sciences (ILBS)",
-   "posted": "2026-11-02",
+   "found": "2026-11-26",
+   "lastDate": "2026-12-15",
+   "notes": "Affiliated to The Tamil Nadu Dr. MGR Medical University; PCI approved. Address: IG Valley, NH-45B, Madurai Main Road, Manikandam, Tiruchirappalli 620012.",
+   "org": "Indra Ganesan College of Pharmacy",
+   "posted": "2026-11-25",
    "posts": [
-    "Project Research Scientist-III (Non-Medical) – 1",
-    "Project Research Scientist-I (Non-Medical) – 1"
+    "Professor – Pharmaceutics",
+    "Assistant Professor – Pharmaceutics",
+    "Professor/Associate/Assistant Professor – Pharmacognosy",
+    "Associate/Assistant Professor – Pharmaceutical Chemistry",
+    "Professor/Associate/Assistant Professor – Pharmacology",
+    "Professor – Pharmacy Practice"
    ],
-   "qualification": "PSR-III: first-class PG degree with 3 years' experience, or Ph.D. (or second-class PG with Ph.D. and 3 years), plus 1 year of research in animal experiments, cell culture, omics or single-cell sequencing; age limit 45. PSR-I: first-class PG; age limit 35. Pharmacy is not named explicitly — confirm in the official notice.",
-   "salary": "PSR-III Rs 78,000 + 30% HRA (Rs 1,01,400); PSR-I Rs 56,000 + HRA (Rs 72,800) per month",
-   "sector": "Government",
-   "sourceUrl": "https://www.biotecnika.org/2026/11/biotech-jobs-delhi-ilbs-research-scientist-2026/",
-   "state": "Delhi",
+   "qualification": "Assistant Professor: M.Pharm in the same specialisation (freshers eligible). Associate Professor: M.Pharm in specialisation with 5+ years. Professor: M.Pharm and Ph.D. in the same specialisation with 10+ years. Pharmaceutics has Assistant Professor and Professor posts only.",
+   "salary": "As per norms",
+   "sector": "Private",
+   "sourceUrl": "https://www.facultyplus.com/education-jobs-2026-at-indra-ganesan-college-of-pharmacy-tiruchirappalli/",
+   "state": "Tamil Nadu",
    "steps": [
-    "Open the official ILBS notice and note the email addresses (PI Dr. Anupam Kumar, Molecular & Cellular Medicine)",
-    "Email your resume by 18 Nov 2026, mentioning the post (PSR-III)",
-    "Highlight animal-study, cell-culture and HPLC/analytical experience from your Ph.D./JRF work",
-    "If shortlisted, attend the interview/skill test on 21 Nov 2026 with a printed application and photocopies of all certificates"
+    "Open the college careers page for advertisement AD-2026-014.",
+    "Choose the Pharmaceutics post (Assistant Professor or Professor).",
+    "Fill the online form and upload your CV and certificates.",
+    "Submit before 15 Dec 2026; shortlisted candidates are informed by email."
    ],
-   "title": "Project Research Scientist-III & I (Non-Medical) – ICMR project on MASH cirrhosis",
-   "type": "Scientist"
+   "title": "Professor / Associate Professor / Assistant Professor – Pharmacy (incl. Pharmaceutics)",
+   "type": "Faculty"
   },
   {
    "id": "intas-senior-research-associate-formulation-rd-osd-ahmedabad-walkin",
@@ -2697,6 +2633,37 @@
    ],
    "title": "Teaching Faculty (Pharmacy)",
    "type": "Faculty"
+  },
+  {
+   "id": "ndtl-new-delhi-research-associate-i-nov-2026",
+   "category": "academic",
+   "city": "New Delhi",
+   "cvFit": {
+    "reason": "Asks for a Ph.D. — you will have one, plus HPLC method work; but it is a contract RA post below your current Associate Professor level.",
+    "score": 62
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "Analytical/drug-testing research suits your HPLC/HPTLC method-development experience and Ph.D."
+   },
+   "found": "2026-11-26",
+   "notes": "Details from a secondary source; last date not verified.",
+   "org": "National Dope Testing Laboratory (NDTL)",
+   "posts": [
+    "Research Associate-I – 3 posts"
+   ],
+   "qualification": "Ph.D. or relevant experience (per BioTecNika summary; check the official notice for subject requirements).",
+   "salary": "Rs 58,000 per month",
+   "sector": "Government",
+   "sourceUrl": "https://www.biotecnika.org/2026/11/ndtl-research-associate-vacancy-2026/",
+   "state": "Delhi",
+   "steps": [
+    "Open the NDTL website (ndtlindia.com) recruitment section and read the official advertisement.",
+    "Check subject eligibility and last date.",
+    "Apply as instructed in the notice with CV and certificates."
+   ],
+   "title": "Research Associate-I (contract)",
+   "type": "Academic Associate"
   },
   {
    "id": "ndtl-scientist-e-deputation",
