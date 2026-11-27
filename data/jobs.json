@@ -1,8 +1,8 @@
 {
  "meta": {
-  "lastRun": "2026-11-26T01:16:31Z",
-  "total": 111,
-  "added": 3
+  "lastRun": "2026-11-27T01:17:35Z",
+  "total": 112,
+  "added": 2
  },
  "jobs": [
   {
@@ -215,6 +215,39 @@
    ],
    "title": "Project Research Scientist-I (Non-Medical)",
    "type": "Scientist"
+  },
+  {
+   "id": "amity-university-punjab-assistant-professor-pharmacy",
+   "applyMode": "Online (job-portal listing via Shine.com)",
+   "category": "academic",
+   "city": "Mohali",
+   "cvFit": {
+    "reason": "Asks for a Ph.D. in Pharmaceutics or allied area — you have M.Pharm Pharmaceutics plus a Ph.D., 3.8 years of teaching and 23 papers; you are already above this level as an Associate Professor.",
+    "score": 88
+   },
+   "fit": {
+    "level": "Strong",
+    "reason": "Pharmaceutics is a listed specialisation and a Ph.D. is preferred — matches your M.Pharm Pharmaceutics and Ph.D."
+   },
+   "found": "2026-11-27",
+   "notes": "Posted 2 Nov 2026; no closing date given — apply soon.",
+   "org": "Amity University Punjab",
+   "posted": "2026-11-02",
+   "posts": [
+    "Assistant Professor (Pharmaceutics / Pharmaceutical Chemistry / Pharmacology)"
+   ],
+   "qualification": "Ph.D. (or pursuing Ph.D.) in Pharmaceutics, Pharmaceutical Chemistry or Pharmacology; strong M.Pharm candidates with research record may be considered; Pharmacy Council registration where applicable. Contract, full-time, on-site.",
+   "sector": "Private",
+   "sourceUrl": "https://freehire.me/jobs/assistant-professor-of-pharmacy-amity-university-punjab-3fdllilk",
+   "state": "Punjab",
+   "steps": [
+    "Open the listing and use the Apply button (redirects to the Shine.com posting)",
+    "Alternatively check Amity University Punjab's careers page for the same post",
+    "Upload CV highlighting Ph.D. in Pharmaceutics, 23 papers and patents",
+    "Mention Pharmacy Council registration number"
+   ],
+   "title": "Assistant Professor of Pharmacy",
+   "type": "Faculty"
   },
   {
    "id": "apex-institute-pharmacy-raigarh-principal-professor-faculty",
@@ -3232,6 +3265,50 @@
    "type": "Faculty"
   },
   {
+   "id": "prsu-prayagraj-contract-faculty-pharmacy-2026",
+   "applyMode": "Online via university website",
+   "applyUrl": "https://prsuniv.ac.in",
+   "category": "academic",
+   "city": "Prayagraj",
+   "cvFit": {
+    "reason": "Assistant Professor needs Master's 55% + NET or Ph.D. — you have M.Pharm Pharmaceutics and a Ph.D. Associate Professor needs 8 years and 7 papers; you have 23 papers but 6.9 years, so that level is a stretch.",
+    "score": 80
+   },
+   "documents": [
+    "Educational qualification certificates",
+    "NET/SET or Ph.D. certificate",
+    "Research publication evidence"
+   ],
+   "fit": {
+    "level": "Good",
+    "reason": "Pharmacy department posts at a state university; your M.Pharm Pharmaceutics + Ph.D. fits the Assistant Professor level and nearly the Associate level."
+   },
+   "found": "2026-11-27",
+   "lastDate": "2026-12-06",
+   "notes": "Assistant Professor selection includes a 140-mark written test plus teaching/interview; Associate Professor and Professor are by 20-mark interview after screening. Contract posts.",
+   "org": "Prof. Rajendra Singh (Rajju Bhaiya) University (PRSU)",
+   "posted": "2026-11-24",
+   "posts": [
+    "Professor (Pharmacy)",
+    "Associate Professor (Pharmacy)",
+    "Assistant Professor (Pharmacy)"
+   ],
+   "qualification": "Contractual self-finance posts (advt PRSU/SFCTP/ADVT/2026-01; 187 posts in all, 9 in Pharmacy, level split not published in reports). Assistant Professor: Master's with 55% plus NET/SET (Ph.D. holders may be exempt). Associate Professor: Ph.D., 8 years' experience, 7 publications, research score 75. Professor: Ph.D., 10 years, 10 publications, score 120 and doctoral guidance.",
+   "salary": "Consolidated: Assistant Professor ₹57,700; Associate Professor ₹80,000; Professor ₹1,00,000 per month",
+   "sector": "Government",
+   "sourceUrl": "https://stafftak.in/faculty-contract-vacancy-2026/",
+   "state": "Uttar Pradesh",
+   "steps": [
+    "Open prsuniv.ac.in and download advertisement PRSU/SFCTP/ADVT/2026-01",
+    "Check the Pharmacy post split and subject (Pharmaceutics) in the notice",
+    "Register and fill the online form for the chosen level",
+    "Upload degrees, NET/Ph.D. proof, publications and API score sheet",
+    "Submit before 6 Dec 2026 and keep a printout"
+   ],
+   "title": "Professor / Associate Professor / Assistant Professor (Contract) – Pharmacy",
+   "type": "Faculty"
+  },
+  {
    "id": "quanticate-medical-writer-consultant-remote",
    "applyMode": "Apply online via Workable",
    "applyUrl": "https://apply.workable.com/quanticate/j/140D7403EF",
@@ -3596,50 +3673,6 @@
     "Be ready to join immediately with relieving letter and original certificates"
    ],
    "title": "Professor / Associate Professor / Assistant Professor (Pharmaceutics, Pharm. Chemistry, Regulatory Affairs)",
-   "type": "Faculty"
-  },
-  {
-   "id": "st-pauls-college-of-pharmacy-ranga-reddy-associate-assistant-professor",
-   "applyMode": "Email",
-   "applyUrl": "https://stpaulscollege.ac.in/",
-   "category": "academic",
-   "city": "Turkayamjal, Abdullapurmet, Ranga Reddy",
-   "cvFit": {
-    "reason": "Associate Professor needs M.Pharm + Ph.D. and 5 years' Assistant Professor teaching plus 2 years post-Ph.D. — you have both degrees but about 3.8 years of teaching, so Assistant Professor is a safe fit and Associate may be borderline.",
-    "score": 80
-   },
-   "documents": [
-    "Bio-data",
-    "Scanned copies of all certificates",
-    "Educational certificates and mark sheets",
-    "Experience certificates"
-   ],
-   "fit": {
-    "level": "Good",
-    "reason": "General pharmacy faculty posts; your M.Pharm Pharmaceutics and Ph.D. meet the Associate Professor qualification, though no subject is named."
-   },
-   "found": "2026-11-12",
-   "lastDate": "2026-11-19",
-   "notes": "Newspaper advertisement dated 11 Nov 2026; shortlisted candidates are informed by email.",
-   "org": "St. Pauls College of Pharmacy",
-   "posted": "2026-11-11",
-   "posts": [
-    "Associate Professor",
-    "Assistant Professor"
-   ],
-   "qualification": "Associate Professor: M.Pharm or Pharm.D with Ph.D., 5 years' teaching as Assistant Professor plus 2 years post-Ph.D. teaching. Assistant Professor: M.Pharm or Pharm.D in First Class. All as per PCI norms; subjects not specified.",
-   "salary": "As per PCI norms",
-   "sector": "Private",
-   "sourceUrl": "https://www.facultyplus.com/pharmacy-faculty-jobs-2026-at-st-pauls-college-of-pharmacy-ranga-reddy/",
-   "state": "Telangana",
-   "steps": [
-    "Open the facultyplus listing or the college website to get the recruitment email address",
-    "Prepare your bio-data stating the post (Associate Professor) and specialisation (Pharmaceutics)",
-    "Scan all certificates, mark sheets, Ph.D. and experience certificates",
-    "Email the bio-data with scans before 19 Nov 2026",
-    "Wait for an email if shortlisted"
-   ],
-   "title": "Associate Professor & Assistant Professor (Pharmacy)",
    "type": "Faculty"
   },
   {
