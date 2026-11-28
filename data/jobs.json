@@ -1,53 +1,10 @@
 {
  "meta": {
-  "lastRun": "2026-11-27T01:17:35Z",
-  "total": 112,
-  "added": 2
+  "lastRun": "2026-11-28T01:16:15Z",
+  "total": 113,
+  "added": 6
  },
  "jobs": [
-  {
-   "id": "adichunchanagiri-university-principal-pharmacy-college",
-   "applyMode": "Email (no walk-in)",
-   "applyUrl": "https://www.acu.edu.in",
-   "category": "academic",
-   "city": "BG Nagara, Mandya",
-   "cvFit": {
-    "reason": "Needs a Ph.D. plus PCI principal-level experience and admin leadership — you have the Ph.D. and 6.9 years, but PCI usually expects about 15 years for a Principal.",
-    "score": 55
-   },
-   "documents": [
-    "Updated CV",
-    "Scanned educational certificates and mark sheets",
-    "Experience certificates",
-    "Recent passport-size photograph"
-   ],
-   "fit": {
-    "level": "Good",
-    "reason": "Principal post open to any pharmacy specialisation with Ph.D.; your Pharmaceutics M.Pharm and Ph.D. qualify, though leadership experience weighs heavily."
-   },
-   "found": "2026-11-08",
-   "lastDate": "2026-11-20",
-   "notes": "Same notification also covers Principal posts for Engineering and Natural Sciences colleges. Shortlisted candidates are informed by email.",
-   "org": "Adichunchanagiri University",
-   "posted": "2026-11-06",
-   "posts": [
-    "Principal (Pharmacy College)"
-   ],
-   "qualification": "Ph.D. in Pharmacy or a relevant specialisation with qualifications and experience as prescribed by PCI and statutory authorities; proven academic and administrative leadership, research, accreditation and regulatory-compliance experience.",
-   "salary": "As per norms",
-   "sector": "Private",
-   "sourceUrl": "https://www.facultyplus.com/faculty-recruitment-leadership-roles-2026-at-adichunchanagiri-university-bg-nagara/",
-   "state": "Karnataka",
-   "steps": [
-    "Get the official notification and application email from www.acu.edu.in",
-    "Prepare an updated CV highlighting leadership, accreditation (NAAC/NBA/PCI) and research work",
-    "Scan certificates, mark sheets, experience letters and a passport photo",
-    "Email the application with 'Principal – Pharmacy College' in the subject on or before 20 Nov 2026",
-    "Watch your email for shortlisting"
-   ],
-   "title": "Principal – Pharmacy College",
-   "type": "Faculty"
-  },
   {
    "id": "aiims-bathinda-faculty-pharmacology-nov-2026",
    "applyMode": "Online Google Form + hard copy by post (hard copy by 3 Dec 2026)",
@@ -247,6 +204,50 @@
     "Mention Pharmacy Council registration number"
    ],
    "title": "Assistant Professor of Pharmacy",
+   "type": "Faculty"
+  },
+  {
+   "id": "anurag-college-of-pharmacy-warthi-faculty-dec-2026",
+   "applyMode": "By post",
+   "category": "academic",
+   "city": "Warthi (Bhandara)",
+   "cvFit": {
+    "reason": "Has an open Pharmaceutics post — you fit it on subject; Professor needs ~10 years (you have 6.9), and the Pharmaceutics Associate post is SC-reserved, so B.Pharm Associate Professor is the realistic level.",
+    "score": 78
+   },
+   "documents": [
+    "Application and resume",
+    "Educational certificates and mark sheets",
+    "Experience certificates",
+    "Rs 100 demand draft",
+    "Two colour photos"
+   ],
+   "fit": {
+    "level": "Strong",
+    "reason": "Open M.Pharm Pharmaceutics posts match your specialisation and Ph.D."
+   },
+   "found": "2026-11-28",
+   "lastDate": "2026-12-16",
+   "notes": "Run by Shri Sadashivrao Patil Shikshan Sanstha (non-granted posts).",
+   "org": "Anurag College of Pharmacy",
+   "posted": "2026-11-26",
+   "posts": [
+    "Professor",
+    "Associate Professor",
+    "Assistant Professor"
+   ],
+   "qualification": "As per PCI/university norms. M.Pharm Pharmaceutics: Professor 1 (Open), Associate Professor 1 (SC), Assistant Professor 1 (Open); plus B.Pharm and M.Pharm QA posts.",
+   "salary": "As per university pay scale",
+   "sector": "Private",
+   "sourceUrl": "https://www.facultyplus.com/pharmacy-faculty-jobs-2026-at-smt-kishoritai-bhoyar-college-of-pharmacy-and-anurag-college-of-pharmacy-kamptee-and-warthi/",
+   "state": "Maharashtra",
+   "steps": [
+    "Pick the Pharmaceutics post (Professor-Open or Assistant Professor-Open; B.Pharm Associate Professor also open)",
+    "Prepare application, resume and certificate copies",
+    "Add a Rs 100 demand draft in favour of the Principal and two photos",
+    "Post to the college (Near Bhandara Road Railway Station, Warthi 441905) to reach by 5:00 PM, 16 Dec 2026"
+   ],
+   "title": "Professor / Associate Professor / Assistant Professor (21 posts, incl. M.Pharm Pharmaceutics)",
    "type": "Faculty"
   },
   {
@@ -1141,39 +1142,6 @@
     "Submit within 60 days of the Employment News advertisement"
    ],
    "title": "Senior Scientific Officer (deputation), Regional Drugs Testing Laboratory"
-  },
-  {
-   "id": "cencora-senior-manager-qppv-office-pv-agreements-delhi",
-   "applyMode": "Online",
-   "applyUrl": "https://careers.cencora.com/us/en/job/CHKCENUSR2616934EXTERNALENUS/Senior-Manager-QPPV-Office",
-   "category": "other",
-   "city": "New Delhi",
-   "cvFit": {
-    "reason": "Asks for 4+ years in pharmacovigilance or regulatory affairs — your 6.9 years are in teaching and formulation research, so the PV experience is missing.",
-    "score": 35
-   },
-   "fit": {
-    "level": "Low",
-    "reason": "Needs hands-on pharmacovigilance experience, which is outside your Pharmaceutics teaching and research background."
-   },
-   "found": "2026-10-22",
-   "lastDate": "2026-11-20",
-   "org": "Cencora",
-   "posted": "2026-10-20",
-   "posts": [
-    "Senior Manager, QPPV Office"
-   ],
-   "qualification": "Bachelor's in life sciences, pharmacy, medicine, nursing, public health or related field; 4+ years in pharmacovigilance, drug safety, risk management, scientific consulting or regulatory affairs.",
-   "role": "Pharmacovigilance",
-   "sector": "Private",
-   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/cencora-require-pharmacovigilance-agreements-senior-manager",
-   "state": "Delhi",
-   "steps": [
-    "Open the Cencora careers posting",
-    "Tailor your CV to stress regulatory documentation, scientific writing and any drug-safety work",
-    "Apply online through the portal before 20 Nov 2026"
-   ],
-   "title": "Senior Manager, Pharmacovigilance Agreements (QPPV Office)"
   },
   {
    "id": "chandigarh-university-pharmacy-faculty",
@@ -2100,6 +2068,52 @@
    "type": "Faculty"
   },
   {
+   "id": "indrashil-university-kadi-pharmacy-faculty-dec-2026",
+   "applyMode": "Hard copy by post",
+   "applyUrl": "https://www.indrashiluniversity.edu.in/",
+   "category": "academic",
+   "city": "Rajpur, Kadi (Mehsana)",
+   "cvFit": {
+    "reason": "Asks for a Ph.D. for every post — you have it plus 6.9 years and 23 papers; Professor's ~10 years is beyond you, but Associate Professor fits.",
+    "score": 80
+   },
+   "documents": [
+    "Updated CV",
+    "Passport-size photo",
+    "Educational certificates and mark sheets",
+    "Ph.D. certificate",
+    "Experience certificates",
+    "Research publication details",
+    "ID and address proof"
+   ],
+   "fit": {
+    "level": "Good",
+    "reason": "Pharmacy faculty posts open at all levels; subject not specified, but your M.Pharm Pharmaceutics + Ph.D. meet the Ph.D.-mandatory rule."
+   },
+   "found": "2026-11-28",
+   "lastDate": "2026-12-10",
+   "notes": "University is associated with Cadila Pharmaceuticals. Salary not stated. Verify details against the official advertisement.",
+   "org": "Indrashil University",
+   "posted": "2026-11-27",
+   "posts": [
+    "Professor",
+    "Associate Professor",
+    "Assistant Professor"
+   ],
+   "qualification": "Ph.D. stated as mandatory for all academic positions; Master's with required marks and qualifications as per UGC/PCI norms. Pharmacy subjects not listed in the notice summary (B.Pharm and M.Pharm programmes). Also hiring Director IQAC and Deputy Provost (Research).",
+   "sector": "Private",
+   "sourceUrl": "https://dmc-education.com/2026/11/27/indrashil-university-recruitment-2026-faculty-professor-assistant-professor-engineering-pharmacy-non-teaching-jobs-apply-before-10-december-2026/",
+   "state": "Gujarat",
+   "steps": [
+    "Download the prescribed application format from indrashiluniversity.edu.in",
+    "Fill it for the School of Pharmacy post (Associate Professor fits your profile)",
+    "Attach CV, certificates, Ph.D. proof, experience letters and publication list",
+    "Post the hard copy to The Registrar, Indrashil University, At & Po Rajpur, Ta. Kadi, Dist. Mehsana, Gujarat 382715 so it reaches by 10 Dec 2026"
+   ],
+   "title": "Professor / Associate Professor / Assistant Professor – School of Pharmacy",
+   "type": "Faculty"
+  },
+  {
    "id": "intas-senior-research-associate-formulation-rd-osd-ahmedabad-walkin",
    "applyMode": "Walk-in interview, 29 Nov 2026, 9:30 am–4:00 pm, Crowne Plaza, S.G. Highway, Ahmedabad",
    "applyUrl": "https://www.biotecnika.org/2026/11/intas-pharma-walk-in-interview-ahmedabad-2026/",
@@ -2210,80 +2224,6 @@
    "type": "Faculty"
   },
   {
-   "id": "jamia-hamdard-sper-guest-faculty-ai-ml-data-analytics",
-   "applyMode": "Email",
-   "category": "academic",
-   "city": "New Delhi",
-   "cvFit": {
-    "reason": "Asks for B.Tech/M.Tech or MCA — you have pharmacy degrees, so you likely don't meet the essential qualification despite your AI/ML research.",
-    "score": 30
-   },
-   "documents": [
-    "Application form with coloured photo",
-    "Updated CV",
-    "Supporting documents (single PDF)"
-   ],
-   "fit": {
-    "level": "Low",
-    "reason": "The post is for computing/AI teaching and asks for engineering degrees, not Pharmaceutics, though it touches your AI/ML-in-pharma research."
-   },
-   "found": "2026-11-18",
-   "lastDate": "2026-11-20",
-   "notes": "Temporary guest post teaching B.Pharm students; advertisement FR-15/2026 dated 11 Nov 2026.",
-   "org": "Jamia Hamdard – School of Pharmaceutical Education and Research (SPER)",
-   "posted": "2026-11-11",
-   "posts": [
-    "Guest/Visiting Faculty (Post Code 001)"
-   ],
-   "qualification": "B.E./B.Tech./B.S. and M.E./M.Tech./M.S. (or B.Tech + MCA) in a relevant branch with First Class in one degree, plus NET/SLET/SET/GPAT/GATE; Ph.D. in the relevant discipline and teaching experience in Python, AI/ML and data analytics desirable.",
-   "salary": "As per Jamia Hamdard norms",
-   "sector": "Private",
-   "sourceUrl": "https://www.facultyplus.com/guest-faculty-recruitment-jamia-hamdard-new-delhi/",
-   "state": "Delhi",
-   "steps": [
-    "Download the official notification (Advt. No. FR-15/2026) linked on the FacultyPlus page to get the application form and email address.",
-    "Fill the application form and attach a recent coloured photo.",
-    "Combine the form, updated CV and supporting documents into a single PDF.",
-    "Email it before 20 Nov 2026."
-   ],
-   "title": "Guest / Visiting Faculty – Python, AI & Machine Learning, Data Analytics (B.Pharm teaching)",
-   "type": "Faculty"
-  },
-  {
-   "id": "jnj-manager-analytical-development-mumbai",
-   "applyMode": "Online",
-   "applyUrl": "https://www.careers.jnj.com/en/jobs/r-096820/manager-analytical-development-analytics/",
-   "category": "other",
-   "city": "Mumbai",
-   "cvFit": {
-    "reason": "Your HPLC/HPTLC method development helps, but the role wants 12-15+ years in industry analytical development with team leadership.",
-    "score": 35
-   },
-   "fit": {
-    "level": "Low",
-    "reason": "Analytical development leadership role; your HPLC/HPTLC method work is relevant but your core is Pharmaceutics formulation."
-   },
-   "found": "2026-10-20",
-   "lastDate": "2026-11-20",
-   "notes": "Experience requirement is stated inconsistently (5 years vs 12-15+ years); confirm with the employer.",
-   "org": "Johnson & Johnson",
-   "posts": [
-    "Manager, Analytical Development"
-   ],
-   "qualification": "Bachelor's/Master's (Ph.D. listed in candidate profile) in Analytical Chemistry, Pharmaceutical Sciences, Pharmacy or related field; profile asks for 12-15+ years in pharma analytical development including 5 years leading teams (another section says minimum 5 years).",
-   "role": "Analytical R&D",
-   "sector": "Private",
-   "sourceUrl": "https://www.pharmatutor.org/content/october-2026/apply-online-for-analytical-development-manager-at-johnson-and-johnson",
-   "state": "Maharashtra",
-   "steps": [
-    "Open the J&J careers posting (R-096820)",
-    "Create or sign in to a J&J careers account",
-    "Upload a CV emphasising HPLC/HPTLC method development and team leadership",
-    "Submit before 20 Nov 2026"
-   ],
-   "title": "Manager, Analytical Development (DPDS Synthetics)"
-  },
-  {
    "id": "jsa-pharmacy-college-kallakurichi",
    "applyMode": "Email application",
    "applyUrl": "https://www.facultyplus.com/wp-content/uploads/2026/10/PHARAMCY.pdf",
@@ -2321,6 +2261,50 @@
     "Apply immediately; phone +91 9092690231 for queries"
    ],
    "title": "Associate Professor, Assistant Professor",
+   "type": "Faculty"
+  },
+  {
+   "id": "kishoritai-bhoyar-college-of-pharmacy-kamptee-faculty-dec-2026",
+   "applyMode": "By post",
+   "category": "academic",
+   "city": "Kamptee (Nagpur)",
+   "cvFit": {
+    "reason": "Industrial Pharmacy / Pharmaceutical Technology Associate Professor posts suit your formulation background and 6.9 years; the Pharmaceutics slots themselves are reserved.",
+    "score": 72
+   },
+   "documents": [
+    "Application and resume",
+    "Educational certificates and mark sheets",
+    "Experience certificates",
+    "Rs 100 demand draft",
+    "Two colour photos"
+   ],
+   "fit": {
+    "level": "Good",
+    "reason": "M.Pharm Pharmaceutics, Industrial Pharmacy and Pharmaceutical Technology posts suit your Pharmaceutics M.Pharm and Ph.D., but the Pharmaceutics posts are SC-reserved."
+   },
+   "found": "2026-11-28",
+   "lastDate": "2026-12-16",
+   "notes": "Run by Shri Sadashivrao Patil Shikshan Sanstha (non-granted posts).",
+   "org": "Smt. Kishoritai Bhoyar College of Pharmacy",
+   "posted": "2026-11-26",
+   "posts": [
+    "Professor",
+    "Associate Professor",
+    "Assistant Professor"
+   ],
+   "qualification": "As per PCI/university norms. M.Pharm Pharmaceutics: Professor 1 and Assistant Professor 1 (both SC-reserved); also B.Pharm, Pharmacology, QA, Industrial Pharmacy and Pharmaceutical Technology posts, including open Industrial Pharmacy/Pharmaceutical Technology Associate Professor posts.",
+   "salary": "As per university pay scale",
+   "sector": "Private",
+   "sourceUrl": "https://www.facultyplus.com/pharmacy-faculty-jobs-2026-at-smt-kishoritai-bhoyar-college-of-pharmacy-and-anurag-college-of-pharmacy-kamptee-and-warthi/",
+   "state": "Maharashtra",
+   "steps": [
+    "Check the reservation category for each post in the advertisement",
+    "Prepare application, resume and certificate copies",
+    "Add a Rs 100 demand draft in favour of the Principal and two photos",
+    "Post to the college (Behind Railway Station, New Kamptee 441002) to reach by 5:00 PM, 16 Dec 2026"
+   ],
+   "title": "Professor / Associate Professor / Assistant Professor (22 posts, incl. M.Pharm Pharmaceutics)",
    "type": "Faculty"
   },
   {
@@ -2632,6 +2616,47 @@
    "title": "Associate Clinical Trial Manager"
   },
   {
+   "id": "moonray-institute-pharmaceutical-sciences-shadnagar-faculty-nov-2026",
+   "applyMode": "Email, post or in person",
+   "category": "academic",
+   "city": "Shadnagar (Ranga Reddy)",
+   "cvFit": {
+    "reason": "Asks for M.Pharm Pharmaceutics — you have it plus a Ph.D., 6.9 years and Associate Professor experience.",
+    "score": 85
+   },
+   "documents": [
+    "Updated CV",
+    "Educational certificates and mark sheets",
+    "Experience certificates",
+    "Passport-size photo"
+   ],
+   "fit": {
+    "level": "Strong",
+    "reason": "Pharmaceutics is a listed department, matching your M.Pharm specialisation and Ph.D."
+   },
+   "found": "2026-11-28",
+   "notes": "Notice says apply within 10 days of 26 Nov 2026 (about 6 Dec).",
+   "org": "Moonray Institute of Pharmaceutical Sciences",
+   "posted": "2026-11-26",
+   "posts": [
+    "Associate Professor",
+    "Assistant Professor"
+   ],
+   "qualification": "M.Pharm in the relevant discipline (Pharmaceutics, Pharmaceutical Chemistry, Pharmacognosy); M.Pharm/Pharm.D for Pharm.D department. Experienced and freshers may apply.",
+   "salary": "As per PCI norms",
+   "sector": "Private",
+   "sourceUrl": "https://www.facultyplus.com/faculty-hiring-2026-at-moonray-institute-of-pharmaceutical-sciences-shadnagar/",
+   "state": "Telangana",
+   "steps": [
+    "Prepare CV and certificates for the Pharmaceutics Associate Professor post",
+    "Email them to the address in the notice (shown as moonray.pharma1@gmail.com on facultyplus — confirm in the notice PDF)",
+    "Or post / hand them in at Raikal, Shadnagar, Ranga Reddy 509216",
+    "Apply within 10 days of 26 Nov 2026"
+   ],
+   "title": "Associate Professor / Assistant Professor – Pharmaceutics, Pharma Chemistry, Pharmacognosy",
+   "type": "Faculty"
+  },
+  {
    "id": "nandkumar-shinde-cop-vaijapur",
    "applyMode": "Email, post or by hand",
    "applyUrl": "https://www.facultyplus.com/shriram-dnyan-shikshan-prasarak-mandal-nandkumar-shinde-college-of-pharmacy-vaijapur-teaching-and-non-teaching-faculty/",
@@ -2767,6 +2792,42 @@
     "Fill in details, upload documents and submit online (no hard copy needed)"
    ],
    "title": "Scientist C / Scientist D (Advt. 02/2026) – Pharmaceutical Sciences eligible",
+   "type": "Scientist"
+  },
+  {
+   "id": "niper-ahmedabad-project-research-scientist-i-medical-devices-icmr",
+   "applyMode": "Online (Google Form)",
+   "applyUrl": "https://lnkd.in/dXHtXD7J",
+   "category": "academic",
+   "city": "Ahmedabad",
+   "cvFit": {
+    "reason": "An entry-level project post open to freshers — you're overqualified with a Ph.D. and 6.9 years, and the 35-year age limit may apply.",
+    "score": 58
+   },
+   "fit": {
+    "level": "Good",
+    "reason": "Pharmaceutics is an eligible master's subject; your drug-delivery Ph.D. fits the hydrogel/biomaterial project."
+   },
+   "found": "2026-11-28",
+   "lastDate": "2026-12-09",
+   "notes": "1 post; tenure 1 year, extendable up to 2 more. PI: Dr Akshay Srivastava.",
+   "org": "NIPER Ahmedabad",
+   "posted": "2026-11-27",
+   "posts": [
+    "Project Research Scientist-I (Non-Medical)"
+   ],
+   "qualification": "Master's in Life Sciences, Chemical Sciences or allied fields (incl. pharmaceutics), or 4-year B.E./B.Tech in chemical, mechanical, biomedical or materials engineering; polymer/hydrogel and cell-culture skills preferred. Age limit 35.",
+   "salary": "Rs 56,000 per month + HRA",
+   "sector": "Government",
+   "sourceUrl": "https://www.rasayanika.com/2026/11/27/niper-ahmedabad-project-research-scientist-i-recruitment-2026/",
+   "state": "Gujarat",
+   "steps": [
+    "Check the age limit (35 years on the last date)",
+    "Open the Google Form linked from the official notice",
+    "Fill details and upload CV highlighting formulation / polymer work",
+    "Submit by 9 Dec 2026; no TA/DA for interview"
+   ],
+   "title": "Project Research Scientist-I (Non-Medical) – ICMR project, Dept. of Medical Devices",
    "type": "Scientist"
   },
   {
@@ -3457,39 +3518,46 @@
    "type": "Faculty"
   },
   {
-   "id": "sharda-university-agra-professor-pharmacy",
-   "applyMode": "Online (HRMates portal / QR code on banner)",
-   "applyUrl": "https://www.agra.sharda.ac.in/about/career",
+   "id": "sankalchand-patel-university-nootan-pharmacy-college-faculty-dec-2026",
+   "applyMode": "Online",
+   "applyUrl": "https://www.spu.ac.in/career",
    "category": "academic",
-   "city": "Agra",
+   "city": "Visnagar (Mehsana)",
    "cvFit": {
-    "reason": "Subject matches your Ph.D., but a Professor post under PCI norms usually needs around 10 years of experience — you have 6.9, so this is a stretch.",
-    "score": 55
+    "reason": "Wants Pharmaceutics faculty as per PCI norms — you have M.Pharm Pharmaceutics, Ph.D., 6.9 years and a current Associate Professor role.",
+    "score": 88
    },
+   "documents": [
+    "Updated CV",
+    "Educational certificates and mark sheets",
+    "Experience certificates",
+    "Passport-size photo"
+   ],
    "fit": {
-    "level": "Good",
-    "reason": "Pharmacy Professor post open to a relevant Ph.D.; your Pharmaceutics M.Pharm and Pharmaceutical Sciences Ph.D. match the subject."
+    "level": "Strong",
+    "reason": "Pharmaceutics is explicitly listed, matching your M.Pharm Pharmaceutics and Pharmacy Ph.D."
    },
-   "found": "2026-11-12",
-   "lastDate": "2026-11-20",
-   "notes": "Duties include teaching, leading research, guiding scholars and publishing. Professor posts under PCI norms usually require about 10 years of teaching/research experience.",
-   "org": "Sharda University Agra",
-   "posted": "2026-10-30",
+   "found": "2026-11-28",
+   "lastDate": "2026-12-05",
+   "org": "Sankalchand Patel University – Nootan Pharmacy College",
+   "posted": "2026-11-25",
    "posts": [
-    "Professor (Pharmacy)"
+    "Professor",
+    "Associate Professor",
+    "Assistant Professor"
    ],
-   "qualification": "Ph.D. in Pharmacy in a relevant specialisation meeting regulatory norms; experience as per PCI regulations and university guidelines.",
-   "salary": "Competitive, as per university standards",
+   "qualification": "Pharmaceutics, Pharmaceutical Chemistry/Analysis, Pharmacology and Pharmacognosy; qualifications and experience as per SPU and PCI norms.",
+   "salary": "As per norms",
    "sector": "Private",
-   "sourceUrl": "https://www.agra.sharda.ac.in/about/career",
-   "state": "Uttar Pradesh",
+   "sourceUrl": "https://www.facultyplus.com/medical-and-teaching-jobs-2026-at-sankalchand-patel-university-visnagar/",
+   "state": "Gujarat",
    "steps": [
-    "Open the Sharda University Agra careers page",
-    "Click the HRMates job portal link for Professor (Pharmacy) or scan the QR code on the banner",
-    "Fill in the online form and upload your CV with publications, patents and Ph.D. details",
-    "Submit before 20 Nov 2026"
+    "Open spu.ac.in/career",
+    "Choose Nootan Pharmacy College – Pharmaceutics (Associate Professor or Professor)",
+    "Fill the online form and upload CV and certificates",
+    "Submit by 5 Dec 2026; shortlisted candidates are contacted by email"
    ],
-   "title": "Professor (Pharmacy)",
+   "title": "Professor / Associate Professor / Assistant Professor – Pharmaceutics and other subjects",
    "type": "Faculty"
   },
   {
